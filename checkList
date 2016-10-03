@@ -1,3 +1,56 @@
-
 # CheckList
 
+## class
+
+### methods
+
+- consctructeurs
+- accesseurs
+- mutateurs
+- destructor manually ?
+
+###trucs spéciaux
+- inheritence
+- overloading
+- overriding
+- final (constante)
+
+## class spéciales
+- abstract
+- interface
+- subclass
+
+### static
+
+- static variable 
+- static method 
+- static class 
+
+##Well known classes
+
+- String
+- Random
+- Scanner
+- List
+
+###Wrapper class
+
+###Encapsulation
+- private
+- none
+- protected
+- public
+
+##array, list, sorting
+- multidimensional
+- arraylists
+- linkelist
+- iterator
+- sorting // import Collection.sort()
+
+##Exceptions
+create our own exception
+
+- try
+- catch
+- finally
