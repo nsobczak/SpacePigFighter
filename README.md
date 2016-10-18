@@ -8,14 +8,8 @@ A game happens in 2 phases. The first one is a spacecraft battle. The second one
 Each spacecraft has several caracteristics. 
 Each pig has several caracteristics and some weapon. 
 
+## Wiki
 
-## How to play ?
-
-The ham
-
-## How it is thought/programmed
-
-Each player plays when it is its turn.
-
+[Wiki link](https://github.com/nsobczak/SpacePigFighter/wiki)
 
 
