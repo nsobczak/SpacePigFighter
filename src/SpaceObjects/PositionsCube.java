@@ -1,5 +1,6 @@
 package SpaceObjects;
 
+
 /** 
  *  Possible positions for the Spacecraft in the CubeEnvironment
  */

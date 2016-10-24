@@ -1,7 +1,5 @@
 package Stuff;
 
-import Integer;
-
 /** 
  *  Offensif class
  */
@@ -17,6 +15,7 @@ public class Offensif {
   public static final Offensif AXE;
 
   public static final Offensif NONE;
+
 
   /** 
    *  Constructor

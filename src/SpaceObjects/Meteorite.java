@@ -1,5 +1,6 @@
 package SpaceObjects;
 
+
 /** 
  *  Class Meteorite
  */

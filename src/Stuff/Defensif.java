@@ -1,7 +1,5 @@
 package Stuff;
 
-import Integer;
-
 /** 
  *  Defensif class
  */

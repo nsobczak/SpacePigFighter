@@ -1,8 +1,10 @@
 package SpaceObjects;
 
+import String;
+import Animal.Animal;
+
 /** 
  *  Class Spacecraft
- *  @author Nicolas Sobczak et Vincent Reynaert
  */
 public class Spacecraft extends Ufo {
 
@@ -13,10 +15,11 @@ public class Spacecraft extends Ufo {
    */
   private PositionsCube position;
 
+  public Animal animal;
+
+
   /** 
    *  Constructor
-   *  @param
-   *  @return void
    */
   public Spacecraft() {
   }
@@ -32,6 +35,10 @@ public class Spacecraft extends Ufo {
   return null;
   }
 
+  public Animal getAnimal() {
+  return null;
+  }
+
   /** 
    *  Set spacecraft color
    */
@@ -44,7 +51,13 @@ public class Spacecraft extends Ufo {
   public setPosition(PositionsCube newPosition) {
   }
 
-  public void attack() {
+  public setAnimal(Animal newAnimal) {
+  }
+
+  /** 
+   *  Fonction qui abime le vaisseau: fait baisser la vie de l'animal
+   */
+  public void beDamaged() {
   }
 
 }

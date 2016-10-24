@@ -6,6 +6,12 @@ public class Space implements Logger {
 
   public CubeEnvironment cubeEnvironment_02;
 
+  /** 
+   *  Constructor
+   */
+  public Space() {
+  }
+
   public void loggingInfo(String info) {
   }
 

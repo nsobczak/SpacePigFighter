@@ -1,10 +1,16 @@
-import Pig.Pig;
+import Animal.Animal;
 
 public class FightArea implements Logger {
 
-  public Pig pig_01;
+  public Animal player_01;
 
-  public Pig pig_02;
+  public Animal player_02;
+
+  /** 
+   *  Constructor
+   */
+  public FightArea() {
+  }
 
   public void loggingInfo(String info) {
   }

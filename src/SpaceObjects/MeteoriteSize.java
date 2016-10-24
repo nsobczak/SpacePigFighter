@@ -1,6 +1,8 @@
 package SpaceObjects;
 
-public enum MeteoriteSize {
+import java.util.Vector;
+
+enum MeteoriteSize {
 
   small,
 
