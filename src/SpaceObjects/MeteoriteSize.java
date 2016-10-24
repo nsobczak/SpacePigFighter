@@ -1,6 +1,6 @@
 package SpaceObjects;
 
-enum MeteoriteSize {
+public enum MeteoriteSize {
 
   small,
 

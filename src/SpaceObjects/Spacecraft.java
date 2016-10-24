@@ -1,9 +1,8 @@
 package SpaceObjects;
 
-import String;
-
 /** 
  *  Class Spacecraft
+ *  @author Nicolas Sobczak et Vincent Reynaert
  */
 public class Spacecraft extends Ufo {
 
@@ -16,6 +15,8 @@ public class Spacecraft extends Ufo {
 
   /** 
    *  Constructor
+   *  @param
+   *  @return void
    */
   public Spacecraft() {
   }
