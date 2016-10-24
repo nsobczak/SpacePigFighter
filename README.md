@@ -13,38 +13,37 @@ Each pig has several caracteristics and some weapon.
 
 ### Animal class
 
-#### Chicken (thief like)
+|Animal class | life | force | resistance | special attack |
+|---|---|---|---|---|
+|Chicken | low | big | mid | triple attack |
+|Tiger | mid | big | low | paralyze foe which can't attack next turn |
+|Pig | mid | low | big | moreDamage |
+|Duck | big | mid | low | fly |
+|Bear | mid | mid | big | damageAnnulation |
 
-life: low 
-force: strong
-resistance:
+TODO: remplir le tableau suivant avec des valeurs
+|Animal class | life | force | resistance | special attack |
+|---|---|---|---|---|
+|Chicken | low | big | mid | triple attack |
+|Tiger | mid | big | low | paralyze foe which can't attack next turn |
+|Pig | mid | low | big | moreDamage |
+|Duck | big | mid | low | fly |
+|Bear | mid | mid | big | damageAnnulation |
 
+### Animal specialAttack
 
-#### Duck
-
-life: 
-force: 
-resistance:
-
-
-#### Pig
-
-life: 
-force: 
-resistance:
-
-
-#### Tiger
-
-life: 
-force: 
-resistance:
+- damageAnnulation
+- moreDamage
+- paralyze foe which can't attack next turn
+- tripleAttack, 1 turn to charge
+- fly, dodge current attack and attack next turn
 
 
 ### Meteorites malus
 - small : -2% max hp
 - medium : -6% max hp
 - big : -12% max hp
+
 
 ### Stuff choice
 You have 2 skill points to share between offensif and defensif stuff.
