@@ -12,7 +12,7 @@
 ## Set the game
 
 - set Space class with 2 CubeEnvironment (1 for each player). Each CubeEnvironment is set with 3 meteorites and 1 spacecraft.
-- set FightArea class with 2 pigs. Each pig is initialized with random stuff.
+- set FightArea class with 2 pigs. Each pig is initialized with stuff selected by the player.
 
 
 ## Part 1 of the game
@@ -26,8 +26,8 @@ You have to be careful, avoid meteorites ! Overwise your pig's life will decreas
 
 1 Turn:
 
-- Player 1 choose an action for is pig to do
-- Player 2 choose an action for is pig to do
+- Player 1 choose an action for his pig to do (choose between normal attack and special attack)
+- Player 2 choose an action for his pig to do (choose between normal attack and special attack)
 - Resolution
 
 Game is over when a pig has no life point left.
