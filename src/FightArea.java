@@ -13,6 +13,7 @@ public class FightArea implements Logger {
   }
 
   public void loggingInfo(String info) {
+	  System.out.println("loggingInfo: " + info);
   }
 
 }

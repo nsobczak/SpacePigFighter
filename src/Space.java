@@ -13,6 +13,7 @@ public class Space implements Logger {
   }
 
   public void loggingInfo(String info) {
+	  System.out.println("loggingInfo: " + info);
   }
 
 }

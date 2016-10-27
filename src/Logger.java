@@ -1,5 +1,5 @@
 public interface Logger {
 
-  public void loggingInfo();
+  public void loggingInfo(String info);
 
 }

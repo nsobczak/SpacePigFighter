@@ -3,78 +3,183 @@ package Animal;
 import Stuff.Defensif;
 import Stuff.Offensif;
 
-/** 
- *  Class Character
+/**
+ * ===== Class Animal =====
+ * 
+ * @author Nicolas Sobczak
+ * @version 1.01, 10/2016
  */
-public  abstract class Animal {
+public abstract class Animal {
 
-  private String color;
+	/*
+	 * ___________________________________________________________________________________________
+	 * Properties
+	 */
+	private final String PSEUDO;
 
-  private Integer force;
+	private String color;
 
-  private Integer life;
+	private Integer force;
 
-  private final String PSEUDO;
+	private Integer life;
 
-  private Integer resistance;
+	private Integer resistance;
 
-  private Defensif stuffDefensif;
+	private Defensif stuffDefensif;
 
-  private Offensif stuffOffensif;
+	private Offensif stuffOffensif;
 
-  public String getColor() {
-  return null;
-  }
+	/*
+	 * ___________________________________________________________________________________________
+	 * Constructors
+	 */
+	/**
+	 * Constructor
+	 * 
+	 * @param 1 String = animal's Pseudo
+	 * @return nothing
+	 */
+	public Animal(String newPseudo) {
+		this.PSEUDO = newPseudo;
+		this.color = "pink";
+	}
 
-  public Integer getForce() {
-  return null;
-  }
+	/*
+	 * ___________________________________________________________________________________________
+	 * Getters
+	 */
+	/**
+	 * Get animal's color
+	 * 
+	 * @param nothing
+	 * @return 1 String = animal's color value
+	 */
+	public String getColor() {
+		return this.color;
+	}
 
-  public Integer getLife() {
-  return null;
-  }
+	/**
+	 * Get animal's force
+	 * 
+	 * @param nothing
+	 * @return 1 int = animal's force value
+	 */
+	public Integer getForce() {
+		return this.force;
+	}
 
-  public String getPSEUDO() {
-  return null;
-  }
+	/**
+	 * Get animal's life
+	 * 
+	 * @param nothing
+	 * @return 1 int = animal's life value
+	 */
+	public Integer getLife() {
+		return this.life;
+	}
 
-  public Integer getResistance() {
-  return null;
-  }
+	/**
+	 * Get animal's pseudo
+	 * 
+	 * @param nothing
+	 * @return 1 String = animal's pseudo value
+	 */
+	public String getPSEUDO() {
+		return this.PSEUDO;
+	}
 
-  public Defensif getStuffDefensif() {
-  return null;
-  }
+	/**
+	 * Get animal's resistance
+	 * 
+	 * @param nothing
+	 * @return 1 int = animal's resistance value
+	 */
+	public Integer getResistance() {
+		return this.resistance;
+	}
 
-  public Offensif getStuffOffensif() {
-  return null;
-  }
+	/**
+	 * Get animal's defensif stuff
+	 * 
+	 * @param nothing
+	 * @return 1 Defensif = animal's defensif stuff
+	 */
+	public Defensif getStuffDefensif() {
+		return this.stuffDefensif;
+	}
 
-  /** 
-   *  Set pig color
-   */
-  public setColor(String colorValue) {
-  }
+	/**
+	 * Get animal's offensif stuff
+	 * 
+	 * @param nothing
+	 * @return 1 Offensif = animal's offensif stuff
+	 */
+	public Offensif getStuffOffensif() {
+		return this.stuffOffensif;
+	}
 
-  /** 
-   *  Set pig force
-   */
-  public setForce(Integer forceValue) {
-  }
+	/*
+	 * ___________________________________________________________________________________________
+	 * Setters
+	 */
+	/**
+	 * Set animal's color
+	 * 
+	 * @param 1 String = animal's color value
+	 * @return nothing
+	 */
+	public void setColor(String colorValue) {
+		this.color = colorValue;
+	}
 
-  public setLife(Integer lifeValue) {
-  }
+	/**
+	 * Set animal's force
+	 * 
+	 * @param 1 int = animal's force value
+	 * @return nothing
+	 */
+	public void setForce(Integer forceValue) {
+		this.force = forceValue;
+	}
 
-  /** 
-   *  Set pig resistance
-   */
-  public setResistance(Integer resistanceValue) {
-  }
+	/**
+	 * Set animal's resistance
+	 * 
+	 * @param 1 int = animal's resistance value
+	 * @return nothing
+	 */
+	public void setResistance(Integer resistanceValue) {
+		this.resistance = resistanceValue;
+	}
 
-  public setStuffDefensif(Defensif newDefensif) {
-  }
+	/**
+	 * Set animal's life
+	 * 
+	 * @param 1 int = animal's life value
+	 * @return nothing
+	 */
+	public void setLife(Integer lifeValue) {
+		this.life = lifeValue;
+	}
 
-  public setStuffOffensif(Offensif newOffensif) {
-  }
+	/**
+	 * Set animal's defensif stuff
+	 * 
+	 * @param 1 Defensif = animal's defensif stuff
+	 * @return nothing
+	 */
+	public void setStuffDefensif(Defensif newDefensif) {
+		this.stuffDefensif = newDefensif;
+	}
+
+	/**
+	 * Set animal's offensif stuff
+	 * 
+	 * @param 1 Offensif = animal's offensif stuff
+	 * @return nothing
+	 */
+	public void setStuffOffensif(Offensif newOffensif) {
+		this.stuffOffensif = newOffensif;
+	}
 
 }
