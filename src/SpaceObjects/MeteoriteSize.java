@@ -1,13 +1,19 @@
 package SpaceObjects;
 
-import java.util.Vector;
-
+/**
+ * ===== Enumeration MeteoriteSize =====
+ * 
+ * enumeration of available meteorite sizes
+ * 
+ * @author Nicolas Sobczak
+ * @version 1.01, 10/2016
+ */
 enum MeteoriteSize {
 
-  small,
+	SMALL,
 
-  medium,
+	MEDIUM,
 
-  big;
+	BIG;
 
 }

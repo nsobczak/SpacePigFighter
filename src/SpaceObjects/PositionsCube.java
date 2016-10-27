@@ -1,25 +1,30 @@
 package SpaceObjects;
 
-
-/** 
- *  Possible positions for the Spacecraft in the CubeEnvironment
+/**
+ * ===== Enumeration MeteoriteSize =====
+ * 
+ * enumeration of possible positions for the Spacecraft in the CubeEnvironment O
+ * = 0 and I = 1
+ * 
+ * @author Nicolas Sobczak
+ * @version 1.01, 10/2016
  */
 enum PositionsCube {
 
-  (0,0,0),
+	OOO,
 
-  (0,0,1),
+	OOI,
 
-  (0,1,0),
+	OIO,
 
-  (1,0,0),
+	IOO,
 
-  (1,1,0),
+	IIO,
 
-  (0,1,1),
+	OII,
 
-  (1,0,1),
+	IOI,
 
-  (1,1,1);
+	III;
 
 }
