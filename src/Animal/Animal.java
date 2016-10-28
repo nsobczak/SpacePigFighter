@@ -43,6 +43,19 @@ public abstract class Animal {
 		this.PSEUDO = newPseudo;
 		this.color = "pink";
 	}
+	
+	/**
+	 * Constructor
+	 * 
+	 * @param 1 String = animal's Pseudo
+	 * @param 1 String = animal's color
+	 * @return nothing
+	 */
+	public Animal(String newPseudo, String newColor) {
+		this.PSEUDO = newPseudo;
+		this.color = "pink";
+	}
+
 
 	/*
 	 * ___________________________________________________________________________________________
