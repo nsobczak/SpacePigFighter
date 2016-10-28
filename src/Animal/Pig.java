@@ -30,8 +30,6 @@ public class Pig extends WithPaws {
 		super(newPseudo, newColor);
 	}
 
-	public void attack() {
-	}
 
 	/*
 	 * ___________________________________________________________________________________________

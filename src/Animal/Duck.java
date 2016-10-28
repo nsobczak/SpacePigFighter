@@ -2,20 +2,44 @@ package Animal;
 
 public class Duck extends WithWings {
 
-  /** 
-   *  Constructor
-   */
-  public Duck() {
-  }
+	/*
+	 * ___________________________________________________________________________________________
+	 * Constructors
+	 */
+	/**
+	 * Constructor
+	 * 
+	 * @param 1 String = duck's Pseudo
+	 * @return nothing
+	 */
+	public Duck(String newPseudo) {
+		super(newPseudo);
+	}
 
-  public void attack() {
-  }
+	/**
+	 * Constructor
+	 * 
+	 * @param 1 String = duck's Pseudo
+	 * @param 1 String = duck's color
+	 * @return nothing
+	 */
+	public Duck(String newPseudo, String newColor) {
+		super(newPseudo, newColor);
+	}
 
-  public String specialAction() {
-  return null;
-  }
+	/*
+	 * ___________________________________________________________________________________________
+	 * Functions
+	 */
 
-  public void scream() {
-  }
+	public void attack() {
+	}
+
+	public String specialAction() {
+		return null;
+	}
+
+	public void scream() {
+	}
 
 }

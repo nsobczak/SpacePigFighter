@@ -2,20 +2,44 @@ package Animal;
 
 public class Tiger extends WithPaws {
 
-  /** 
-   *  Constructor
-   */
-  public Tiger() {
-  }
+	/*
+	 * ___________________________________________________________________________________________
+	 * Constructors
+	 */
+	/**
+	 * Constructor
+	 * 
+	 * @param 1 String = tiger's Pseudo
+	 * @return nothing
+	 */
+	public Tiger(String newPseudo) {
+		super(newPseudo);
+	}
 
-  public void attack() {
-  }
+	/**
+	 * Constructor
+	 * 
+	 * @param 1 String = tiger's Pseudo
+	 * @param 1 String = tiger's color
+	 * @return nothing
+	 */
+	public Tiger(String newPseudo, String newColor) {
+		super(newPseudo, newColor);
+	}
 
-  public String specialAction() {
-  return null;
-  }
+	/*
+	 * ___________________________________________________________________________________________
+	 * Functions
+	 */
 
-  public void scream() {
-  }
+	public void attack() {
+	}
+
+	public String specialAction() {
+		return null;
+	}
+
+	public void scream() {
+	}
 
 }
