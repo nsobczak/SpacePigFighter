@@ -1,15 +1,37 @@
 package Animal;
 
-
 public abstract class WithWings extends Animal implements Characteristics {
 
-  /** 
-   *  Constructor
-   */
-  public WithWings() {
-  }
+	/*
+	 * ___________________________________________________________________________________________
+	 * Constructors
+	 */
+	/**
+	 * Constructor
+	 * 
+	 * @param 1 String = animal's Pseudo
+	 * @return nothing
+	 */
+	public WithWings(String newPseudo) {
+		super(newPseudo);
+	}
 
-  public void attack() {
-  }
+	/**
+	 * Constructor
+	 * 
+	 * @param 1 String = animal's Pseudo
+	 * @param 1 String = animal's color
+	 * @return nothing
+	 */
+	public WithWings(String newPseudo, String newColor) {
+		super(newPseudo, newColor);
+	}
+
+	/*
+	 * ___________________________________________________________________________________________
+	 * Functions
+	 */
+	public void attack() {
+	}
 
 }
