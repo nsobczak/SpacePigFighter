@@ -1,47 +1,67 @@
 package Stuff;
 
-/** 
- *  Defensif class
+/**
+ * Defensif class
  */
 public class Defensif {
 
-  /** 
-   *  Bonus on the pig's resistance value
-   */
-  private Integer bonusResistance;
+	/*
+	 * ___________________________________________________________________________________________
+	 * Properties
+	 */
+	/**
+	 * Bonus on the pig's resistance value
+	 */
+	private Integer bonusResistance;
 
-  /** 
-   *  Increases the force of 5 
-   */
-  public static final Defensif HELMET;
+	/*
+	 * ___________________________________________________________________________________________
+	 * Constants
+	 */
+	/**
+	 * Increases the resistance of 5
+	 */
+	public static final Defensif HELMET = new Defensif(5);
 
-  /** 
-   *  Increases the force of 10
-   */
-  public static final Defensif SHIELD;
+	/**
+	 * Increases the resistance of 10
+	 */
+	public static final Defensif SHIELD = new Defensif(10);
 
-  /** 
-   *  Doesn't increase the resistance
-   */
-  public static final Defensif NONE;
+	/**
+	 * Doesn't increase the resistance
+	 */
+	public static final Defensif NONE = new Defensif(0);
 
-  /** 
-   *  Constructor
-   */
-  public Defensif(Integer bonusValue) {
-  }
+	/*
+	 * ___________________________________________________________________________________________
+	 * Constructors
+	 */
+	/**
+	 * Constructor
+	 */
+	public Defensif(Integer bonusValue) {
+	}
 
-  /** 
-   *  Set the bonusResistance
-   */
-  public void setBonusResistance(Integer bonusValue) {
-  }
+	/*
+	 * ___________________________________________________________________________________________
+	 * Setters
+	 */
+	/**
+	 * Set the bonusResistance
+	 */
+	public void setBonusResistance(Integer bonusValue) {
+	}
 
-  /** 
-   *  Get the bonusResistance value
-   */
-  public Integer getBonusResistance() {
-  return null;
-  }
+	/*
+	 * ___________________________________________________________________________________________
+	 * Getters
+	 */
+	/**
+	 * Get the bonusResistance value
+	 */
+	public Integer getBonusResistance() {
+		return null;
+	}
 
 }
