@@ -1,30 +1,42 @@
 package Animal;
 
-/** 
- *  Class pig = pig fighter
+/**
+ * Class pig = pig fighter
  */
 public class Pig extends WithPaws {
 
-  /** 
-   *  Constructor that set up the pig color to "pink"
-   */
-  public Pig(String pseudo) {
-  }
+	/*
+	 * ___________________________________________________________________________________________
+	 * Constructors
+	 */
+	/**
+	 * Constructor
+	 * 
+	 * @param 1 String = pig's Pseudo
+	 * @return nothing
+	 */
+	public Pig(String newPseudo) {
+		super(newPseudo);
+	}
 
-  public Pig(String pseudo, String color) {
-  }
+	/**
+	 * Constructor
+	 * 
+	 * @param 1 String = pig's Pseudo
+	 * @param 1 String = pig's color
+	 * @return nothing
+	 */
+	public Pig(String newPseudo, String newColor) {
+		super(newPseudo, newColor);
+	}
 
-  public void attack() {
-  }
+	public void attack() {
+	}
 
-  /** 
-   *  rollIn in mud
-   */
-  public String specialAction() {
-  return null;
-  }
+	/*
+	 * ___________________________________________________________________________________________
+	 * Functions
+	 */
 
-  public void scream() {
-  }
 
 }

@@ -33,5 +33,12 @@ public abstract class WithWings extends Animal implements Characteristics {
 	 */
 	public void attack() {
 	}
+	
+	public String specialAction() {
+		return "specialAction";
+	}
+
+	public void scream() {
+	}
 
 }

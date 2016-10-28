@@ -56,5 +56,12 @@ public abstract class WithPaws extends Animal implements Characteristics {
 	 */
 	public void attack() {
 	}
+	
+	public String specialAction() {
+		return "specialAction";
+	}
+
+	public void scream() {
+	}
 
 }

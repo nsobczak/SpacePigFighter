@@ -4,7 +4,7 @@ public interface Characteristics {
 
   public void attack();
 
-  public void specialAction();
+  public String specialAction();
 
   public void scream();
 
