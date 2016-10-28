@@ -1,6 +1,5 @@
 package SpaceObjects;
 
-import String;
 import Animal.Animal;
 
 /** 
@@ -42,16 +41,16 @@ public class Spacecraft extends Ufo {
   /** 
    *  Set spacecraft color
    */
-  public setColor(String newColor) {
+  public void setColor(String newColor) {
   }
 
   /** 
    *  Set spacecraft position
    */
-  public setPosition(PositionsCube newPosition) {
+  public void setPosition(PositionsCube newPosition) {
   }
 
-  public setAnimal(Animal newAnimal) {
+  public void setAnimal(Animal newAnimal) {
   }
 
   /** 

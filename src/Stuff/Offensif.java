@@ -26,7 +26,7 @@ public class Offensif {
   /** 
    *  Set the bonusForce
    */
-  public setBonusForce(Integer bonusValue) {
+  public void setBonusForce(Integer bonusValue) {
   }
 
   /** 

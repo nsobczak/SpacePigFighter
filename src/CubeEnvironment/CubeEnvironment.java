@@ -42,16 +42,16 @@ public class CubeEnvironment {
   /** 
    *  Set CubeEnvironment spacecraft
    */
-  public setSpacecraft(Spacecraft newSpacecraft) {
+  public void setSpacecraft(Spacecraft newSpacecraft) {
   }
 
-  public setMeteoriteSmall(Meteorite newMeteorite) {
+  public void setMeteoriteSmall(Meteorite newMeteorite) {
   }
 
-  public setMeteoriteMedium(Meteorite newMeteorite) {
+  public void setMeteoriteMedium(Meteorite newMeteorite) {
   }
 
-  public setMeteoriteBig(Meteorite newMeteorite) {
+  public void setMeteoriteBig(Meteorite newMeteorite) {
   }
 
 }

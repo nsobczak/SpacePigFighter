@@ -36,13 +36,13 @@ public class Meteorite extends Ufo {
   /** 
    *  Set a new size to the meteorite
    */
-  public setSize(MeteoriteSize newSize) {
+  public void setSize(MeteoriteSize newSize) {
   }
 
   /** 
    *  Set a new position for the meteorite
    */
-  public setPositionMeteorite(PositionsCube newPosition) {
+  public void setPositionMeteorite(PositionsCube newPosition) {
   }
 
 }

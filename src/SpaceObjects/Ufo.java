@@ -13,14 +13,14 @@ public abstract class Ufo {
   /** 
    *  Constructor. Set location by default to (0,0,0)
    */
-  public UFO() {
+  public void UFO() {
   }
 
   public PositionsCube getLocation() {
   return null;
   }
 
-  public setLocation(PositionsCube position) {
+  public void setLocation(PositionsCube position) {
   }
 
 }

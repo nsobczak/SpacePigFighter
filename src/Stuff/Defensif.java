@@ -34,7 +34,7 @@ public class Defensif {
   /** 
    *  Set the bonusResistance
    */
-  public setBonusResistance(Integer bonusValue) {
+  public void setBonusResistance(Integer bonusValue) {
   }
 
   /** 
