@@ -1,3 +1,5 @@
+import Stuff.Defensif;
+
 /**
  * ===== Class Main =====
  * 
@@ -7,15 +9,53 @@
 public class Main {
 
 	/**
+	 * Game part 1 function
+	 * 
+	 * @param args
+	 * @return nothing
+	 */
+	public static void part_1(String[] args) {
+		// TODO HERE: Part 1 of the game
+		Space space = new Space();
+		
+		System.out.println("This is part 1 !!!");
+	}
+
+	/**
+	 * Game part 2 function
+	 * 
+	 * @param args
+	 * @return nothing
+	 */
+	public static void part_2(String[] args) {
+		// TODO HERE: Part 2 of the game
+		FightArea fightArea = new FightArea();
+		
+		System.out.println("This is part 2 !!!");
+	}
+
+	/**
+	 * ___________________________________________________________________________________________
 	 * main function
 	 * 
 	 * @param args
 	 * @return nothing
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("Ca compile !!");
+		// TODO Main loop
+		System.out.println("Welcome in spacePigFighter");
+		
+		System.out.println("spacePigFighter is an awesome fight game");
+		
+		System.out.println("\nEntering part 1 of the game...");
+		part_1(args);
+		System.out.println("...End of part 1");
 
+		System.out.println("\nEntering part 2 of the game...");
+		part_2(args);
+		System.out.println("...End of part 2");
+		
+		System.out.println("\nThis is the end of the game");
 	}
 
 }
