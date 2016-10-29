@@ -21,14 +21,15 @@ Each pig has several caracteristics and some weapon.
 |Duck | big | mid | low | fly |
 |Bear | mid | mid | big | damageAnnulation |
 
-TODO: remplir le tableau suivant avec des valeurs
+TODO: replace <nn> in the next tab with values
+
 |Animal class | life | force | resistance | special attack |
 |---|---|---|---|---|
-|Chicken | low | big | mid | triple attack |
-|Tiger | mid | big | low | paralyze foe which can't attack next turn |
-|Pig | mid | low | big | moreDamage |
-|Duck | big | mid | low | fly |
-|Bear | mid | mid | big | damageAnnulation |
+|Chicken | nn | nn | nn | triple attack: nn |
+|Tiger | nn | nn | nn | paralyze foe which can't attack next turn: nn |
+|Pig | nn | nn | nn | moreDamage: nn |
+|Duck | nn | nn | nn | fly: nn |
+|Bear | nn | nn | nn | damageAnnulation: nn |
 
 
 ### Animal specialAttack
@@ -47,10 +48,17 @@ TODO: remplir le tableau suivant avec des valeurs
 
 
 ### Stuff choice
-You have 2 skill points to share between offensif and defensif stuff.
+You have 2 skill points to share between offensif and defensif stuff. You may choose to boost your attack at the expense of the your defense or to boost your defense at the expense of the your attack. Unless you prefer to choose a well balanced build.
 
+|Build | Attack points | Defense points |
+|---|---|---|
+|Offensiv | 2 | 0 |
+|Well balanced | 1 | 1 |
+|Defensif | 0 | 2 |
 
 ## How it is thought/programmed
 
 Each player plays when it is its turn.
+
+
 
