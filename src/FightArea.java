@@ -1,4 +1,4 @@
-import Animal.Animal;
+import animalPackage.Animal;
 
 public class FightArea implements Logger {
 

@@ -1,4 +1,4 @@
-package Animal;
+package animalPackage;
 
 public interface Characteristics {
 

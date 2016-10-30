@@ -1,6 +1,6 @@
-package Animal;
+package animalPackage;
 
-public class Bear extends WithPaws {
+public class Duck extends WithWings {
 
 	/*
 	 * ___________________________________________________________________________________________
@@ -9,21 +9,21 @@ public class Bear extends WithPaws {
 	/**
 	 * Constructor
 	 * 
-	 * @param 1 String = bear's Pseudo
+	 * @param 1 String = duck's Pseudo
 	 * @return nothing
 	 */
-	public Bear(String newPseudo) {
+	public Duck(String newPseudo) {
 		super(newPseudo);
 	}
 
 	/**
 	 * Constructor
 	 * 
-	 * @param 1 String = bear's Pseudo
-	 * @param 1 String = bear's color
+	 * @param 1 String = duck's Pseudo
+	 * @param 1 String = duck's color
 	 * @return nothing
 	 */
-	public Bear(String newPseudo, String newColor) {
+	public Duck(String newPseudo, String newColor) {
 		super(newPseudo, newColor);
 	}
 

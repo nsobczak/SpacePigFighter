@@ -1,4 +1,4 @@
-import CubeEnvironment.CubeEnvironment;
+import cubeEnvironment.CubeEnvironment;
 
 public class Space implements Logger {
 

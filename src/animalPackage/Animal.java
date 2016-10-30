@@ -1,7 +1,7 @@
-package Animal;
+package animalPackage;
 
-import Stuff.Defensif;
-import Stuff.Offensif;
+import stuff.Defensif;
+import stuff.Offensif;
 
 /**
  * ===== Class Animal =====

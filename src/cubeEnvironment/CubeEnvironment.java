@@ -1,7 +1,7 @@
-package CubeEnvironment;
+package cubeEnvironment;
 
-import SpaceObjects.Meteorite;
-import SpaceObjects.Spacecraft;
+import spaceObjects.Meteorite;
+import spaceObjects.Spacecraft;
 
 public class CubeEnvironment {
 

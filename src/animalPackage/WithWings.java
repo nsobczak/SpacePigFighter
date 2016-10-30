@@ -1,6 +1,6 @@
-package Animal;
+package animalPackage;
 
-public class Chicken extends WithWings {
+public abstract class WithWings extends Animal implements Characteristics {
 
 	/*
 	 * ___________________________________________________________________________________________
@@ -9,21 +9,21 @@ public class Chicken extends WithWings {
 	/**
 	 * Constructor
 	 * 
-	 * @param 1 String = chicken's Pseudo
+	 * @param 1 String = animal's Pseudo
 	 * @return nothing
 	 */
-	public Chicken(String newPseudo) {
+	public WithWings(String newPseudo) {
 		super(newPseudo);
 	}
 
 	/**
 	 * Constructor
 	 * 
-	 * @param 1 String = chicken's Pseudo
-	 * @param 1 String = chicken's color
+	 * @param 1 String = animal's Pseudo
+	 * @param 1 String = animal's color
 	 * @return nothing
 	 */
-	public Chicken(String newPseudo, String newColor) {
+	public WithWings(String newPseudo, String newColor) {
 		super(newPseudo, newColor);
 	}
 
@@ -31,12 +31,11 @@ public class Chicken extends WithWings {
 	 * ___________________________________________________________________________________________
 	 * Functions
 	 */
-
 	public void attack() {
 	}
-
+	
 	public String specialAction() {
-		return null;
+		return "specialAction";
 	}
 
 	public void scream() {

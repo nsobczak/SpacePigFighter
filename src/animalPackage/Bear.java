@@ -1,9 +1,6 @@
-package Animal;
+package animalPackage;
 
-/**
- * Class pig = pig fighter
- */
-public class Pig extends WithPaws {
+public class Bear extends WithPaws {
 
 	/*
 	 * ___________________________________________________________________________________________
@@ -12,29 +9,37 @@ public class Pig extends WithPaws {
 	/**
 	 * Constructor
 	 * 
-	 * @param 1 String = pig's Pseudo
+	 * @param 1 String = bear's Pseudo
 	 * @return nothing
 	 */
-	public Pig(String newPseudo) {
+	public Bear(String newPseudo) {
 		super(newPseudo);
 	}
 
 	/**
 	 * Constructor
 	 * 
-	 * @param 1 String = pig's Pseudo
-	 * @param 1 String = pig's color
+	 * @param 1 String = bear's Pseudo
+	 * @param 1 String = bear's color
 	 * @return nothing
 	 */
-	public Pig(String newPseudo, String newColor) {
+	public Bear(String newPseudo, String newColor) {
 		super(newPseudo, newColor);
 	}
-
 
 	/*
 	 * ___________________________________________________________________________________________
 	 * Functions
 	 */
 
+	public void attack() {
+	}
+
+	public String specialAction() {
+		return null;
+	}
+
+	public void scream() {
+	}
 
 }

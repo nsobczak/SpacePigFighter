@@ -1,4 +1,4 @@
-package SpaceObjects;
+package spaceObjects;
 
 /**
  * ===== Enumeration MeteoriteSize =====

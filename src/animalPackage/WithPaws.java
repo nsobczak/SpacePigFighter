@@ -1,6 +1,6 @@
-package Animal;
+package animalPackage;
 
-public abstract class WithWings extends Animal implements Characteristics {
+public abstract class WithPaws extends Animal implements Characteristics {
 
 	/*
 	 * ___________________________________________________________________________________________
@@ -12,10 +12,10 @@ public abstract class WithWings extends Animal implements Characteristics {
 	 * @param 1 String = animal's Pseudo
 	 * @return nothing
 	 */
-	public WithWings(String newPseudo) {
+	public WithPaws(String newPseudo) {
 		super(newPseudo);
 	}
-
+	
 	/**
 	 * Constructor
 	 * 
@@ -23,10 +23,33 @@ public abstract class WithWings extends Animal implements Characteristics {
 	 * @param 1 String = animal's color
 	 * @return nothing
 	 */
-	public WithWings(String newPseudo, String newColor) {
+	public WithPaws(String newPseudo, String newColor) {
 		super(newPseudo, newColor);
 	}
 
+	/*
+	 * ___________________________________________________________________________________________
+	 * Getters
+	 */
+	/**
+	 * Get animal's color
+	 * 
+	 * @param nothing
+	 * @return 1 String = animal's color value
+	 */
+	
+	/*
+	 * ___________________________________________________________________________________________
+	 * Setters
+	 */
+	/**
+	 * Set animal's color
+	 * 
+	 * @param 1 String = animal's color value
+	 * @return nothing
+	 */
+	
+	
 	/*
 	 * ___________________________________________________________________________________________
 	 * Functions

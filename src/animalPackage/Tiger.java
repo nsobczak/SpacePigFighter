@@ -1,4 +1,4 @@
-package Animal;
+package animalPackage;
 
 public class Tiger extends WithPaws {
 

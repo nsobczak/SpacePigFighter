@@ -1,37 +1,37 @@
-package Stuff;
+package stuff;
 
 /**
- * Defensif class
+ * Offensif class
  */
-public class Defensif {
+public class Offensif {
 
 	/*
 	 * ___________________________________________________________________________________________
 	 * Properties
 	 */
 	/**
-	 * Bonus on the pig's resistance value
+	 * Bonus on the pig's force value
 	 */
-	private Integer bonusResistance;
+	private Integer bonusForce;
 
 	/*
 	 * ___________________________________________________________________________________________
 	 * Constants
 	 */
 	/**
-	 * Increases the resistance of 5
+	 * Increases the force of 5
 	 */
-	public static final Defensif HELMET = new Defensif(5);
+	public static final Offensif SWORD = new Offensif(5);
 
 	/**
-	 * Increases the resistance of 10
+	 * Increases the force of 10
 	 */
-	public static final Defensif SHIELD = new Defensif(10);
+	public static final Offensif AXE = new Offensif(10);
 
 	/**
 	 * Doesn't increase the resistance
 	 */
-	public static final Defensif NONE = new Defensif(0);
+	public static final Offensif NONE = new Offensif(0);
 
 	/*
 	 * ___________________________________________________________________________________________
@@ -40,7 +40,7 @@ public class Defensif {
 	/**
 	 * Constructor
 	 */
-	public Defensif(Integer bonusValue) {
+	public Offensif(Integer bonusValue) {
 	}
 
 	/*
@@ -48,9 +48,9 @@ public class Defensif {
 	 * Setters
 	 */
 	/**
-	 * Set the bonusResistance
+	 * Set the bonusForce
 	 */
-	public void setBonusResistance(Integer bonusValue) {
+	public void setBonusForce(Integer bonusValue) {
 	}
 
 	/*
@@ -58,9 +58,9 @@ public class Defensif {
 	 * Getters
 	 */
 	/**
-	 * Get the bonusResistance value
+	 * Get the bonusForce value
 	 */
-	public Integer getBonusResistance() {
+	public Integer getBonusForce() {
 		return null;
 	}
 
