@@ -16,8 +16,12 @@ public abstract class Ufo {
     /** 
      *  Constructor. Set location by default to (0,0,0)
      */
-    public void UFO() {
+    public void Ufo() {
         this.location = PositionsCube.OOO;
+    }
+    
+    public void Ufo(PositionsCube position) {
+        this.location = position;
     }
 
     //======GET========
