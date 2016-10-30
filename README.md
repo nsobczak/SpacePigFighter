@@ -21,15 +21,14 @@ Each pig has several caracteristics and some weapon.
 |Duck | big | mid | low | fly |
 |Bear | mid | mid | big | damageAnnulation |
 
-TODO: replace <nn> in the next tab with values
 
 |Animal class | life | force | resistance | special attack |
 |---|---|---|---|---|
-|Chicken | nn | nn | nn | triple attack: nn |
-|Tiger | nn | nn | nn | paralyze foe which can't attack next turn: nn |
-|Pig | nn | nn | nn | moreDamage: nn |
-|Duck | nn | nn | nn | fly: nn |
-|Bear | nn | nn | nn | damageAnnulation: nn |
+|Chicken | 800 | 130 | 20 | triple attack: nn |
+|Tiger | 1000 | 130 | 0 | paralyze foe which can't attack next turn: nn |
+|Pig | 1000 | 90 | 40 | moreDamage: nn |
+|Duck | 1200 | 110 | 0 | fly: nn |
+|Bear | 1000 | 110 | 40 | damageAnnulation: nn |
 
 
 ### Animal specialAttack
@@ -52,9 +51,15 @@ You have 2 skill points to share between offensif and defensif stuff. You may ch
 
 |Build | Attack points | Defense points |
 |---|---|---|
-|Offensiv | 2 | 0 |
+|Offensive | 2 | 0 |
 |Well balanced | 1 | 1 |
-|Defensif | 0 | 2 |
+|Defensive | 0 | 2 |
+
+|Build | Offensive stuff | Stats bonus | Defensive stuff | Stats bonus |
+|---|---|---|---|---|
+|Offensive | Axe | 40 | None | 00 |
+|Well balanced | Sword | 20 | Helmet | 20 |
+|Defensive | None | 00 | Shield | 40 |
 
 ## How it is thought/programmed
 
