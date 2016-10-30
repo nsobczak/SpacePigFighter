@@ -41,9 +41,9 @@ Each pig has several caracteristics and some weapon.
 
 
 ### Meteorites malus
-- small : -2% max hp
-- medium : -6% max hp
-- big : -12% max hp
+- small : -20 hp
+- medium : -50 hp
+- big : -100 hp
 
 
 ### Stuff choice
