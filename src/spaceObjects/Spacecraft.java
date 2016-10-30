@@ -26,7 +26,7 @@ public class Spacecraft extends Ufo {
 	 */
 	public Spacecraft() {
 		super();
-		this.color = "gray";
+		this.color = "grey";
 		this.animal = new Pig("unnamed");
 	}
 
@@ -48,7 +48,7 @@ public class Spacecraft extends Ufo {
 	 */
 	public Spacecraft(Animal myAnimal) {
 		super();
-		this.color = "gray";
+		this.color = "grey";
 		this.animal = myAnimal;
 	}
 
@@ -59,7 +59,7 @@ public class Spacecraft extends Ufo {
 	 */
 	public Spacecraft(PositionsCube position) {
 		super(position);
-		this.color = "gray";
+		this.color = "grey";
 		this.animal = new Pig("unnamed");
 	}
 
@@ -95,7 +95,7 @@ public class Spacecraft extends Ufo {
 	 */
 	public Spacecraft(PositionsCube position, Animal myAnimal) {
 		super(position);
-		this.color = "gray";
+		this.color = "grey";
 		this.animal = myAnimal;
 	}
 
