@@ -5,22 +5,34 @@ package SpaceObjects;
  */
 public abstract class Ufo {
 
-  /** 
-   *  Position of one instance of the Position class. Set to (0,0,0) by default.
-   */
-  private PositionsCube location;
+    /** 
+     *  Position of one instance of the Position class. Set to (0,0,0) by default.
+     */
+    private PositionsCube location;
 
-  /** 
-   *  Constructor. Set location by default to (0,0,0)
-   */
-  public void UFO() {
-  }
+    //====constantes====
+    
+    //===constructors===
+    /** 
+     *  Constructor. Set location by default to (0,0,0)
+     */
+    public void UFO() {
+        this.location = PositionsCube.OOO;
+    }
 
-  public PositionsCube getLocation() {
-  return null;
-  }
+    //======GET========
+    
+    public PositionsCube getLocation() {
+    return this.location;
+    }
 
-  public void setLocation(PositionsCube position) {
-  }
+    //======SET========
+    
+    public void setLocation(PositionsCube position) {
+        this.location = position; 
+    }
+    
+    //==other Methods=
+    
 
 }

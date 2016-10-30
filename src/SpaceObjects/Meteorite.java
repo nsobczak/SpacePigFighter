@@ -6,43 +6,38 @@ package SpaceObjects;
  */
 public class Meteorite extends Ufo {
 
-  private MeteoriteSize size;
+    private MeteoriteSize size;
 
-  /** 
-   *  Spacecraft's position  in the CubeEnvironment
-   */
-  private PositionsCube position;
+    /** 
+     *  Constructor
+     */
+    public Meteorite() {
+    }
 
-  /** 
-   *  Constructor
-   */
-  public Meteorite() {
-  }
+    /** 
+     *  Get the meteorite size
+     */
+    public MeteoriteSize getSize() {
+    return null;
+    }
 
-  /** 
-   *  Get the meteorite size
-   */
-  public MeteoriteSize getSize() {
-  return null;
-  }
+    /** 
+     *  Get position of the meteorite
+     */
+    public PositionsCube getPosition() {
+    return null;
+    }
 
-  /** 
-   *  Get position of the meteorite
-   */
-  public PositionsCube getPosition() {
-  return null;
-  }
+    /** 
+     *  Set a new size to the meteorite
+     */
+    public void setSize(MeteoriteSize newSize) {
+    }
 
-  /** 
-   *  Set a new size to the meteorite
-   */
-  public void setSize(MeteoriteSize newSize) {
-  }
-
-  /** 
-   *  Set a new position for the meteorite
-   */
-  public void setPositionMeteorite(PositionsCube newPosition) {
-  }
+    /** 
+     *  Set a new position for the meteorite
+     */
+    public void setPositionMeteorite(PositionsCube newPosition) {
+    }
 
 }

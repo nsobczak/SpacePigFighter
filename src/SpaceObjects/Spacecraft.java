@@ -9,11 +9,6 @@ public class Spacecraft extends Ufo {
 
   private String color;
 
-  /** 
-   *  Spacecraft's position  in the CubeEnvironment
-   */
-  private PositionsCube position;
-
   public Animal animal;
 
 
