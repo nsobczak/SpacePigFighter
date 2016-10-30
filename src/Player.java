@@ -1,6 +1,12 @@
 import spaceObjects.Spacecraft;
 import animalPackage.Animal;
 
+/**
+ * ===== Class Main =====
+ * 
+ * @author Nicolas Sobczak
+ * @version 1.01, 10/2016
+ */
 public class Player {
 
 	public Animal animal;

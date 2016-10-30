@@ -1,7 +1,12 @@
 package spaceObjects;
 
 /**
- * Class UFO, useful to have position in the cube
+ * ===== Class Ufo =====
+ * 
+ * useful to have position in the cube
+ * 
+ * @author Vincent Reynaert
+ * @version 1.02, 10/2016
  */
 public abstract class Ufo {
 

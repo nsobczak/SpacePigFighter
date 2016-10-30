@@ -1,7 +1,10 @@
 package spaceObjects;
 
 /**
- * Class Meteorite
+ * ===== Class Meteorite =====
+ * 
+ * @author Vincent Reynaert
+ * @version 1.01, 10/2016
  */
 public class Meteorite extends Ufo {
 

@@ -8,7 +8,10 @@ import animalPackage.Pig;
 import animalPackage.Tiger;
 
 /**
- * Class Spacecraft
+ * ===== Class Spacecraft =====
+ * 
+ * @author Vincent Reynaert
+ * @version 1.02, 10/2016
  */
 public class Spacecraft extends Ufo {
 
@@ -21,7 +24,7 @@ public class Spacecraft extends Ufo {
 	 * Constructors
 	 */
 	/**
-	 * Constructor. by default we have a Pig unnamed and a Spacecraft gray
+	 * Constructor by default we have a Pig unnamed and a Spacecraft gray
 	 * colored at the position OOO
 	 */
 	public Spacecraft() {
@@ -31,7 +34,7 @@ public class Spacecraft extends Ufo {
 	}
 
 	/**
-	 * Constructor. with selected color
+	 * Constructor with selected color
 	 * 
 	 * @param colorName
 	 */
@@ -42,7 +45,7 @@ public class Spacecraft extends Ufo {
 	}
 
 	/**
-	 * Constructor. with selected animal
+	 * Constructor with selected animal
 	 * 
 	 * @param myAnimal
 	 */
@@ -53,7 +56,7 @@ public class Spacecraft extends Ufo {
 	}
 
 	/**
-	 * Constructor. with selected location
+	 * Constructor with selected location
 	 * 
 	 * @param position
 	 */
@@ -64,7 +67,7 @@ public class Spacecraft extends Ufo {
 	}
 
 	/**
-	 * Constructor. with selected color and animal
+	 * Constructor with selected color and animal
 	 * 
 	 * @param colorName
 	 * @param myAnimal
@@ -76,7 +79,7 @@ public class Spacecraft extends Ufo {
 	}
 
 	/**
-	 * Constructor. with selected location and color
+	 * Constructor with selected location and color
 	 * 
 	 * @param position
 	 * @param colorName
@@ -88,7 +91,7 @@ public class Spacecraft extends Ufo {
 	}
 
 	/**
-	 * Constructor. with selected location and animal
+	 * Constructor with selected location and animal
 	 * 
 	 * @param position
 	 * @param myAnimal
