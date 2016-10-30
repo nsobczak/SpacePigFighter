@@ -22,50 +22,76 @@ public class Spacecraft extends Ufo {
 
     //===constructors===
     /** 
-     *  Constructor
+     *  Constructor by default we have a Pig unnamed and a Spacecraft gray colored at the position OOO
      */
     public Spacecraft() {
         super();
         this.color = "gray";
         this.animal = new Pig("unnamed");
     }
-    
+    /**
+     * Constructor with personnal color
+     * @param colorName 
+     */
     public Spacecraft(String colorName) {
         super();
         this.color = colorName;
         this.animal = new Pig("unnamed");
     }
-    
+    /**
+     * Constructor with personnal animal
+     * @param myAnimal 
+     */
     public Spacecraft(Animal myAnimal) {
         super();
         this.color = "gray";
         this.animal = myAnimal;
     }
-            
+    /**
+     * Constructor with personnal location
+     * @param position 
+     */        
     public Spacecraft(PositionsCube position) {
         super(position);
         this.color = "gray";
         this.animal = new Pig("unnamed");
     }
-    
+    /**
+     * Constructor with personnal color and animal
+     * @param colorName
+     * @param myAnimal 
+     */
     public Spacecraft(String colorName, Animal myAnimal) {
         super();
         this.color = colorName;
         this.animal = myAnimal;
     }
-    
+    /**
+     * Constructor with personnal location and color
+     * @param position
+     * @param colorName 
+     */
     public Spacecraft(PositionsCube position, String colorName) {
         super(position);
         this.color = colorName;
         this.animal = new Pig("unnamed");
     }
-    
+    /**
+     * Constructor with personnal location and animal
+     * @param position
+     * @param myAnimal 
+     */
     public Spacecraft(PositionsCube position, Animal myAnimal) {
         super(position);
         this.color = "gray";
         this.animal = myAnimal;
     }
-       
+    /**
+     * Constructor with personnal location, color and animal
+     * @param position
+     * @param colorName
+     * @param myAnimal 
+     */   
     public Spacecraft(PositionsCube position, String colorName, Animal myAnimal) {
         super(position);
         this.color = colorName;
@@ -75,26 +101,36 @@ public class Spacecraft extends Ufo {
     
     //======GET========
 
-    /** 
-     *  get spacecraft color
+    /**
+     * Get Spacecraft color
+     * @return color
      */
     public String getColor() {
     return this.color;
     }
 
+    /**
+     * Get Spacecraft animal
+     * @return animal
+     */
     public Animal getAnimal() {
     return this.animal;
     }
 
     //======SET========
     
-    /** 
-     *  Set spacecraft color
+    /**
+     * Set Spacecraft color
+     * @param newColor 
      */
     public void setColor(String newColor) {
         this.color = newColor;
     }
 
+    /**
+     * Set Spacecraft animal
+     * @param newAnimal 
+     */
     public void setAnimal(Animal newAnimal) {
         this.animal = newAnimal;
     }
@@ -104,7 +140,7 @@ public class Spacecraft extends Ufo {
     /** 
      *  Fonction qui abime le vaisseau: fait baisser la vie de l'animal
      */
-    public void beDamaged() {
+    public void beDamagedBy() {
     }
 
 }
