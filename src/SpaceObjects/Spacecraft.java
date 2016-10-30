@@ -140,7 +140,18 @@ public class Spacecraft extends Ufo {
     /** 
      *  Fonction qui abime le vaisseau: fait baisser la vie de l'animal
      */
-    public void beDamagedBy() {
+    public void beDamagedBy(MeteoriteSize meteoriteSize) {
+        if (meteoriteSize == MeteoriteSize.SMALL){
+            this.animal.decreaseLife(20);
+        } else {
+            if (meteoriteSize == MeteoriteSize.MEDIUM){
+                this.animal.decreaseLife(50);
+            } else {
+                if (meteoriteSize == MeteoriteSize.BIG){
+                    this.animal.decreaseLife(100);
+                }
+            }
+        }
     }
 
 }

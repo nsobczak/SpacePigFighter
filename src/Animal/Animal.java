@@ -192,7 +192,16 @@ public abstract class Animal {
 	 * @return nothing
 	 */
 	public void setStuffOffensif(Offensif newOffensif) {
-		this.stuffOffensif = newOffensif;
+            this.stuffOffensif = newOffensif;
 	}
+        
+        /**
+         * Decrease animal's life 
+         * 
+         * @param 1 Integer = damages
+         */
+        public void decreaseLife(Integer damages){
+            this.life = this.life - damages;
+        }
 
 }
