@@ -14,29 +14,47 @@ public abstract class Ufo {
     
     //===constructors===
     /** 
-     *  Constructor. Set location by default to (0,0,0)
+     * Constructor. Set location by default to (0,0,0)
      */
-    public void Ufo() {
+    public Ufo() {
         this.location = PositionsCube.OOO;
     }
-    
-    public void Ufo(PositionsCube position) {
+    /**
+     * Constructor. with selected position
+     * @param position 
+     */
+    public Ufo(PositionsCube position) {
         this.location = position;
     }
 
     //======GET========
     
+    /**
+     * Get the Ufo location
+     * @return location
+     */
     public PositionsCube getLocation() {
     return this.location;
     }
 
     //======SET========
     
+    /**
+     * Set the Ufo location
+     * @param 1 PostionsCube = position 
+     */
     public void setLocation(PositionsCube position) {
         this.location = position; 
     }
     
     //==other Methods=
     
+    /**
+     * Change the location of the Ufo on the CubeEnvironment
+     * @param 1 PositionsCube = position 
+     */
+    public void moveUfo(PositionsCube position){
+        this.setLocation(position);
+    }
 
 }

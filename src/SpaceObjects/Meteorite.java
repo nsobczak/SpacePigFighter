@@ -8,36 +8,50 @@ public class Meteorite extends Ufo {
 
     private MeteoriteSize size;
 
-    /** 
-     *  Constructor
+    //====constantes====
+
+    //===constructors===
+    
+    /**
+     * Constructor where size is necessary selected by the player
+     * 
+     * @param 1 MeteoriteSize = meteoriteSize 
      */
-    public Meteorite() {
+    public Meteorite(MeteoriteSize meteoriteSize) {
+        super();
+        this.size = meteoriteSize;
+    }    
+    /**
+     * Constructor with selected position and size
+     * 
+     * @param position
+     * @param meteoriteSize 
+     */
+    public Meteorite(PositionsCube position, MeteoriteSize meteoriteSize) {
+        super(position);
+        this.size = meteoriteSize; 
     }
 
-    /** 
-     *  Get the meteorite size
+    
+    //======GET========
+    
+    /**
+     * Get the meteorite size
+     * @return size
      */
     public MeteoriteSize getSize() {
-    return null;
+        return this.size;
     }
 
-    /** 
-     *  Get position of the meteorite
-     */
-    public PositionsCube getPosition() {
-    return null;
-    }
+    //======SET========
 
     /** 
-     *  Set a new size to the meteorite
+     * Set a new size to the meteorite
+     * @param 1 MeteoriteSize = newSize 
      */
     public void setSize(MeteoriteSize newSize) {
+        this.size = newSize;
     }
 
-    /** 
-     *  Set a new position for the meteorite
-     */
-    public void setPositionMeteorite(PositionsCube newPosition) {
-    }
 
 }

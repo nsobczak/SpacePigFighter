@@ -201,7 +201,7 @@ public abstract class Animal {
          * @param 1 Integer = damages
          */
         public void decreaseLife(Integer damages){
-            this.life = this.life - damages;
+            this.setLife(this.life - damages);
         }
 
 }

@@ -22,7 +22,7 @@ public class Spacecraft extends Ufo {
 
     //===constructors===
     /** 
-     *  Constructor by default we have a Pig unnamed and a Spacecraft gray colored at the position OOO
+     *  Constructor. by default we have a Pig unnamed and a Spacecraft gray colored at the position OOO
      */
     public Spacecraft() {
         super();
@@ -30,7 +30,7 @@ public class Spacecraft extends Ufo {
         this.animal = new Pig("unnamed");
     }
     /**
-     * Constructor with personnal color
+     * Constructor. with selected color
      * @param colorName 
      */
     public Spacecraft(String colorName) {
@@ -39,7 +39,7 @@ public class Spacecraft extends Ufo {
         this.animal = new Pig("unnamed");
     }
     /**
-     * Constructor with personnal animal
+     * Constructor. with selected animal
      * @param myAnimal 
      */
     public Spacecraft(Animal myAnimal) {
@@ -48,7 +48,7 @@ public class Spacecraft extends Ufo {
         this.animal = myAnimal;
     }
     /**
-     * Constructor with personnal location
+     * Constructor. with selected location
      * @param position 
      */        
     public Spacecraft(PositionsCube position) {
@@ -57,7 +57,7 @@ public class Spacecraft extends Ufo {
         this.animal = new Pig("unnamed");
     }
     /**
-     * Constructor with personnal color and animal
+     * Constructor. with selected color and animal
      * @param colorName
      * @param myAnimal 
      */
@@ -67,7 +67,7 @@ public class Spacecraft extends Ufo {
         this.animal = myAnimal;
     }
     /**
-     * Constructor with personnal location and color
+     * Constructor. with selected location and color
      * @param position
      * @param colorName 
      */
@@ -77,7 +77,7 @@ public class Spacecraft extends Ufo {
         this.animal = new Pig("unnamed");
     }
     /**
-     * Constructor with personnal location and animal
+     * Constructor. with selected location and animal
      * @param position
      * @param myAnimal 
      */
@@ -87,7 +87,7 @@ public class Spacecraft extends Ufo {
         this.animal = myAnimal;
     }
     /**
-     * Constructor with personnal location, color and animal
+     * Constructor. with selected location, color and animal
      * @param position
      * @param colorName
      * @param myAnimal 
@@ -121,7 +121,7 @@ public class Spacecraft extends Ufo {
     
     /**
      * Set Spacecraft color
-     * @param newColor 
+     * @param 1 String = newColor 
      */
     public void setColor(String newColor) {
         this.color = newColor;
@@ -129,7 +129,7 @@ public class Spacecraft extends Ufo {
 
     /**
      * Set Spacecraft animal
-     * @param newAnimal 
+     * @param 1 Animal = newAnimal 
      */
     public void setAnimal(Animal newAnimal) {
         this.animal = newAnimal;
@@ -137,8 +137,10 @@ public class Spacecraft extends Ufo {
 
     //==other Methods=
     
-    /** 
-     *  Fonction qui abime le vaisseau: fait baisser la vie de l'animal
+    /**
+     * The Animal will recieve damages proportional to the meteoriteSize
+     * 
+     * @param 1 MeteoriteSize = meteoriteSize
      */
     public void beDamagedBy(MeteoriteSize meteoriteSize) {
         if (meteoriteSize == MeteoriteSize.SMALL){
