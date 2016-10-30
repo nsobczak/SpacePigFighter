@@ -36,11 +36,42 @@ public class Spacecraft extends Ufo {
         this.animal = new Pig("unnamed");
     }
     
-    public Spacecraft(Animal animalName) {
+    public Spacecraft(Animal myAnimal) {
         super();
         this.color = "gray";
-        this.animal = animalName;
+        this.animal = myAnimal;
     }
+            
+    public Spacecraft(PositionsCube position) {
+        super(position);
+        this.color = "gray";
+        this.animal = new Pig("unnamed");
+    }
+    
+    public Spacecraft(String colorName, Animal myAnimal) {
+        super();
+        this.color = colorName;
+        this.animal = myAnimal;
+    }
+    
+    public Spacecraft(PositionsCube position, String colorName) {
+        super(position);
+        this.color = colorName;
+        this.animal = new Pig("unnamed");
+    }
+    
+    public Spacecraft(PositionsCube position, Animal myAnimal) {
+        super(position);
+        this.color = "gray";
+        this.animal = myAnimal;
+    }
+       
+    public Spacecraft(PositionsCube position, String colorName, Animal myAnimal) {
+        super(position);
+        this.color = colorName;
+        this.animal = myAnimal;
+    }
+    
     
     //======GET========
 
@@ -48,15 +79,11 @@ public class Spacecraft extends Ufo {
      *  get spacecraft color
      */
     public String getColor() {
-    return null;
-    }
-
-    public PositionsCube getPosition() {
-    return null;
+    return this.color;
     }
 
     public Animal getAnimal() {
-    return null;
+    return this.animal;
     }
 
     //======SET========
@@ -65,15 +92,11 @@ public class Spacecraft extends Ufo {
      *  Set spacecraft color
      */
     public void setColor(String newColor) {
-    }
-
-    /** 
-     *  Set spacecraft position
-     */
-    public void setPosition(PositionsCube newPosition) {
+        this.color = newColor;
     }
 
     public void setAnimal(Animal newAnimal) {
+        this.animal = newAnimal;
     }
 
     //==other Methods=
