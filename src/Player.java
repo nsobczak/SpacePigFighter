@@ -6,12 +6,11 @@ import animalPackage.Duck;
 import animalPackage.Pig;
 import animalPackage.Tiger;
 
-
 /**
  * ===== Class Main =====
  * 
  * @author Nicolas Sobczak
- * @version 1.01, 10/2016
+ * @version 1.02, 10/2016
  */
 public class Player {
 
@@ -22,7 +21,8 @@ public class Player {
 	/**
 	 * Constructor with animal
 	 * 
-	 * @param nothing
+	 * @param 1 int animalClass
+	 * @param 1 String newPseudo
 	 * @return nothing
 	 */
 	public Player(int animalClass, String newPseudo) {
@@ -42,18 +42,17 @@ public class Player {
 			System.out.println("Duck chosen");
 			newAnimal = new Duck(newPseudo);
 			break;
-		case 4:
-			System.out.println("Pig chosen");
-			newAnimal = new Pig(newPseudo);
-			break;
 		case 5:
 			System.out.println("Tiger chosen");
 			newAnimal = new Tiger(newPseudo);
 			break;
+		default:
+			System.out.println("Pig chosen");
+			newAnimal = new Pig(newPseudo);
 		}
 		this.animal = newAnimal;
 
-		Spacecraft newSpacecraft = new Spacecraft();
+		Spacecraft newSpacecraft = new Spacecraft(this.animal);
 		this.spacecraft = newSpacecraft;
 	}
 

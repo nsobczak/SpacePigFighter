@@ -10,29 +10,31 @@ import animalPackage.Animal;
 public class Main {
 
 	/**
-	 * playersCreation function
+	 * playerCreation function
 	 * 
 	 * @param args
 	 * @return nothing
 	 */
-	public static void playersCreation(String[] args) {
-		// TODO HERE: Create 2 players
+	public static Player playerCreation() {
+		// TODO HERE: Create 1 player
 		Scanner scan = new Scanner(System.in);
 		int classEnteredInt = 0;
-				
 		boolean classEnteredIsValid = false;
+
 		while (!classEnteredIsValid) {
 			System.out
 					.println("Choose your animal: \n1 for Bear | 2 for Chicken | 3 for Duck | 4 for Pig | 5 for Tiger");
 			String classEntered = scan.nextLine();
 			try {
 				classEnteredInt = Integer.parseInt(classEntered);
-				classEnteredIsValid = true;
+				if ((classEnteredInt >= 1) && (classEnteredInt <= 5)) {
+					classEnteredIsValid = true;
+				} else {
+					System.out.println("Please enter a number between 1 and 5");
+				}
 			} catch (NumberFormatException e) {
-				classEnteredIsValid = false;
 				System.out.println("Please enter a number");
 			} catch (NullPointerException e) {
-				classEnteredIsValid = false;
 				System.out.println("Please enter a number");
 			}
 		}
@@ -40,9 +42,9 @@ public class Main {
 		System.out.println("Enter your pseudo:");
 		String pseudoEntered = scan.nextLine();
 
-		Player player_1 = new Player(classEnteredInt, pseudoEntered);
-
-		System.out.println("This is part 1 !!!");
+		// scan.close(); // Ca merde quand on close => etrange !
+		Player returnedPlayer = new Player(classEnteredInt, pseudoEntered);
+		return returnedPlayer;
 	}
 
 	/**
@@ -81,12 +83,14 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Main loop
 		System.out.println("Welcome in spacePigFighter");
-
 		System.out.println("spacePigFighter is an awesome fight game");
 
-		// Player
+		// Players
 		System.out.println("\nEntering player creation...");
-		playersCreation(args);
+		System.out.println("=>Player 1");
+		Player player_1 = playerCreation();
+		System.out.println("\n=>Player 2");
+		Player player_2 = playerCreation();
 		System.out.println("...End of player creation");
 
 		// Part1
