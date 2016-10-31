@@ -1,5 +1,7 @@
+import java.io.IOException;
 import java.util.Scanner;
-import animalPackage.Animal;
+import java.io.File;
+import java.io.FileOutputStream;
 
 /**
  * ===== Class Main =====
@@ -8,6 +10,28 @@ import animalPackage.Animal;
  * @version 1.01, 10/2016
  */
 public class Main {
+
+	/**
+	 * playerCreation function
+	 * 
+	 * @param 1 String fileName
+	 * @param 1 String stringToWrite
+	 * @return nothing
+	 */
+	public static void loggingFile(File fileName, String stringToWrite) {
+		try {
+			// BufferedWriter bw = new BufferedWriter(new
+			// FileWriter("repertoire.txt"));
+			// PrintWriter pWriter = new PrintWriter(bw);
+			// pWriter.print(nom+":"+numero);
+			// pWriter.close() ;
+			//
+			// fw.close();
+		} catch (NullPointerException exception) {
+			System.out.println("Erreur lors de la lecture : "
+					+ exception.getMessage());
+		}
+	}
 
 	/**
 	 * playerCreation function
@@ -84,6 +108,10 @@ public class Main {
 		// TODO Main loop
 		System.out.println("Welcome in spacePigFighter");
 		System.out.println("spacePigFighter is an awesome fight game");
+
+		// Initialisation
+		// File storyFile = new File("storyFile");
+		// loggingFile(storyFile, "Welcome in spacePigFighter");
 
 		// Players
 		System.out.println("\nEntering player creation...");
