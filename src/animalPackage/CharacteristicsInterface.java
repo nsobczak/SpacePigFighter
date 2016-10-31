@@ -1,6 +1,6 @@
 package animalPackage;
 
-public interface Characteristics {
+public interface CharacteristicsInterface {
 
   public void attack();
 
