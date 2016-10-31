@@ -1,11 +1,35 @@
 package animalPackage;
 
+/**
+ * ===== Interface CharacteristicsInterface =====
+ * 
+ * @author Nicolas Sobczak
+ * @version 1.01, 10/2016
+ */
 public interface CharacteristicsInterface {
 
-  public void attack();
+	/**
+	 * attack
+	 * 
+	 * @param nothing
+	 * @return nothing
+	 */
+	public void attack();
 
-  public String specialAction();
+	/**
+	 * attack
+	 * 
+	 * @param nothing
+	 * @return 1 String
+	 */
+	public String specialAction();
 
-  public void scream();
+	/**
+	 * scream
+	 * 
+	 * @param nothing
+	 * @return nothing
+	 */
+	public void scream();
 
 }

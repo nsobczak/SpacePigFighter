@@ -18,6 +18,10 @@ public class Player {
 
 	public Spacecraft spacecraft;
 
+	/*
+	 * ___________________________________________________________________________________________
+	 * Constructors
+	 */
 	/**
 	 * Constructor with animal
 	 * 
