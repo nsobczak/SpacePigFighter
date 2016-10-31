@@ -1,5 +1,11 @@
 import spaceObjects.Spacecraft;
 import animalPackage.Animal;
+import animalPackage.Bear;
+import animalPackage.Chicken;
+import animalPackage.Duck;
+import animalPackage.Pig;
+import animalPackage.Tiger;
+
 
 /**
  * ===== Class Main =====
@@ -14,15 +20,38 @@ public class Player {
 	public Spacecraft spacecraft;
 
 	/**
-	 * Constructor with selected location and animal
+	 * Constructor with animal
 	 * 
 	 * @param nothing
 	 * @return nothing
 	 */
-	public Player(String newPseudo) {
+	public Player(int animalClass, String newPseudo) {
 
-//		Animal newAnimal = new Animal(newPseudo);
-//		this.animal = newAnimal;
+		Animal newAnimal = null;
+		// 1 for Bear | 2 for Chicken | 3 for Duck | 4 for Pig | 5 for Tiger
+		switch (animalClass) {
+		case 1:
+			System.out.println("Bear chosen");
+			newAnimal = new Bear(newPseudo);
+			break;
+		case 2:
+			System.out.println("Chicken chosen");
+			newAnimal = new Chicken(newPseudo);
+			break;
+		case 3:
+			System.out.println("Duck chosen");
+			newAnimal = new Duck(newPseudo);
+			break;
+		case 4:
+			System.out.println("Pig chosen");
+			newAnimal = new Pig(newPseudo);
+			break;
+		case 5:
+			System.out.println("Tiger chosen");
+			newAnimal = new Tiger(newPseudo);
+			break;
+		}
+		this.animal = newAnimal;
 
 		Spacecraft newSpacecraft = new Spacecraft();
 		this.spacecraft = newSpacecraft;

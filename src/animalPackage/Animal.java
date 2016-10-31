@@ -43,7 +43,7 @@ public abstract class Animal {
 		this.PSEUDO = newPseudo;
 		this.color = "pink";
 	}
-	
+
 	/**
 	 * Constructor
 	 * 
@@ -55,7 +55,6 @@ public abstract class Animal {
 		this.PSEUDO = newPseudo;
 		this.color = "pink";
 	}
-
 
 	/*
 	 * ___________________________________________________________________________________________
@@ -192,16 +191,16 @@ public abstract class Animal {
 	 * @return nothing
 	 */
 	public void setStuffOffensif(Offensif newOffensif) {
-            this.stuffOffensif = newOffensif;
+		this.stuffOffensif = newOffensif;
 	}
-        
-        /**
-         * Decrease animal's life 
-         * 
-         * @param 1 Integer = damages
-         */
-        public void decreaseLife(Integer damages){
-            this.setLife(this.life - damages);
-        }
+
+	/**
+	 * Decrease animal's life
+	 * 
+	 * @param 1 Integer = damages
+	 */
+	public void decreaseLife(Integer damages) {
+		this.setLife(this.life - damages);
+	}
 
 }
