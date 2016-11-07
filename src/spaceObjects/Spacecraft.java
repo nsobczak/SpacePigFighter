@@ -36,7 +36,7 @@ public class Spacecraft extends Ufo {
 	/**
 	 * Constructor with selected color
 	 * 
-	 * @param colorName
+	 * @param 1 String = colorName
 	 */
 	public Spacecraft(String colorName) {
 		super();
@@ -47,7 +47,7 @@ public class Spacecraft extends Ufo {
 	/**
 	 * Constructor with selected animal
 	 * 
-	 * @param myAnimal
+	 * @param 1 Animal = myAnimal
 	 */
 	public Spacecraft(Animal myAnimal) {
 		super();
@@ -58,7 +58,7 @@ public class Spacecraft extends Ufo {
 	/**
 	 * Constructor with selected location
 	 * 
-	 * @param position
+	 * @param 1 PositionsCube = position
 	 */
 	public Spacecraft(PositionsCube position) {
 		super(position);
@@ -69,8 +69,8 @@ public class Spacecraft extends Ufo {
 	/**
 	 * Constructor with selected color and animal
 	 * 
-	 * @param colorName
-	 * @param myAnimal
+	 * @param 1 String = colorName
+	 * @param 1 Animal = myAnimal
 	 */
 	public Spacecraft(String colorName, Animal myAnimal) {
 		super();
@@ -81,8 +81,8 @@ public class Spacecraft extends Ufo {
 	/**
 	 * Constructor with selected location and color
 	 * 
-	 * @param position
-	 * @param colorName
+	 * @param 1 PositionsCube = position
+	 * @param 1 String = colorName
 	 */
 	public Spacecraft(PositionsCube position, String colorName) {
 		super(position);
@@ -93,8 +93,8 @@ public class Spacecraft extends Ufo {
 	/**
 	 * Constructor with selected location and animal
 	 * 
-	 * @param position
-	 * @param myAnimal
+	 * @param 1 PositionsCube = position
+	 * @param 1 Animal = myAnimal
 	 */
 	public Spacecraft(PositionsCube position, Animal myAnimal) {
 		super(position);
@@ -105,9 +105,9 @@ public class Spacecraft extends Ufo {
 	/**
 	 * Constructor. with selected location, color and animal
 	 * 
-	 * @param position
-	 * @param colorName
-	 * @param myAnimal
+	 * @param 1 PositionsCube = position
+	 * @param 1 String = colorName
+	 * @param 1 Animal = myAnimal
 	 */
 	public Spacecraft(PositionsCube position, String colorName, Animal myAnimal) {
 		super(position);
@@ -122,7 +122,7 @@ public class Spacecraft extends Ufo {
 	/**
 	 * Get Spacecraft color
 	 * 
-	 * @return color
+	 * @return 1 String = color
 	 */
 	public String getColor() {
 		return this.color;
@@ -131,7 +131,7 @@ public class Spacecraft extends Ufo {
 	/**
 	 * Get Spacecraft animal
 	 * 
-	 * @return animal
+	 * @return 1 Animal = animal
 	 */
 	public Animal getAnimal() {
 		return this.animal;
