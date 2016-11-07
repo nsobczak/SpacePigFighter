@@ -7,10 +7,10 @@ import animalPackage.Pig;
 import animalPackage.Tiger;
 
 /**
- * ===== Class Main =====
+ * ===== Class Player =====
  * 
  * @author Nicolas Sobczak
- * @version 1.02, 10/2016
+ * @version 1.01, 10/2016
  */
 public class Player {
 

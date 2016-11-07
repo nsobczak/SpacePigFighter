@@ -194,6 +194,10 @@ public abstract class Animal {
 		this.stuffOffensif = newOffensif;
 	}
 
+	/*
+	 * ___________________________________________________________________________________________
+	 * Function
+	 */
 	/**
 	 * Decrease animal's life
 	 * 

@@ -74,12 +74,13 @@ public class Main {
 	/**
 	 * Game part 1 function
 	 * 
-	 * @param args
+	 * @param 1 Player player_1
+	 * @param 1 Player player_2
 	 * @return nothing
 	 */
-	public static void part_1(String[] args) {
+	public static void part_1(Player player_1, Player player_2) {
 		// TODO HERE: Part 1 of the game
-		Space space = new Space();
+		Space space = new Space(player_1, player_2);
 
 		System.out.println("This is part 1 !!!");
 	}
@@ -87,12 +88,13 @@ public class Main {
 	/**
 	 * Game part 2 function
 	 * 
-	 * @param args
+	 * @param 1 Player player_1
+	 * @param 1 Player player_2
 	 * @return nothing
 	 */
-	public static void part_2(String[] args) {
+	public static void part_2(Player player_1, Player player_2) {
 		// TODO HERE: Part 2 of the game
-		FightArea fightArea = new FightArea();
+		FightArea fightArea = new FightArea(player_1, player_2);
 
 		System.out.println("This is part 2 !!!");
 	}
@@ -123,12 +125,12 @@ public class Main {
 
 		// Part1
 		System.out.println("\nEntering part 1 of the game...");
-		part_1(args);
+		part_1(player_1, player_2);
 		System.out.println("...End of part 1");
 
 		// Part2
 		System.out.println("\nEntering part 2 of the game...");
-		part_2(args);
+		part_2(player_1, player_2);
 		System.out.println("...End of part 2");
 
 		System.out.println("\nThis is the end of the game");
