@@ -18,8 +18,12 @@
 ## Part 1 of the game
 
 - launch part1 of the game: space battle. You have to find the right location of the other player's spacecraft by entering a position. Each player try to guess turn by turn.
-You have to be careful, avoid meteorites ! Overwise your pig's life will decrease.
+You have to be careful, avoid meteorites ! Otherwise your pig's life will decrease.
 - when a player find the other one's spacecraft, he climbs aboard and it's time for part 2 of the game.
+
+### The Space :
+
+is composed by 2 CubeEnvironment created thanks to the 2 Player
 
 
 ## Part 2 of the game
