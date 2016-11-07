@@ -4,7 +4,7 @@ package spaceObjects;
  * ===== Class Meteorite =====
  * 
  * @author Vincent Reynaert
- * @version 1.01, 10/2016
+ * @version 1.02, 11/2016
  */
 public class Meteorite extends Ufo {
 
@@ -17,7 +17,8 @@ public class Meteorite extends Ufo {
 	/**
 	 * Constructor where size is necessary selected by the player
 	 * 
-	 * @param 1 MeteoriteSize = meteoriteSize
+	 * @param 1
+	 *            MeteoriteSize = meteoriteSize
 	 */
 	public Meteorite(MeteoriteSize meteoriteSize) {
 		super();
@@ -27,8 +28,10 @@ public class Meteorite extends Ufo {
 	/**
 	 * Constructor with selected position and size
 	 * 
-	 * @param position
-	 * @param meteoriteSize
+	 * @param 1
+	 *            PositionsCube = position
+	 * @param 1
+	 *            MeteoriteSize = meteoriteSize
 	 */
 	public Meteorite(PositionsCube position, MeteoriteSize meteoriteSize) {
 		super(position);
@@ -42,7 +45,7 @@ public class Meteorite extends Ufo {
 	/**
 	 * Get the meteorite size
 	 * 
-	 * @return size
+	 * @return 1 MeteoriteSize = size
 	 */
 	public MeteoriteSize getSize() {
 		return this.size;
@@ -55,7 +58,8 @@ public class Meteorite extends Ufo {
 	/**
 	 * Set a new size to the meteorite
 	 * 
-	 * @param 1 MeteoriteSize = newSize
+	 * @param 1
+	 *            MeteoriteSize = newSize
 	 */
 	public void setSize(MeteoriteSize newSize) {
 		this.size = newSize;

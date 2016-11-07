@@ -30,7 +30,8 @@ public abstract class Ufo {
 	/**
 	 * Constructor. with selected position
 	 * 
-	 * @param position
+	 * @param 1
+	 *            PositionsCube = position
 	 */
 	public Ufo(PositionsCube position) {
 		this.location = position;
@@ -43,7 +44,7 @@ public abstract class Ufo {
 	/**
 	 * Get the Ufo location
 	 * 
-	 * @return location
+	 * @return 1 Positions = location
 	 */
 	public PositionsCube getLocation() {
 		return this.location;
@@ -56,7 +57,8 @@ public abstract class Ufo {
 	/**
 	 * Set the Ufo location
 	 * 
-	 * @param 1 PostionsCube = position
+	 * @param 1
+	 *            PostionsCube = position
 	 */
 	public void setLocation(PositionsCube position) {
 		this.location = position;
@@ -69,7 +71,8 @@ public abstract class Ufo {
 	/**
 	 * Change the location of the Ufo on the CubeEnvironment
 	 * 
-	 * @param 1 PositionsCube = position
+	 * @param 1
+	 *            PositionsCube = position
 	 */
 	public void moveUfo(PositionsCube position) {
 		this.setLocation(position);

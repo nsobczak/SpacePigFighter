@@ -1,65 +1,113 @@
 package cubeEnvironment;
 
-import spaceObjects.Meteorite;
-import spaceObjects.Spacecraft;
+import spaceObjects.*;
 import playerPackage.Player;
 
+/**
+ * ===== Class CubeEnvironment =====
+ * 
+ * @author Vincent Reynaert
+ * @version 1.02, 11/2016
+ */
 public class CubeEnvironment {
 
-  /** 
-   *  Pig's spacecraft
-   */
-  private Spacecraft spacecraft;
+	/**
+	 * Pig's spacecraft
+	 */
+	private Spacecraft spacecraft;
 
-  private Meteorite meteoriteSmall;
+	private Meteorite meteoriteSmall;
 
-  private Meteorite meteoriteMedium;
+	private Meteorite meteoriteMedium;
 
-  private Meteorite meteoriteBig;
+	private Meteorite meteoriteBig;
 
+	/*
+	 * ___________________________________________________________________________________________
+	 * Constructors
+	 */
+	/**
+	 * Constructor
+	 */
+	public CubeEnvironment() {
+	}
 
-  /** 
-   *  Constructor
-   */
-  public CubeEnvironment() {
-  }
-  /**
-   * Constuctor 
-   * @param playerI
-   */
-  public CubeEnvironment(Player playerI) {
-	  this.spacecraft = playerI.spacecraft;
-  }
+	/**
+	 * Constuctor
+	 * 
+	 * @param 1
+	 *            Player = playerI
+	 */
+	public CubeEnvironment(Player playerI) {
+		this.spacecraft = playerI.spacecraft;
+		this.meteoriteSmall = new Meteorite(MeteoriteSize.SMALL);
+		this.meteoriteMedium = new Meteorite(MeteoriteSize.MEDIUM);
+		this.meteoriteBig = new Meteorite(MeteoriteSize.BIG);
+	}
 
-  public Spacecraft getSpacecraft() {
-  return null;
-  }
+	/*
+	 * ___________________________________________________________________________________________
+	 * Getters
+	 */
+	/**
+	 * Get CubeEnvironment spacecraft
+	 * 
+	 * @return 1 Spacecraft = spacecraft
+	 */
+	public Spacecraft getSpacecraft() {
+		return this.spacecraft;
+	}
 
-  public Meteorite getMeteoriteSmall() {
-  return null;
-  }
+	/**
+	 * Get CubeEnvironment meteoriteSmall
+	 * 
+	 * @return 1 Meteorite = meteoriteSmall
+	 */
+	public Meteorite getMeteoriteSmall() {
+		return this.meteoriteSmall;
+	}
 
-  public Meteorite getMeteoriteMedium() {
-  return null;
-  }
+	/**
+	 * Get CubeEnvironment meteoriteMedium
+	 * 
+	 * @return 1 Meteorite = meteoriteMedium
+	 */
+	public Meteorite getMeteoriteMedium() {
+		return this.meteoriteMedium;
+	}
 
-  public Meteorite getMeteoriteBig() {
-  return null;
-  }
+	/**
+	 * Get CubeEnvironment meteoriteBig
+	 * 
+	 * @return 1 Meteorite = meteoriteBig
+	 */
+	public Meteorite getMeteoriteBig() {
+		return this.meteoriteBig;
+	}
 
-  /** 
-   *  Set CubeEnvironment spacecraft
-   */
-  public void setSpacecraft(Spacecraft newSpacecraft) {
-  }
+	/*
+	 * ___________________________________________________________________________________________
+	 * Setters
+	 */
+	/**
+	 * Set CubeEnvironment spacecraft
+	 */
+	public void setSpacecraft(Spacecraft newSpacecraft) {
+		
+	}
 
-  public void setMeteoriteSmall(Meteorite newMeteorite) {
-  }
+	public void setMeteoriteSmall(Meteorite newMeteorite) {
+	}
 
-  public void setMeteoriteMedium(Meteorite newMeteorite) {
-  }
+	public void setMeteoriteMedium(Meteorite newMeteorite) {
+	}
 
-  public void setMeteoriteBig(Meteorite newMeteorite) {
-  }
+	public void setMeteoriteBig(Meteorite newMeteorite) {
+	}
+
+	/*
+	 * ___________________________________________________________________________________________
+	 * Functions
+	 */
 
 }

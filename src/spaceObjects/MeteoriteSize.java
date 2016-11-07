@@ -8,7 +8,7 @@ package spaceObjects;
  * @author Nicolas Sobczak
  * @version 1.01, 10/2016
  */
-enum MeteoriteSize {
+public enum MeteoriteSize {
 
 	SMALL,
 

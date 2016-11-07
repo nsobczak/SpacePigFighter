@@ -7,7 +7,7 @@ import playerPackage.Player;
  * @author Nicolas Sobczak
  * @version 1.01, 11/2016
  */
-public class FightArea implements ExecutionInterface{
+public class FightArea implements ExecutionInterface {
 
 	public Animal animal_player_01;
 
@@ -20,8 +20,10 @@ public class FightArea implements ExecutionInterface{
 	/**
 	 * Constructor
 	 * 
-	 * @param 1 Player player_01
-	 * @param 1 Player player_02
+	 * @param 1
+	 *            Player = player_01
+	 * @param 1
+	 *            Player = player_02
 	 */
 	public FightArea(Player player_01, Player player_02) {
 		this.animal_player_01 = player_01.animal;
@@ -37,7 +39,7 @@ public class FightArea implements ExecutionInterface{
 	 * 
 	 */
 	public void run() {
-		
+
 	}
 
 }
