@@ -50,7 +50,17 @@ public abstract class WithPaws extends Animal implements CharacteristicsInterfac
 	 * ___________________________________________________________________________________________
 	 * Functions
 	 */
-	public void attack() {
+	/**
+	 * attack : function which executes a basic attack
+	 * 
+	 * @param Animal animal_01
+	 * @param Animal animal_02
+	 * @return nothing
+	 */
+	public void attack(Animal animal_01, Animal animal_02) {
+		System.out.println("I fight with my paws !");
+		int damage = animal_01.force - animal_02.resistance;
+		animal_02.decreaseLife(damage);
 	}
 	
 	public String specialAction() {

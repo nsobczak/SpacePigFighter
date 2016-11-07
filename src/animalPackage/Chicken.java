@@ -13,6 +13,9 @@ public class Chicken extends WithWings {
 	 */
 	public Chicken(String newPseudo) {
 		super(newPseudo);
+		this.life = 800;
+		this.force = 130;
+		this.resistance = 20;
 	}
 
 	/**
@@ -23,6 +26,9 @@ public class Chicken extends WithWings {
 	 */
 	public Chicken(String newPseudo, String newColor) {
 		super(newPseudo, newColor);
+		this.life = 800;
+		this.force = 130;
+		this.resistance = 20;
 	}
 
 	/*
@@ -30,7 +36,14 @@ public class Chicken extends WithWings {
 	 * Functions
 	 */
 
-	public void attack() {
+	/**
+	 * attack
+	 * 
+	 * @param Animal = animal_01 : attacker
+	 * @param Animal = animal_02 : defender
+	 */
+	public void attack(Animal animal_01, Animal animal_02) {
+		super.attack(animal_01, animal_02);
 	}
 
 	public String specialAction() {

@@ -29,7 +29,17 @@ public abstract class WithWings extends Animal implements CharacteristicsInterfa
 	 * ___________________________________________________________________________________________
 	 * Functions
 	 */
-	public void attack() {
+	/**
+	 * attack : function which executes a basic attack
+	 * 
+	 * @param Animal animal_01
+	 * @param Animal animal_02
+	 * @return nothing
+	 */
+	public void attack(Animal animal_01, Animal animal_02) {
+		System.out.println("I fight with my wings !");
+		int damage = animal_01.force - animal_02.resistance;
+		animal_02.decreaseLife(damage);
 	}
 	
 	public String specialAction() {

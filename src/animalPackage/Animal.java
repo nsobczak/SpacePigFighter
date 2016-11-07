@@ -17,17 +17,17 @@ public abstract class Animal {
 	 */
 	private final String PSEUDO;
 
-	private String color;
+	protected String color;
+	
+	protected Integer life;
 
-	private Integer force;
+	protected Integer force;
 
-	private Integer life;
+	protected Integer resistance;
 
-	private Integer resistance;
+	protected Defensif stuffDefensif;
 
-	private Defensif stuffDefensif;
-
-	private Offensif stuffOffensif;
+	protected Offensif stuffOffensif;
 
 	/*
 	 * ___________________________________________________________________________________________
@@ -51,7 +51,7 @@ public abstract class Animal {
 	 */
 	public Animal(String newPseudo, String newColor) {
 		this.PSEUDO = newPseudo;
-		this.color = "pink";
+		this.color = newColor;
 	}
 
 	/*

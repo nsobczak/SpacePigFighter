@@ -11,10 +11,11 @@ public interface CharacteristicsInterface {
 	/**
 	 * attack
 	 * 
-	 * @param nothing
+	 * @param Animal animal_01
+	 * @param Animal animal_02
 	 * @return nothing
 	 */
-	public void attack();
+	public void attack(Animal animal_01, Animal animal_02);
 
 	/**
 	 * attack
