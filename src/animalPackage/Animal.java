@@ -18,7 +18,7 @@ public abstract class Animal {
 	private final String PSEUDO;
 
 	protected String color;
-	
+
 	protected Integer life;
 
 	protected Integer force;
@@ -191,5 +191,11 @@ public abstract class Animal {
 	public void decreaseLife(Integer damages) {
 		this.setLife(this.life - damages);
 	}
+
+	public abstract void attack(Animal animal_01, Animal animal_02);
+
+	public abstract String specialAction();
+
+	public abstract void scream();
 
 }

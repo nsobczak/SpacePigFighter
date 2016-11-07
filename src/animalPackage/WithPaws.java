@@ -1,6 +1,6 @@
 package animalPackage;
 
-public abstract class WithPaws extends Animal implements CharacteristicsInterface {
+public abstract class WithPaws extends Animal {
 
 	/*
 	 * ___________________________________________________________________________________________
