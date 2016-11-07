@@ -2,6 +2,7 @@ package cubeEnvironment;
 
 import spaceObjects.Meteorite;
 import spaceObjects.Spacecraft;
+import playerPackage.Player;
 
 public class CubeEnvironment {
 
@@ -20,7 +21,14 @@ public class CubeEnvironment {
   /** 
    *  Constructor
    */
-  public void CubeEnvironment() {
+  public CubeEnvironment() {
+  }
+  /**
+   * Constuctor 
+   * @param playerI
+   */
+  public CubeEnvironment(Player playerI) {
+	  this.spacecraft = playerI.spacecraft;
   }
 
   public Spacecraft getSpacecraft() {

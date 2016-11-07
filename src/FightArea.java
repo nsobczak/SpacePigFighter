@@ -1,4 +1,5 @@
 import animalPackage.Animal;
+import playerPackage.Player;
 
 /**
  * ===== Class FightArea =====

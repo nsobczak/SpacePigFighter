@@ -1,4 +1,5 @@
 import cubeEnvironment.CubeEnvironment;
+import playerPackage.Player;
 
 public class Space implements ExecutionInterface{
 
@@ -15,9 +16,9 @@ public class Space implements ExecutionInterface{
 	 * 
 	 * @param 1 Player player_1
 	 * @param 1 Player player_2
-	 * @return nothing
 	 */
 	public Space(Player player_1, Player player_2) {
+		this.cubeEnvironment_01 = new CubeEnvironment(player_1);
 	}
 
 	/*

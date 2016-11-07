@@ -1,3 +1,5 @@
+package playerPackage;
+
 import spaceObjects.Spacecraft;
 import animalPackage.Animal;
 import animalPackage.Bear;
