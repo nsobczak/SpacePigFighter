@@ -87,6 +87,7 @@ public class Main {
 	public static void part_1(Player player_1, Player player_2) {
 		// TODO HERE: Part 1 of the game
 		Space space = new Space(player_1, player_2);
+//		space.run();
 
 		System.out.println("This is part 1 !!!");
 	}
@@ -101,6 +102,7 @@ public class Main {
 	public static void part_2(Player player_1, Player player_2) {
 		// TODO HERE: Part 2 of the game
 		FightArea fightArea = new FightArea(player_1, player_2);
+//		fightArea.run():
 
 		System.out.println("This is part 2 !!!");
 	}

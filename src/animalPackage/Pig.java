@@ -13,7 +13,6 @@ public class Pig extends WithPaws {
 	 * Constructor
 	 * 
 	 * @param 1 String = pig's Pseudo
-	 * @return nothing
 	 */
 	public Pig(String newPseudo) {
 		super(newPseudo);
@@ -24,7 +23,6 @@ public class Pig extends WithPaws {
 	 * 
 	 * @param 1 String = pig's Pseudo
 	 * @param 1 String = pig's color
-	 * @return nothing
 	 */
 	public Pig(String newPseudo, String newColor) {
 		super(newPseudo, newColor);

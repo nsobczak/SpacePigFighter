@@ -37,7 +37,6 @@ public abstract class Animal {
 	 * Constructor
 	 * 
 	 * @param 1 String = animal's Pseudo
-	 * @return nothing
 	 */
 	public Animal(String newPseudo) {
 		this.PSEUDO = newPseudo;
@@ -49,7 +48,6 @@ public abstract class Animal {
 	 * 
 	 * @param 1 String = animal's Pseudo
 	 * @param 1 String = animal's color
-	 * @return nothing
 	 */
 	public Animal(String newPseudo, String newColor) {
 		this.PSEUDO = newPseudo;
@@ -63,7 +61,6 @@ public abstract class Animal {
 	/**
 	 * Get animal's color
 	 * 
-	 * @param nothing
 	 * @return 1 String = animal's color value
 	 */
 	public String getColor() {
@@ -73,7 +70,6 @@ public abstract class Animal {
 	/**
 	 * Get animal's force
 	 * 
-	 * @param nothing
 	 * @return 1 int = animal's force value
 	 */
 	public Integer getForce() {
@@ -83,7 +79,6 @@ public abstract class Animal {
 	/**
 	 * Get animal's life
 	 * 
-	 * @param nothing
 	 * @return 1 int = animal's life value
 	 */
 	public Integer getLife() {
@@ -93,7 +88,6 @@ public abstract class Animal {
 	/**
 	 * Get animal's pseudo
 	 * 
-	 * @param nothing
 	 * @return 1 String = animal's pseudo value
 	 */
 	public String getPSEUDO() {
@@ -103,7 +97,6 @@ public abstract class Animal {
 	/**
 	 * Get animal's resistance
 	 * 
-	 * @param nothing
 	 * @return 1 int = animal's resistance value
 	 */
 	public Integer getResistance() {
@@ -113,7 +106,6 @@ public abstract class Animal {
 	/**
 	 * Get animal's defensif stuff
 	 * 
-	 * @param nothing
 	 * @return 1 Defensif = animal's defensif stuff
 	 */
 	public Defensif getStuffDefensif() {
@@ -123,7 +115,6 @@ public abstract class Animal {
 	/**
 	 * Get animal's offensif stuff
 	 * 
-	 * @param nothing
 	 * @return 1 Offensif = animal's offensif stuff
 	 */
 	public Offensif getStuffOffensif() {
@@ -138,7 +129,6 @@ public abstract class Animal {
 	 * Set animal's color
 	 * 
 	 * @param 1 String = animal's color value
-	 * @return nothing
 	 */
 	public void setColor(String colorValue) {
 		this.color = colorValue;
@@ -148,7 +138,6 @@ public abstract class Animal {
 	 * Set animal's force
 	 * 
 	 * @param 1 int = animal's force value
-	 * @return nothing
 	 */
 	public void setForce(Integer forceValue) {
 		this.force = forceValue;
@@ -158,7 +147,6 @@ public abstract class Animal {
 	 * Set animal's resistance
 	 * 
 	 * @param 1 int = animal's resistance value
-	 * @return nothing
 	 */
 	public void setResistance(Integer resistanceValue) {
 		this.resistance = resistanceValue;
@@ -168,7 +156,6 @@ public abstract class Animal {
 	 * Set animal's life
 	 * 
 	 * @param 1 int = animal's life value
-	 * @return nothing
 	 */
 	public void setLife(Integer lifeValue) {
 		this.life = lifeValue;
@@ -178,7 +165,6 @@ public abstract class Animal {
 	 * Set animal's defensif stuff
 	 * 
 	 * @param 1 Defensif = animal's defensif stuff
-	 * @return nothing
 	 */
 	public void setStuffDefensif(Defensif newDefensif) {
 		this.stuffDefensif = newDefensif;
@@ -188,7 +174,6 @@ public abstract class Animal {
 	 * Set animal's offensif stuff
 	 * 
 	 * @param 1 Offensif = animal's offensif stuff
-	 * @return nothing
 	 */
 	public void setStuffOffensif(Offensif newOffensif) {
 		this.stuffOffensif = newOffensif;

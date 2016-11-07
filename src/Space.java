@@ -1,11 +1,15 @@
 import cubeEnvironment.CubeEnvironment;
 
-public class Space{
+public class Space implements ExecutionInterface{
 
 	public CubeEnvironment cubeEnvironment_01;
 
 	public CubeEnvironment cubeEnvironment_02;
 
+	/*
+	 * ___________________________________________________________________________________________
+	 * Constructors
+	 */
 	/**
 	 * Constructor
 	 * 
@@ -16,5 +20,15 @@ public class Space{
 	public Space(Player player_1, Player player_2) {
 	}
 
-
+	/*
+	 * ___________________________________________________________________________________________
+	 * Functions
+	 */
+	/**
+	 * run()
+	 * 
+	 */
+	public void run() {
+		
+	}
 }

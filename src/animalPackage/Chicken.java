@@ -10,7 +10,6 @@ public class Chicken extends WithWings {
 	 * Constructor
 	 * 
 	 * @param 1 String = chicken's Pseudo
-	 * @return nothing
 	 */
 	public Chicken(String newPseudo) {
 		super(newPseudo);
@@ -21,7 +20,6 @@ public class Chicken extends WithWings {
 	 * 
 	 * @param 1 String = chicken's Pseudo
 	 * @param 1 String = chicken's color
-	 * @return nothing
 	 */
 	public Chicken(String newPseudo, String newColor) {
 		super(newPseudo, newColor);

@@ -10,7 +10,6 @@ public abstract class WithPaws extends Animal implements CharacteristicsInterfac
 	 * Constructor
 	 * 
 	 * @param 1 String = animal's Pseudo
-	 * @return nothing
 	 */
 	public WithPaws(String newPseudo) {
 		super(newPseudo);
@@ -21,7 +20,6 @@ public abstract class WithPaws extends Animal implements CharacteristicsInterfac
 	 * 
 	 * @param 1 String = animal's Pseudo
 	 * @param 1 String = animal's color
-	 * @return nothing
 	 */
 	public WithPaws(String newPseudo, String newColor) {
 		super(newPseudo, newColor);
@@ -34,7 +32,6 @@ public abstract class WithPaws extends Animal implements CharacteristicsInterfac
 	/**
 	 * Get animal's color
 	 * 
-	 * @param nothing
 	 * @return 1 String = animal's color value
 	 */
 	
@@ -46,7 +43,6 @@ public abstract class WithPaws extends Animal implements CharacteristicsInterfac
 	 * Set animal's color
 	 * 
 	 * @param 1 String = animal's color value
-	 * @return nothing
 	 */
 	
 	

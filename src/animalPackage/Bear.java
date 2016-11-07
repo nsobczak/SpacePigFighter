@@ -10,7 +10,6 @@ public class Bear extends WithPaws {
 	 * Constructor
 	 * 
 	 * @param 1 String = bear's Pseudo
-	 * @return nothing
 	 */
 	public Bear(String newPseudo) {
 		super(newPseudo);
@@ -21,7 +20,6 @@ public class Bear extends WithPaws {
 	 * 
 	 * @param 1 String = bear's Pseudo
 	 * @param 1 String = bear's color
-	 * @return nothing
 	 */
 	public Bear(String newPseudo, String newColor) {
 		super(newPseudo, newColor);

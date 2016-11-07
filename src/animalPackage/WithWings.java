@@ -10,7 +10,6 @@ public abstract class WithWings extends Animal implements CharacteristicsInterfa
 	 * Constructor
 	 * 
 	 * @param 1 String = animal's Pseudo
-	 * @return nothing
 	 */
 	public WithWings(String newPseudo) {
 		super(newPseudo);
@@ -21,7 +20,6 @@ public abstract class WithWings extends Animal implements CharacteristicsInterfa
 	 * 
 	 * @param 1 String = animal's Pseudo
 	 * @param 1 String = animal's color
-	 * @return nothing
 	 */
 	public WithWings(String newPseudo, String newColor) {
 		super(newPseudo, newColor);
