@@ -1,6 +1,6 @@
 package animalPackage;
 
-public class Tiger extends WithPaws {
+public class Tiger extends WithPaws implements BeFierce {
 
 	/*
 	 * ___________________________________________________________________________________________
@@ -52,4 +52,12 @@ public class Tiger extends WithPaws {
 	public void scream() {
 	}
 
+	/**
+	 * beFierce : function which return an adjective to describe behavior
+	 * 
+	 * @return 1 String = an adjective
+	 */
+	public String beFierce() {
+		return "savagely";
+	}
 }

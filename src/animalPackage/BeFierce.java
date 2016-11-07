@@ -8,6 +8,11 @@ package animalPackage;
  */
 public interface BeFierce {
 
-  public String beFierce();
+	/**
+	 * beFierce : function which return an adjective to describe behavior
+	 * 
+	 * @return 1 String = an adjective
+	 */
+	public String beFierce();
 
 }

@@ -8,6 +8,11 @@ package animalPackage;
  */
 public interface BeGentle {
 
-  public String beKind();
+	/**
+	 * beKind : function which return an adjective to describe behavior
+	 * 
+	 * @return 1 String = an adjective
+	 */
+	public String beKind();
 
 }

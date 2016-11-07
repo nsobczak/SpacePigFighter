@@ -1,6 +1,6 @@
 package animalPackage;
 
-public class Chicken extends WithWings {
+public class Chicken extends WithWings implements BeFierce{
 
 	/*
 	 * ___________________________________________________________________________________________
@@ -51,6 +51,15 @@ public class Chicken extends WithWings {
 	}
 
 	public void scream() {
+	}
+	
+	/**
+	 * beFierce : function which return an adjective to describe behavior
+	 * 
+	 * @return 1 String = an adjective
+	 */
+	public String beFierce() {
+		return "ferociously";
 	}
 
 }

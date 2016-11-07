@@ -1,6 +1,6 @@
 package animalPackage;
 
-public class Duck extends WithWings {
+public class Duck extends WithWings implements BeGentle {
 
 	/*
 	 * ___________________________________________________________________________________________
@@ -38,8 +38,10 @@ public class Duck extends WithWings {
 	/**
 	 * attack : function which executes a basic attack
 	 * 
-	 * @param Animal = animal_01 : attacker
-	 * @param Animal = animal_02 : defender
+	 * @param Animal
+	 *            = animal_01 : attacker
+	 * @param Animal
+	 *            = animal_02 : defender
 	 */
 	public void attack(Animal animal_01, Animal animal_02) {
 		super.attack(animal_01, animal_02);
@@ -50,6 +52,15 @@ public class Duck extends WithWings {
 	}
 
 	public void scream() {
+	}
+
+	/**
+	 * beKind : function which return an adjective to describe behavior
+	 * 
+	 * @return 1 String = an adjective
+	 */
+	public String beKind() {
+		return "gently";
 	}
 
 }
