@@ -91,23 +91,47 @@ public class CubeEnvironment {
 	 */
 	/**
 	 * Set CubeEnvironment spacecraft
+	 * 
+	 * @param 1
+	 *            Spacecraft = newSpacecraft
 	 */
 	public void setSpacecraft(Spacecraft newSpacecraft) {
-		
+		this.spacecraft = newSpacecraft;
 	}
 
+	/**
+	 * Set CubeEnvironment meteoriteSmall
+	 * 
+	 * @param 1 Meteorite = newMeteorite
+	 */
 	public void setMeteoriteSmall(Meteorite newMeteorite) {
+		this.meteoriteSmall = newMeteorite;
 	}
 
+	/**
+	 * Set CubeEnvironment meteoriteMedium
+	 * 
+	 * @param 1 Meteorite = newMeteorite
+	 */
 	public void setMeteoriteMedium(Meteorite newMeteorite) {
+		this.meteoriteMedium = newMeteorite;
 	}
 
+	/**
+	 * Set CubeEnvironment meteoriteBig
+	 * 
+	 * @param 1 Meteorite = newMeteorite
+	 */
 	public void setMeteoriteBig(Meteorite newMeteorite) {
+		this.meteoriteBig = newMeteorite;
 	}
 
 	/*
 	 * ___________________________________________________________________________________________
 	 * Functions
 	 */
+	public void relocateAllUfo(){
+		
+	}
 
 }
