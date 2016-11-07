@@ -6,7 +6,7 @@ import animalPackage.Animal;
  * @author Nicolas Sobczak
  * @version 1.01, 11/2016
  */
-public class FightArea implements Logger {
+public class FightArea {
 
 	public Animal animal_player_01;
 
@@ -28,8 +28,5 @@ public class FightArea implements Logger {
 		this.animal_player_02 = newPlayer_02.animal;
 	}
 
-	public void loggingInfo(String info) {
-		System.out.println("loggingInfo: " + info);
-	}
 
 }
