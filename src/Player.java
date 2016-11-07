@@ -27,36 +27,38 @@ public class Player {
 	 * 
 	 * @param 1 int animalClass
 	 * @param 1 String newPseudo
+	 * @param 1 String animalColor
+	 * @param 1 String spacecraftColor
 	 * @return nothing
 	 */
-	public Player(int animalClass, String newPseudo) {
+	public Player(int animalClass, String newPseudo, String animalColor, String spacecraftColor){
 
 		Animal newAnimal = null;
 		// 1 for Bear | 2 for Chicken | 3 for Duck | 4 for Pig | 5 for Tiger
 		switch (animalClass) {
 		case 1:
 			System.out.println("Bear chosen");
-			newAnimal = new Bear(newPseudo);
+			newAnimal = new Bear(newPseudo, animalColor);
 			break;
 		case 2:
 			System.out.println("Chicken chosen");
-			newAnimal = new Chicken(newPseudo);
+			newAnimal = new Chicken(newPseudo, animalColor);
 			break;
 		case 3:
 			System.out.println("Duck chosen");
-			newAnimal = new Duck(newPseudo);
+			newAnimal = new Duck(newPseudo, animalColor);
 			break;
 		case 5:
 			System.out.println("Tiger chosen");
-			newAnimal = new Tiger(newPseudo);
+			newAnimal = new Tiger(newPseudo, animalColor);
 			break;
 		default:
 			System.out.println("Pig chosen");
-			newAnimal = new Pig(newPseudo);
+			newAnimal = new Pig(newPseudo, animalColor);
 		}
 		this.animal = newAnimal;
 
-		Spacecraft newSpacecraft = new Spacecraft(this.animal);
+		Spacecraft newSpacecraft = new Spacecraft(spacecraftColor, this.animal);
 		this.spacecraft = newSpacecraft;
 	}
 

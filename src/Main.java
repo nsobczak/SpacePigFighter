@@ -1,7 +1,7 @@
-import java.io.IOException;
+//import java.io.IOException;
 import java.util.Scanner;
 import java.io.File;
-import java.io.FileOutputStream;
+//import java.io.FileOutputStream;
 
 /**
  * ===== Class Main =====
@@ -65,9 +65,15 @@ public class Main {
 
 		System.out.println("Enter your pseudo:");
 		String pseudoEntered = scan.nextLine();
-
+		
+		System.out.println("Enter your animal color:");
+		String animalColor = scan.nextLine();
+		
+		System.out.println("Enter your spacecraft color:");
+		String spacecraftColor = scan.nextLine();
+		
 		// scan.close(); // Ca merde quand on close => etrange !
-		Player returnedPlayer = new Player(classEnteredInt, pseudoEntered);
+		Player returnedPlayer = new Player(classEnteredInt, pseudoEntered, animalColor, spacecraftColor);
 		return returnedPlayer;
 	}
 

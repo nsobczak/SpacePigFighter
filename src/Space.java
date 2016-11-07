@@ -1,6 +1,6 @@
 import cubeEnvironment.CubeEnvironment;
 
-public class Space {
+public class Space{
 
 	public CubeEnvironment cubeEnvironment_01;
 
@@ -11,6 +11,7 @@ public class Space {
 	 * 
 	 * @param 1 Player player_1
 	 * @param 1 Player player_2
+	 * @return nothing
 	 */
 	public Space(Player player_1, Player player_2) {
 	}

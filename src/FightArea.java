@@ -19,13 +19,13 @@ public class FightArea {
 	/**
 	 * Constructor
 	 * 
-	 * @param 1 Player newPlayer_01
-	 * @param 1 Player newPlayer_02
+	 * @param 1 Player player_01
+	 * @param 1 Player player_02
 	 * @return nothing
 	 */
-	public FightArea(Player newPlayer_01, Player newPlayer_02) {
-		this.animal_player_01 = newPlayer_01.animal;
-		this.animal_player_02 = newPlayer_02.animal;
+	public FightArea(Player player_01, Player player_02) {
+		this.animal_player_01 = player_01.animal;
+		this.animal_player_02 = player_02.animal;
 	}
 
 
