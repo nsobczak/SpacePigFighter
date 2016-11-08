@@ -11,19 +11,19 @@
 
 ## Set the game
 
+- set Player class for each player
 - set Space class with 2 CubeEnvironment (1 for each player). Each CubeEnvironment is set with 3 meteorites and 1 spacecraft.
 - set FightArea class with 2 pigs. Each pig is initialized with stuff selected by the player.
 
 
 ## Part 1 of the game
 
-- launch part1 of the game: space battle. You have to find the right location of the other player's spacecraft by entering a position. Each player try to guess turn by turn.
-You have to be careful, avoid meteorites ! Otherwise your pig's life will decrease.
+- launch part1 of the game: space battle. You have to find the right location of the other player's spacecraft by entering a position. Each player try to guess turn by turn. You have to be careful, avoid meteorites ! Otherwise your pig's life will decrease.
 - when a player find the other one's spacecraft, he climbs aboard and it's time for part 2 of the game.
 
 ### The Space :
 
-is composed by 2 CubeEnvironment created thanks to the 2 Player
+It is composed by 2 CubeEnvironment created thanks to the 2 Player.
 
 
 ## Part 2 of the game
