@@ -15,20 +15,19 @@ Each pig has several caracteristics and some weapon.
 
 |Animal class | life | force | resistance | special attack |
 |---|---|---|---|---|
-|Chicken | low | big | mid | triple attack |
-|Tiger | mid | big | low | paralyze foe which can't attack next turn |
-|Pig | mid | low | big | moreDamage |
-|Duck | big | mid | low | fly |
 |Bear | mid | mid | big | damageAnnulation |
-
+|Chicken | low | big | mid | triple attack |
+|Duck | big | mid | low | fly |
+|Pig | mid | low | big | moreDamage |
+|Tiger | mid | big | low | paralyze foe which can't attack next turn |
 
 |Animal class | life | force | resistance | special attack |
 |---|---|---|---|---|
-|Chicken | 800 | 130 | 20 | triple attack: nn |
-|Tiger | 1000 | 130 | 0 | paralyze foe which can't attack next turn: nn |
-|Pig | 1000 | 90 | 40 | moreDamage: nn |
-|Duck | 1200 | 110 | 0 | fly: nn |
 |Bear | 1000 | 110 | 40 | damageAnnulation: nn |
+|Chicken | 800 | 130 | 20 | triple attack: nn |
+|Duck | 1200 | 110 | 0 | fly: nn |
+|Pig | 1000 | 90 | 40 | moreDamage: nn |
+|Tiger | 1000 | 130 | 0 | paralyze foe which can't attack next turn: nn |
 
 
 ### Animal specialAttack
