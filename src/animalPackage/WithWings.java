@@ -1,7 +1,7 @@
 package animalPackage;
 
 /**
- * ===== Abstract Class WithWings =====
+ * ===== Class WithWings =====
  * 
  * @author Nicolas Sobczak
  * @version 1.03, 11/2016

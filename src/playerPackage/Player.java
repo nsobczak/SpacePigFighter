@@ -31,7 +31,6 @@ public class Player {
 	 * @param 1 String newPseudo
 	 * @param 1 String animalColor
 	 * @param 1 String spacecraftColor
-	 * @return nothing
 	 */
 	public Player(int animalClass, String newPseudo, String animalColor, String spacecraftColor){
 
@@ -71,7 +70,6 @@ public class Player {
 	/**
 	 * Get player's animal
 	 * 
-	 * @param nothing
 	 * @return 1 Animal = player's animal
 	 */
 	public Animal getAnimal() {
@@ -81,7 +79,6 @@ public class Player {
 	/**
 	 * Get player's spacecraft
 	 * 
-	 * @param nothing
 	 * @return 1 Spacecraft = player's spacecraft
 	 */
 	public Spacecraft getSpacecraft() {
