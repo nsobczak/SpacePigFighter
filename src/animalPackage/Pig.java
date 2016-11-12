@@ -3,7 +3,7 @@ package animalPackage;
 /**
  * Class pig = pig fighter
  */
-public class Pig extends WithPaws implements BeGentle {
+public class Pig extends WithPaws {
 
 	/*
 	 * ___________________________________________________________________________________________
@@ -57,13 +57,5 @@ public class Pig extends WithPaws implements BeGentle {
 	public void scream() {
 	}
 
-	/**
-	 * beKind : function which return an adjective to describe behavior
-	 * 
-	 * @return 1 String = an adjective
-	 */
-	public String beKind() {
-		return "kindly";
-	}
 
 }
