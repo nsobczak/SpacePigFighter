@@ -53,8 +53,11 @@ public class Duck extends WithWings {
 		return super.specialAction(attackedAnimal);
 	}
 
+	/**
+	 * scream : function which makes the animal scream
+	 */
 	public void scream() {
+		System.out.println(this.getPSEUDO() + " gossips");
 	}
-
 
 }

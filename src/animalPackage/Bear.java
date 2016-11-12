@@ -54,7 +54,11 @@ public class Bear extends WithPaws implements BeFierce {
 		return super.specialAction(attackedAnimal);
 	}
 
+	/**
+	 * scream : function which makes the animal scream
+	 */
 	public void scream() {
+		System.out.println(this.getPSEUDO() + " grunts " + beFierce());
 	}
 
 	/**

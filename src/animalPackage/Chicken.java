@@ -55,9 +55,13 @@ public class Chicken extends WithWings implements BeFierce {
 		return super.specialAction(attackedAnimal);
 	}
 
+	/**
+	 * scream : function which makes the animal scream
+	 */
 	public void scream() {
+		System.out.println(this.getPSEUDO() + " squeals " + beFierce());
 	}
-
+	
 	/**
 	 * beFierce : function which return an adjective to describe behavior
 	 * 

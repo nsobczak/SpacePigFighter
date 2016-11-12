@@ -56,7 +56,11 @@ public class Pig extends WithPaws {
 		return super.specialAction(attackedAnimal);
 	}
 
+	/**
+	 * scream : function which makes the animal scream
+	 */
 	public void scream() {
+		System.out.println(this.getPSEUDO() + " grunts");
 	}
 
 
