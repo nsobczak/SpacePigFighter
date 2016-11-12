@@ -14,7 +14,7 @@ public class FightArea implements ExecutionInterface {
 	private Animal animal_player_01;
 
 	private Animal animal_player_02;
-
+	
 	/*
 	 * ___________________________________________________________________________________________
 	 * Constructors
@@ -52,6 +52,7 @@ public class FightArea implements ExecutionInterface {
 		return this.animal_player_02;
 	}
 	
+	
 	/*
 	 * ___________________________________________________________________________________________
 	 * Setters
@@ -73,6 +74,7 @@ public class FightArea implements ExecutionInterface {
 	public void setAnimalPlayer02(Animal new_animal_player_02) {
 		this.animal_player_02 = new_animal_player_02;
 	}
+	
 
 	/*
 	 * ___________________________________________________________________________________________

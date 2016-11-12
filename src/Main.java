@@ -1,8 +1,7 @@
-//import java.io.IOException;
 import java.util.Scanner;
-import java.io.File;
-//import java.io.FileOutputStream;
 import playerPackage.Player;
+import fileManagementPackage.*;
+
 
 /**
  * ===== Class Main =====
@@ -11,27 +10,6 @@ import playerPackage.Player;
  * @version 1.01, 10/2016
  */
 public class Main {
-
-	/**
-	 * playerCreation function
-	 * 
-	 * @param 1 String = fileName
-	 * @param 1 String = stringToWrite
-	 */
-	public static void loggingFile(File fileName, String stringToWrite) {
-		try {
-			// BufferedWriter bw = new BufferedWriter(new
-			// FileWriter("repertoire.txt"));
-			// PrintWriter pWriter = new PrintWriter(bw);
-			// pWriter.print(nom+":"+numero);
-			// pWriter.close() ;
-			//
-			// fw.close();
-		} catch (NullPointerException exception) {
-			System.out.println("Erreur lors de la lecture : "
-					+ exception.getMessage());
-		}
-	}
 
 	/**
 	 * playerCreation function
@@ -102,13 +80,13 @@ public class Main {
 	 * @param 1 Player = player_1
 	 * @param 1 Player = player_2
 	 */
-	public static void part_2(Player player_1, Player player_2) {
+	public static String part_2(Player player_1, Player player_2) {
 		// TODO HERE: Part 2 of the game
 		System.out.println("This is part 2 !!!");
-
 		FightArea fightArea = new FightArea(player_1, player_2);
 		String result = fightArea.run();
 		System.out.println(result);
+		return result;
 	}
 
 	/**
@@ -121,10 +99,6 @@ public class Main {
 		// TODO Main loop
 		System.out.println("Welcome in spacePigFighter");
 		System.out.println("spacePigFighter is an awesome fight game");
-
-		// Initialisation
-		// File storyFile = new File("storyFile");
-		// loggingFile(storyFile, "Welcome in spacePigFighter");
 
 		// Players
 		System.out.println("\nEntering player creation...");
@@ -141,10 +115,15 @@ public class Main {
 
 		// Part2
 		System.out.println("\nEntering part 2 of the game...");
-		part_2(player_1, player_2);
+		String fightResult = part_2(player_1, player_2);
 		System.out.println("...End of part 2");
 
 		System.out.println("\nThis is the end of the game");
+
+		// logger
+		String story = FileManagement.writeStory(player_1, player_2, fightResult);
+		FileManagement.createFile("SpacePigFighter.log");
+		FileManagement.writeFile("SpacePigFighter.log", story);
 	}
 
 }
