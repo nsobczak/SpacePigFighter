@@ -38,20 +38,25 @@ public class Bear extends WithPaws implements BeFierce {
 	/**
 	 * attack : function which executes a basic attack
 	 * 
-	 * @param Animal = animal_01 : attacker
-	 * @param Animal = animal_02 : defender
+	 * @param Animal
+	 *            attackedAnimal
 	 */
-	public void attack(Animal animal_01, Animal animal_02) {
-		super.attack(animal_01, animal_02);
+	public void attack(Animal attackedAnimal) {
+		super.attack(attackedAnimal);
 	}
 
-	public String specialAction() {
-		return null;
+	/**
+	 * attack : function which executes a special attack
+	 * 
+	 * @param Animal attackedAnimal
+	 */
+	public String specialAction(Animal attackedAnimal) {
+		return super.specialAction(attackedAnimal);
 	}
 
 	public void scream() {
 	}
-	
+
 	/**
 	 * beFierce : function which return an adjective to describe behavior
 	 * 

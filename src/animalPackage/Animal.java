@@ -192,9 +192,19 @@ public abstract class Animal {
 		this.setLife(this.life - damages);
 	}
 
-	public abstract void attack(Animal animal_01, Animal animal_02);
+	/**
+	 * attack : abstract function which executes a normal attack
+	 * 
+	 * @param Animal attackedAnimal
+	 */
+	public abstract void attack(Animal attackedAnimal);
 
-	public abstract String specialAction();
+	/**
+	 * attack : abstract function which executes a special attack
+	 * 
+	 * @param Animal attackedAnimal
+	 */
+	public abstract String specialAction(Animal attackedAnimal);
 
 	public abstract void scream();
 

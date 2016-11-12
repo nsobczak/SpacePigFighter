@@ -32,7 +32,8 @@ public class Space implements ExecutionInterface {
 	 * run()
 	 * 
 	 */
-	public void run() {
-
+	public String run() {
+		String result = null;
+		return result;
 	}
 }

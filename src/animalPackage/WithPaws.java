@@ -14,7 +14,7 @@ public abstract class WithPaws extends Animal {
 	public WithPaws(String newPseudo) {
 		super(newPseudo);
 	}
-	
+
 	/**
 	 * Constructor
 	 * 
@@ -34,7 +34,7 @@ public abstract class WithPaws extends Animal {
 	 * 
 	 * @return 1 String = animal's color value
 	 */
-	
+
 	/*
 	 * ___________________________________________________________________________________________
 	 * Setters
@@ -44,8 +44,7 @@ public abstract class WithPaws extends Animal {
 	 * 
 	 * @param 1 String = animal's color value
 	 */
-	
-	
+
 	/*
 	 * ___________________________________________________________________________________________
 	 * Functions
@@ -53,17 +52,21 @@ public abstract class WithPaws extends Animal {
 	/**
 	 * attack : function which executes a basic attack
 	 * 
-	 * @param Animal animal_01
-	 * @param Animal animal_02
-	 * @return nothing
+	 * @param Animal
+	 *            attackedAnimal
 	 */
-	public void attack(Animal animal_01, Animal animal_02) {
+	public void attack(Animal attackedAnimal) {
 		System.out.println("I fight with my paws !");
-		int damage = animal_01.force - animal_02.resistance;
-		animal_02.decreaseLife(damage);
+		int damage = this.force - attackedAnimal.resistance;
+		attackedAnimal.decreaseLife(damage);
 	}
-	
-	public String specialAction() {
+
+	/**
+	 * attack : function which executes a special attack
+	 * 
+	 * @param Animal attackedAnimal
+	 */
+	public String specialAction(Animal attackedAnimal) {
 		return "specialAction";
 	}
 

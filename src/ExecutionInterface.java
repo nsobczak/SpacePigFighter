@@ -6,6 +6,6 @@
  */
 public interface ExecutionInterface {
 
-  public void run();
+  public String run();
 
 }

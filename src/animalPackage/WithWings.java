@@ -32,17 +32,20 @@ public abstract class WithWings extends Animal {
 	/**
 	 * attack : function which executes a basic attack
 	 * 
-	 * @param Animal animal_01
-	 * @param Animal animal_02
-	 * @return nothing
+	 * @param Animal attackedAnimal
 	 */
-	public void attack(Animal animal_01, Animal animal_02) {
+	public void attack(Animal attackedAnimal){
 		System.out.println("I fight with my wings !");
-		int damage = animal_01.force - animal_02.resistance;
-		animal_02.decreaseLife(damage);
+		int damage = this.force - attackedAnimal.resistance;
+		attackedAnimal.decreaseLife(damage);
 	}
 	
-	public String specialAction() {
+	/**
+	 * attack : function which executes a special attack
+	 * 
+	 * @param Animal attackedAnimal
+	 */
+	public String specialAction(Animal attackedAnimal) {
 		return "specialAction";
 	}
 

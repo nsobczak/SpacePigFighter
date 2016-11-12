@@ -102,10 +102,11 @@ public class Main {
 	 */
 	public static void part_2(Player player_1, Player player_2) {
 		// TODO HERE: Part 2 of the game
-		FightArea fightArea = new FightArea(player_1, player_2);
-		// fightArea.run():
-
 		System.out.println("This is part 2 !!!");
+
+		FightArea fightArea = new FightArea(player_1, player_2);
+		String result = fightArea.run();
+		System.out.println(result);
 	}
 
 	/**
