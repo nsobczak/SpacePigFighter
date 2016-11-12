@@ -1,5 +1,11 @@
 package animalPackage;
 
+/**
+ * ===== Class Chicken =====
+ * 
+ * @author Nicolas Sobczak
+ * @version 1.03, 11/2016
+ */
 public class Chicken extends WithWings implements BeFierce {
 
 	/*

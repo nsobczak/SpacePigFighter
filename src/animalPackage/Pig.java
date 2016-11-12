@@ -1,7 +1,10 @@
 package animalPackage;
 
 /**
- * Class pig = pig fighter
+ * ===== Class Pig =====
+ * 
+ * @author Nicolas Sobczak
+ * @version 1.03, 11/2016
  */
 public class Pig extends WithPaws {
 

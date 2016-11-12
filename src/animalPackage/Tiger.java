@@ -1,5 +1,11 @@
 package animalPackage;
 
+/**
+ * ===== Class Tiger =====
+ * 
+ * @author Nicolas Sobczak
+ * @version 1.03, 11/2016
+ */
 public class Tiger extends WithPaws implements BeFierce {
 
 	/*

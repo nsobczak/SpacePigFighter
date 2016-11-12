@@ -7,7 +7,7 @@ import playerPackage.Player;
  * ===== Class FightArea =====
  * 
  * @author Nicolas Sobczak
- * @version 1.01, 11/2016
+ * @version 1.03, 11/2016
  */
 public class FightArea implements ExecutionInterface {
 
@@ -26,8 +26,8 @@ public class FightArea implements ExecutionInterface {
 	 * @param 1 Player = player_02
 	 */
 	public FightArea(Player player_01, Player player_02) {
-		this.animal_player_01 = player_01.animal;
-		this.animal_player_02 = player_02.animal;
+		this.animal_player_01 = player_01.getAnimal();
+		this.animal_player_02 = player_02.getAnimal();
 	}
 	
 	/*
@@ -35,7 +35,7 @@ public class FightArea implements ExecutionInterface {
 	 * Getters
 	 */
 	/**
-	 * Getter
+	 * Get FighteArea's animal_player_01
 	 * 
 	 * @return animal_player_01
 	 */
@@ -44,7 +44,7 @@ public class FightArea implements ExecutionInterface {
 	}
 	
 	/**
-	 * Getter
+	 * Get FighteArea's animal_player_02
 	 * 
 	 * @return animal_player_02
 	 */
@@ -57,7 +57,7 @@ public class FightArea implements ExecutionInterface {
 	 * Setters
 	 */
 	/**
-	 * Setter
+	 * Set FighteArea's animal_player_01
 	 * 
 	 * @param Animal new_animal_player_01
 	 */
@@ -66,7 +66,7 @@ public class FightArea implements ExecutionInterface {
 	}
 	
 	/**
-	 * Setter
+	 * Set FighteArea's animal_player_02
 	 * 
 	 * @param Animal new_animal_player_02
 	 */

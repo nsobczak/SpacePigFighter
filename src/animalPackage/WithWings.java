@@ -1,5 +1,11 @@
 package animalPackage;
 
+/**
+ * ===== Abstract Class WithWings =====
+ * 
+ * @author Nicolas Sobczak
+ * @version 1.03, 11/2016
+ */
 public abstract class WithWings extends Animal {
 
 	/*
@@ -32,24 +38,23 @@ public abstract class WithWings extends Animal {
 	/**
 	 * attack : function which executes a basic attack
 	 * 
-	 * @param Animal attackedAnimal
+	 * @param Animal
+	 *            attackedAnimal
 	 */
-	public void attack(Animal attackedAnimal){
+	public void attack(Animal attackedAnimal) {
 		System.out.println("I fight with my wings !");
 		int damage = this.force - attackedAnimal.resistance;
 		attackedAnimal.decreaseLife(damage);
 	}
-	
+
 	/**
 	 * attack : function which executes a special attack
 	 * 
-	 * @param Animal attackedAnimal
+	 * @param Animal
+	 *            attackedAnimal
 	 */
 	public String specialAction(Animal attackedAnimal) {
 		return "specialAction";
-	}
-
-	public void scream() {
 	}
 
 }

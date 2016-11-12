@@ -1,5 +1,11 @@
 package animalPackage;
 
+/**
+ * ===== Abstract Class WithPaws =====
+ * 
+ * @author Nicolas Sobczak
+ * @version 1.03, 11/2016
+ */
 public abstract class WithPaws extends Animal {
 
 	/*
@@ -27,26 +33,6 @@ public abstract class WithPaws extends Animal {
 
 	/*
 	 * ___________________________________________________________________________________________
-	 * Getters
-	 */
-	/**
-	 * Get animal's color
-	 * 
-	 * @return 1 String = animal's color value
-	 */
-
-	/*
-	 * ___________________________________________________________________________________________
-	 * Setters
-	 */
-	/**
-	 * Set animal's color
-	 * 
-	 * @param 1 String = animal's color value
-	 */
-
-	/*
-	 * ___________________________________________________________________________________________
 	 * Functions
 	 */
 	/**
@@ -64,13 +50,11 @@ public abstract class WithPaws extends Animal {
 	/**
 	 * attack : function which executes a special attack
 	 * 
-	 * @param Animal attackedAnimal
+	 * @param Animal
+	 *            attackedAnimal
 	 */
 	public String specialAction(Animal attackedAnimal) {
 		return "specialAction";
-	}
-
-	public void scream() {
 	}
 
 }

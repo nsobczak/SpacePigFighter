@@ -16,9 +16,9 @@ import animalPackage.Tiger;
  */
 public class Player {
 
-	public Animal animal;
+	private Animal animal;
 
-	public Spacecraft spacecraft;
+	private Spacecraft spacecraft;
 
 	/*
 	 * ___________________________________________________________________________________________

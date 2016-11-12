@@ -7,7 +7,7 @@ import playerPackage.Player;
  * ===== Class CubeEnvironment =====
  * 
  * @author Vincent Reynaert
- * @version 1.02, 11/2016
+ * @version 1.03, 11/2016
  */
 public class CubeEnvironment {
 
@@ -39,7 +39,7 @@ public class CubeEnvironment {
 	 *            Player = playerI
 	 */
 	public CubeEnvironment(Player playerI) {
-		this.spacecraft = playerI.spacecraft;
+		this.spacecraft = playerI.getSpacecraft();
 		this.meteoriteSmall = new Meteorite(MeteoriteSize.SMALL);
 		this.meteoriteMedium = new Meteorite(MeteoriteSize.MEDIUM);
 		this.meteoriteBig = new Meteorite(MeteoriteSize.BIG);

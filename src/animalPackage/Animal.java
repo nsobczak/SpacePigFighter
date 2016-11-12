@@ -4,7 +4,7 @@ import stuff.Defensif;
 import stuff.Offensif;
 
 /**
- * ===== Class Animal =====
+ * ===== Abstract Class Animal =====
  * 
  * @author Nicolas Sobczak
  * @version 1.01, 10/2016
@@ -181,7 +181,7 @@ public abstract class Animal {
 
 	/*
 	 * ___________________________________________________________________________________________
-	 * Function
+	 * Functions
 	 */
 	/**
 	 * Decrease animal's life
@@ -206,6 +206,9 @@ public abstract class Animal {
 	 */
 	public abstract String specialAction(Animal attackedAnimal);
 
+	/**
+	 * scream : function which makes the animal scream
+	 */
 	public abstract void scream();
 
 }

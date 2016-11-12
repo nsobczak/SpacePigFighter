@@ -1,5 +1,11 @@
 package animalPackage;
 
+/**
+ * ===== Class Duck =====
+ * 
+ * @author Nicolas Sobczak
+ * @version 1.03, 11/2016
+ */
 public class Duck extends WithWings {
 
 	/*
