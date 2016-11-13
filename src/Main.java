@@ -66,12 +66,13 @@ public class Main {
 	 * @param 1 Player = player_1
 	 * @param 1 Player = player_2
 	 */
-	public static void part_1(Player player_1, Player player_2) {
+	public static String part_1(Player player_1, Player player_2) {
 		// TODO HERE: Part 1 of the game
-		Space space = new Space(player_1, player_2);
-		// space.run();
-
 		System.out.println("This is part 1 !!!");
+		Space space = new Space(player_1, player_2);
+		String result = space.run();
+		System.out.println(result);
+		return result;
 	}
 
 	/**

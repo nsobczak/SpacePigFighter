@@ -2,6 +2,7 @@ package cubeEnvironment;
 
 import spaceObjects.*;
 import playerPackage.Player;
+import java.util.Random;
 
 /**
  * ===== Class CubeEnvironment =====
@@ -130,7 +131,58 @@ public class CubeEnvironment {
 	 * ___________________________________________________________________________________________
 	 * Functions
 	 */
+	public PositionsCube intToPosition(int position) throws PositionException{
+		switch(position){
+			case 0 : return PositionsCube.OOO;
+			case 1 : return PositionsCube.OOI;
+			case 2 : return PositionsCube.OIO;
+			case 3 : return PositionsCube.IOO;
+			case 4 : return PositionsCube.OII;
+			case 5 : return PositionsCube.IOI;
+			case 6 : return PositionsCube.IIO;
+			case 7 : return PositionsCube.III;
+			default : throw new PositionException();
+		}
+	}
+	
 	public void relocateAllUfo(){
+		Random rand = new Random();
+		int position;
+		int i;
+		PositionsCube[] positions = {PositionsCube.NONE,PositionsCube.NONE,PositionsCube.NONE,PositionsCube.NONE};
+		boolean positionAvailable;
+		
+		
+		positionAvailable = false;
+		for (i=0;i<=3;i++){
+			while (!positionAvailable){
+				position = rand.nextInt(8);
+				try {
+					positions[i] = intToPosition(position);
+					switch (i){
+						case 0 : positionAvailable = true;
+						break;
+						case 1 : positionAvailable = (positions[1]!=positions[0]);
+						break;
+						case 2 : positionAvailable = ((positions[2]!=positions[1]) && (positions[2]!=positions[0]));
+						break;
+						case 3 : positionAvailable = ((positions[3]!=positions[2]) 
+														&& (positions[3]!=positions[1]) 
+														&& (positions[3]!=positions[0]));
+						break;
+						default : positionAvailable = false;
+					}
+				} catch (PositionException e){
+					positionAvailable = false;
+				}
+			}
+		}
+		
+		this.spacecraft.setLocation(positions[0]);
+		this.meteoriteSmall.setLocation(positions[1]);
+		this.meteoriteMedium.setLocation(positions[2]);
+		this.meteoriteBig.setLocation(positions[3]);
+		
 		
 	}
 
