@@ -87,6 +87,10 @@ public class FightArea implements ExecutionInterface {
 	public String run() {
 		String result;
 		
+		//Initialize stuff
+		this.getAnimalPlayer01().stuffSelection();
+		this.getAnimalPlayer02().stuffSelection();
+		
 		loop();
 		//Check the result
 		if ((this.getAnimalPlayer01().getLife() < 0)

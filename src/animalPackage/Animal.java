@@ -1,5 +1,7 @@
 package animalPackage;
 
+import java.util.Scanner;
+
 import stuff.Defensif;
 import stuff.Offensif;
 
@@ -188,32 +190,55 @@ public abstract class Animal {
 	 */
 	public void stuffSelection() {
 		// TODO : offensifStuffSelection + defensifStuffSelection
-		int buildSelected = 0;
+		boolean isBuildSelected = false;
+		String buildSelected = null;
+		Scanner scan = new Scanner(System.in);
 
 		// instructions
-		String instructions = "Select your stuff. You have 2 skill points to split/share.\n";
-		while (buildSelected < 1 || buildSelected > 3) {
-			instructions += "1 for Offensive (2 offensive points, 0 defensive point) |  2 for Well balanced (1 offensive point, 1 defensive point) | 3 for Defensive (0 offensive point, 2 defensive points) | 4 for extra info";
+		String instructions = getClass().getSimpleName()
+				+ ", select your stuff. You have 2 skill points to split/share.\n";
+		while (!isBuildSelected) {
+			instructions += "| 1 for an offensive build (2 offensive points, 0 defensive point) |\n"
+					+ "| 2 for a well balanced build (1 offensive point, 1 defensive point) |\n"
+					+ "| 3 for a defensive build (0 offensive point, 2 defensive points) |\n"
+					+ "| 4 for extra info |";
 			System.out.println(instructions);
-			switch (buildSelected) {
-			case 1:
-				System.out.println("Offensive build chosen");
-				this.setStuffOffensif(stuffOffensif.AXE);
-				this.setStuffDefensif(stuffDefensif.NONE);
-				break;
-			case 2:
-				System.out.println("Well balanced build chosen");
-				this.setStuffOffensif(stuffOffensif.SWORD);
-				this.setStuffDefensif(stuffDefensif.HELMET);
-				break;
-			case 3:
-				System.out.println("Defensive build chosen");
-				this.setStuffOffensif(stuffOffensif.NONE);
-				this.setStuffDefensif(stuffDefensif.SHIELD);
-				break;
-			default:
-				System.out.println("Offensive build = an Axe \nWell balanced build = a Sword + an Helmet \n Defensive build = a Shield");
+			buildSelected = scan.nextLine();
+			try {
+				int buildSelectedInt = Integer.parseInt(buildSelected);
+				if ((buildSelectedInt >= 1) && (buildSelectedInt <= 3)) {
+					isBuildSelected = true;
+					// stuff selection switch
+					switch (buildSelectedInt) {
+					case 1:
+						System.out.println("Offensive build chosen");
+						this.setStuffOffensif(Offensif.AXE);
+						this.setStuffDefensif(Defensif.NONE);
+						break;
+					case 2:
+						System.out.println("Well balanced build chosen");
+						this.setStuffOffensif(Offensif.SWORD);
+						this.setStuffDefensif(Defensif.HELMET);
+						break;
+					default:
+						System.out.println("Defensive build chosen");
+						this.setStuffOffensif(Offensif.NONE);
+						this.setStuffDefensif(Defensif.SHIELD);
+					}
+				} else if (buildSelectedInt == 4) {
+					System.out.println("- Offensive build = an Axe \n"
+							+ "- Well balanced build = a Sword + an Helmet \n"
+							+ "- Defensive build = a Shield");
+
+				} else {
+					System.out.println("Please enter a number between 1 and 4");
+				}
+			} catch (NumberFormatException e) {
+				System.out.println("Please enter a number");
+			} catch (NullPointerException e) {
+				System.out.println("Please enter a number");
 			}
+			// scan.close(); // Ca merde quand on close => etrange !
 		}
 		System.out.println("Build selected");
 	}
