@@ -155,6 +155,7 @@ public class CubeEnvironment {
 		
 		positionAvailable = false;
 		for (i=0;i<=3;i++){
+			positionAvailable = false;
 			while (!positionAvailable){
 				position = rand.nextInt(8);
 				try {
@@ -162,13 +163,14 @@ public class CubeEnvironment {
 					switch (i){
 						case 0 : positionAvailable = true;
 						break;
-						case 1 : positionAvailable = (positions[1]!=positions[0]);
+						case 1 : positionAvailable = ((positions[1]!=positions[0]) && (positions[1]!=PositionsCube.NONE));
 						break;
-						case 2 : positionAvailable = ((positions[2]!=positions[1]) && (positions[2]!=positions[0]));
+						case 2 : positionAvailable = ((positions[2]!=positions[1]) && (positions[2]!=positions[0]) && (positions[2]!=PositionsCube.NONE));
 						break;
 						case 3 : positionAvailable = ((positions[3]!=positions[2]) 
 														&& (positions[3]!=positions[1]) 
-														&& (positions[3]!=positions[0]));
+														&& (positions[3]!=positions[0])
+														&& (positions[3]!=PositionsCube.NONE));
 						break;
 						default : positionAvailable = false;
 					}
