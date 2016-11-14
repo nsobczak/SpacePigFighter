@@ -184,6 +184,41 @@ public abstract class Animal {
 	 * Functions
 	 */
 	/**
+	 * stuffSelection
+	 */
+	public void stuffSelection() {
+		// TODO : offensifStuffSelection + defensifStuffSelection
+		int buildSelected = 0;
+
+		// instructions
+		String instructions = "Select your stuff. You have 2 skill points to split/share.\n";
+		while (buildSelected < 1 || buildSelected > 3) {
+			instructions += "1 for Offensive (2 offensive points, 0 defensive point) |  2 for Well balanced (1 offensive point, 1 defensive point) | 3 for Defensive (0 offensive point, 2 defensive points) | 4 for extra info";
+			System.out.println(instructions);
+			switch (buildSelected) {
+			case 1:
+				System.out.println("Offensive build chosen");
+				this.setStuffOffensif(stuffOffensif.AXE);
+				this.setStuffDefensif(stuffDefensif.NONE);
+				break;
+			case 2:
+				System.out.println("Well balanced build chosen");
+				this.setStuffOffensif(stuffOffensif.SWORD);
+				this.setStuffDefensif(stuffDefensif.HELMET);
+				break;
+			case 3:
+				System.out.println("Defensive build chosen");
+				this.setStuffOffensif(stuffOffensif.NONE);
+				this.setStuffDefensif(stuffDefensif.SHIELD);
+				break;
+			default:
+				System.out.println("Offensive build = an Axe \nWell balanced build = a Sword + an Helmet \n Defensive build = a Shield");
+			}
+		}
+		System.out.println("Build selected");
+	}
+
+	/**
 	 * Decrease animal's life
 	 * 
 	 * @param 1 Integer = damages
@@ -195,14 +230,16 @@ public abstract class Animal {
 	/**
 	 * attack : abstract function which executes a normal attack
 	 * 
-	 * @param Animal attackedAnimal
+	 * @param Animal
+	 *            attackedAnimal
 	 */
 	public abstract void attack(Animal attackedAnimal);
 
 	/**
 	 * attack : abstract function which executes a special attack
 	 * 
-	 * @param Animal attackedAnimal
+	 * @param Animal
+	 *            attackedAnimal
 	 */
 	public abstract String specialAction(Animal attackedAnimal);
 
