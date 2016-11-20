@@ -64,21 +64,30 @@ public class Space implements ExecutionInterface {
 
 		System.out.println("Player1's animal life : " + this.cubeEnvironment_01.getSpacecraft().getAnimal().getLife());
 		System.out.println("Player2's animal life : " + this.cubeEnvironment_02.getSpacecraft().getAnimal().getLife());
-		System.out.println("Player1's spacecraft position : " + this.cubeEnvironment_01.getSpacecraft().getLocation());
-		System.out.println("Player2's spacecraft position : " + this.cubeEnvironment_02.getSpacecraft().getLocation());
-		System.out.println("Player1's meteoriteSmall position : " + this.cubeEnvironment_01.getMeteoriteSmall().getLocation());
-		System.out.println("Player2's meteoriteSmall position : " + this.cubeEnvironment_02.getMeteoriteSmall().getLocation());
-		System.out.println("Player1's meteoriteMedium position : " + this.cubeEnvironment_01.getMeteoriteMedium().getLocation());
-		System.out.println("Player2's meteoriteMedium position : " + this.cubeEnvironment_02.getMeteoriteMedium().getLocation());
-		System.out.println("Player1's meteoriteBig position : " + this.cubeEnvironment_01.getMeteoriteBig().getLocation());
-		System.out.println("Player2's meteoriteBig position : " + this.cubeEnvironment_02.getMeteoriteBig().getLocation());
+		/*
+		 * System.out.println("Player1's spacecraft position : " +
+		 * this.cubeEnvironment_01.getSpacecraft().getLocation());
+		 * System.out.println("Player2's spacecraft position : " +
+		 * this.cubeEnvironment_02.getSpacecraft().getLocation());
+		 * System.out.println("Player1's meteoriteSmall position : " +
+		 * this.cubeEnvironment_01.getMeteoriteSmall().getLocation());
+		 * System.out.println("Player2's meteoriteSmall position : " +
+		 * this.cubeEnvironment_02.getMeteoriteSmall().getLocation());
+		 * System.out.println("Player1's meteoriteMedium position : " +
+		 * this.cubeEnvironment_01.getMeteoriteMedium().getLocation());
+		 * System.out.println("Player2's meteoriteMedium position : " +
+		 * this.cubeEnvironment_02.getMeteoriteMedium().getLocation());
+		 * System.out.println("Player1's meteoriteBig position : " +
+		 * this.cubeEnvironment_01.getMeteoriteBig().getLocation());
+		 * System.out.println("Player2's meteoriteBig position : " +
+		 * this.cubeEnvironment_02.getMeteoriteBig().getLocation());
+		 */
 		PositionsCube choosenPosition = PositionsCube.NONE;
 		while ((!player1FoundEnnemysSpacecraft) && (!player2FoundEnnemysSpacecraft)) {
 			// player01 chooses one location
-			System.out.println("\n--Player 1 turn--");
+			System.out.println("\n-- " + this.cubeEnvironment_01.getSpacecraft().getAnimal().getPSEUDO() + " --");
 			choosenPosition = this.selectLocation();
 			System.out.println("Player1 selects the position : " + choosenPosition);
-			
 
 			// check if player1 found ennemy's spacecraft
 			player1FoundEnnemysSpacecraft = (this.cubeEnvironment_02.getSpacecraft().getLocation() == choosenPosition);
@@ -98,12 +107,14 @@ public class Space implements ExecutionInterface {
 					}
 				}
 			}
-			System.out.println("Player1's animal life : " + this.cubeEnvironment_01.getSpacecraft().getAnimal().getLife());
-			
+			System.out.println(this.cubeEnvironment_01.getSpacecraft().getAnimal().getPSEUDO() + "'s animal life : "
+					+ this.cubeEnvironment_01.getSpacecraft().getAnimal().getLife());
+
 			// player02 chooses one location
-			System.out.println("\n--Player 2 turn--");
+			System.out.println("\n-- " + this.cubeEnvironment_02.getSpacecraft().getAnimal().getPSEUDO() + " --");
 			choosenPosition = this.selectLocation();
-			System.out.println("Player2 selects the position : " + choosenPosition);
+			System.out.println(this.cubeEnvironment_02.getSpacecraft().getAnimal().getPSEUDO()
+					+ " selects the position : " + choosenPosition);
 
 			// check if player1 found ennemy's spacecraft
 			player2FoundEnnemysSpacecraft = (this.cubeEnvironment_01.getSpacecraft().getLocation() == choosenPosition);
@@ -120,8 +131,9 @@ public class Space implements ExecutionInterface {
 					}
 				}
 			}
-			System.out.println("Player2's animal life : " + this.cubeEnvironment_02.getSpacecraft().getAnimal().getLife());
-		
+			System.out.println(this.cubeEnvironment_02.getSpacecraft().getAnimal().getPSEUDO() + "'s animal life : "
+					+ this.cubeEnvironment_02.getSpacecraft().getAnimal().getLife());
+
 		}
 		return player1FoundEnnemysSpacecraft;
 	}

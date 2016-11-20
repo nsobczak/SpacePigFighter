@@ -98,9 +98,9 @@ public class FightArea implements ExecutionInterface {
 			result = "both animal are dead | draw";
 		}else{
 			if (this.getAnimalPlayer01().getLife() < 0){
-				result = "player 1 is dead | player 2 is the winner";
+				result = this.getAnimalPlayer01().getPSEUDO() + " is dead | " + this.getAnimalPlayer02().getPSEUDO() + " is the winner";
 			}else{
-				result = "player 2 is dead | player 1 is the winner";
+				result = this.getAnimalPlayer02().getPSEUDO() + " is dead | " + this.getAnimalPlayer01().getPSEUDO() + " is the winner";
 			}
 		}
 		return result;
@@ -115,11 +115,16 @@ public class FightArea implements ExecutionInterface {
 
 		while (!deadAnimalFound) {
 			// player01 chooses its action
-			System.out.println("\n--Player 1 turn--");
+			System.out.println("\n--" + this.getAnimalPlayer01().getPSEUDO() + "--");
 			this.selectAttack(this.getAnimalPlayer01(), this.getAnimalPlayer02());
 			// player02 chooses its action
-			System.out.println("\n--Player 2 turn--");
+			System.out.println("\n--" + this.getAnimalPlayer02().getPSEUDO() + "--");
 			this.selectAttack(this.getAnimalPlayer02(), this.getAnimalPlayer01());
+			// print the life
+			System.out.println("\n==Calculation_of_life_points==");
+			System.out.println(this.getAnimalPlayer01().getPSEUDO()+" has "+this.getAnimalPlayer01().getLife()+" LP left."
+					+"\n"+this.getAnimalPlayer02().getPSEUDO()+" has "+this.getAnimalPlayer02().getLife()+" LP left.");
+			System.out.println("==============================");
 			// check if one animal is dead
 			if ((this.getAnimalPlayer01().getLife() < 0)
 					|| (this.getAnimalPlayer02().getLife() < 0)) {
