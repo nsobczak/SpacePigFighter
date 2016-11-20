@@ -196,12 +196,12 @@ public abstract class Animal {
 
 		// instructions
 		String instructions = getClass().getSimpleName()
-				+ ", select your stuff. You have 2 skill points to split/share.\n";
+				+ ", select your stuff. You have 2 skill points to split/share.\n"
+				+ "| 1 for an offensive build (2 offensive points, 0 defensive point) |\n"
+				+ "| 2 for a well balanced build (1 offensive point, 1 defensive point) |\n"
+				+ "| 3 for a defensive build (0 offensive point, 2 defensive points) |\n"
+				+ "| 4 for extra info |";
 		while (!isBuildSelected) {
-			instructions += "| 1 for an offensive build (2 offensive points, 0 defensive point) |\n"
-					+ "| 2 for a well balanced build (1 offensive point, 1 defensive point) |\n"
-					+ "| 3 for a defensive build (0 offensive point, 2 defensive points) |\n"
-					+ "| 4 for extra info |";
 			System.out.println(instructions);
 			buildSelected = scan.nextLine();
 			try {
