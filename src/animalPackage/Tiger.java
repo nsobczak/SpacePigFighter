@@ -46,6 +46,7 @@ public class Tiger extends WithPaws implements BeFierce {
 	 * 
 	 * @param Animal attackedAnimal
 	 */
+	@Override
 	public void attack(Animal attackedAnimal){
 		super.attack(attackedAnimal);
 	}		
@@ -55,6 +56,7 @@ public class Tiger extends WithPaws implements BeFierce {
 	 * 
 	 * @param Animal attackedAnimal
 	 */
+	@Override
 	public String specialAction(Animal attackedAnimal) {
 		return super.specialAction(attackedAnimal);
 	}
@@ -62,6 +64,7 @@ public class Tiger extends WithPaws implements BeFierce {
 	/**
 	 * scream : function which makes the animal scream
 	 */
+	@Override
 	public void scream() {
 		System.out.println(this.getPSEUDO() + " roars " + beFierce());
 	}

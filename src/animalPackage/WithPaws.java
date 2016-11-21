@@ -41,6 +41,7 @@ public abstract class WithPaws extends Animal {
 	 * @param Animal
 	 *            attackedAnimal
 	 */
+	@Override
 	public void attack(Animal attackedAnimal) {
 		System.out.println("I fight with my paws !");
 		int damage = this.force - attackedAnimal.resistance;
@@ -53,6 +54,7 @@ public abstract class WithPaws extends Animal {
 	 * @param Animal
 	 *            attackedAnimal
 	 */
+	@Override
 	public String specialAction(Animal attackedAnimal) {
 		return "specialAction";
 	}

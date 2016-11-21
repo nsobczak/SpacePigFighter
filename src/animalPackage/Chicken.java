@@ -48,6 +48,7 @@ public class Chicken extends WithWings implements BeFierce {
 	 * @param Animal
 	 *            attackedAnimal
 	 */
+	@Override
 	public void attack(Animal attackedAnimal) {
 		super.attack(attackedAnimal);
 	}
@@ -55,8 +56,10 @@ public class Chicken extends WithWings implements BeFierce {
 	/**
 	 * attack : function which executes a special attack
 	 * 
-	 * @param Animal attackedAnimal
+	 * @param Animal
+	 *            attackedAnimal
 	 */
+	@Override
 	public String specialAction(Animal attackedAnimal) {
 		return super.specialAction(attackedAnimal);
 	}
@@ -64,10 +67,11 @@ public class Chicken extends WithWings implements BeFierce {
 	/**
 	 * scream : function which makes the animal scream
 	 */
+	@Override
 	public void scream() {
 		System.out.println(this.getPSEUDO() + " squeals " + beFierce());
 	}
-	
+
 	/**
 	 * beFierce : function which return an adjective to describe behavior
 	 * 
