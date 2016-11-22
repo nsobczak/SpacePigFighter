@@ -31,8 +31,7 @@ public class Spacecraft extends Ufo {
 	/**
 	 * Constructor with selected color
 	 * 
-	 * @param 1
-	 *            String = colorName
+	 * @param 1 String = colorName
 	 */
 	public Spacecraft(String colorName) {
 		super();
@@ -43,8 +42,7 @@ public class Spacecraft extends Ufo {
 	/**
 	 * Constructor with selected animal
 	 * 
-	 * @param 1
-	 *            Animal = myAnimal
+	 * @param 1 Animal = myAnimal
 	 */
 	public Spacecraft(Animal myAnimal) {
 		super();
@@ -55,8 +53,7 @@ public class Spacecraft extends Ufo {
 	/**
 	 * Constructor with selected location
 	 * 
-	 * @param 1
-	 *            PositionsCube = position
+	 * @param 1 PositionsCube = position
 	 */
 	public Spacecraft(PositionsCube position) {
 		super(position);
@@ -67,10 +64,8 @@ public class Spacecraft extends Ufo {
 	/**
 	 * Constructor with selected color and animal
 	 * 
-	 * @param 1
-	 *            String = colorName
-	 * @param 1
-	 *            Animal = myAnimal
+	 * @param 1 String = colorName
+	 * @param 1 Animal = myAnimal
 	 */
 	public Spacecraft(String colorName, Animal myAnimal) {
 		super();
@@ -81,10 +76,8 @@ public class Spacecraft extends Ufo {
 	/**
 	 * Constructor with selected location and color
 	 * 
-	 * @param 1
-	 *            PositionsCube = position
-	 * @param 1
-	 *            String = colorName
+	 * @param 1 PositionsCube = position
+	 * @param 1 String = colorName
 	 */
 	public Spacecraft(PositionsCube position, String colorName) {
 		super(position);
@@ -95,10 +88,8 @@ public class Spacecraft extends Ufo {
 	/**
 	 * Constructor with selected location and animal
 	 * 
-	 * @param 1
-	 *            PositionsCube = position
-	 * @param 1
-	 *            Animal = myAnimal
+	 * @param 1 PositionsCube = position
+	 * @param 1 Animal = myAnimal
 	 */
 	public Spacecraft(PositionsCube position, Animal myAnimal) {
 		super(position);
@@ -109,12 +100,9 @@ public class Spacecraft extends Ufo {
 	/**
 	 * Constructor. with selected location, color and animal
 	 * 
-	 * @param 1
-	 *            PositionsCube = position
-	 * @param 1
-	 *            String = colorName
-	 * @param 1
-	 *            Animal = myAnimal
+	 * @param 1 PositionsCube = position
+	 * @param 1 String = colorName
+	 * @param 1 Animal = myAnimal
 	 */
 	public Spacecraft(PositionsCube position, String colorName, Animal myAnimal) {
 		super(position);
@@ -151,8 +139,7 @@ public class Spacecraft extends Ufo {
 	/**
 	 * Set Spacecraft color
 	 * 
-	 * @param 1
-	 *            String = newColor
+	 * @param 1 String = newColor
 	 */
 	public void setColor(String newColor) {
 		this.color = newColor;
@@ -161,8 +148,7 @@ public class Spacecraft extends Ufo {
 	/**
 	 * Set Spacecraft animal
 	 * 
-	 * @param 1
-	 *            Animal = newAnimal
+	 * @param 1 Animal = newAnimal
 	 */
 	public void setAnimal(Animal newAnimal) {
 		this.animal = newAnimal;

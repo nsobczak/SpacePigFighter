@@ -30,13 +30,11 @@ public abstract class Ufo {
 	/**
 	 * Constructor. with selected position
 	 * 
-	 * @param 1
-	 *            PositionsCube = position
+	 * @param 1 PositionsCube = position
 	 */
 	public Ufo(PositionsCube position) {
 		this.location = position;
 	}
-	
 
 	/*
 	 * ___________________________________________________________________________________________
@@ -58,38 +56,45 @@ public abstract class Ufo {
 	/**
 	 * Set the Ufo location
 	 * 
-	 * @param 1
-	 *            PostionsCube = position
+	 * @param 1 PostionsCube = position
 	 */
 	public void setLocation(PositionsCube position) {
 		this.location = position;
 	}
-	
+
 	/**
 	 * Set the Ufo location
 	 * 
-	 * @param 1
-	 *            int = position
+	 * @param 1 int = position
 	 */
-	public void setLocation(int position) throws PositionException{
-		switch(position){
-		case 0 : this.location = PositionsCube.OOO;
-		break;
-		case 1 : this.location = PositionsCube.OOI;
-		break;
-		case 2 : this.location = PositionsCube.OIO;
-		break;
-		case 3 : this.location = PositionsCube.IOO;
-		break;
-		case 4 : this.location = PositionsCube.OII;
-		break;
-		case 5 : this.location = PositionsCube.IOI;
-		break;
-		case 6 : this.location = PositionsCube.IIO;
-		break;
-		case 7 : this.location = PositionsCube.III;
-		break;
-		default : throw new PositionException();
+	public void setLocation(int position) throws PositionException {
+		switch (position) {
+		case 0:
+			this.location = PositionsCube.OOO;
+			break;
+		case 1:
+			this.location = PositionsCube.OOI;
+			break;
+		case 2:
+			this.location = PositionsCube.OIO;
+			break;
+		case 3:
+			this.location = PositionsCube.IOO;
+			break;
+		case 4:
+			this.location = PositionsCube.OII;
+			break;
+		case 5:
+			this.location = PositionsCube.IOI;
+			break;
+		case 6:
+			this.location = PositionsCube.IIO;
+			break;
+		case 7:
+			this.location = PositionsCube.III;
+			break;
+		default:
+			throw new PositionException();
 		}
 	}
 
@@ -97,6 +102,5 @@ public abstract class Ufo {
 	 * ___________________________________________________________________________________________
 	 * Functions
 	 */
-	
 
 }

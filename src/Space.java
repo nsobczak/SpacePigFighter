@@ -20,10 +20,8 @@ public class Space implements ExecutionInterface {
 	/**
 	 * Constructor
 	 * 
-	 * @param 1
-	 *            Player = player_1
-	 * @param 1
-	 *            Player = player_2
+	 * @param 1 Player = player_1
+	 * @param 1 Player = player_2
 	 */
 	public Space(Player player_1, Player player_2) {
 		this.cubeEnvironment_01 = new CubeEnvironment(player_1);
@@ -62,8 +60,14 @@ public class Space implements ExecutionInterface {
 		boolean player1FoundEnnemysSpacecraft = false;
 		boolean player2FoundEnnemysSpacecraft = false;
 
-		System.out.println("Player1's animal life : " + this.cubeEnvironment_01.getSpacecraft().getAnimal().getLife());
-		System.out.println("Player2's animal life : " + this.cubeEnvironment_02.getSpacecraft().getAnimal().getLife());
+		System.out
+				.println("Player1's animal life : "
+						+ this.cubeEnvironment_01.getSpacecraft().getAnimal()
+								.getLife());
+		System.out
+				.println("Player2's animal life : "
+						+ this.cubeEnvironment_02.getSpacecraft().getAnimal()
+								.getLife());
 		/*
 		 * System.out.println("Player1's spacecraft position : " +
 		 * this.cubeEnvironment_01.getSpacecraft().getLocation());
@@ -83,56 +87,77 @@ public class Space implements ExecutionInterface {
 		 * this.cubeEnvironment_02.getMeteoriteBig().getLocation());
 		 */
 		PositionsCube choosenPosition = PositionsCube.NONE;
-		while ((!player1FoundEnnemysSpacecraft) && (!player2FoundEnnemysSpacecraft)) {
+		while ((!player1FoundEnnemysSpacecraft)
+				&& (!player2FoundEnnemysSpacecraft)) {
 			// player01 chooses one location
-			System.out.println("\n-- " + this.cubeEnvironment_01.getSpacecraft().getAnimal().getPSEUDO() + " --");
+			System.out.println("\n-- "
+					+ this.cubeEnvironment_01.getSpacecraft().getAnimal()
+							.getPSEUDO() + " --");
 			choosenPosition = this.selectLocation();
-			System.out.println("Player1 selects the position : " + choosenPosition);
+			System.out.println("Player1 selects the position : "
+					+ choosenPosition);
 
 			// check if player1 found ennemy's spacecraft
-			player1FoundEnnemysSpacecraft = (this.cubeEnvironment_02.getSpacecraft().getLocation() == choosenPosition);
+			player1FoundEnnemysSpacecraft = (this.cubeEnvironment_02
+					.getSpacecraft().getLocation() == choosenPosition);
 			if (player1FoundEnnemysSpacecraft) {
 				break;
 			}
 
 			// check if player1 collides with a meteorite
 			if (this.cubeEnvironment_02.getMeteoriteSmall().getLocation() == choosenPosition) {
-				this.cubeEnvironment_01.getSpacecraft().beDamagedBy(MeteoriteSize.SMALL);
+				this.cubeEnvironment_01.getSpacecraft().beDamagedBy(
+						MeteoriteSize.SMALL);
 			} else {
 				if (this.cubeEnvironment_02.getMeteoriteMedium().getLocation() == choosenPosition) {
-					this.cubeEnvironment_01.getSpacecraft().beDamagedBy(MeteoriteSize.MEDIUM);
+					this.cubeEnvironment_01.getSpacecraft().beDamagedBy(
+							MeteoriteSize.MEDIUM);
 				} else {
 					if (this.cubeEnvironment_02.getMeteoriteBig().getLocation() == choosenPosition) {
-						this.cubeEnvironment_01.getSpacecraft().beDamagedBy(MeteoriteSize.BIG);
+						this.cubeEnvironment_01.getSpacecraft().beDamagedBy(
+								MeteoriteSize.BIG);
 					}
 				}
 			}
-			System.out.println(this.cubeEnvironment_01.getSpacecraft().getAnimal().getPSEUDO() + "'s animal life : "
-					+ this.cubeEnvironment_01.getSpacecraft().getAnimal().getLife());
+			System.out.println(this.cubeEnvironment_01.getSpacecraft()
+					.getAnimal().getPSEUDO()
+					+ "'s animal life : "
+					+ this.cubeEnvironment_01.getSpacecraft().getAnimal()
+							.getLife());
 
 			// player02 chooses one location
-			System.out.println("\n-- " + this.cubeEnvironment_02.getSpacecraft().getAnimal().getPSEUDO() + " --");
+			System.out.println("\n-- "
+					+ this.cubeEnvironment_02.getSpacecraft().getAnimal()
+							.getPSEUDO() + " --");
 			choosenPosition = this.selectLocation();
-			System.out.println(this.cubeEnvironment_02.getSpacecraft().getAnimal().getPSEUDO()
+			System.out.println(this.cubeEnvironment_02.getSpacecraft()
+					.getAnimal().getPSEUDO()
 					+ " selects the position : " + choosenPosition);
 
 			// check if player1 found ennemy's spacecraft
-			player2FoundEnnemysSpacecraft = (this.cubeEnvironment_01.getSpacecraft().getLocation() == choosenPosition);
+			player2FoundEnnemysSpacecraft = (this.cubeEnvironment_01
+					.getSpacecraft().getLocation() == choosenPosition);
 
 			// check if player2 collides with a meteorite
 			if (this.cubeEnvironment_01.getMeteoriteSmall().getLocation() == choosenPosition) {
-				this.cubeEnvironment_02.getSpacecraft().beDamagedBy(MeteoriteSize.SMALL);
+				this.cubeEnvironment_02.getSpacecraft().beDamagedBy(
+						MeteoriteSize.SMALL);
 			} else {
 				if (this.cubeEnvironment_01.getMeteoriteMedium().getLocation() == choosenPosition) {
-					this.cubeEnvironment_02.getSpacecraft().beDamagedBy(MeteoriteSize.MEDIUM);
+					this.cubeEnvironment_02.getSpacecraft().beDamagedBy(
+							MeteoriteSize.MEDIUM);
 				} else {
 					if (this.cubeEnvironment_01.getMeteoriteBig().getLocation() == choosenPosition) {
-						this.cubeEnvironment_02.getSpacecraft().beDamagedBy(MeteoriteSize.BIG);
+						this.cubeEnvironment_02.getSpacecraft().beDamagedBy(
+								MeteoriteSize.BIG);
 					}
 				}
 			}
-			System.out.println(this.cubeEnvironment_02.getSpacecraft().getAnimal().getPSEUDO() + "'s animal life : "
-					+ this.cubeEnvironment_02.getSpacecraft().getAnimal().getLife());
+			System.out.println(this.cubeEnvironment_02.getSpacecraft()
+					.getAnimal().getPSEUDO()
+					+ "'s animal life : "
+					+ this.cubeEnvironment_02.getSpacecraft().getAnimal()
+							.getLife());
 
 		}
 		return player1FoundEnnemysSpacecraft;
@@ -149,8 +174,10 @@ public class Space implements ExecutionInterface {
 		boolean locationSelectedAvailable = false;
 
 		while (!locationSelectedAvailable) {
-			System.out.println("Choose your action: \n" + "0 = position OOO \t| 1 = position OOI\n"
-					+ "2 = position OIO \t| 3 = position IOO\n" + "4 = position OII \t| 5 = position IOI\n"
+			System.out.println("Choose your action: \n"
+					+ "0 = position OOO \t| 1 = position OOI\n"
+					+ "2 = position OIO \t| 3 = position IOO\n"
+					+ "4 = position OII \t| 5 = position IOI\n"
 					+ "6 = position IIO \t| 7 = position III\n");
 			String selectedAction = scan.nextLine();
 			try {
@@ -189,7 +216,8 @@ public class Space implements ExecutionInterface {
 					locationSelectedAvailable = true;
 					break;
 				default:
-					System.out.println("Please enter an integer between 0 and 7");
+					System.out
+							.println("Please enter an integer between 0 and 7");
 					locationSelectedAvailable = false;
 				}
 			} catch (NumberFormatException e) {

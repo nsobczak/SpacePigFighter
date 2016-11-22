@@ -55,7 +55,8 @@ public class Bear extends WithPaws implements BeFierce {
 	/**
 	 * attack : function which executes a special attack
 	 * 
-	 * @param Animal attackedAnimal
+	 * @param Animal
+	 *            attackedAnimal
 	 */
 	@Override
 	public String specialAction(Animal attackedAnimal) {

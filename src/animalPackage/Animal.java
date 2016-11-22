@@ -195,7 +195,9 @@ public abstract class Animal {
 		Scanner scan = new Scanner(System.in);
 
 		// instructions
-		String instructions = getClass().getSimpleName() + " " + this.getPSEUDO()
+		String instructions = getClass().getSimpleName()
+				+ " "
+				+ this.getPSEUDO()
 				+ ", select your stuff. You have 2 skill points to split/share.\n"
 				+ "| 1 for an offensive build (2 offensive points, 0 defensive point) |\n"
 				+ "| 2 for a well balanced build (1 offensive point, 1 defensive point) |\n"

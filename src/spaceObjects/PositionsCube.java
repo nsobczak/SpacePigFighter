@@ -12,7 +12,7 @@ package spaceObjects;
 public enum PositionsCube {
 
 	NONE,
-	
+
 	OOO,
 
 	OOI,

@@ -14,7 +14,7 @@ public class FightArea implements ExecutionInterface {
 	private Animal animal_player_01;
 
 	private Animal animal_player_02;
-	
+
 	/*
 	 * ___________________________________________________________________________________________
 	 * Constructors
@@ -29,7 +29,7 @@ public class FightArea implements ExecutionInterface {
 		this.animal_player_01 = player_01.getAnimal();
 		this.animal_player_02 = player_02.getAnimal();
 	}
-	
+
 	/*
 	 * ___________________________________________________________________________________________
 	 * Getters
@@ -42,7 +42,7 @@ public class FightArea implements ExecutionInterface {
 	public Animal getAnimalPlayer01() {
 		return this.animal_player_01;
 	}
-	
+
 	/**
 	 * Get FighteArea's animal_player_02
 	 * 
@@ -51,8 +51,7 @@ public class FightArea implements ExecutionInterface {
 	public Animal getAnimalPlayer02() {
 		return this.animal_player_02;
 	}
-	
-	
+
 	/*
 	 * ___________________________________________________________________________________________
 	 * Setters
@@ -60,21 +59,22 @@ public class FightArea implements ExecutionInterface {
 	/**
 	 * Set FighteArea's animal_player_01
 	 * 
-	 * @param Animal new_animal_player_01
+	 * @param Animal
+	 *            new_animal_player_01
 	 */
 	public void setAnimalPlayer01(Animal new_animal_player_01) {
 		this.animal_player_01 = new_animal_player_01;
 	}
-	
+
 	/**
 	 * Set FighteArea's animal_player_02
 	 * 
-	 * @param Animal new_animal_player_02
+	 * @param Animal
+	 *            new_animal_player_02
 	 */
 	public void setAnimalPlayer02(Animal new_animal_player_02) {
 		this.animal_player_02 = new_animal_player_02;
 	}
-	
 
 	/*
 	 * ___________________________________________________________________________________________
@@ -86,21 +86,25 @@ public class FightArea implements ExecutionInterface {
 	 */
 	public String run() {
 		String result;
-		
-		//Initialize stuff
+
+		// Initialize stuff
 		this.getAnimalPlayer01().stuffSelection();
 		this.getAnimalPlayer02().stuffSelection();
-		
+
 		loop();
-		//Check the result
+		// Check the result
 		if ((this.getAnimalPlayer01().getLife() < 0)
 				&& (this.getAnimalPlayer02().getLife() < 0)) {
 			result = "both animal are dead | draw";
-		}else{
-			if (this.getAnimalPlayer01().getLife() < 0){
-				result = this.getAnimalPlayer01().getPSEUDO() + " is dead | " + this.getAnimalPlayer02().getPSEUDO() + " is the winner";
-			}else{
-				result = this.getAnimalPlayer02().getPSEUDO() + " is dead | " + this.getAnimalPlayer01().getPSEUDO() + " is the winner";
+		} else {
+			if (this.getAnimalPlayer01().getLife() < 0) {
+				result = this.getAnimalPlayer01().getPSEUDO() + " is dead | "
+						+ this.getAnimalPlayer02().getPSEUDO()
+						+ " is the winner";
+			} else {
+				result = this.getAnimalPlayer02().getPSEUDO() + " is dead | "
+						+ this.getAnimalPlayer01().getPSEUDO()
+						+ " is the winner";
 			}
 		}
 		return result;
@@ -115,15 +119,21 @@ public class FightArea implements ExecutionInterface {
 
 		while (!deadAnimalFound) {
 			// player01 chooses its action
-			System.out.println("\n--" + this.getAnimalPlayer01().getPSEUDO() + "--");
-			this.selectAttack(this.getAnimalPlayer01(), this.getAnimalPlayer02());
+			System.out.println("\n--" + this.getAnimalPlayer01().getPSEUDO()
+					+ "--");
+			this.selectAttack(this.getAnimalPlayer01(),
+					this.getAnimalPlayer02());
 			// player02 chooses its action
-			System.out.println("\n--" + this.getAnimalPlayer02().getPSEUDO() + "--");
-			this.selectAttack(this.getAnimalPlayer02(), this.getAnimalPlayer01());
+			System.out.println("\n--" + this.getAnimalPlayer02().getPSEUDO()
+					+ "--");
+			this.selectAttack(this.getAnimalPlayer02(),
+					this.getAnimalPlayer01());
 			// print the life
 			System.out.println("\n==Calculation_of_life_points==");
-			System.out.println(this.getAnimalPlayer01().getPSEUDO()+" has "+this.getAnimalPlayer01().getLife()+" LP left."
-					+"\n"+this.getAnimalPlayer02().getPSEUDO()+" has "+this.getAnimalPlayer02().getLife()+" LP left.");
+			System.out.println(this.getAnimalPlayer01().getPSEUDO() + " has "
+					+ this.getAnimalPlayer01().getLife() + " LP left." + "\n"
+					+ this.getAnimalPlayer02().getPSEUDO() + " has "
+					+ this.getAnimalPlayer02().getLife() + " LP left.");
 			System.out.println("==============================");
 			// check if one animal is dead
 			if ((this.getAnimalPlayer01().getLife() < 0)

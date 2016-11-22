@@ -44,17 +44,19 @@ public class Pig extends WithPaws {
 	/**
 	 * attack : function which executes a basic attack
 	 * 
-	 * @param Animal attackedAnimal
+	 * @param Animal
+	 *            attackedAnimal
 	 */
 	@Override
-	public void attack(Animal attackedAnimal){
+	public void attack(Animal attackedAnimal) {
 		super.attack(attackedAnimal);
-	}	
+	}
 
 	/**
 	 * attack : function which executes a special attack
 	 * 
-	 * @param Animal attackedAnimal
+	 * @param Animal
+	 *            attackedAnimal
 	 */
 	@Override
 	public String specialAction(Animal attackedAnimal) {
@@ -68,6 +70,5 @@ public class Pig extends WithPaws {
 	public void scream() {
 		System.out.println(this.getPSEUDO() + " grunts");
 	}
-
 
 }

@@ -65,7 +65,8 @@ public class FileManagement {
 	 * @param 2 Player player_1 and player_2
 	 * @param 1 String fightResult : the result of the fightArea fight
 	 */
-	public static String writeStory(Player player_1, Player player_2, String fightResult) {
+	public static String writeStory(Player player_1, Player player_2,
+			String fightResult) {
 		String story = "Welcome in spacePigFighter\n\n";
 		story += "===Player01===\nanimal: " + player_1.getAnimal()
 				+ "\npseudo: " + player_1.getAnimal().getPSEUDO()

@@ -2,7 +2,6 @@ import java.util.Scanner;
 import playerPackage.Player;
 import fileManagementPackage.*;
 
-
 /**
  * ===== Class Main =====
  * 
@@ -122,7 +121,8 @@ public class Main {
 		System.out.println("\nThis is the end of the game");
 
 		// logger
-		String story = FileManagement.writeStory(player_1, player_2, fightResult);
+		String story = FileManagement.writeStory(player_1, player_2,
+				fightResult);
 		FileManagement.createFile("SpacePigFighter.log");
 		FileManagement.writeFile("SpacePigFighter.log", story);
 	}

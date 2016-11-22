@@ -32,7 +32,8 @@ public class Player {
 	 * @param 1 String animalColor
 	 * @param 1 String spacecraftColor
 	 */
-	public Player(int animalClass, String newPseudo, String animalColor, String spacecraftColor){
+	public Player(int animalClass, String newPseudo, String animalColor,
+			String spacecraftColor) {
 
 		Animal newAnimal = null;
 		// 1 for Bear | 2 for Chicken | 3 for Duck | 4 for Pig | 5 for Tiger

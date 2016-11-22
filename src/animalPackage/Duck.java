@@ -44,17 +44,19 @@ public class Duck extends WithWings {
 	/**
 	 * attack : function which executes a basic attack
 	 * 
-	 * @param Animal attackedAnimal
+	 * @param Animal
+	 *            attackedAnimal
 	 */
 	@Override
-	public void attack(Animal attackedAnimal){
+	public void attack(Animal attackedAnimal) {
 		super.attack(attackedAnimal);
 	}
 
 	/**
 	 * attack : function which executes a special attack
 	 * 
-	 * @param Animal attackedAnimal
+	 * @param Animal
+	 *            attackedAnimal
 	 */
 	@Override
 	public String specialAction(Animal attackedAnimal) {
