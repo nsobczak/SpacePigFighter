@@ -1,4 +1,4 @@
-# Story
+# Story from user point of view 
 
 - welcome players
 
@@ -32,7 +32,7 @@ Game is over when a pig has no life point left. Since the resolution happens aft
 At the end of the game, a file is created with the game summary written in it.
 
 
-# Technical part 
+# Story from developer point of view 
 
 ## Set the game
 
