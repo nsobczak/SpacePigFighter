@@ -31,6 +31,8 @@ public abstract class Animal {
 
 	protected Offensif stuffOffensif;
 
+	protected Integer specialActionAvailable;
+
 	/*
 	 * ___________________________________________________________________________________________
 	 * Constructors
@@ -43,6 +45,7 @@ public abstract class Animal {
 	public Animal(String newPseudo) {
 		this.PSEUDO = newPseudo;
 		this.color = "pink";
+		this.specialActionAvailable = 3;
 	}
 
 	/**
@@ -54,6 +57,7 @@ public abstract class Animal {
 	public Animal(String newPseudo, String newColor) {
 		this.PSEUDO = newPseudo;
 		this.color = newColor;
+		this.specialActionAvailable = 3;
 	}
 
 	/*
@@ -123,6 +127,15 @@ public abstract class Animal {
 		return this.stuffOffensif;
 	}
 
+	/**
+	 * Get animal's specialActionAvailable
+	 * 
+	 * @return 1 int = animal's specialActionAvailable
+	 */
+	public Integer getSpecialActionAvailable() {
+		return this.specialActionAvailable;
+	}
+
 	/*
 	 * ___________________________________________________________________________________________
 	 * Setters
@@ -179,6 +192,15 @@ public abstract class Animal {
 	 */
 	public void setStuffOffensif(Offensif newOffensif) {
 		this.stuffOffensif = newOffensif;
+	}
+
+	/**
+	 * Get animal's specialActionAvailable
+	 * 
+	 * @param 1 int = animal's newSpecialActionAvailable
+	 */
+	public void setSpecialActionAvailable(int newSpecialActionAvailable) {
+		this.specialActionAvailable = newSpecialActionAvailable;
 	}
 
 	/*

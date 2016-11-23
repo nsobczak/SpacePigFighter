@@ -53,13 +53,21 @@ public class Tiger extends WithPaws implements BeFierce {
 	}
 
 	/**
-	 * attack : function which executes a special attack
+	 * specialAction : function which executes a special attack
 	 * 
 	 * @param Animal
 	 *            attackedAnimal
 	 */
 	@Override
 	public String specialAction(Animal attackedAnimal) {
+		if (this.specialActionAvailable>0){
+			System.out.println("use special action");
+			this.specialActionAvailable-- ;
+		}
+		else{
+			System.out.println("special action isn't available anymore");
+			this.scream();
+		}
 		return super.specialAction(attackedAnimal);
 	}
 
