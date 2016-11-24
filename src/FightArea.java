@@ -120,6 +120,7 @@ public class FightArea implements ExecutionInterface {
 		while (!deadAnimalFound) {
 			String actionPlayer01 = new String();
 			String actionPlayer02 = new String();
+			// Player01 action
 			if (this.getAnimalPlayer01().getAbleToAct()) {
 				// player01 chooses its action
 				System.out.println("\n--" + this.getAnimalPlayer01().getPSEUDO()
@@ -129,6 +130,8 @@ public class FightArea implements ExecutionInterface {
 			} else {
 				actionPlayer01 = "";
 			}
+			
+			// Player02 action
 			if (this.getAnimalPlayer01().getAbleToAct()){
 				// player02 chooses its action
 				System.out.println("\n--" + this.getAnimalPlayer02().getPSEUDO()
@@ -137,6 +140,24 @@ public class FightArea implements ExecutionInterface {
 						this.getAnimalPlayer01());
 			} else {
 				actionPlayer02 = "";
+			}
+			
+			// solve the round
+			if (actionPlayer01.equals("")||actionPlayer01.equals("Attack")){
+				continue;
+			}
+			else{
+				if (actionPlayer01.equals("AnnuleDamages") && actionPlayer02.equals("Attack")){
+					// on increase de la difference entre forcePlayer02 et defencePlayer01
+				}
+			}
+			if (actionPlayer02.equals("")){
+				continue;
+			}
+			else{
+				if (actionPlayer02.equals("")){
+					
+				}
 			}
 			// print the life
 			System.out.println("\n==Calculation_of_life_points==");
@@ -185,6 +206,7 @@ public class FightArea implements ExecutionInterface {
 
 		if (selectedAttack == 1) {
 			animal_01.attack(animal_02);
+			return "Attack";
 		} else if (selectedAttack == 2) {
 			String speAction = animal_01.specialAction(animal_02);
 			if (speAction.equals("specialActionDamageAnnulation")){
