@@ -118,16 +118,26 @@ public class FightArea implements ExecutionInterface {
 		boolean deadAnimalFound = false;
 
 		while (!deadAnimalFound) {
-			// player01 chooses its action
-			System.out.println("\n--" + this.getAnimalPlayer01().getPSEUDO()
-					+ "--");
-			this.selectAttack(this.getAnimalPlayer01(),
-					this.getAnimalPlayer02());
-			// player02 chooses its action
-			System.out.println("\n--" + this.getAnimalPlayer02().getPSEUDO()
-					+ "--");
-			this.selectAttack(this.getAnimalPlayer02(),
-					this.getAnimalPlayer01());
+			String actionPlayer01 = new String();
+			String actionPlayer02 = new String();
+			if (this.getAnimalPlayer01().getAbleToAct()) {
+				// player01 chooses its action
+				System.out.println("\n--" + this.getAnimalPlayer01().getPSEUDO()
+						+ "--");
+				actionPlayer01 = this.selectAttack(this.getAnimalPlayer01(),
+						this.getAnimalPlayer02());
+			} else {
+				actionPlayer01 = "";
+			}
+			if (this.getAnimalPlayer01().getAbleToAct()){
+				// player02 chooses its action
+				System.out.println("\n--" + this.getAnimalPlayer02().getPSEUDO()
+						+ "--");
+				actionPlayer02 = this.selectAttack(this.getAnimalPlayer02(),
+						this.getAnimalPlayer01());
+			} else {
+				actionPlayer02 = "";
+			}
 			// print the life
 			System.out.println("\n==Calculation_of_life_points==");
 			System.out.println(this.getAnimalPlayer01().getPSEUDO() + " has "
@@ -145,8 +155,11 @@ public class FightArea implements ExecutionInterface {
 
 	/**
 	 * selectAttack function
+	 * 
+	 * @param 2 Animal = animal of the actif player and animal of his nemesis
+	 * @return String
 	 */
-	private void selectAttack(Animal animal_01, Animal animal_02) {
+	private String selectAttack(Animal animal_01, Animal animal_02) {
 		// TODO HERE: Create 1 player
 		Scanner scan = new Scanner(System.in);
 		int selectedAttack = 0;
@@ -173,10 +186,14 @@ public class FightArea implements ExecutionInterface {
 		if (selectedAttack == 1) {
 			animal_01.attack(animal_02);
 		} else if (selectedAttack == 2) {
-			animal_01.specialAction(animal_02);
+			String speAction = animal_01.specialAction(animal_02);
+			if (speAction.equals("specialActionDamageAnnulation")){
+				return "AnnuleDamages";
+			}
 		} else {
 			animal_01.scream();
 		}
+		return "";
 
 		// scan.close(); // Ca merde quand on close => etrange !
 	}

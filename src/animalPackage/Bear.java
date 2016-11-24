@@ -54,20 +54,25 @@ public class Bear extends WithPaws implements BeFierce {
 
 	/**
 	 * specialAction : function which executes a special attack
+	 * For the bear it is damageAnnulation
 	 * 
 	 * @param Animal
 	 *            attackedAnimal
 	 */
 	@Override
 	public String specialAction(Animal attackedAnimal) {
+		String act = new String();
 		if (this.specialActionAvailable > 0) {
 			System.out.println("use special action");
+			
+			act = "damageAnnulation";
+			
 			this.specialActionAvailable--;
 		} else {
 			System.out.println("special action isn't available anymore");
 			this.scream();
 		}
-		return super.specialAction(attackedAnimal);
+		return super.specialAction(attackedAnimal)+act;
 	}
 
 	/**

@@ -32,6 +32,8 @@ public abstract class Animal {
 	protected Offensif stuffOffensif;
 
 	protected Integer specialActionAvailable;
+	
+	protected Boolean ableToAct;
 
 	/*
 	 * ___________________________________________________________________________________________
@@ -46,6 +48,7 @@ public abstract class Animal {
 		this.PSEUDO = newPseudo;
 		this.color = "pink";
 		this.specialActionAvailable = 3;
+		this.ableToAct = true;
 	}
 
 	/**
@@ -58,6 +61,7 @@ public abstract class Animal {
 		this.PSEUDO = newPseudo;
 		this.color = newColor;
 		this.specialActionAvailable = 3;
+		this.ableToAct = true;
 	}
 
 	/*
@@ -136,6 +140,15 @@ public abstract class Animal {
 		return this.specialActionAvailable;
 	}
 
+	/**
+	 * Get animal's ableToAct
+	 * 
+	 * @return 1 Boolean = animal's ability to act
+	 */
+	public Boolean getAbleToAct() {
+		return this.ableToAct;
+	}
+	
 	/*
 	 * ___________________________________________________________________________________________
 	 * Setters
@@ -203,6 +216,15 @@ public abstract class Animal {
 		this.specialActionAvailable = newSpecialActionAvailable;
 	}
 
+	/**
+	 * Set animal's ableToAct
+	 * 
+	 * @parm 1 Boolean = animal's ability to act
+	 */
+	public void setAbleToAct(Boolean abilityToAct) {
+		this.ableToAct = abilityToAct;
+	}
+	
 	/*
 	 * ___________________________________________________________________________________________
 	 * Functions
@@ -264,7 +286,7 @@ public abstract class Animal {
 			}
 			// scan.close(); // Ca merde quand on close => etrange !
 		}
-		System.out.println("Build selected");
+		System.out.println("Build selected\n");
 	}
 
 	/**
@@ -274,6 +296,15 @@ public abstract class Animal {
 	 */
 	public void decreaseLife(Integer damages) {
 		this.setLife(this.life - damages);
+	}
+	
+	/**
+	 * Increase animal's life
+	 * 
+	 * @param 1 Integer = bonus
+	 */
+	public void increaseLife(Integer bonus) {
+		this.setLife(this.life + bonus);
 	}
 
 	/**
