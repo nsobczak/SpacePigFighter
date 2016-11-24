@@ -32,11 +32,11 @@ Each pig has several caracteristics and some weapon.
 
 ### Animal specialAttack
 
-- damageAnnulation
-- moreDamage
-- paralyze foe which can't attack next turn
-- tripleAttack, 1 turn to charge
-- fly, dodge current attack and attack next turn
+- Bear : damageAnnulation
+- Pig : moreDamage
+- Duck : paralyze foe which can't attack next turn
+- Chicken : tripleAttack, 1 turn to charge
+- Duck : fly, dodge current attack and attack next turn
 
 
 ### Meteorites malus
