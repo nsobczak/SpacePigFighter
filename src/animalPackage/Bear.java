@@ -65,7 +65,7 @@ public class Bear extends WithPaws implements BeFierce {
 		if (this.specialActionAvailable > 0) {
 			System.out.println("use special action");
 			
-			act = "damageAnnulation";
+			act = "DamageAnnulation";
 			
 			this.specialActionAvailable--;
 		} else {
