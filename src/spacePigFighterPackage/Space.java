@@ -175,7 +175,7 @@ public class Space implements ExecutionInterface {
 		boolean locationSelectedAvailable = false;
 
 		while (!locationSelectedAvailable) {
-			System.out.println("Choose your action: \n"
+			System.out.println("Guess ennemy's spacecraft location: \n"
 					+ "0 = position OOO \t| 1 = position OOI\n"
 					+ "2 = position OIO \t| 3 = position IOO\n"
 					+ "4 = position OII \t| 5 = position IOI\n"

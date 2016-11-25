@@ -4,7 +4,7 @@ package stuff;
  * ===== Class Offensif =====
  * 
  * @author Nicolas Sobczak
- * @version 1.01, 11/2016
+ * @version 1.02, 11/2016
  */
 public class Offensif {
 
@@ -42,8 +42,11 @@ public class Offensif {
 	 */
 	/**
 	 * Constructor
+	 * 
+	 * @param int newBonusValue
 	 */
-	public Offensif(Integer bonusValue) {
+	public Offensif(Integer newBonusValue) {
+		this.bonusForce = newBonusValue;
 	}
 
 	/*
@@ -52,8 +55,11 @@ public class Offensif {
 	 */
 	/**
 	 * Set the bonusForce
+	 * 
+	 * @param int newBonusValue
 	 */
-	public void setBonusForce(Integer bonusValue) {
+	public void setBonusForce(Integer newBonusValue) {
+		this.bonusForce = newBonusValue;
 	}
 
 	/*
@@ -62,9 +68,11 @@ public class Offensif {
 	 */
 	/**
 	 * Get the bonusForce value
+	 * 
+	 * @return int bonusForce
 	 */
 	public Integer getBonusForce() {
-		return null;
+		return this.bonusForce;
 	}
 
 }

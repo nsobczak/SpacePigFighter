@@ -1,7 +1,10 @@
 package stuff;
 
 /**
- * Defensif class
+ * ===== Class Defensif =====
+ * 
+ * @author Nicolas Sobczak
+ * @version 1.02, 11/2016
  */
 public class Defensif {
 
@@ -39,8 +42,11 @@ public class Defensif {
 	 */
 	/**
 	 * Constructor
+	 * 
+	 * @param int newBonusValue
 	 */
-	public Defensif(Integer bonusValue) {
+	public Defensif(Integer newBonusValue) {
+		this.bonusResistance = newBonusValue;
 	}
 
 	/*
@@ -49,8 +55,11 @@ public class Defensif {
 	 */
 	/**
 	 * Set the bonusResistance
+	 * 
+	 * @param int newBonusValue
 	 */
-	public void setBonusResistance(Integer bonusValue) {
+	public void setBonusResistance(Integer newBonusValue) {
+		this.bonusResistance = newBonusValue;
 	}
 
 	/*
@@ -59,9 +68,11 @@ public class Defensif {
 	 */
 	/**
 	 * Get the bonusResistance value
+	 * 
+	 * @return int bonusResistance
 	 */
 	public Integer getBonusResistance() {
-		return null;
+		return this.bonusResistance;
 	}
 
 }

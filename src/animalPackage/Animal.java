@@ -32,7 +32,7 @@ public abstract class Animal {
 	protected Offensif stuffOffensif;
 
 	protected Integer specialActionAvailable;
-	
+
 	protected Boolean ableToAct;
 
 	/*
@@ -148,7 +148,7 @@ public abstract class Animal {
 	public Boolean getAbleToAct() {
 		return this.ableToAct;
 	}
-	
+
 	/*
 	 * ___________________________________________________________________________________________
 	 * Setters
@@ -224,11 +224,22 @@ public abstract class Animal {
 	public void setAbleToAct(Boolean abilityToAct) {
 		this.ableToAct = abilityToAct;
 	}
-	
+
 	/*
 	 * ___________________________________________________________________________________________
 	 * Functions
 	 */
+	/**
+	 * Apply animal's stuff bonus
+	 * 
+	 * @param 1 Offensif offensifStuff
+	 * @param 1 Defensif defensifStuff
+	 */
+	public void updateStuffBonus(Offensif offensifStuff, Defensif defensifStuff) {
+		this.force += offensifStuff.getBonusForce();
+		this.resistance += defensifStuff.getBonusResistance();
+	}
+
 	/**
 	 * stuffSelection
 	 */
@@ -247,6 +258,7 @@ public abstract class Animal {
 				+ "| 2 for a well balanced build (1 offensive point, 1 defensive point) |\n"
 				+ "| 3 for a defensive build (0 offensive point, 2 defensive points) |\n"
 				+ "| 4 for extra info |";
+		// selection
 		while (!isBuildSelected) {
 			System.out.println(instructions);
 			buildSelected = scan.nextLine();
@@ -271,6 +283,9 @@ public abstract class Animal {
 						this.setStuffOffensif(Offensif.NONE);
 						this.setStuffDefensif(Defensif.SHIELD);
 					}
+					// apply bonus
+					this.updateStuffBonus(this.getStuffOffensif(),
+							this.getStuffDefensif());
 				} else if (buildSelectedInt == 4) {
 					System.out.println("- Offensive build = an Axe \n"
 							+ "- Well balanced build = a Sword + an Helmet \n"
@@ -286,7 +301,6 @@ public abstract class Animal {
 			}
 			// scan.close(); // Ca merde quand on close => etrange !
 		}
-		System.out.println("Build selected\n");
 	}
 
 	/**
@@ -297,7 +311,7 @@ public abstract class Animal {
 	public void decreaseLife(Integer damages) {
 		this.setLife(this.life - damages);
 	}
-	
+
 	/**
 	 * Increase animal's life
 	 * 

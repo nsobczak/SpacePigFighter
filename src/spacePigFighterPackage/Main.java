@@ -68,8 +68,8 @@ public class Main {
 	 * @param 1 Player = player_2
 	 */
 	public static String part_1(Player player_1, Player player_2) {
-		// TODO HERE: Part 1 of the game
-		System.out.println("This is part 1 !!!");
+		// Part 1 of the game
+		System.out.println("Game part 1");
 		Space space = new Space(player_1, player_2);
 		String result = space.run();
 		System.out.println(result);
@@ -83,8 +83,8 @@ public class Main {
 	 * @param 1 Player = player_2
 	 */
 	public static String part_2(Player player_1, Player player_2) {
-		// TODO HERE: Part 2 of the game
-		System.out.println("This is part 2 !!!");
+		// Part 2 of the game
+		System.out.println("Game part 2 ");
 		FightArea fightArea = new FightArea(player_1, player_2);
 		String result = fightArea.run();
 		System.out.println(result);
@@ -111,15 +111,12 @@ public class Main {
 		System.out.println("...End of player creation");
 
 		// Part1
-		System.out.println("\nEntering part 1 of the game...");
 		part_1(player_1, player_2);
-		System.out.println("...End of part 1");
+		System.out.println("End of part 1");
 
 		// Part2
-		System.out.println("\nEntering part 2 of the game...");
 		String fightResult = part_2(player_1, player_2);
-		System.out.println("...End of part 2");
-
+		System.out.println("End of part 2");
 		System.out.println("\nThis is the end of the game");
 
 		// logger

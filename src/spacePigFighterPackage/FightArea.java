@@ -7,8 +7,8 @@ import playerPackage.Player;
 /**
  * ===== Class FightArea =====
  * 
- * @author Nicolas Sobczak
- * @version 1.03, 11/2016
+ * @author Vincent Reynaert et Nicolas Sobczak
+ * @version 1.04, 11/2016
  */
 public class FightArea implements ExecutionInterface {
 
@@ -94,11 +94,11 @@ public class FightArea implements ExecutionInterface {
 
 		loop();
 		// Check the result
-		if ((this.getAnimalPlayer01().getLife() < 0)
-				&& (this.getAnimalPlayer02().getLife() < 0)) {
+		if ((this.getAnimalPlayer01().getLife() <= 0)
+				&& (this.getAnimalPlayer02().getLife() <= 0)) {
 			result = "both animal are dead | draw";
 		} else {
-			if (this.getAnimalPlayer01().getLife() < 0) {
+			if (this.getAnimalPlayer01().getLife() <= 0) {
 				result = this.getAnimalPlayer01().getPSEUDO() + " is dead | "
 						+ this.getAnimalPlayer02().getPSEUDO()
 						+ " is the winner";
@@ -121,6 +121,7 @@ public class FightArea implements ExecutionInterface {
 		while (!deadAnimalFound) {
 			String actionPlayer01 = new String();
 			String actionPlayer02 = new String();
+
 			// Player01 action
 			if (this.getAnimalPlayer01().getAbleToAct()) {
 				// player01 chooses its action
@@ -143,6 +144,7 @@ public class FightArea implements ExecutionInterface {
 				actionPlayer02 = "";
 			}
 
+			/*
 			// solve the round
 			if (actionPlayer01.equals("") || actionPlayer01.equals("Attack")) {
 				continue;
@@ -160,16 +162,19 @@ public class FightArea implements ExecutionInterface {
 
 				}
 			}
-			// print the life
+			*/
+
+			// print life
 			System.out.println("\n==Calculation_of_life_points==");
 			System.out.println(this.getAnimalPlayer01().getPSEUDO() + " has "
 					+ this.getAnimalPlayer01().getLife() + " LP left." + "\n"
 					+ this.getAnimalPlayer02().getPSEUDO() + " has "
 					+ this.getAnimalPlayer02().getLife() + " LP left.");
 			System.out.println("==============================");
+
 			// check if one animal is dead
-			if ((this.getAnimalPlayer01().getLife() < 0)
-					|| (this.getAnimalPlayer02().getLife() < 0)) {
+			if ((this.getAnimalPlayer01().getLife() <= 0)
+					|| (this.getAnimalPlayer02().getLife() <= 0)) {
 				deadAnimalFound = true;
 			}
 		}
