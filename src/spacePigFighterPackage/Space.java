@@ -1,5 +1,6 @@
-import java.util.Scanner;
+package spacePigFighterPackage;
 
+import java.util.Scanner;
 import animalPackage.Animal;
 import cubeEnvironment.CubeEnvironment;
 import playerPackage.Player;

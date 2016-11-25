@@ -1,7 +1,10 @@
 package stuff;
 
 /**
- * Offensif class
+ * ===== Class Offensif =====
+ * 
+ * @author Nicolas Sobczak
+ * @version 1.01, 11/2016
  */
 public class Offensif {
 

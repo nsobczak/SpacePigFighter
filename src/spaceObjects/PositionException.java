@@ -1,5 +1,11 @@
 package spaceObjects;
 
+/**
+ * ===== Class PositionException =====
+ * 
+ * @author Vincent Reynaert
+ * @version 1.01, 11/2016
+ */
 public class PositionException extends Exception {
 	public PositionException() {
 		System.out

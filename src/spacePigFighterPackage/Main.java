@@ -1,3 +1,5 @@
+package spacePigFighterPackage;
+
 import java.util.Scanner;
 import playerPackage.Player;
 import fileManagementPackage.*;

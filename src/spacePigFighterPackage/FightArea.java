@@ -1,5 +1,6 @@
-import java.util.Scanner;
+package spacePigFighterPackage;
 
+import java.util.Scanner;
 import animalPackage.Animal;
 import playerPackage.Player;
 
@@ -123,40 +124,40 @@ public class FightArea implements ExecutionInterface {
 			// Player01 action
 			if (this.getAnimalPlayer01().getAbleToAct()) {
 				// player01 chooses its action
-				System.out.println("\n--" + this.getAnimalPlayer01().getPSEUDO()
-						+ "--");
+				System.out.println("\n--"
+						+ this.getAnimalPlayer01().getPSEUDO() + "--");
 				actionPlayer01 = this.selectAttack(this.getAnimalPlayer01(),
 						this.getAnimalPlayer02());
 			} else {
 				actionPlayer01 = "";
 			}
-			
+
 			// Player02 action
-			if (this.getAnimalPlayer01().getAbleToAct()){
+			if (this.getAnimalPlayer01().getAbleToAct()) {
 				// player02 chooses its action
-				System.out.println("\n--" + this.getAnimalPlayer02().getPSEUDO()
-						+ "--");
+				System.out.println("\n--"
+						+ this.getAnimalPlayer02().getPSEUDO() + "--");
 				actionPlayer02 = this.selectAttack(this.getAnimalPlayer02(),
 						this.getAnimalPlayer01());
 			} else {
 				actionPlayer02 = "";
 			}
-			
+
 			// solve the round
-			if (actionPlayer01.equals("")||actionPlayer01.equals("Attack")){
+			if (actionPlayer01.equals("") || actionPlayer01.equals("Attack")) {
 				continue;
-			}
-			else{
-				if (actionPlayer01.equals("AnnuleDamages") && actionPlayer02.equals("Attack")){
-					// on increase de la difference entre forcePlayer02 et defencePlayer01
+			} else {
+				if (actionPlayer01.equals("AnnuleDamages")
+						&& actionPlayer02.equals("Attack")) {
+					// on increase de la difference entre forcePlayer02 et
+					// defencePlayer01
 				}
 			}
-			if (actionPlayer02.equals("")){
+			if (actionPlayer02.equals("")) {
 				continue;
-			}
-			else{
-				if (actionPlayer02.equals("")){
-					
+			} else {
+				if (actionPlayer02.equals("")) {
+
 				}
 			}
 			// print the life
@@ -209,7 +210,7 @@ public class FightArea implements ExecutionInterface {
 			return "Attack";
 		} else if (selectedAttack == 2) {
 			String speAction = animal_01.specialAction(animal_02);
-			if (speAction.equals("specialActionDamageAnnulation")){
+			if (speAction.equals("specialActionDamageAnnulation")) {
 				return "AnnuleDamages";
 			}
 		} else {
