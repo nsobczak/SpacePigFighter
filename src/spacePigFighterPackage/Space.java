@@ -168,7 +168,7 @@ public class Space implements ExecutionInterface {
 	 * selectAttack function
 	 */
 	private PositionsCube selectLocation() {
-		// TODO HERE: Create 1 player
+		// Create 1 player
 		Scanner scan = new Scanner(System.in);
 		int selectedLocation = -1;
 		PositionsCube selectedPosition = PositionsCube.NONE;

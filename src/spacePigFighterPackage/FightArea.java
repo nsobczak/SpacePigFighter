@@ -144,25 +144,18 @@ public class FightArea implements ExecutionInterface {
 				actionPlayer02 = "";
 			}
 
+			// TODO: Partie attaques spéciales
 			/*
-			// solve the round
-			if (actionPlayer01.equals("") || actionPlayer01.equals("Attack")) {
-				continue;
-			} else {
-				if (actionPlayer01.equals("AnnuleDamages")
-						&& actionPlayer02.equals("Attack")) {
-					// on increase de la difference entre forcePlayer02 et
-					// defencePlayer01
-				}
-			}
-			if (actionPlayer02.equals("")) {
-				continue;
-			} else {
-				if (actionPlayer02.equals("")) {
-
-				}
-			}
-			*/
+			 * // solve the round if (actionPlayer01.equals("") ||
+			 * actionPlayer01.equals("Attack")) { continue; } else { if
+			 * (actionPlayer01.equals("AnnuleDamages") &&
+			 * actionPlayer02.equals("Attack")) { // on increase de la
+			 * difference entre forcePlayer02 et // defencePlayer01 } } if
+			 * (actionPlayer02.equals("")) { continue; } else { if
+			 * (actionPlayer02.equals("")) {
+			 * 
+			 * } }
+			 */
 
 			// print life
 			System.out.println("\n==Calculation_of_life_points==");
@@ -187,7 +180,7 @@ public class FightArea implements ExecutionInterface {
 	 * @return String
 	 */
 	private String selectAttack(Animal animal_01, Animal animal_02) {
-		// TODO HERE: Create 1 player
+		// Create 1 player
 		Scanner scan = new Scanner(System.in);
 		int selectedAttack = 0;
 		boolean attackSelectedAvailable = false;

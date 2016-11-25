@@ -16,7 +16,7 @@ public class Main {
 	 * playerCreation function
 	 */
 	public static Player playerCreation() {
-		// TODO HERE: Create 1 player
+		// Create 1 player
 		Scanner scan = new Scanner(System.in);
 		int classEnteredInt = 0;
 		boolean classEnteredIsValid = false;

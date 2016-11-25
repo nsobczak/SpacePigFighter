@@ -244,7 +244,7 @@ public abstract class Animal {
 	 * stuffSelection
 	 */
 	public void stuffSelection() {
-		// TODO : offensifStuffSelection + defensifStuffSelection
+		// offensifStuffSelection + defensifStuffSelection
 		boolean isBuildSelected = false;
 		String buildSelected = null;
 		Scanner scan = new Scanner(System.in);
