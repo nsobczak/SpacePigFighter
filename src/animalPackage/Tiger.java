@@ -60,15 +60,18 @@ public class Tiger extends WithPaws implements BeFierce {
 	 */
 	@Override
 	public String specialAction(Animal attackedAnimal) {
-		if (this.specialActionAvailable>0){
+		String act = new String();
+		if (this.specialActionAvailable > 0) {
 			System.out.println("use special action");
-			this.specialActionAvailable-- ;
-		}
-		else{
+			
+			act = "Paralyse";
+			
+			this.specialActionAvailable--;
+		} else {
 			System.out.println("special action isn't available anymore");
 			this.scream();
 		}
-		return super.specialAction(attackedAnimal);
+		return super.specialAction(attackedAnimal)+act;
 	}
 
 	/**

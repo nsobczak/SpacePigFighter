@@ -61,14 +61,18 @@ public class Chicken extends WithWings implements BeFierce {
 	 */
 	@Override
 	public String specialAction(Animal attackedAnimal) {
+		String act = new String();
 		if (this.specialActionAvailable > 0) {
 			System.out.println("use special action");
+			
+			act = "TripleAttack";
+			
 			this.specialActionAvailable--;
 		} else {
 			System.out.println("special action isn't available anymore");
 			this.scream();
 		}
-		return super.specialAction(attackedAnimal);
+		return super.specialAction(attackedAnimal)+act;
 	}
 
 	/**
