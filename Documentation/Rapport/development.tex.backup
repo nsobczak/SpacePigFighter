@@ -1,0 +1,43 @@
+Each player plays when it is its turn.
+
+Here is the UML diagram of the program:
+
+
+\section{UML}
+
+<insert here: UML>
+
+Blue classes are abstract classes.\\
+Green classes are interface.\\
+Pink classes are enumeration.\\
+Yellow classes are the two main classes from the 2 different parts of the game.\\
+
+
+\section{Technical part: class description}
+
+<insert here: brief class description>
+
+\subsection{Set the game}
+
+- set Player class for each player
+- set Space class with 2 CubeEnvironment (1 for each player). Each CubeEnvironment is set with 3 meteorites and 1 spacecraft.
+- set FightArea class with 2 pigs. Each pig is initialized with stuff selected by the player.
+
+
+\subsection{The Space :}
+
+It is composed by 2 CubeEnvironment created thanks to the 2 Player.
+
+
+\section{Difficulties we encountered}
+
+\subsection{Special action}
+
+Special actions are very different. So we had to think our code so that it would be able to welcome each special action.
+(We may had to modify our code ?)
+
+\subsection{Exception}
+
+We created an exception.
+
+

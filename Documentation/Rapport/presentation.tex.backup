@@ -18,7 +18,7 @@ Each pig has several caracteristics and some weapon.
 Here are the concept we chose :
 
 \begin{tabular}{|R{2cm}|C{2cm}|C{2cm}|C{2cm}|L{6cm}|}
-\hline \rowcolor{lightgray} Animal class & Life & Force & Resistance & Special attack \\
+\hline \rowcolor{lightgray} Animal class & life & force & resistance & special attack \\
 \hline  Bear & mid & mid & big & damageAnnulation \\
 \hline Chicken & low & big & mid & triple attack \\
 \hline Duck & big & mid & low & fly \\
@@ -31,7 +31,7 @@ Here are the exact values we chose :
 
 
 \begin{tabular}{|R{2cm}|C{2cm}|C{2cm}|C{2cm}|L{6cm}|}
-\hline \rowcolor{lightgray} Animal class & Life (hp) & Force & Resistance & Special attack \\
+\hline \rowcolor{lightgray} Animal class & life & force & resistance & special attack \\
 \hline Bear & 1000 & 110 & 40 & damageAnnulation: nn \\
 \hline Chicken & 800 & 130 & 20 & triple attack: nn \\
 \hline Duck & 1200 & 110 & 0 & fly: nn \\
@@ -43,48 +43,33 @@ Here are the exact values we chose :
 
 \subsection{Animal specialAttack}
 
-\begin{itemize}
- \item damageAnnulation
- \item moreDamage
- \item paralyze foe which can't attack next turn
- \item tripleAttack, 1 turn to charge
- \item fly, dodge current attack and attack next turn
-\end{itemize}
+- damageAnnulation
+- moreDamage
+- paralyze foe which can't attack next turn
+- tripleAttack, 1 turn to charge
+- fly, dodge current attack and attack next turn
 
 
 \subsection{Meteorites malus}
-
-\begin{tabular}{|R{3cm}|C{3cm}|}
-\hline \rowcolor{lightgray} Size & Malus \\
-\hline small & -20 hp\\
-\hline medium & -50 hp \\
-\hline big & -100 hp \\
-\hline 
-\end{tabular}
+- small : -20 hp
+- medium : -50 hp
+- big : -100 hp
 
 
 \subsection{Stuff choice}
-You have 2 skill points to share between offensif and defensif stuff. 
-You may choose to boost your attack at the expense of the your defense or to boost your defense at the expense of the your attack. 
-Unless you prefer to choose a well balanced build.
+You have 2 skill points to share between offensif and defensif stuff. You may choose to boost your attack at the expense of the your defense or to boost your defense at the expense of the your attack. Unless you prefer to choose a well balanced build.
 
-\begin{tabular}{|R{3,5cm}|C{3cm}|C{3cm}|}
-\hline \rowcolor{lightgray} Build & Attack points & Defense points  \\
-\hline Offensive & 2 & 0 \\
-\hline Well balanced & 1 & 1 \\
-\hline Defensive & 0 & 2 \\
-\hline 
-\end{tabular}
+|Build | Attack points | Defense points |
+|---|---|---|
+|Offensive | 2 | 0 |
+|Well balanced | 1 | 1 |
+|Defensive | 0 | 2 |
 
-Here are the bonus value of each stuff :
-
-\begin{tabular}{|R{3,5cm}|C{3cm}|C{2cm}|C{3cm}|C{2cm}|}
-\hline \rowcolor{lightgray} Build & Offensive stuff & Stats bonus & Defensive stuff & Stats bonus \\
-\hline Offensive & Axe & 40 & None & 00 \\
-\hline Well balanced & Sword & 20 & Helmet & 20 \\
-\hline Defensive & None & 00 & Shield & 40 \\
-\hline 
-\end{tabular}
+|Build | Offensive stuff | Stats bonus | Defensive stuff | Stats bonus |
+|---|---|---|---|---|
+|Offensive | Axe | 40 | None | 00 |
+|Well balanced | Sword | 20 | Helmet | 20 |
+|Defensive | None | 00 | Shield | 40 |
 
 \section{How it is thought/programmed}
 
