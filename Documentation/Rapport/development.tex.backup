@@ -1,9 +1,8 @@
 Each player plays when it is its turn.
 
-Here is the UML diagram of the program:
-
-
 \section{UML}
+
+Here is the UML diagram of the program:
 
 <insert here: UML>
 
@@ -17,19 +16,45 @@ Yellow classes are the two main classes from the 2 different parts of the game.\
 
 <insert here: brief class description>
 
+\subsection{Main}
+
+This class contains the main functions:
+
+\begin{itemize}
+ \item main : main function that calls all the following functions.
+ \item playerCreation : function that create the 2 players.
+ \item part\_1 : function that runs game part 1.
+ \item part\_2 : function that runs game part 2.
+\end{itemize}
+
+
+\subsection{FileManagement}
+
+This class contains all useful functions to save the game story in a file.
+
+\subsection{Player}
+
+We created a Player class that keeps all information about each player.
+
 \subsection{Set the game}
 
-- set Player class for each player
-- set Space class with 2 CubeEnvironment (1 for each player). Each CubeEnvironment is set with 3 meteorites and 1 spacecraft.
-- set FightArea class with 2 pigs. Each pig is initialized with stuff selected by the player.
+\begin{itemize}
+ \item set Player class for each player.
+ \item set Space class with 2 CubeEnvironment (1 for each player). Each CubeEnvironment is set with 3 meteorites and 1 spacecraft.
+ \item set FightArea class with 2 pigs. Each pig is initialized with stuff selected by the player.
+\end{itemize}
 
 
 \subsection{The Space :}
 
-It is composed by 2 CubeEnvironment created thanks to the 2 Player.
+It is composed by 2 CubeEnvironments created thanks to the 2 Players.
+
+\subsection{The FightArea :}
+
+It is composed by 2 Animals created thanks to the 2 Players.
 
 
-\section{Difficulties we encountered}
+\section{Encountered difficulties}
 
 \subsection{Special action}
 
