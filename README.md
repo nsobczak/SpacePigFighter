@@ -34,7 +34,7 @@ Each pig has several caracteristics and some weapon.
 
 - Bear : damageAnnulation
 - Pig : moreDamage
-- Duck : paralyze foe which can't attack next turn
+- Tiger : paralyze foe which can't attack next turn
 - Chicken : tripleAttack, 1 turn to charge
 - Duck : fly, dodge current attack and attack next turn
 
