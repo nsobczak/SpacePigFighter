@@ -36,18 +36,18 @@ public class FightArea implements ExecutionInterface {
 	 * Getters
 	 */
 	/**
-	 * Get FighteArea's animal_player_01
+	 * Get FighteArea animal_player_01
 	 * 
-	 * @return animal_player_01
+	 * @return Animal animal_player_01
 	 */
 	public Animal getAnimalPlayer01() {
 		return this.animal_player_01;
 	}
 
 	/**
-	 * Get FighteArea's animal_player_02
+	 * Get FighteArea animal_player_02
 	 * 
-	 * @return animal_player_02
+	 * @return Animal animal_player_02
 	 */
 	public Animal getAnimalPlayer02() {
 		return this.animal_player_02;
@@ -58,7 +58,7 @@ public class FightArea implements ExecutionInterface {
 	 * Setters
 	 */
 	/**
-	 * Set FighteArea's animal_player_01
+	 * Set FighteArea animal_player_01
 	 * 
 	 * @param Animal
 	 *            new_animal_player_01
@@ -68,7 +68,7 @@ public class FightArea implements ExecutionInterface {
 	}
 
 	/**
-	 * Set FighteArea's animal_player_02
+	 * Set FighteArea animal_player_02
 	 * 
 	 * @param Animal
 	 *            new_animal_player_02

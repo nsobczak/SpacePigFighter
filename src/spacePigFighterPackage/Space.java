@@ -31,6 +31,52 @@ public class Space implements ExecutionInterface {
 
 	/*
 	 * ___________________________________________________________________________________________
+	 * Getters
+	 */
+	/**
+	 * Get Space cubeEnvironment_01
+	 * 
+	 * @return CubeEnvironment cubeEnvironment_01
+	 */
+	public CubeEnvironment getCubeEnvironment01() {
+		return this.cubeEnvironment_01;
+	}
+
+	/**
+	 * Get Space cubeEnvironment_02
+	 * 
+	 * @return CubeEnvironment cubeEnvironment_02
+	 */
+	public CubeEnvironment getCubeEnvironment02() {
+		return this.cubeEnvironment_02;
+	}
+
+	/*
+	 * ___________________________________________________________________________________________
+	 * Setters
+	 */
+	/**
+	 * Set Space cubeEnvironment_01
+	 * 
+	 * @param CubeEnvironment
+	 *            cubeEnvironment_01
+	 */
+	public void setCubeEnvironment01(CubeEnvironment new_cubeEnvironment_01) {
+		this.cubeEnvironment_01 = new_cubeEnvironment_01;
+	}
+
+	/**
+	 * Set Space cubeEnvironment_02
+	 * 
+	 * @param CubeEnvironment
+	 *            cubeEnvironment_02
+	 */
+	public void ssetCubeEnvironment02(CubeEnvironment new_cubeEnvironment_02) {
+		this.cubeEnvironment_02 = new_cubeEnvironment_02;
+	}
+
+	/*
+	 * ___________________________________________________________________________________________
 	 * Functions
 	 */
 	/**
