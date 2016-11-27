@@ -7,8 +7,8 @@ import playerPackage.Player;
 /**
  * ===== Class FightArea =====
  * 
- * @author Vincent Reynaert et Nicolas Sobczak
- * @version 1.04, 11/2016
+ * @author Vincent Reynaert, Nicolas Sobczak
+ * @version 1.05, 11/2016
  */
 public class FightArea implements ExecutionInterface {
 
@@ -16,7 +16,9 @@ public class FightArea implements ExecutionInterface {
 
 	private Animal animal_player_02;
 
-	private final String[] ACTION = {"", "Attack", "AnnuleDamages","MoreDamages", "Paralyse", "TripleAttack", "Fly"};
+	private final String[] ACTION = { "", "Attack", "AnnuleDamages",
+			"MoreDamages", "Paralyse", "TripleAttack", "Fly" };
+
 	/*
 	 * ___________________________________________________________________________________________
 	 * Constructors
@@ -124,10 +126,12 @@ public class FightArea implements ExecutionInterface {
 			String actionPlayer02 = new String();
 
 			// Player01 action
-			System.out.println("\n--" + this.getAnimalPlayer01().getPSEUDO() + "--");
+			System.out.println("\n--" + this.getAnimalPlayer01().getPSEUDO()
+					+ "--");
 			if (this.getAnimalPlayer01().getAbleToAct()) {
 				// player01 chooses its action
-				actionPlayer01 = this.selectAttack(this.getAnimalPlayer01(), this.getAnimalPlayer02());
+				actionPlayer01 = this.selectAttack(this.getAnimalPlayer01(),
+						this.getAnimalPlayer02());
 			} else {
 				actionPlayer01 = "";
 				System.out.println("You are not able to attack this turn !");
@@ -135,10 +139,12 @@ public class FightArea implements ExecutionInterface {
 			}
 
 			// Player02 action
-			System.out.println("\n--" + this.getAnimalPlayer02().getPSEUDO() + "--");
+			System.out.println("\n--" + this.getAnimalPlayer02().getPSEUDO()
+					+ "--");
 			if (this.getAnimalPlayer01().getAbleToAct()) {
 				// player02 chooses its action
-				actionPlayer02 = this.selectAttack(this.getAnimalPlayer02(), this.getAnimalPlayer01());
+				actionPlayer02 = this.selectAttack(this.getAnimalPlayer02(),
+						this.getAnimalPlayer01());
 			} else {
 				actionPlayer02 = "";
 				System.out.println("You are not able to attack this turn !");
@@ -146,10 +152,10 @@ public class FightArea implements ExecutionInterface {
 			}
 
 			// TODO: Partie attaques speciales
-			
-			// solve the round 
-			solveRound(actionPlayer01,actionPlayer02);
-			
+
+			// solve the round
+			solveRound(actionPlayer01, actionPlayer02);
+
 			// print life
 			System.out.println("\n==Calculation_of_life_points==");
 			System.out.println(this.getAnimalPlayer01().getPSEUDO() + " has "
@@ -216,14 +222,14 @@ public class FightArea implements ExecutionInterface {
 						if (speAction.equals("specialActionMoreDamages")) {
 							return "MoreDamages";
 						} else {
-							
+
 							if (speAction.equals("specialActionParalyse")) {
 								return "Paralyse";
 							}
 						}
 					}
 				}
-			}	
+			}
 		} else {
 			animal_01.scream();
 		}
@@ -231,62 +237,91 @@ public class FightArea implements ExecutionInterface {
 
 		// scan.close(); // Ca merde quand on close => etrange !
 	}
+
 	/**
+	 * solveRound function : function that...
 	 * 
 	 * @param actionPlayer01
 	 * @param actionPlayer02
 	 */
-	//ACTION = {0:"", 1:"Attack", 2:"AnnuleDamages", 3:"MoreDamages", 4:"Paralyse", 5:"TripleAttack", 6:"Fly"}
-	private void solveRound(String actionPlayer01, String actionPlayer02){
+	// ACTION = {0:"", 1:"Attack", 2:"AnnuleDamages", 3:"MoreDamages",
+	// 4:"Paralyse", 5:"TripleAttack", 6:"Fly"}
+	private void solveRound(String actionPlayer01, String actionPlayer02) {
 		// Player1 action
-		if (!(actionPlayer01.equals(this.ACTION[0]) || actionPlayer01.equals(this.ACTION[1]))) { 
-			if (actionPlayer01.equals(this.ACTION[2]) && actionPlayer02.equals(this.ACTION[1])) { 
-				int bonus = this.getAnimalPlayer02().getForce() - this.getAnimalPlayer01().getResistance();
+		if (!(actionPlayer01.equals(this.ACTION[0]) || actionPlayer01
+				.equals(this.ACTION[1]))) {
+			if (actionPlayer01.equals(this.ACTION[2])
+					&& actionPlayer02.equals(this.ACTION[1])) {
+				int bonus = this.getAnimalPlayer02().getForce()
+						- this.getAnimalPlayer01().getResistance();
 				this.getAnimalPlayer01().increaseLife(bonus);
 			} else {
-				if (actionPlayer01.equals(this.ACTION[3]) && !actionPlayer02.equals(this.ACTION[2]) && !actionPlayer02.equals(this.ACTION[6])){
-					int damages = this.getAnimalPlayer01().getForce() - this.getAnimalPlayer02().getResistance();
-					this.getAnimalPlayer02().decreaseLife(damages*2);
+				if (actionPlayer01.equals(this.ACTION[3])
+						&& !actionPlayer02.equals(this.ACTION[2])
+						&& !actionPlayer02.equals(this.ACTION[6])) {
+					int damages = this.getAnimalPlayer01().getForce()
+							- this.getAnimalPlayer02().getResistance();
+					this.getAnimalPlayer02().decreaseLife(damages * 2);
 				} else {
-					if (actionPlayer01.equals(this.ACTION[4]) && !actionPlayer02.equals(this.ACTION[6])){
+					if (actionPlayer01.equals(this.ACTION[4])
+							&& !actionPlayer02.equals(this.ACTION[6])) {
 						this.getAnimalPlayer02().setAbleToAct(false);
 					} else {
-						if (actionPlayer01.equals(this.ACTION[5]) && !actionPlayer02.equals(this.ACTION[2]) && !actionPlayer02.equals(this.ACTION[6])){
-							int damages = this.getAnimalPlayer01().getForce() - this.getAnimalPlayer02().getResistance();
-							this.getAnimalPlayer02().decreaseLife(damages*3);
+						if (actionPlayer01.equals(this.ACTION[5])
+								&& !actionPlayer02.equals(this.ACTION[2])
+								&& !actionPlayer02.equals(this.ACTION[6])) {
+							int damages = this.getAnimalPlayer01().getForce()
+									- this.getAnimalPlayer02().getResistance();
+							this.getAnimalPlayer02().decreaseLife(damages * 3);
 							this.getAnimalPlayer01().setAbleToAct(false);
 						} else {
-							if (actionPlayer01.equals(this.ACTION[6]) && actionPlayer02.equals(this.ACTION[1])) { 
-								int bonus = this.getAnimalPlayer02().getForce() - this.getAnimalPlayer01().getResistance();
+							if (actionPlayer01.equals(this.ACTION[6])
+									&& actionPlayer02.equals(this.ACTION[1])) {
+								int bonus = this.getAnimalPlayer02().getForce()
+										- this.getAnimalPlayer01()
+												.getResistance();
 								this.getAnimalPlayer01().increaseLife(bonus);
 							}
 						}
 					}
-					
+
 				}
 			}
 		}
-		
-		//Player2 action
-		if (!(actionPlayer02.equals(this.ACTION[0]) || actionPlayer02.equals(this.ACTION[1]))) { 
-			if (actionPlayer02.equals(this.ACTION[2]) && actionPlayer01.equals(this.ACTION[1])) { 
-				int bonus = this.getAnimalPlayer01().getForce() - this.getAnimalPlayer02().getResistance();
+
+		// Player2 action
+		if (!(actionPlayer02.equals(this.ACTION[0]) || actionPlayer02
+				.equals(this.ACTION[1]))) {
+			if (actionPlayer02.equals(this.ACTION[2])
+					&& actionPlayer01.equals(this.ACTION[1])) {
+				int bonus = this.getAnimalPlayer01().getForce()
+						- this.getAnimalPlayer02().getResistance();
 				this.getAnimalPlayer02().increaseLife(bonus);
 			} else {
-				if (actionPlayer02.equals(this.ACTION[3]) && !actionPlayer01.equals(this.ACTION[2]) && !actionPlayer01.equals(this.ACTION[6])){
-					int damages = this.getAnimalPlayer02().getForce() - this.getAnimalPlayer01().getResistance();
-					this.getAnimalPlayer01().decreaseLife(damages*2);
+				if (actionPlayer02.equals(this.ACTION[3])
+						&& !actionPlayer01.equals(this.ACTION[2])
+						&& !actionPlayer01.equals(this.ACTION[6])) {
+					int damages = this.getAnimalPlayer02().getForce()
+							- this.getAnimalPlayer01().getResistance();
+					this.getAnimalPlayer01().decreaseLife(damages * 2);
 				} else {
-					if (actionPlayer02.equals(this.ACTION[4]) && !actionPlayer01.equals(this.ACTION[6])){
+					if (actionPlayer02.equals(this.ACTION[4])
+							&& !actionPlayer01.equals(this.ACTION[6])) {
 						this.getAnimalPlayer01().setAbleToAct(false);
 					} else {
-						if (actionPlayer02.equals(this.ACTION[5]) && !actionPlayer01.equals(this.ACTION[2]) && !actionPlayer01.equals(this.ACTION[6])){
-							int damages = this.getAnimalPlayer02().getForce() - this.getAnimalPlayer01().getResistance();
-							this.getAnimalPlayer01().decreaseLife(damages*3);
+						if (actionPlayer02.equals(this.ACTION[5])
+								&& !actionPlayer01.equals(this.ACTION[2])
+								&& !actionPlayer01.equals(this.ACTION[6])) {
+							int damages = this.getAnimalPlayer02().getForce()
+									- this.getAnimalPlayer01().getResistance();
+							this.getAnimalPlayer01().decreaseLife(damages * 3);
 							this.getAnimalPlayer02().setAbleToAct(false);
 						} else {
-							if (actionPlayer02.equals(this.ACTION[6]) && actionPlayer01.equals(this.ACTION[1])) { 
-								int bonus = this.getAnimalPlayer01().getForce() - this.getAnimalPlayer02().getResistance();
+							if (actionPlayer02.equals(this.ACTION[6])
+									&& actionPlayer01.equals(this.ACTION[1])) {
+								int bonus = this.getAnimalPlayer01().getForce()
+										- this.getAnimalPlayer02()
+												.getResistance();
 								this.getAnimalPlayer02().increaseLife(bonus);
 							}
 						}
@@ -295,4 +330,5 @@ public class FightArea implements ExecutionInterface {
 			}
 		}
 	}
+
 }

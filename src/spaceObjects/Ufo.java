@@ -5,7 +5,7 @@ package spaceObjects;
  * 
  * useful to have position in the cube
  * 
- * @author Vincent Reynaert
+ * @author Vincent Reynaert, Nicolas Sobczak
  * @version 1.02, 10/2016
  */
 public abstract class Ufo {

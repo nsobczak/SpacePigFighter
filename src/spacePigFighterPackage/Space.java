@@ -8,6 +8,12 @@ import spaceObjects.MeteoriteSize;
 import spaceObjects.PositionException;
 import spaceObjects.PositionsCube;
 
+/**
+ * ===== Class Space =====
+ * 
+ * @author Vincent Reynaert, Nicolas Sobczak
+ * @version 1.03, 11/2016
+ */
 public class Space implements ExecutionInterface {
 
 	public CubeEnvironment cubeEnvironment_01;

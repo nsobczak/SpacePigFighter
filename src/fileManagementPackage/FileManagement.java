@@ -10,7 +10,7 @@ import playerPackage.Player;
 /**
  * ===== Class FileManagement =====
  * 
- * @author Nicolas Sobczak
+ * @author Vincent Reynaert, Nicolas Sobczak
  * @version 1.03, 11/2016
  */
 public class FileManagement {

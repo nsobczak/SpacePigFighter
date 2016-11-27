@@ -7,7 +7,7 @@ import java.util.Random;
 /**
  * ===== Class CubeEnvironment =====
  * 
- * @author Vincent Reynaert
+ * @author Vincent Reynaert, Nicolas Sobczak
  * @version 1.03, 11/2016
  */
 public class CubeEnvironment {

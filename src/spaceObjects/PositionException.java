@@ -3,7 +3,7 @@ package spaceObjects;
 /**
  * ===== Class PositionException =====
  * 
- * @author Vincent Reynaert
+ * @author Vincent Reynaert, Nicolas Sobczak
  * @version 1.01, 11/2016
  */
 public class PositionException extends Exception {

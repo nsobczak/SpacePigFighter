@@ -11,7 +11,7 @@ import animalPackage.Tiger;
 /**
  * ===== Class Player =====
  * 
- * @author Nicolas Sobczak
+ * @author Vincent Reynaert, Nicolas Sobczak
  * @version 1.01, 10/2016
  */
 public class Player {

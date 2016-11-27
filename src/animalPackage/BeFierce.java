@@ -3,7 +3,7 @@ package animalPackage;
 /**
  * ===== interface BeFierce =====
  * 
- * @author Nicolas Sobczak
+ * @author Vincent Reynaert, Nicolas Sobczak
  * @version 1.01, 11/2016
  */
 public interface BeFierce {

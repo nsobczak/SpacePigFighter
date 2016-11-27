@@ -3,7 +3,7 @@ package animalPackage;
 /**
  * ===== Class Bear =====
  * 
- * @author Nicolas Sobczak
+ * @author Vincent Reynaert, Nicolas Sobczak
  * @version 1.03, 11/2016
  */
 public class Bear extends WithPaws implements BeFierce {
@@ -53,8 +53,8 @@ public class Bear extends WithPaws implements BeFierce {
 	}
 
 	/**
-	 * specialAction : function which executes a special attack
-	 * For the bear it is damageAnnulation
+	 * specialAction : function which executes a special attack For the bear it
+	 * is damageAnnulation
 	 * 
 	 * @param Animal
 	 *            attackedAnimal
@@ -64,15 +64,15 @@ public class Bear extends WithPaws implements BeFierce {
 		String act = new String();
 		if (this.specialActionAvailable > 0) {
 			System.out.println("use special action");
-			
+
 			act = "DamageAnnulation";
-			
+
 			this.specialActionAvailable--;
 		} else {
 			System.out.println("special action isn't available anymore");
 			this.scream();
 		}
-		return super.specialAction(attackedAnimal)+act;
+		return super.specialAction(attackedAnimal) + act;
 	}
 
 	/**

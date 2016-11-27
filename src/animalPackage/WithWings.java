@@ -3,7 +3,7 @@ package animalPackage;
 /**
  * ===== Class WithWings =====
  * 
- * @author Nicolas Sobczak
+ * @author Vincent Reynaert, Nicolas Sobczak
  * @version 1.03, 11/2016
  */
 public abstract class WithWings extends Animal {

@@ -3,7 +3,7 @@ package animalPackage;
 /**
  * ===== Class Pig =====
  * 
- * @author Nicolas Sobczak
+ * @author Vincent Reynaert, Nicolas Sobczak
  * @version 1.03, 11/2016
  */
 public class Pig extends WithPaws {
@@ -63,15 +63,15 @@ public class Pig extends WithPaws {
 		String act = new String();
 		if (this.specialActionAvailable > 0) {
 			System.out.println("use special action");
-			
+
 			act = "MoreDamages";
-			
+
 			this.specialActionAvailable--;
 		} else {
 			System.out.println("special action isn't available anymore");
 			this.scream();
 		}
-		return super.specialAction(attackedAnimal)+act;
+		return super.specialAction(attackedAnimal) + act;
 	}
 
 	/**

@@ -5,7 +5,7 @@ import animalPackage.*;
 /**
  * ===== Class Spacecraft =====
  * 
- * @author Vincent Reynaert
+ * @author Vincent Reynaert, Nicolas Sobczak
  * @version 1.03, 11/2016
  */
 public class Spacecraft extends Ufo {

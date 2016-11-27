@@ -3,7 +3,7 @@ package animalPackage;
 /**
  * ===== Class Tiger =====
  * 
- * @author Nicolas Sobczak
+ * @author Vincent Reynaert, Nicolas Sobczak
  * @version 1.03, 11/2016
  */
 public class Tiger extends WithPaws implements BeFierce {
@@ -63,15 +63,15 @@ public class Tiger extends WithPaws implements BeFierce {
 		String act = new String();
 		if (this.specialActionAvailable > 0) {
 			System.out.println("use special action");
-			
+
 			act = "Paralyse";
-			
+
 			this.specialActionAvailable--;
 		} else {
 			System.out.println("special action isn't available anymore");
 			this.scream();
 		}
-		return super.specialAction(attackedAnimal)+act;
+		return super.specialAction(attackedAnimal) + act;
 	}
 
 	/**

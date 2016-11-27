@@ -3,7 +3,7 @@ package spacePigFighterPackage;
 /**
  * ===== interface ExecutionInterface =====
  * 
- * @author Nicolas Sobczak
+ * @author Vincent Reynaert, Nicolas Sobczak
  * @version 1.01, 11/2016
  */
 public interface ExecutionInterface {

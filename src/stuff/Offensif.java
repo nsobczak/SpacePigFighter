@@ -3,7 +3,7 @@ package stuff;
 /**
  * ===== Class Offensif =====
  * 
- * @author Nicolas Sobczak
+ * @author Vincent Reynaert, Nicolas Sobczak
  * @version 1.02, 11/2016
  */
 public class Offensif {
