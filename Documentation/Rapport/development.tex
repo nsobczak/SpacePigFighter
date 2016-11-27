@@ -31,7 +31,7 @@ Yellow classes are the two main classes from the 2 different parts of the game.\
 
 \section{Technical part: class description}
 
-<insert here: brief class description>
+This part contains a brief description of all project classes.
 
 \subsection{Main}
 
@@ -144,7 +144,7 @@ It is an abstract class.
 \subsubsection{WithWings class}
 
 It is an abstract class which extends animal class.
-It overrides \textit{attack()} function.
+It overrides \textit{attack()} function to caracterize it by the way the animal attack (with paws or with wings).
 
 \subsubsection{WithPaws class}
 
@@ -152,10 +152,32 @@ It is an abstract class which extends animal class.
 It overrides \textit{attack()} function to caracterize it by the way the animal attack (with paws or with wings).
 
 \subsubsection{Bear class}
+
+Bear is an animal with paws. That's why it extends WithPaws abstract class.
+It overrides \textit{attack()}, \textit{specialAction()} and \textit{scream()} functions.
+Since Bear is a fierce animal, it implements BeFierce interface and overrides \textit{beFierce()} function.
+
 \subsubsection{Chicken class}
+
+Chicken is an animal with paws. That's why it extends WithWings abstract class.
+It overrides \textit{attack()}, \textit{specialAction()} and \textit{scream()} functions.
+Since Chicken is a fierce animal, it implements BeFierce interface and overrides \textit{beFierce()} function.
+
 \subsubsection{Duck class}
+
+Duck is an animal with paws. That's why it extends WithWings abstract class.
+It overrides \textit{attack()}, \textit{specialAction()} and \textit{scream()} functions.
+
 \subsubsection{Pig class}
+
+Pig is an animal with paws. That's why it extends WithPaws abstract class.
+It overrides \textit{attack()}, \textit{specialAction()} and \textit{scream()} functions.
+
 \subsubsection{Tiger class}
+
+Tiger is an animal with paws. That's why it extends WithPaws abstract class.
+It overrides \textit{attack()}, \textit{specialAction()} and \textit{scream()} functions.
+Since Tiger is a fierce animal, it implements BeFierce interface and overrides \textit{beFierce()} function.
 
 \subsubsection{BeFierce interface}
 
@@ -164,9 +186,15 @@ It contains 1 function, \textit{beFierce()} function.
 
 \subsubsection{Offensif class}
 
+Each animal has an offensive stuff which gives it a force bonus. 
+Offensif class is here to do that.
+It has force bonus value and constants that defines existing offensive stuff.
+
 \subsubsection{Defensif class}
 
-
+Each animal has an defensive stuff which gives it a force bonus. 
+Defensif class is here to do that.
+It has force bonus value and constants that defines existing defensive stuff.
 
 
 \subsection{Set the game}

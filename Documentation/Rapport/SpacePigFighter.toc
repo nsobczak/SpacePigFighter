@@ -36,11 +36,11 @@
 \contentsline {subsubsection}{\numberline {3.2.6.5}Chicken class}{10}{subsubsection.3.2.6.5}
 \contentsline {subsubsection}{\numberline {3.2.6.6}Duck class}{10}{subsubsection.3.2.6.6}
 \contentsline {subsubsection}{\numberline {3.2.6.7}Pig class}{10}{subsubsection.3.2.6.7}
-\contentsline {subsubsection}{\numberline {3.2.6.8}Tiger class}{10}{subsubsection.3.2.6.8}
-\contentsline {subsubsection}{\numberline {3.2.6.9}BeFierce interface}{10}{subsubsection.3.2.6.9}
-\contentsline {subsubsection}{\numberline {3.2.6.10}Offensif class}{10}{subsubsection.3.2.6.10}
-\contentsline {subsubsection}{\numberline {3.2.6.11}Defensif class}{10}{subsubsection.3.2.6.11}
-\contentsline {subsection}{\numberline {3.2.7}Set the game}{10}{subsection.3.2.7}
+\contentsline {subsubsection}{\numberline {3.2.6.8}Tiger class}{11}{subsubsection.3.2.6.8}
+\contentsline {subsubsection}{\numberline {3.2.6.9}BeFierce interface}{11}{subsubsection.3.2.6.9}
+\contentsline {subsubsection}{\numberline {3.2.6.10}Offensif class}{11}{subsubsection.3.2.6.10}
+\contentsline {subsubsection}{\numberline {3.2.6.11}Defensif class}{11}{subsubsection.3.2.6.11}
+\contentsline {subsection}{\numberline {3.2.7}Set the game}{11}{subsection.3.2.7}
 \contentsline {section}{\numberline {3.3}Encountered difficulties}{11}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Special action}{11}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}Exception}{11}{subsection.3.3.2}

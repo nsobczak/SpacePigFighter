@@ -71,11 +71,23 @@ By doing this, the Main class won't change, it will always call the \textit{run(
 \subsubsection{Space class:}
 
 It is composed by 2 CubeEnvironments created thanks to the 2 Players.
+It has 3 main functions : 
+\begin{itemize}
+ \item run() : main function from the interface, it runs all game part 1.
+ \item loop() : it runs the main loop while no spacecraft has been found, each player select a location en try to guess spacecraft postition.
+ \item selectLocation(): it return the position selected by a player.
+\end{itemize}
 
 \subsubsection{FightArea class:}
 
-It is composed by 2 Animals created thanks to the 2 Players.
-
+It is composed by 2 Animals created thanks to the 2 Players and a list of special actions.
+It has 4 main functions : 
+\begin{itemize}
+ \item run() : main function from the interface, it runs all game part 2.
+ \item loop() : it runs the main loop while no dead animal has been found, each player select an action to do.
+ \item selectAttack(): it allows a player to select an action for its animal to do.
+ \item solveRound(): this function manage special actions.
+\end{itemize}
 
 \subsection{Part1}
 
@@ -108,12 +120,20 @@ They are coordinates.
 
 \subsubsection{meteorites}
 
+There are 3 meteorites in each cube. 
+A Meteorite has size which can be one from the MeteoriteSize enumeration.
+The size impact the amount of life to withdraw to an animal if a player collides a meteorite.
+
 \subsubsection{MeteoriteSize}
 
 This enumeration enumerates all existing meteorite size.
 
 \subsubsection{spacecraft}
 
+There is one spacecraft in each cube.
+Spacecraft class has a color and an Animal.
+The spacecraft can be damaged by a meteorite.
+A damaged spacecraft means its animal life decreases.
 
 \subsection{Part2}
 
@@ -124,10 +144,12 @@ It is an abstract class.
 \subsubsection{WithWings class}
 
 It is an abstract class which extends animal class.
+It overrides \textit{attack()} function.
 
 \subsubsection{WithPaws class}
 
 It is an abstract class which extends animal class.
+It overrides \textit{attack()} function to caracterize it by the way the animal attack (with paws or with wings).
 
 \subsubsection{Bear class}
 \subsubsection{Chicken class}
