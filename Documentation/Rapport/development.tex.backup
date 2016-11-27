@@ -2,15 +2,32 @@ Each player plays when it is its turn.
 
 \section{UML}
 
-Here is the UML diagram of the program:
+Here is the global UML diagram of the program:
 
-<insert here: UML>
+\includegraphics[width=450pt]{../../Images/UMLdiagramme.png}
+
+Since you can't see anything on this screenshot, there bigger screenshots below.
 
 Blue classes are abstract classes.\\
 Green classes are interface.\\
 Pink classes are enumeration.\\
 Yellow classes are the two main classes from the 2 different parts of the game.\\
 
+\begin{figure}
+  \includegraphics[width=450pt]{../../Images/1_1-2_1.png}
+  \caption{\small left screenshot 1}
+  \includegraphics[width=450pt]{../../Images/1_1-1_2-2_2.png}
+  \caption{\small left screenshot 2}
+  \includegraphics[width=450pt]{../../Images/1_2-2_3.png}
+  \caption{\small left screenshot 3}
+\end{figure}
+
+\begin{figure}
+  \includegraphics[width=450pt]{../../Images/2_2-3_2-3_3.png}
+  \caption{\small right screenshot 1}
+  \includegraphics[width=450pt]{../../Images/2_3-3_3.png}
+  \caption{\small right screenshot 2}
+\end{figure}
 
 \section{Technical part: class description}
 
@@ -30,11 +47,48 @@ This class contains the main functions:
 
 \subsection{FileManagement}
 
-This class contains all useful functions to save the game story in a file.
+This class contains all useful functions to save the game story in a file. 
+We chose to put them in a class in order not to overload the Main class.
 
 \subsection{Player}
 
-We created a Player class that keeps all information about each player.
+We created a Player class that keeps all information about each player. 
+That is to say that a player contains a spacecraft and its animal.
+It is from this class that we can access all information at any time and everywhere in our code.
+
+\subsection{The 2 main classes of the game}
+
+We created 1 class for each part of the game. 
+It is from these 2 classes that each part is run.
+They both implements the executionInterface interface.
+
+\subsubsection{executionInterface interface:}
+
+This interface has only one function: \textit{run()}. 
+We decided to create this interface in order to create a name convention for the function which runs each part of the game.
+By doing this, the Main class won't change, it will always call the \textit{run()} function of each class even if each class change.
+
+\subsubsection{Space class:}
+
+It is composed by 2 CubeEnvironments created thanks to the 2 Players.
+
+\subsubsection{FightArea class:}
+
+It is composed by 2 Animals created thanks to the 2 Players.
+
+
+\subsection{CubeEnvironment}
+
+We thought the space environment in a particular way. 
+Indeed, we assimilate it to 2 cubes, 1 for each player.
+Each cube is composed of a spacecraft and 3 meteorites. 
+They can be located to 8 different positions that correspond to each corner of the cube.\\
+\\
+During the 1st part of the game, each player try to find the location of the other one's spacecraft.
+Of course he has to avoid meteorites that decrease the life. 
+Once one player find the other one, part 2 of the game is started.
+
+
 
 \subsection{Set the game}
 
@@ -45,24 +99,16 @@ We created a Player class that keeps all information about each player.
 \end{itemize}
 
 
-\subsection{The Space :}
-
-It is composed by 2 CubeEnvironments created thanks to the 2 Players.
-
-\subsection{The FightArea :}
-
-It is composed by 2 Animals created thanks to the 2 Players.
-
-
 \section{Encountered difficulties}
 
 \subsection{Special action}
 
 Special actions are very different. So we had to think our code so that it would be able to welcome each special action.
-(We may had to modify our code ?)
+We had to modify our code.
 
 \subsection{Exception}
 
-We created an exception.
+We created an exception. We had difficultie because it was the first time and we didn't undertand exception very well.
+We no longer do !
 
 
