@@ -28,8 +28,20 @@
 \contentsline {subsubsection}{\numberline {3.2.5.4}meteorites}{9}{subsubsection.3.2.5.4}
 \contentsline {subsubsection}{\numberline {3.2.5.5}MeteoriteSize}{9}{subsubsection.3.2.5.5}
 \contentsline {subsubsection}{\numberline {3.2.5.6}spacecraft}{9}{subsubsection.3.2.5.6}
-\contentsline {subsection}{\numberline {3.2.6}Set the game}{9}{subsection.3.2.6}
-\contentsline {section}{\numberline {3.3}Encountered difficulties}{9}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Special action}{9}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Exception}{9}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.2.6}Part2}{9}{subsection.3.2.6}
+\contentsline {subsubsection}{\numberline {3.2.6.1}Animal class}{9}{subsubsection.3.2.6.1}
+\contentsline {subsubsection}{\numberline {3.2.6.2}WithWings class}{9}{subsubsection.3.2.6.2}
+\contentsline {subsubsection}{\numberline {3.2.6.3}WithPaws class}{10}{subsubsection.3.2.6.3}
+\contentsline {subsubsection}{\numberline {3.2.6.4}Bear class}{10}{subsubsection.3.2.6.4}
+\contentsline {subsubsection}{\numberline {3.2.6.5}Chicken class}{10}{subsubsection.3.2.6.5}
+\contentsline {subsubsection}{\numberline {3.2.6.6}Duck class}{10}{subsubsection.3.2.6.6}
+\contentsline {subsubsection}{\numberline {3.2.6.7}Pig class}{10}{subsubsection.3.2.6.7}
+\contentsline {subsubsection}{\numberline {3.2.6.8}Tiger class}{10}{subsubsection.3.2.6.8}
+\contentsline {subsubsection}{\numberline {3.2.6.9}BeFierce interface}{10}{subsubsection.3.2.6.9}
+\contentsline {subsubsection}{\numberline {3.2.6.10}Offensif class}{10}{subsubsection.3.2.6.10}
+\contentsline {subsubsection}{\numberline {3.2.6.11}Defensif class}{10}{subsubsection.3.2.6.11}
+\contentsline {subsection}{\numberline {3.2.7}Set the game}{10}{subsection.3.2.7}
+\contentsline {section}{\numberline {3.3}Encountered difficulties}{10}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Special action}{10}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Exception}{10}{subsection.3.3.2}
 \contentsline {chapter}{\numberline {4}Conclusion}{11}{chapter.4}

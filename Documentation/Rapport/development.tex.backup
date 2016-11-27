@@ -77,16 +77,73 @@ It is composed by 2 CubeEnvironments created thanks to the 2 Players.
 It is composed by 2 Animals created thanks to the 2 Players.
 
 
-\subsection{CubeEnvironment}
+\subsection{Part1}
+
+\subsubsection{CubeEnvironment class}
 
 We thought the space environment in a particular way. 
-Indeed, we assimilate it to 2 cubes, 1 for each player.
+Indeed, we assimilate it to 2 cubes, 1 for each player. That's why the Space class is composed of 2 CubeEnvironment.
 Each cube is composed of a spacecraft and 3 meteorites. 
 They can be located to 8 different positions that correspond to each corner of the cube.\\
 \\
 During the 1st part of the game, each player try to find the location of the other one's spacecraft.
 Of course he has to avoid meteorites that decrease the life. 
 Once one player find the other one, part 2 of the game is started.
+
+\subsubsection{UFO class}
+
+It is an abstract class. 
+It was created in order to manage position of both meteorites en spacecrafts.
+That's why Meteorite class and Spacecraft class both extends UFO abstract class.\\
+\\
+To manage location, an UFO has an attribute \textit{location}.
+We also created function which make us be able to manage location.
+Constructor was overloaded in order to create a UFO default position (000) or take the position in parameter.
+
+\subsubsection{PositionsCube enumeration}
+
+This enumeration enumerates all available positions in a cube. 
+These positions match each corner of the cube.
+They are coordinates.
+
+\subsubsection{meteorites}
+
+\subsubsection{MeteoriteSize}
+
+This enumeration enumerates all existing meteorite size.
+
+\subsubsection{spacecraft}
+
+
+\subsection{Part2}
+
+\subsubsection{Animal class}
+
+It is an abstract class.
+
+\subsubsection{WithWings class}
+
+It is an abstract class which extends animal class.
+
+\subsubsection{WithPaws class}
+
+It is an abstract class which extends animal class.
+
+\subsubsection{Bear class}
+\subsubsection{Chicken class}
+\subsubsection{Duck class}
+\subsubsection{Pig class}
+\subsubsection{Tiger class}
+
+\subsubsection{BeFierce interface}
+
+This interface was created to caracterize scream of some animals that are said to be fierce.
+It contains 1 function, \textit{beFierce()} function.
+
+\subsubsection{Offensif class}
+
+\subsubsection{Defensif class}
+
 
 
 
