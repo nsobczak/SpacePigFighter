@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.11)  27 NOV 2016 16:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.11)  27 NOV 2016 16:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1220,6 +1220,23 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 18.66588pt on input line 144.
 LaTeX Font Info:    Font shape `T1/phv/bc/n' will be
 (Font)              scaled to size 18.66588pt on input line 144.
+(./intro.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 1--146
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--146
+
+ []
+
+[1
+
+
+] [2
+
+]
+Chapter 2.
 (./presentation.tex
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 12.9599pt on input line 1.
@@ -1230,16 +1247,13 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 LaTeX Font Info:    Font shape `T1/phv/bc/n' will be
 (Font)              scaled to size 12.9599pt on input line 1.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 16.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 8.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 10.79993pt on input line 16.
+(Font)              scaled to size 10.79993pt on input line 8.
 LaTeX Font Info:    Font shape `T1/phv/bc/n' will be
-(Font)              scaled to size 10.79993pt on input line 16.
- [1
-
-
-]) [2]
-Chapter 2.
+(Font)              scaled to size 10.79993pt on input line 8.
+ [3]) [4]
+Chapter 3.
 (./story.tex
 LaTeX Font Info:    Try loading font information for TS1+phv on input line 8.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1phv.fd
@@ -1248,14 +1262,14 @@ File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
 LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
 (Font)              scaled to size 8.99994pt on input line 8.
 )
-[3
+[5
 
-] [4
+] [6
 
 ]
-Chapter 3.
+Chapter 4.
 (./development.tex
-<../../Images/UMLdiagramme.png, id=1458, 1310.8975pt x 879.285pt>
+<../../Images/UMLdiagramme.png, id=1466, 1310.8975pt x 879.285pt>
 File: ../../Images/UMLdiagramme.png Graphic file (type png)
 
 <use ../../Images/UMLdiagramme.png>
@@ -1266,7 +1280,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--16
 
  []
 
-<../../Images/1_1-2_1.png, id=1459, 1889.0575pt x 879.285pt>
+<../../Images/1_1-2_1.png, id=1467, 1889.0575pt x 879.285pt>
 File: ../../Images/1_1-2_1.png Graphic file (type png)
 
 <use ../../Images/1_1-2_1.png>
@@ -1281,7 +1295,7 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <9> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 19.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 8.09995pt on input line 19.
-<../../Images/1_1-1_2-2_2.png, id=1460, 1888.05376pt x 885.3075pt>
+<../../Images/1_1-1_2-2_2.png, id=1468, 1888.05376pt x 885.3075pt>
 File: ../../Images/1_1-1_2-2_2.png Graphic file (type png)
 
 <use ../../Images/1_1-1_2-2_2.png>
@@ -1292,7 +1306,7 @@ Overfull \hbox (4.75589pt too wide) in paragraph at lines 20--21
 [][] 
  []
 
-<../../Images/1_2-2_3.png, id=1461, 1889.0575pt x 883.3pt>
+<../../Images/1_2-2_3.png, id=1469, 1889.0575pt x 883.3pt>
 File: ../../Images/1_2-2_3.png Graphic file (type png)
 
 <use ../../Images/1_2-2_3.png>
@@ -1303,7 +1317,7 @@ Overfull \hbox (4.75589pt too wide) in paragraph at lines 22--23
 [][] 
  []
 
-<../../Images/2_2-3_2-3_3.png, id=1462, 1883.035pt x 885.3075pt>
+<../../Images/2_2-3_2-3_3.png, id=1470, 1883.035pt x 885.3075pt>
 File: ../../Images/2_2-3_2-3_3.png Graphic file (type png)
 
 <use ../../Images/2_2-3_2-3_3.png>
@@ -1314,7 +1328,7 @@ Overfull \hbox (4.75589pt too wide) in paragraph at lines 27--28
 [][] 
  []
 
-<../../Images/2_3-3_3.png, id=1463, 1888.05376pt x 883.3pt>
+<../../Images/2_3-3_3.png, id=1471, 1888.05376pt x 883.3pt>
 File: ../../Images/2_3-3_3.png Graphic file (type png)
 
 <use ../../Images/2_3-3_3.png>
@@ -1325,9 +1339,9 @@ Overfull \hbox (4.75589pt too wide) in paragraph at lines 29--30
 [][] 
  []
 
-[5 <../../Images/UMLdiagramme.png>] [6 <../../Images/1_1-2_1.png> <../../Images
-/1_1-1_2-2_2.png> <../../Images/1_2-2_3.png>] [7 <../../Images/2_2-3_2-3_3.png>
- <../../Images/2_3-3_3.png>] [8] [9]
+[7 <../../Images/UMLdiagramme.png>] [8 <../../Images/1_1-2_1.png> <../../Images
+/1_1-1_2-2_2.png> <../../Images/1_2-2_3.png>] [9 <../../Images/2_2-3_2-3_3.png>
+ <../../Images/2_3-3_3.png>] [10] [11]
 LaTeX Font Info:    Font shape `T1/phv/bc/n' will be
 (Font)              scaled to size 8.99994pt on input line 145.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
@@ -1344,23 +1358,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 187--194
 
  []
 
-[10] [11] [12]) [13] [14
-
-]
-Chapter 4.
-(./conclusion.tex) [15] [16
+[12] [13] [14]) [15] [16
 
 ]
 Chapter 5.
-(./annotated.tex) [17] [18
+(./conclusion.tex) [17] [18
 
 ]
 Chapter 6.
+(./annotated.tex) [19] [20
+
+]
+Chapter 7.
 (./classanimal_package_1_1_animal.tex
 LaTeX Font Info:    Font shape `T1/phv/bc/n' will be
 (Font)              scaled to size 6.29996pt on input line 1.
 
-<classanimal_package_1_1_animal__inherit__graph.pdf, id=1599, 525.965pt x 252.9
+<classanimal_package_1_1_animal__inherit__graph.pdf, id=1608, 525.965pt x 252.9
 45pt>
 File: classanimal_package_1_1_animal__inherit__graph.pdf Graphic file (type pdf
 )
@@ -1369,14 +1383,14 @@ Package pdftex.def Info: classanimal_package_1_1_animal__inherit__graph.pdf use
 d on input line 9.
 (pdftex.def)             Requested size: 350.0pt x 168.32596pt.
 
-<classanimal_package_1_1_animal__coll__graph.pdf, id=1600, 366.36874pt x 180.67
+<classanimal_package_1_1_animal__coll__graph.pdf, id=1609, 366.36874pt x 180.67
 5pt>
 File: classanimal_package_1_1_animal__coll__graph.pdf Graphic file (type pdf)
  <use classanimal_package_1_1_animal__coll__graph.pdf>
 Package pdftex.def Info: classanimal_package_1_1_animal__coll__graph.pdf used o
 n input line 18.
 (pdftex.def)             Requested size: 350.0pt x 172.61343pt.
- [19 <./classanimal_package_1_1_animal__inherit__graph.pdf> <./classanimal_pack
+ [21 <./classanimal_package_1_1_animal__inherit__graph.pdf> <./classanimal_pack
 age_1_1_animal__coll__graph.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./classanimal_package_1_1_animal__coll_
@@ -1400,7 +1414,7 @@ LaTeX Font Info:    Font shape `T1/phv/bc/it' in size <7> not available
 (Font)              Font shape `T1/phv/bc/sl' tried instead on input line 123.
 LaTeX Font Info:    Font shape `T1/phv/bc/sl' will be
 (Font)              scaled to size 6.29996pt on input line 123.
-[20]
+[22]
 LaTeX Font Info:    Try loading font information for T1+pcr on input line 157.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
@@ -1419,7 +1433,7 @@ Underfull \hbox (badness 10000) detected at line 200
 [][][]
  []
 
-[21]
+[23]
 Underfull \hbox (badness 10000) detected at line 212
 [][][]
  []
@@ -1454,8 +1468,8 @@ Underfull \hbox (badness 10000) detected at line 284
 [][][]
  []
 
-[22] [23] [24] [25]) (./classanimal_package_1_1_bear.tex
-<classanimal_package_1_1_bear__inherit__graph.pdf, id=1741, 355.3275pt x 212.79
+[24] [25] [26] [27]) (./classanimal_package_1_1_bear.tex
+<classanimal_package_1_1_bear__inherit__graph.pdf, id=1749, 355.3275pt x 212.79
 5pt>
 File: classanimal_package_1_1_bear__inherit__graph.pdf Graphic file (type pdf)
  <use classanimal_package_1_1_bear__inherit__graph.pdf>
@@ -1463,7 +1477,7 @@ Package pdftex.def Info: classanimal_package_1_1_bear__inherit__graph.pdf used
 on input line 9.
 (pdftex.def)             Requested size: 350.0pt x 209.61241pt.
 
-<classanimal_package_1_1_bear__coll__graph.pdf, id=1742, 386.44376pt x 295.1025
+<classanimal_package_1_1_bear__coll__graph.pdf, id=1750, 386.44376pt x 295.1025
 pt>
 File: classanimal_package_1_1_bear__coll__graph.pdf Graphic file (type pdf)
  <use classanimal_package_1_1_bear__coll__graph.pdf>
@@ -1473,7 +1487,7 @@ input line 18.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [26 <./classanimal_package_1_1_bear__inherit__graph.pdf>]
+ [28 <./classanimal_package_1_1_bear__inherit__graph.pdf>]
 Underfull \hbox (badness 10000) detected at line 42
 [][][]
  []
@@ -1483,18 +1497,18 @@ Underfull \hbox (badness 10000) detected at line 45
 [][][]
  []
 
-[27 <./classanimal_package_1_1_bear__coll__graph.pdf>]
+[29 <./classanimal_package_1_1_bear__coll__graph.pdf>]
 Underfull \hbox (badness 10000) detected at line 108
 [][][]
  []
 
-[28]
+[30]
 Underfull \hbox (badness 10000) detected at line 136
 [][][]
  []
 
 ) (./interfaceanimal_package_1_1_be_fierce.tex
-<interfaceanimal_package_1_1_be_fierce__inherit__graph.pdf, id=1799, 455.7025pt
+<interfaceanimal_package_1_1_be_fierce__inherit__graph.pdf, id=1807, 455.7025pt
  x 156.585pt>
 File: interfaceanimal_package_1_1_be_fierce__inherit__graph.pdf Graphic file (t
 ype pdf)
@@ -1517,9 +1531,9 @@ Underfull \hbox (badness 10000) detected at line 40
 [][][]
  []
 
-) (./classanimal_package_1_1_chicken.tex [29 <./interfaceanimal_package_1_1_be_
+) (./classanimal_package_1_1_chicken.tex [31 <./interfaceanimal_package_1_1_be_
 fierce__inherit__graph.pdf>]
-<classanimal_package_1_1_chicken__inherit__graph.pdf, id=1818, 359.3425pt x 212
+<classanimal_package_1_1_chicken__inherit__graph.pdf, id=1827, 359.3425pt x 212
 .795pt>
 File: classanimal_package_1_1_chicken__inherit__graph.pdf Graphic file (type pd
 f)
@@ -1528,14 +1542,14 @@ Package pdftex.def Info: classanimal_package_1_1_chicken__inherit__graph.pdf us
 ed on input line 9.
 (pdftex.def)             Requested size: 350.0pt x 207.27783pt.
 
-<classanimal_package_1_1_chicken__coll__graph.pdf, id=1819, 388.45125pt x 295.1
+<classanimal_package_1_1_chicken__coll__graph.pdf, id=1828, 388.45125pt x 295.1
 025pt>
 File: classanimal_package_1_1_chicken__coll__graph.pdf Graphic file (type pdf)
  <use classanimal_package_1_1_chicken__coll__graph.pdf>
 Package pdftex.def Info: classanimal_package_1_1_chicken__coll__graph.pdf used 
 on input line 18.
 (pdftex.def)             Requested size: 350.0pt x 265.89597pt.
- [30 <./classanimal_package_1_1_chicken__inherit__graph.pdf>]
+ [32 <./classanimal_package_1_1_chicken__inherit__graph.pdf>]
 Underfull \hbox (badness 10000) detected at line 42
 [][][]
  []
@@ -1545,7 +1559,7 @@ Underfull \hbox (badness 10000) detected at line 45
 [][][]
  []
 
-[31 <./classanimal_package_1_1_chicken__coll__graph.pdf>]
+[33 <./classanimal_package_1_1_chicken__coll__graph.pdf>]
 Underfull \hbox (badness 10000) detected at line 99
 [][][]
  []
@@ -1555,7 +1569,7 @@ Underfull \hbox (badness 10000) detected at line 111
 [][][]
  []
 
-[32]) (./classcube_environment_1_1_cube_environment.tex
+[34]) (./classcube_environment_1_1_cube_environment.tex
 Underfull \hbox (badness 10000) detected at line 37
 [][][]
  []
@@ -1565,7 +1579,7 @@ Underfull \hbox (badness 10000) detected at line 40
 [][][]
  []
 
-[33]
+[35]
 Underfull \hbox (badness 10000) detected at line 79
 [][][]
  []
@@ -1585,15 +1599,15 @@ Underfull \hbox (badness 10000) detected at line 115
 [][][]
  []
 
-[34]) (./classstuff_1_1_defensif.tex
-<classstuff_1_1_defensif__coll__graph.pdf, id=1928, 215.80624pt x 113.42375pt>
+[36]) (./classstuff_1_1_defensif.tex
+<classstuff_1_1_defensif__coll__graph.pdf, id=1936, 215.80624pt x 113.42375pt>
 File: classstuff_1_1_defensif__coll__graph.pdf Graphic file (type pdf)
 
 <use classstuff_1_1_defensif__coll__graph.pdf>
 Package pdftex.def Info: classstuff_1_1_defensif__coll__graph.pdf used on input
  line 9.
 (pdftex.def)             Requested size: 215.0pt x 113.0029pt.
- [35 <./classstuff_1_1_defensif__coll__graph.pdf>]
+ [37 <./classstuff_1_1_defensif__coll__graph.pdf>]
 Underfull \hbox (badness 10000) detected at line 35
 [][][]
  []
@@ -1608,8 +1622,8 @@ Underfull \hbox (badness 10000) detected at line 70
 [][][]
  []
 
-[36]) (./classanimal_package_1_1_duck.tex
-<classanimal_package_1_1_duck__inherit__graph.pdf, id=1971, 214.8025pt x 212.79
+[38]) (./classanimal_package_1_1_duck.tex
+<classanimal_package_1_1_duck__inherit__graph.pdf, id=1980, 214.8025pt x 212.79
 5pt>
 File: classanimal_package_1_1_duck__inherit__graph.pdf Graphic file (type pdf)
  <use classanimal_package_1_1_duck__inherit__graph.pdf>
@@ -1617,14 +1631,14 @@ Package pdftex.def Info: classanimal_package_1_1_duck__inherit__graph.pdf used
 on input line 9.
 (pdftex.def)             Requested size: 214.0pt x 212.0022pt.
 
-<classanimal_package_1_1_duck__coll__graph.pdf, id=1972, 366.36874pt x 295.1025
+<classanimal_package_1_1_duck__coll__graph.pdf, id=1981, 366.36874pt x 295.1025
 pt>
 File: classanimal_package_1_1_duck__coll__graph.pdf Graphic file (type pdf)
  <use classanimal_package_1_1_duck__coll__graph.pdf>
 Package pdftex.def Info: classanimal_package_1_1_duck__coll__graph.pdf used on 
 input line 18.
 (pdftex.def)             Requested size: 350.0pt x 281.93529pt.
- [37 <./classanimal_package_1_1_duck__inherit__graph.pdf>]
+ [39 <./classanimal_package_1_1_duck__inherit__graph.pdf>]
 Underfull \hbox (badness 10000) detected at line 40
 [][][]
  []
@@ -1634,14 +1648,14 @@ Underfull \hbox (badness 10000) detected at line 43
 [][][]
  []
 
-[38 <./classanimal_package_1_1_duck__coll__graph.pdf>]
+[40 <./classanimal_package_1_1_duck__coll__graph.pdf>]
 Underfull \hbox (badness 10000) detected at line 118
 [][][]
  []
 
 ) (./interfacespace_pig_fighter_package_1_1_execution_interface.tex
 <interfacespace_pig_fighter_package_1_1_execution_interface__inherit__graph.pdf
-, id=2018, 425.59pt x 167.62625pt>
+, id=2026, 425.59pt x 167.62625pt>
 File: interfacespace_pig_fighter_package_1_1_execution_interface__inherit__grap
 h.pdf Graphic file (type pdf)
 
@@ -1650,7 +1664,7 @@ h.pdf Graphic file (type pdf)
 Package pdftex.def Info: interfacespace_pig_fighter_package_1_1_execution_inter
 face__inherit__graph.pdf used on input line 9.
 (pdftex.def)             Requested size: 350.0pt x 137.86108pt.
- [39]
+ [41]
 Underfull \hbox (badness 10000) detected at line 23
 [][][]
  []
@@ -1661,7 +1675,7 @@ Underfull \hbox (badness 10000) detected at line 26
  []
 
 ) (./classspace_pig_fighter_package_1_1_fight_area.tex
-<classspace_pig_fighter_package_1_1_fight_area__inherit__graph.pdf, id=2028, 25
+<classspace_pig_fighter_package_1_1_fight_area__inherit__graph.pdf, id=2036, 25
 2.945pt x 167.62625pt>
 File: classspace_pig_fighter_package_1_1_fight_area__inherit__graph.pdf Graphic
  file (type pdf)
@@ -1671,7 +1685,7 @@ Package pdftex.def Info: classspace_pig_fighter_package_1_1_fight_area__inherit
 __graph.pdf used on input line 9.
 (pdftex.def)             Requested size: 252.0pt x 167.00427pt.
 
-<classspace_pig_fighter_package_1_1_fight_area__coll__graph.pdf, id=2029, 252.9
+<classspace_pig_fighter_package_1_1_fight_area__coll__graph.pdf, id=2037, 252.9
 45pt x 167.62625pt>
 File: classspace_pig_fighter_package_1_1_fight_area__coll__graph.pdf Graphic fi
 le (type pdf)
@@ -1680,7 +1694,7 @@ le (type pdf)
 Package pdftex.def Info: classspace_pig_fighter_package_1_1_fight_area__coll__g
 raph.pdf used on input line 18.
 (pdftex.def)             Requested size: 252.0pt x 167.00427pt.
- [40 <./interfacespace_pig_fighter_package_1_1_execution_interface__inherit__gr
+ [42 <./interfacespace_pig_fighter_package_1_1_execution_interface__inherit__gr
 aph.pdf> <./classspace_pig_fighter_package_1_1_fight_area__inherit__graph.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./classspace_pig_fighter_package_1_1_fi
@@ -1704,7 +1718,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `subscript' on input line 57.
 
-[41 <./classspace_pig_fighter_package_1_1_fight_area__coll__graph.pdf>]
+[43 <./classspace_pig_fighter_package_1_1_fight_area__coll__graph.pdf>]
 Underfull \hbox (badness 10000) detected at line 79
 [][][]
  []
@@ -1738,7 +1752,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `subscript' on input line 125.
 
-) (./classfile_management_package_1_1_file_management.tex [42]
+) (./classfile_management_package_1_1_file_management.tex [44]
 Underfull \hbox (badness 10000) detected at line 17
 [][][]
  []
@@ -1756,7 +1770,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `subscript' on input line 65.
 
-[43]) (./classspace_pig_fighter_package_1_1_main.tex
+[45]) (./classspace_pig_fighter_package_1_1_main.tex
 Underfull \hbox (badness 10000) detected at line 19
 [][][]
  []
@@ -1778,7 +1792,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `subscript' on input line 51.
 
-[44]
+[46]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `subscript' on input line 68.
@@ -1792,7 +1806,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `subscript' on input line 68.
 
 ) (./classspace_objects_1_1_meteorite.tex
-<classspace_objects_1_1_meteorite__inherit__graph.pdf, id=2128, 200.75pt x 156.
+<classspace_objects_1_1_meteorite__inherit__graph.pdf, id=2136, 200.75pt x 156.
 585pt>
 File: classspace_objects_1_1_meteorite__inherit__graph.pdf Graphic file (type p
 df)
@@ -1801,7 +1815,7 @@ Package pdftex.def Info: classspace_objects_1_1_meteorite__inherit__graph.pdf u
 sed on input line 9.
 (pdftex.def)             Requested size: 200.0pt x 156.01117pt.
 
-<classspace_objects_1_1_meteorite__coll__graph.pdf, id=2129, 200.75pt x 156.585
+<classspace_objects_1_1_meteorite__coll__graph.pdf, id=2137, 200.75pt x 156.585
 pt>
 File: classspace_objects_1_1_meteorite__coll__graph.pdf Graphic file (type pdf)
 
@@ -1809,7 +1823,7 @@ File: classspace_objects_1_1_meteorite__coll__graph.pdf Graphic file (type pdf)
 Package pdftex.def Info: classspace_objects_1_1_meteorite__coll__graph.pdf used
  on input line 18.
 (pdftex.def)             Requested size: 200.0pt x 156.01117pt.
- [45 <./classspace_objects_1_1_meteorite__inherit__graph.pdf>]
+ [47 <./classspace_objects_1_1_meteorite__inherit__graph.pdf>]
 Underfull \hbox (badness 10000) detected at line 37
 [][][]
  []
@@ -1819,7 +1833,7 @@ Underfull \hbox (badness 10000) detected at line 40
 [][][]
  []
 
-[46 <./classspace_objects_1_1_meteorite__coll__graph.pdf>]
+[48 <./classspace_objects_1_1_meteorite__coll__graph.pdf>]
 Underfull \hbox (badness 10000) detected at line 89
 [][][]
  []
@@ -1835,14 +1849,14 @@ Underfull \hbox (badness 10000) detected at line 22
  []
 
 ) (./classstuff_1_1_offensif.tex
-<classstuff_1_1_offensif__coll__graph.pdf, id=2185, 212.795pt x 113.42375pt>
+<classstuff_1_1_offensif__coll__graph.pdf, id=2193, 212.795pt x 113.42375pt>
 File: classstuff_1_1_offensif__coll__graph.pdf Graphic file (type pdf)
 
 <use classstuff_1_1_offensif__coll__graph.pdf>
 Package pdftex.def Info: classstuff_1_1_offensif__coll__graph.pdf used on input
  line 9.
 (pdftex.def)             Requested size: 212.0pt x 113.00635pt.
- [47]
+ [49]
 Underfull \hbox (badness 10000) detected at line 35
 [][][]
  []
@@ -1855,28 +1869,28 @@ Underfull \hbox (badness 10000) detected at line 38
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [48 <./classstuff_1_1_offensif__coll__graph.pdf>]
+ [50 <./classstuff_1_1_offensif__coll__graph.pdf>]
 Underfull \hbox (badness 10000) detected at line 70
 [][][]
  []
 
 ) (./classanimal_package_1_1_pig.tex
-<classanimal_package_1_1_pig__inherit__graph.pdf, id=2228, 211.79124pt x 212.79
+<classanimal_package_1_1_pig__inherit__graph.pdf, id=2237, 211.79124pt x 212.79
 5pt>
 File: classanimal_package_1_1_pig__inherit__graph.pdf Graphic file (type pdf)
  <use classanimal_package_1_1_pig__inherit__graph.pdf>
 Package pdftex.def Info: classanimal_package_1_1_pig__inherit__graph.pdf used o
 n input line 9.
 (pdftex.def)             Requested size: 211.0pt x 212.00868pt.
- [49]
-<classanimal_package_1_1_pig__coll__graph.pdf, id=2236, 366.36874pt x 295.1025p
+ [51]
+<classanimal_package_1_1_pig__coll__graph.pdf, id=2244, 366.36874pt x 295.1025p
 t>
 File: classanimal_package_1_1_pig__coll__graph.pdf Graphic file (type pdf)
  <use classanimal_package_1_1_pig__coll__graph.pdf>
 Package pdftex.def Info: classanimal_package_1_1_pig__coll__graph.pdf used on i
 nput line 18.
 (pdftex.def)             Requested size: 350.0pt x 281.93529pt.
- [50 <./classanimal_package_1_1_pig__inherit__graph.pdf> <./classanimal_package
+ [52 <./classanimal_package_1_1_pig__inherit__graph.pdf> <./classanimal_package
 _1_1_pig__coll__graph.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./classanimal_package_1_1_pig__coll__gr
@@ -1892,7 +1906,7 @@ Underfull \hbox (badness 10000) detected at line 43
 [][][]
  []
 
-[51]
+[53]
 Underfull \hbox (badness 10000) detected at line 118
 [][][]
  []
@@ -1907,7 +1921,7 @@ Underfull \hbox (badness 10000) detected at line 24
 [][][]
  []
 
-[52]
+[54]
 Underfull \hbox (badness 10000) detected at line 65
 [][][]
  []
@@ -1917,8 +1931,8 @@ Underfull \hbox (badness 10000) detected at line 77
 [][][]
  []
 
-) (./classspace_objects_1_1_position_exception.tex [53]
-<classspace_objects_1_1_position_exception__inherit__graph.pdf, id=2310, 238.89
+) (./classspace_objects_1_1_position_exception.tex [55]
+<classspace_objects_1_1_position_exception__inherit__graph.pdf, id=2319, 238.89
 25pt x 156.585pt>
 File: classspace_objects_1_1_position_exception__inherit__graph.pdf Graphic fil
 e (type pdf)
@@ -1928,7 +1942,7 @@ Package pdftex.def Info: classspace_objects_1_1_position_exception__inherit__gr
 aph.pdf used on input line 9.
 (pdftex.def)             Requested size: 238.0pt x 155.99922pt.
 
-<classspace_objects_1_1_position_exception__coll__graph.pdf, id=2311, 238.8925p
+<classspace_objects_1_1_position_exception__coll__graph.pdf, id=2320, 238.8925p
 t x 156.585pt>
 File: classspace_objects_1_1_position_exception__coll__graph.pdf Graphic file (
 type pdf)
@@ -1947,7 +1961,7 @@ Underfull \hbox (badness 10000) detected at line 29
 [][][]
  []
 
-) (./enumspace_objects_1_1_positions_cube.tex [54 <./classspace_objects_1_1_pos
+) (./enumspace_objects_1_1_positions_cube.tex [56 <./classspace_objects_1_1_pos
 ition_exception__inherit__graph.pdf> <./classspace_objects_1_1_position_excepti
 on__coll__graph.pdf
 
@@ -1965,7 +1979,7 @@ Underfull \hbox (badness 10000) detected at line 40
  []
 
 ) (./classspace_pig_fighter_package_1_1_space.tex
-<classspace_pig_fighter_package_1_1_space__inherit__graph.pdf, id=2333, 252.945
+<classspace_pig_fighter_package_1_1_space__inherit__graph.pdf, id=2342, 252.945
 pt x 167.62625pt>
 File: classspace_pig_fighter_package_1_1_space__inherit__graph.pdf Graphic file
  (type pdf)
@@ -1975,7 +1989,7 @@ Package pdftex.def Info: classspace_pig_fighter_package_1_1_space__inherit__gra
 ph.pdf used on input line 9.
 (pdftex.def)             Requested size: 252.0pt x 167.00427pt.
 
-<classspace_pig_fighter_package_1_1_space__coll__graph.pdf, id=2334, 445.665pt 
+<classspace_pig_fighter_package_1_1_space__coll__graph.pdf, id=2343, 445.665pt 
 x 189.70876pt>
 File: classspace_pig_fighter_package_1_1_space__coll__graph.pdf Graphic file (t
 ype pdf)
@@ -1984,7 +1998,7 @@ Package pdftex.def Info: classspace_pig_fighter_package_1_1_space__coll__graph.
 pdf used on input line 18.
 (pdftex.def)             Requested size: 350.0pt x 148.98827pt.
 
-[55 <./classspace_pig_fighter_package_1_1_space__inherit__graph.pdf>]
+[57 <./classspace_pig_fighter_package_1_1_space__inherit__graph.pdf>]
 Underfull \hbox (badness 10000) detected at line 50
 [][][]
  []
@@ -2002,7 +2016,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `subscript' on input line 66.
 
-[56 <./classspace_pig_fighter_package_1_1_space__coll__graph.pdf>]
+[58 <./classspace_pig_fighter_package_1_1_space__coll__graph.pdf>]
 Underfull \hbox (badness 10000) detected at line 88
 [][][]
  []
@@ -2028,8 +2042,8 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `subscript' on input line 134.
 
-[57]) (./classspace_objects_1_1_spacecraft.tex
-<classspace_objects_1_1_spacecraft__inherit__graph.pdf, id=2404, 207.77625pt x 
+[59]) (./classspace_objects_1_1_spacecraft.tex
+<classspace_objects_1_1_spacecraft__inherit__graph.pdf, id=2412, 207.77625pt x 
 156.585pt>
 File: classspace_objects_1_1_spacecraft__inherit__graph.pdf Graphic file (type 
 pdf)
@@ -2038,7 +2052,7 @@ Package pdftex.def Info: classspace_objects_1_1_spacecraft__inherit__graph.pdf
 used on input line 9.
 (pdftex.def)             Requested size: 207.0pt x 156.0064pt.
 
-<classspace_objects_1_1_spacecraft__coll__graph.pdf, id=2405, 424.58624pt x 247
+<classspace_objects_1_1_spacecraft__coll__graph.pdf, id=2413, 424.58624pt x 247
 .92625pt>
 File: classspace_objects_1_1_spacecraft__coll__graph.pdf Graphic file (type pdf
 )
@@ -2046,7 +2060,7 @@ File: classspace_objects_1_1_spacecraft__coll__graph.pdf Graphic file (type pdf
 Package pdftex.def Info: classspace_objects_1_1_spacecraft__coll__graph.pdf use
 d on input line 18.
 (pdftex.def)             Requested size: 350.0pt x 204.38278pt.
- [58 <./classspace_objects_1_1_spacecraft__inherit__graph.pdf> <./classspace_ob
+ [60 <./classspace_objects_1_1_spacecraft__inherit__graph.pdf> <./classspace_ob
 jects_1_1_spacecraft__coll__graph.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./classspace_objects_1_1_spacecraft__co
@@ -2062,7 +2076,7 @@ Underfull \hbox (badness 10000) detected at line 64
 [][][]
  []
 
-[59] [60]
+[61] [62]
 Underfull \hbox (badness 10000) detected at line 216
 [][][]
  []
@@ -2072,8 +2086,8 @@ Underfull \hbox (badness 10000) detected at line 228
 [][][]
  []
 
-[61]) (./classanimal_package_1_1_tiger.tex
-<classanimal_package_1_1_tiger__inherit__graph.pdf, id=2509, 355.3275pt x 212.7
+[63]) (./classanimal_package_1_1_tiger.tex
+<classanimal_package_1_1_tiger__inherit__graph.pdf, id=2517, 355.3275pt x 212.7
 95pt>
 File: classanimal_package_1_1_tiger__inherit__graph.pdf Graphic file (type pdf)
 
@@ -2082,7 +2096,7 @@ Package pdftex.def Info: classanimal_package_1_1_tiger__inherit__graph.pdf used
  on input line 9.
 (pdftex.def)             Requested size: 350.0pt x 209.61241pt.
 
-<classanimal_package_1_1_tiger__coll__graph.pdf, id=2510, 386.44376pt x 295.102
+<classanimal_package_1_1_tiger__coll__graph.pdf, id=2518, 386.44376pt x 295.102
 5pt>
 File: classanimal_package_1_1_tiger__coll__graph.pdf Graphic file (type pdf)
  <use classanimal_package_1_1_tiger__coll__graph.pdf>
@@ -2092,7 +2106,7 @@ Package pdftex.def Info: classanimal_package_1_1_tiger__coll__graph.pdf used on
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [62 <./classanimal_package_1_1_tiger__inherit__graph.pdf>]
+ [64 <./classanimal_package_1_1_tiger__inherit__graph.pdf>]
 Underfull \hbox (badness 10000) detected at line 42
 [][][]
  []
@@ -2102,18 +2116,18 @@ Underfull \hbox (badness 10000) detected at line 45
 [][][]
  []
 
-[63 <./classanimal_package_1_1_tiger__coll__graph.pdf>]
+[65 <./classanimal_package_1_1_tiger__coll__graph.pdf>]
 Underfull \hbox (badness 10000) detected at line 108
 [][][]
  []
 
-[64]
+[66]
 Underfull \hbox (badness 10000) detected at line 136
 [][][]
  []
 
 ) (./classspace_objects_1_1_ufo.tex
-<classspace_objects_1_1_ufo__inherit__graph.pdf, id=2565, 347.2975pt x 156.585p
+<classspace_objects_1_1_ufo__inherit__graph.pdf, id=2573, 347.2975pt x 156.585p
 t>
 File: classspace_objects_1_1_ufo__inherit__graph.pdf Graphic file (type pdf)
  <use classspace_objects_1_1_ufo__inherit__graph.pdf>
@@ -2130,13 +2144,13 @@ Underfull \hbox (badness 10000) detected at line 35
 [][][]
  []
 
-[65 <./classspace_objects_1_1_ufo__inherit__graph.pdf>]
+[67 <./classspace_objects_1_1_ufo__inherit__graph.pdf>]
 Underfull \hbox (badness 10000) detected at line 74
 [][][]
  []
 
 ) (./classanimal_package_1_1_with_paws.tex
-<classanimal_package_1_1_with_paws__inherit__graph.pdf, id=2599, 434.62375pt x 
+<classanimal_package_1_1_with_paws__inherit__graph.pdf, id=2608, 434.62375pt x 
 212.795pt>
 File: classanimal_package_1_1_with_paws__inherit__graph.pdf Graphic file (type 
 pdf)
@@ -2144,8 +2158,8 @@ pdf)
 Package pdftex.def Info: classanimal_package_1_1_with_paws__inherit__graph.pdf 
 used on input line 9.
 (pdftex.def)             Requested size: 350.0pt x 171.37267pt.
- [66]
-<classanimal_package_1_1_with_paws__coll__graph.pdf, id=2607, 366.36874pt x 237
+ [68]
+<classanimal_package_1_1_with_paws__coll__graph.pdf, id=2616, 366.36874pt x 237
 .88875pt>
 File: classanimal_package_1_1_with_paws__coll__graph.pdf Graphic file (type pdf
 )
@@ -2153,7 +2167,7 @@ File: classanimal_package_1_1_with_paws__coll__graph.pdf Graphic file (type pdf
 Package pdftex.def Info: classanimal_package_1_1_with_paws__coll__graph.pdf use
 d on input line 18.
 (pdftex.def)             Requested size: 350.0pt x 227.27437pt.
- [67 <./classanimal_package_1_1_with_paws__inherit__graph.pdf> <./classanimal_p
+ [69 <./classanimal_package_1_1_with_paws__inherit__graph.pdf> <./classanimal_p
 ackage_1_1_with_paws__coll__graph.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./classanimal_package_1_1_with_paws__co
@@ -2169,8 +2183,8 @@ Underfull \hbox (badness 10000) detected at line 41
 [][][]
  []
 
-[68]) (./classanimal_package_1_1_with_wings.tex
-<classanimal_package_1_1_with_wings__inherit__graph.pdf, id=2653, 331.2375pt x 
+[70]) (./classanimal_package_1_1_with_wings.tex
+<classanimal_package_1_1_with_wings__inherit__graph.pdf, id=2661, 331.2375pt x 
 212.795pt>
 File: classanimal_package_1_1_with_wings__inherit__graph.pdf Graphic file (type
  pdf)
@@ -2179,7 +2193,7 @@ Package pdftex.def Info: classanimal_package_1_1_with_wings__inherit__graph.pdf
  used on input line 9.
 (pdftex.def)             Requested size: 330.0pt x 212.00868pt.
 
-<classanimal_package_1_1_with_wings__coll__graph.pdf, id=2654, 366.36874pt x 23
+<classanimal_package_1_1_with_wings__coll__graph.pdf, id=2662, 366.36874pt x 23
 7.88875pt>
 File: classanimal_package_1_1_with_wings__coll__graph.pdf Graphic file (type pd
 f)
@@ -2190,7 +2204,7 @@ ed on input line 18.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [69 <./classanimal_package_1_1_with_wings__inherit__graph.pdf>]
+ [71 <./classanimal_package_1_1_with_wings__inherit__graph.pdf>]
 Underfull \hbox (badness 10000) detected at line 38
 [][][]
  []
@@ -2200,31 +2214,31 @@ Underfull \hbox (badness 10000) detected at line 41
 [][][]
  []
 
-[70 <./classanimal_package_1_1_with_wings__coll__graph.pdf>]) [71] [72
+[72 <./classanimal_package_1_1_with_wings__coll__graph.pdf>]) [73] [74
 
 ]
-(./SpacePigFighter.ind [73
+(./SpacePigFighter.ind [75
 
 
-] [74] [75] [76
+] [76] [77] [78
 
 ])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 192.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 192.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 194.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 194.
  (./SpacePigFighter.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 192.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 192.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 194.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 194.
 Package rerunfilecheck Info: File `SpacePigFighter.out' has not changed.
-(rerunfilecheck)             Checksum: EEBEE9CFC97397A753847958CD98C15D;67519.
+(rerunfilecheck)             Checksum: ECC052D4D177EEAD03D242B8F1D94E39;67489.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 192.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 194.
  ) 
 Here is how much of TeX's memory you used:
- 16220 strings out of 493029
- 256388 string characters out of 6136233
+ 16225 strings out of 493029
+ 256423 string characters out of 6136233
  337305 words of memory out of 5000000
  18731 multiletter control sequences out of 15000+600000
  62089 words of font info for 66 fonts, out of 8000000 for 9000
@@ -2236,10 +2250,10 @@ fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 urw/helvetic/uhvb8ac.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helveti
 c/uhvbo8ac.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on SpacePigFighter.pdf (88 pages, 1217618 bytes).
+Output written on SpacePigFighter.pdf (90 pages, 1217988 bytes).
 PDF statistics:
- 3160 PDF objects out of 3580 (max. 8388607)
- 2913 compressed objects within 30 object streams
- 684 named destinations out of 1000 (max. 500000)
+ 3170 PDF objects out of 3580 (max. 8388607)
+ 2921 compressed objects within 30 object streams
+ 686 named destinations out of 1000 (max. 500000)
  2407 words of extra memory for PDF output out of 10000 (max. 10000000)
 
