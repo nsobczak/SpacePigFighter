@@ -1,4 +1,6 @@
 This is makeindex, version 2.15 [TeX Live 2015] (kpathsea + Thai support).
-Scanning input file SpacePigFighter.idx...done (0 entries accepted, 0 rejected).
-Nothing written in SpacePigFighter.ind.
+Scanning input file SpacePigFighter.idx....done (286 entries accepted, 0 rejected).
+Sorting entries.....done (2649 comparisons).
+Generating output file SpacePigFighter.ind....done (412 lines written, 0 warnings).
+Output written in SpacePigFighter.ind.
 Transcript written in SpacePigFighter.ilg.

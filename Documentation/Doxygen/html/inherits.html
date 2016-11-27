@@ -8,6 +8,14 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -24,7 +32,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SpacePigFighter
-   &#160;<span id="projectnumber">1.1</span>
+   &#160;<span id="projectnumber">1.5</span>
    </div>
   </td>
  </tr>
@@ -67,6 +75,20 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     </ul>
   </div>
 </div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('hierarchy.html','');});
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -89,36 +111,88 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="textblock">
 <p><a href="hierarchy.html">Go to the textual class hierarchy</a></p>
 </div><table border="0" cellspacing="10" cellpadding="0">
-<tr><td><img src="inherit_graph_0.png" border="0" alt="" usemap="#_cube_environment_8_cube_environment"/>
-<map name="_cube_environment_8_cube_environment" id="_cube_environment_8_cube_environment">
-<area shape="rect" id="node1" href="class_cube_environment_1_1_cube_environment.html" title="CubeEnvironment.CubeEnvironment" alt="" coords="5,5,240,32"/>
+<tr><td><img src="inherit_graph_0.png" border="0" alt="" usemap="#animal_package_8_be_fierce"/>
+<map name="animal_package_8_be_fierce" id="animal_package_8_be_fierce">
+<area shape="rect" id="node1" href="classanimal_package_1_1_animal.html" title="animalPackage.Animal" alt="" coords="5,107,160,133"/>
+<area shape="rect" id="node2" href="classanimal_package_1_1_with_paws.html" title="animalPackage.WithPaws" alt="" coords="210,157,385,184"/>
+<area shape="rect" id="node6" href="classanimal_package_1_1_with_wings.html" title="animalPackage.WithWings" alt="" coords="208,56,387,83"/>
+<area shape="rect" id="node3" href="classanimal_package_1_1_bear.html" title="animalPackage.Bear" alt="" coords="445,157,587,184"/>
+<area shape="rect" id="node4" href="classanimal_package_1_1_pig.html" title="animalPackage.Pig" alt="" coords="449,208,583,235"/>
+<area shape="rect" id="node5" href="classanimal_package_1_1_tiger.html" title="animalPackage.Tiger" alt="" coords="444,107,588,133"/>
+<area shape="rect" id="node7" href="classanimal_package_1_1_chicken.html" title="animalPackage.Chicken" alt="" coords="435,56,597,83"/>
+<area shape="rect" id="node8" href="classanimal_package_1_1_duck.html" title="animalPackage.Duck" alt="" coords="443,5,589,32"/>
+<area shape="rect" id="node9" href="interfaceanimal_package_1_1_be_fierce.html" title="animalPackage.BeFierce" alt="" coords="214,107,381,133"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_1.png" border="0" alt="" usemap="#_logger"/>
-<map name="_logger" id="_logger">
-<area shape="rect" id="node1" href="interface_logger.html" title="Logger" alt="" coords="5,31,67,57"/>
-<area shape="rect" id="node2" href="class_fight_area.html" title="FightArea" alt="" coords="115,5,193,32"/>
-<area shape="rect" id="node3" href="class_space.html" title="Space" alt="" coords="125,56,183,83"/>
+<tr><td><img src="inherit_graph_1.png" border="0" alt="" usemap="#cube_environment_8_cube_environment"/>
+<map name="cube_environment_8_cube_environment" id="cube_environment_8_cube_environment">
+<area shape="rect" id="node1" href="classcube_environment_1_1_cube_environment.html" title="cubeEnvironment.CubeEnvironment" alt="" coords="5,5,236,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_2.png" border="0" alt="" usemap="#_pig_8_pig"/>
-<map name="_pig_8_pig" id="_pig_8_pig">
-<area shape="rect" id="node1" href="class_pig_1_1_pig.html" title="Pig.Pig" alt="" coords="5,5,69,32"/>
+<tr><td><img src="inherit_graph_2.png" border="0" alt="" usemap="#file_management_package_8_file_management"/>
+<map name="file_management_package_8_file_management" id="file_management_package_8_file_management">
+<area shape="rect" id="node1" href="classfile_management_package_1_1_file_management.html" title="fileManagementPackage.File\lManagement" alt="" coords="5,5,196,47"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_3.png" border="0" alt="" usemap="#_space_objects_8_ufo"/>
-<map name="_space_objects_8_ufo" id="_space_objects_8_ufo">
-<area shape="rect" id="node1" href="class_space_objects_1_1_ufo.html" title="SpaceObjects.Ufo" alt="" coords="5,5,135,32"/>
-<area shape="rect" id="node2" href="class_space_objects_1_1_meteorite.html" title="SpaceObjects.Meteorite" alt="" coords="183,5,345,32"/>
+<tr><td><img src="inherit_graph_3.png" border="0" alt="" usemap="#player_package_8_player"/>
+<map name="player_package_8_player" id="player_package_8_player">
+<area shape="rect" id="node1" href="classplayer_package_1_1_player.html" title="playerPackage.Player" alt="" coords="5,5,155,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_4.png" border="0" alt="" usemap="#space_objects_8_meteorite_size"/>
+<map name="space_objects_8_meteorite_size" id="space_objects_8_meteorite_size">
+<area shape="rect" id="node1" href="enumspace_objects_1_1_meteorite_size.html" title="spaceObjects.MeteoriteSize" alt="" coords="5,5,192,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_5.png" border="0" alt="" usemap="#space_objects_8_position_exception"/>
+<map name="space_objects_8_position_exception" id="space_objects_8_position_exception">
+<area shape="rect" id="node2" href="classspace_objects_1_1_position_exception.html" title="spaceObjects.PositionException" alt="" coords="133,5,344,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_6.png" border="0" alt="" usemap="#space_objects_8_positions_cube"/>
+<map name="space_objects_8_positions_cube" id="space_objects_8_positions_cube">
+<area shape="rect" id="node1" href="enumspace_objects_1_1_positions_cube.html" title="spaceObjects.PositionsCube" alt="" coords="5,5,196,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_7.png" border="0" alt="" usemap="#space_objects_8_ufo"/>
+<map name="space_objects_8_ufo" id="space_objects_8_ufo">
+<area shape="rect" id="node1" href="classspace_objects_1_1_ufo.html" title="spaceObjects.Ufo" alt="" coords="5,31,132,57"/>
+<area shape="rect" id="node2" href="classspace_objects_1_1_meteorite.html" title="spaceObjects.Meteorite" alt="" coords="185,5,345,32"/>
+<area shape="rect" id="node3" href="classspace_objects_1_1_spacecraft.html" title="spaceObjects.Spacecraft" alt="" coords="180,56,349,83"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_8.png" border="0" alt="" usemap="#space_pig_fighter_package_8_execution_interface"/>
+<map name="space_pig_fighter_package_8_execution_interface" id="space_pig_fighter_package_8_execution_interface">
+<area shape="rect" id="node1" href="interfacespace_pig_fighter_package_1_1_execution_interface.html" title="spacePigFighterPackage.Execution\lInterface" alt="" coords="5,23,235,65"/>
+<area shape="rect" id="node2" href="classspace_pig_fighter_package_1_1_fight_area.html" title="spacePigFighterPackage.FightArea" alt="" coords="283,5,509,32"/>
+<area shape="rect" id="node3" href="classspace_pig_fighter_package_1_1_space.html" title="spacePigFighterPackage.Space" alt="" coords="292,56,500,83"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_9.png" border="0" alt="" usemap="#space_pig_fighter_package_8_main"/>
+<map name="space_pig_fighter_package_8_main" id="space_pig_fighter_package_8_main">
+<area shape="rect" id="node1" href="classspace_pig_fighter_package_1_1_main.html" title="spacePigFighterPackage.Main" alt="" coords="5,5,204,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_10.png" border="0" alt="" usemap="#stuff_8_defensif"/>
+<map name="stuff_8_defensif" id="stuff_8_defensif">
+<area shape="rect" id="node1" href="classstuff_1_1_defensif.html" title="stuff.Defensif" alt="" coords="5,5,107,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_11.png" border="0" alt="" usemap="#stuff_8_offensif"/>
+<map name="stuff_8_offensif" id="stuff_8_offensif">
+<area shape="rect" id="node1" href="classstuff_1_1_offensif.html" title="stuff.Offensif" alt="" coords="5,5,104,32"/>
 </map>
 </td></tr>
 </table>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.11
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
+  </ul>
+</div>
 </body>
 </html>

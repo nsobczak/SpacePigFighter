@@ -1,3 +1,11 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_cube_environment_1_1_cube_environment.html" title="CubeEnvironment.CubeEnvironment" alt="" coords="5,5,240,32"/>
+<area shape="rect" id="node1" href="$classanimal_package_1_1_animal.html" title="animalPackage.Animal" alt="" coords="5,107,160,133"/>
+<area shape="rect" id="node2" href="$classanimal_package_1_1_with_paws.html" title="animalPackage.WithPaws" alt="" coords="210,157,385,184"/>
+<area shape="rect" id="node6" href="$classanimal_package_1_1_with_wings.html" title="animalPackage.WithWings" alt="" coords="208,56,387,83"/>
+<area shape="rect" id="node3" href="$classanimal_package_1_1_bear.html" title="animalPackage.Bear" alt="" coords="445,157,587,184"/>
+<area shape="rect" id="node4" href="$classanimal_package_1_1_pig.html" title="animalPackage.Pig" alt="" coords="449,208,583,235"/>
+<area shape="rect" id="node5" href="$classanimal_package_1_1_tiger.html" title="animalPackage.Tiger" alt="" coords="444,107,588,133"/>
+<area shape="rect" id="node7" href="$classanimal_package_1_1_chicken.html" title="animalPackage.Chicken" alt="" coords="435,56,597,83"/>
+<area shape="rect" id="node8" href="$classanimal_package_1_1_duck.html" title="animalPackage.Duck" alt="" coords="443,5,589,32"/>
+<area shape="rect" id="node9" href="$interfaceanimal_package_1_1_be_fierce.html" title="animalPackage.BeFierce" alt="" coords="214,107,381,133"/>
 </map>

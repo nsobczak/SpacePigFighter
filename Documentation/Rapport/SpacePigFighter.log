@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.11)  27 NOV 2016 15:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.11)  27 NOV 2016 15:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -44,6 +44,138 @@ LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count90
 \calc@Cskip=\skip45
+) (./doxygen.sty
+Package: doxygen 
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/alltt.sty
+Package: alltt 1997/06/16 v2.0g defines alltt environment
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen105
+\extrarowheight=\dimen106
+\NC@list=\toks14
+\extratabsurround=\skip46
+\backup@length=\skip47
+)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count91
+\float@exts=\toks15
+\float@box=\box26
+\@float@everytoks=\toks16
+\@floatcapt=\box27
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks17
+\verbatim@line=\toks18
+\verbatim@in@stream=\read1
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count92
+)
+(/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+\everycr=\toks19
+\minrowclearance=\skip48
+)
+\rownum=\count93
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip49
+\LTright=\skip50
+\LTpre=\skip51
+\LTpost=\skip52
+\LTchunksize=\count94
+\LTcapwidth=\dimen107
+\LT@head=\box28
+\LT@firsthead=\box29
+\LT@foot=\box30
+\LT@lastfoot=\box31
+\LT@cols=\count95
+\LT@rows=\count96
+\c@LT@tables=\count97
+\c@LT@chunks=\count98
+\LT@p@ftn=\toks20
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tabu/tabu.sty
+Package: tabu 2011/02/26 v2.8 - flexible LaTeX tabulars (FC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box32
+\sift@deathcycles=\count99
+\@vwid@loff=\dimen108
+\@vwid@roff=\dimen109
+)
+\c@taburow=\count100
+\tabu@nbcols=\count101
+\tabu@cnt=\count102
+\tabu@Xcol=\count103
+\tabu@alloc=\count104
+\tabu@nested=\count105
+\tabu@target=\dimen110
+\tabu@spreadtarget=\dimen111
+\tabu@naturalX=\dimen112
+\tabucolX=\dimen113
+\tabu@Xsum=\dimen114
+\extrarowdepth=\dimen115
+\abovetabulinesep=\dimen116
+\belowtabulinesep=\dimen117
+\tabustrutrule=\dimen118
+\tabu@thebody=\toks21
+\tabu@footnotes=\toks22
+\tabu@box=\box33
+\tabu@arstrutbox=\box34
+\tabu@hleads=\box35
+\tabu@vleads=\box36
+\tabu@cellskip=\skip53
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2014/10/28 v2.10 `tabularx' package (DPC)
+\TX@col@width=\dimen119
+\TX@old@table=\dimen120
+\TX@old@col=\dimen121
+\TX@target=\dimen122
+\TX@delta=\dimen123
+\TX@cols=\count106
+\TX@ftn=\toks23
+)
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen124
+)
+\xrefbox=\box37
+\xreflength=\skip54
 )
 (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjustbox.sty
 Package: adjustbox 2012/05/21 v1.0 Adjusting TeX boxes (trim, clip, ...)
@@ -53,11 +185,11 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks14
-\XKV@tempa@toks=\toks15
+\XKV@toks=\toks24
+\XKV@tempa@toks=\toks25
 
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/keyval.tex))
-\XKV@depth=\count91
+\XKV@depth=\count107
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjcalc.sty
@@ -80,54 +212,36 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 95.
-
-(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count92
-))
-\Gin@req@height=\dimen105
-\Gin@req@width=\dimen106
+\Gin@req@height=\dimen125
+\Gin@req@width=\dimen126
 )
 (/usr/share/texlive/texmf-dist/tex/latex/collectbox/collectbox.sty
 Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
-\collectedbox=\box26
+\collectedbox=\box38
 )
-\tc@llx=\dimen107
-\tc@lly=\dimen108
-\tc@urx=\dimen109
-\tc@ury=\dimen110
+\tc@llx=\dimen127
+\tc@lly=\dimen128
+\tc@urx=\dimen129
+\tc@ury=\dimen130
 Package trimclip Info: Using driver 'tc-pdftex.def'.
 
 (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
 File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
 ))
-\adjbox@Width=\dimen111
-\adjbox@Height=\dimen112
-\adjbox@Depth=\dimen113
-\adjbox@Totalheight=\dimen114
+\adjbox@Width=\dimen131
+\adjbox@Height=\dimen132
+\adjbox@Depth=\dimen133
+\adjbox@Totalheight=\dimen134
 
 (/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2011/09/13 v1.0 Conditionals for odd/even page detection
-\c@checkoddpage=\count93
-)
-(/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty
-Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box27
-\sift@deathcycles=\count94
-\@vwid@loff=\dimen115
-\@vwid@roff=\dimen116
+\c@checkoddpage=\count108
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
-\inpenc@prehook=\toks16
-\inpenc@posthook=\toks17
+\inpenc@prehook=\toks26
+\inpenc@posthook=\toks27
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2015/12/03 v1.1r UTF-8 support for inputenc
@@ -439,55 +553,52 @@ Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2015/08/19 v1.8n multicolumn formatting (FMi)
-\c@tracingmulticols=\count95
-\mult@box=\box28
-\multicol@leftmargin=\dimen117
-\c@unbalance=\count96
-\c@collectmore=\count97
-\doublecol@number=\count98
-\multicoltolerance=\count99
-\multicolpretolerance=\count100
-\full@width=\dimen118
-\page@free=\dimen119
-\premulticols=\dimen120
-\postmulticols=\dimen121
-\multicolsep=\skip46
-\multicolbaselineskip=\skip47
-\partial@page=\box29
-\last@line=\box30
-\maxbalancingoverflow=\dimen122
-\mult@rightbox=\box31
-\mult@grightbox=\box32
-\mult@gfirstbox=\box33
-\mult@firstbox=\box34
-\@tempa=\box35
-\@tempa=\box36
-\@tempa=\box37
-\@tempa=\box38
-\@tempa=\box39
-\@tempa=\box40
-\@tempa=\box41
-\@tempa=\box42
-\@tempa=\box43
-\@tempa=\box44
-\@tempa=\box45
+\c@tracingmulticols=\count109
+\mult@box=\box39
+\multicol@leftmargin=\dimen135
+\c@unbalance=\count110
+\c@collectmore=\count111
+\doublecol@number=\count112
+\multicoltolerance=\count113
+\multicolpretolerance=\count114
+\full@width=\dimen136
+\page@free=\dimen137
+\premulticols=\dimen138
+\postmulticols=\dimen139
+\multicolsep=\skip55
+\multicolbaselineskip=\skip56
+\partial@page=\box40
+\last@line=\box41
+\maxbalancingoverflow=\dimen140
+\mult@rightbox=\box42
+\mult@grightbox=\box43
+\mult@gfirstbox=\box44
+\mult@firstbox=\box45
 \@tempa=\box46
 \@tempa=\box47
 \@tempa=\box48
 \@tempa=\box49
 \@tempa=\box50
 \@tempa=\box51
-\c@columnbadness=\count101
-\c@finalcolumnbadness=\count102
-\last@try=\dimen123
-\multicolovershoot=\dimen124
-\multicolundershoot=\dimen125
-\mult@nat@firstbox=\box52
-\colbreak@box=\box53
-\mc@col@check@num=\count103
-)
-(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
-\bigstrutjot=\dimen126
+\@tempa=\box52
+\@tempa=\box53
+\@tempa=\box54
+\@tempa=\box55
+\@tempa=\box56
+\@tempa=\box57
+\@tempa=\box58
+\@tempa=\box59
+\@tempa=\box60
+\@tempa=\box61
+\@tempa=\box62
+\c@columnbadness=\count115
+\c@finalcolumnbadness=\count116
+\last@try=\dimen141
+\multicolovershoot=\dimen142
+\multicolundershoot=\dimen143
+\mult@nat@firstbox=\box63
+\colbreak@box=\box64
+\mc@col@check@num=\count117
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
@@ -651,39 +762,6 @@ Package: wasysym 2003/10/30 v2.0 Wasy-2 symbol support package
 LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
 (Font)                  U/wasy/m/n --> U/wasy/b/n on input line 90.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
-
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
-File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
-)
-Package xcolor Info: Driver file: pdftex.def on input line 225.
-
-(/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
-Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
-
-(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
-Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
-\col@sep=\dimen127
-\extrarowheight=\dimen128
-\NC@list=\toks18
-\extratabsurround=\skip48
-\backup@length=\skip49
-)
-\everycr=\toks19
-\minrowclearance=\skip50
-)
-\rownum=\count104
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
-Package xcolor Info: Model `RGB' extended on input line 1353.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
-)
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
@@ -702,7 +780,7 @@ Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\@emptytoks=\toks20
+\@emptytoks=\toks28
 \symAMSa=\mathgroup5
 \symAMSb=\mathgroup6
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
@@ -726,76 +804,76 @@ Package ifvtex Info: VTeX not detected.
 (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count105
-\Gm@cntv=\count106
-\c@Gm@tempcnt=\count107
-\Gm@bindingoffset=\dimen129
-\Gm@wd@mp=\dimen130
-\Gm@odd@mp=\dimen131
-\Gm@even@mp=\dimen132
-\Gm@layoutwidth=\dimen133
-\Gm@layoutheight=\dimen134
-\Gm@layouthoffset=\dimen135
-\Gm@layoutvoffset=\dimen136
-\Gm@dimlist=\toks21
+\Gm@cnth=\count118
+\Gm@cntv=\count119
+\c@Gm@tempcnt=\count120
+\Gm@bindingoffset=\dimen144
+\Gm@wd@mp=\dimen145
+\Gm@odd@mp=\dimen146
+\Gm@even@mp=\dimen147
+\Gm@layoutwidth=\dimen148
+\Gm@layoutheight=\dimen149
+\Gm@layouthoffset=\dimen150
+\Gm@layoutvoffset=\dimen151
+\Gm@dimlist=\toks29
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-\fancy@headwidth=\skip51
-\f@ncyO@elh=\skip52
-\f@ncyO@erh=\skip53
-\f@ncyO@olh=\skip54
-\f@ncyO@orh=\skip55
-\f@ncyO@elf=\skip56
-\f@ncyO@erf=\skip57
-\f@ncyO@olf=\skip58
-\f@ncyO@orf=\skip59
+\fancy@headwidth=\skip57
+\f@ncyO@elh=\skip58
+\f@ncyO@erh=\skip59
+\f@ncyO@olh=\skip60
+\f@ncyO@orh=\skip61
+\f@ncyO@elf=\skip62
+\f@ncyO@erf=\skip63
+\f@ncyO@olf=\skip64
+\f@ncyO@orf=\skip65
 )
 (/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip60
-\bibsep=\skip61
+\bibhang=\skip66
+\bibsep=\skip67
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count108
+\c@NAT@ctr=\count121
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tocloft/tocloft.sty
 Package: tocloft 2013/05/02 v2.3f parameterised ToC, etc., typesetting
 Package tocloft Info: The document has chapter divisions on input line 44.
-\cftparskip=\skip62
-\cftbeforetoctitleskip=\skip63
-\cftaftertoctitleskip=\skip64
-\cftbeforepartskip=\skip65
-\cftpartnumwidth=\skip66
-\cftpartindent=\skip67
-\cftbeforechapskip=\skip68
-\cftchapindent=\skip69
-\cftchapnumwidth=\skip70
-\cftbeforesecskip=\skip71
-\cftsecindent=\skip72
-\cftsecnumwidth=\skip73
-\cftbeforesubsecskip=\skip74
-\cftsubsecindent=\skip75
-\cftsubsecnumwidth=\skip76
-\cftbeforesubsubsecskip=\skip77
-\cftsubsubsecindent=\skip78
-\cftsubsubsecnumwidth=\skip79
-\cftbeforeparaskip=\skip80
-\cftparaindent=\skip81
-\cftparanumwidth=\skip82
-\cftbeforesubparaskip=\skip83
-\cftsubparaindent=\skip84
-\cftsubparanumwidth=\skip85
-\cftbeforeloftitleskip=\skip86
-\cftafterloftitleskip=\skip87
-\cftbeforefigskip=\skip88
-\cftfigindent=\skip89
-\cftfignumwidth=\skip90
-\c@lofdepth=\count109
-\c@lotdepth=\count110
-\cftbeforelottitleskip=\skip91
-\cftafterlottitleskip=\skip92
-\cftbeforetabskip=\skip93
-\cfttabindent=\skip94
-\cfttabnumwidth=\skip95
+\cftparskip=\skip68
+\cftbeforetoctitleskip=\skip69
+\cftaftertoctitleskip=\skip70
+\cftbeforepartskip=\skip71
+\cftpartnumwidth=\skip72
+\cftpartindent=\skip73
+\cftbeforechapskip=\skip74
+\cftchapindent=\skip75
+\cftchapnumwidth=\skip76
+\cftbeforesecskip=\skip77
+\cftsecindent=\skip78
+\cftsecnumwidth=\skip79
+\cftbeforesubsecskip=\skip80
+\cftsubsecindent=\skip81
+\cftsubsecnumwidth=\skip82
+\cftbeforesubsubsecskip=\skip83
+\cftsubsubsecindent=\skip84
+\cftsubsubsecnumwidth=\skip85
+\cftbeforeparaskip=\skip86
+\cftparaindent=\skip87
+\cftparanumwidth=\skip88
+\cftbeforesubparaskip=\skip89
+\cftsubparaindent=\skip90
+\cftsubparanumwidth=\skip91
+\cftbeforeloftitleskip=\skip92
+\cftafterloftitleskip=\skip93
+\cftbeforefigskip=\skip94
+\cftfigindent=\skip95
+\cftfignumwidth=\skip96
+\c@lofdepth=\count122
+\c@lotdepth=\count123
+\cftbeforelottitleskip=\skip97
+\cftafterlottitleskip=\skip98
+\cftbeforetabskip=\skip99
+\cfttabindent=\skip100
+\cfttabnumwidth=\skip101
 )
 \@indexfile=\write3
 \openout3 = `SpacePigFighter.idx'.
@@ -854,16 +932,16 @@ Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
-\@linkdim=\dimen137
-\Hy@linkcounter=\count111
-\Hy@pagecounter=\count112
+\@linkdim=\dimen152
+\Hy@linkcounter=\count124
+\Hy@pagecounter=\count125
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count113
+\Hy@SavedSpaceFactor=\count126
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -884,17 +962,17 @@ Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 ))
-\c@Hy@tempcnt=\count114
+\c@Hy@tempcnt=\count127
 
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5041.
-\XeTeXLinkMargin=\dimen138
-\Fld@menulength=\count115
-\Field@Width=\dimen139
-\Fld@charsize=\dimen140
+\XeTeXLinkMargin=\dimen153
+\Fld@menulength=\count128
+\Field@Width=\dimen154
+\Fld@charsize=\dimen155
 Package hyperref Info: Hyper figures OFF on input line 6295.
 Package hyperref Info: Link nesting OFF on input line 6300.
 Package hyperref Info: Hyper index ON on input line 6303.
@@ -904,18 +982,18 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6320.
 Package hyperref Info: PDF/A mode OFF on input line 6325.
 LaTeX Info: Redefining \ref on input line 6365.
 LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count116
-\c@Item=\count117
-\c@Hfootnote=\count118
+\Hy@abspage=\count129
+\c@Item=\count130
+\c@Hfootnote=\count131
 )
 
 Package hyperref Message: Driver: hpdftex.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\Fld@listcount=\count119
-\c@bookmark@seq@number=\count120
-\Hy@SectionHShift=\skip96
+\Fld@listcount=\count132
+\c@bookmark@seq@number=\count133
+\Hy@SectionHShift=\skip102
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 105.
 Package hyperref Info: Option `unicode' set `true' on input line 105.
@@ -931,17 +1009,22 @@ Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
-\captionmargin=\dimen141
-\captionmargin@=\dimen142
-\captionwidth=\dimen143
-\caption@tempdima=\dimen144
-\caption@indent=\dimen145
-\caption@parindent=\dimen146
-\caption@hangindent=\dimen147
+\captionmargin=\dimen156
+\captionmargin@=\dimen157
+\captionwidth=\dimen158
+\caption@tempdima=\dimen159
+\caption@indent=\dimen160
+\caption@parindent=\dimen161
+\caption@hangindent=\dimen162
 )
-\c@ContinuedFloat=\count121
+\c@ContinuedFloat=\count134
+Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
-)
+Package caption Info: longtable package is loaded.
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
+))
 (./SpacePigFighter.aux)
 \openout1 = `SpacePigFighter.aux'.
 
@@ -977,17 +1060,17 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count122
-\scratchdimen=\dimen148
-\scratchbox=\box54
-\nofMPsegments=\count123
-\nofMParguments=\count124
-\everyMPshowfont=\toks22
-\MPscratchCnt=\count125
-\MPscratchDim=\dimen149
-\MPnumerator=\count126
-\makeMPintoPDFobject=\count127
-\everyMPtoPDFconversion=\toks23
+\scratchcounter=\count135
+\scratchdimen=\dimen163
+\scratchbox=\box65
+\nofMPsegments=\count136
+\nofMParguments=\count137
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count138
+\MPscratchDim=\dimen164
+\MPnumerator=\count139
+\makeMPintoPDFobject=\count140
+\everyMPtoPDFconversion=\toks31
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -1037,7 +1120,7 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box55
+\AtBeginShipoutBox=\box66
 Package backref Info: ** backref set up for natbib ** on input line 117.
 Package hyperref Info: Link coloring ON on input line 117.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -1046,7 +1129,7 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count128
+\c@section@level=\count141
 )
 LaTeX Info: Redefining \ref on input line 117.
 LaTeX Info: Redefining \pageref on input line 117.
@@ -1067,7 +1150,7 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 18.66588pt on input line 130.
 
-<../../Images/space.jpg, id=225, 1371.1225pt x 770.88pt>
+<../../Images/space.jpg, id=1117, 1371.1225pt x 770.88pt>
 File: ../../Images/space.jpg Graphic file (type jpg)
 
 <use ../../Images/space.jpg>
@@ -1109,15 +1192,25 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 1.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [3
 
-])
+]
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 6.29996pt on input line 59.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <7> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 65.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 6.29996pt on input line 65.
+ [4] [5] [6]
+[7] [8]
+Underfull \hbox (badness 10000) in paragraph at lines 205--205
+ [][] [][][]\T1/phv/m/n/10 Player(int animal[]Class, String new[]Pseudo, String
+ animal[]Color, String 
+ []
+
+[9] [10])
 \tf@toc=\write5
 \openout5 = `SpacePigFighter.toc'.
 
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <7> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 139.
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 6.29996pt on input line 139.
- [4]
+ [11] [12]
 Package hyperref Info: Option `pageanchor' set `true' on input line 141.
 
 Chapter 1.
@@ -1162,71 +1255,92 @@ LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
 ]
 Chapter 3.
 (./development.tex
-<../../Images/UMLdiagramme.png, id=316, 1310.8975pt x 879.285pt>
+<../../Images/UMLdiagramme.png, id=1458, 1310.8975pt x 879.285pt>
 File: ../../Images/UMLdiagramme.png Graphic file (type png)
 
 <use ../../Images/UMLdiagramme.png>
 Package pdftex.def Info: ../../Images/UMLdiagramme.png used on input line 7.
 (pdftex.def)             Requested size: 450.0pt x 301.83755pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--15
+Underfull \hbox (badness 10000) in paragraph at lines 11--16
 
  []
 
-<../../Images/1_1-2_1.png, id=317, 1890.06125pt x 886.31125pt>
+<../../Images/1_1-2_1.png, id=1459, 1889.0575pt x 879.285pt>
 File: ../../Images/1_1-2_1.png Graphic file (type png)
 
 <use ../../Images/1_1-2_1.png>
-Package pdftex.def Info: ../../Images/1_1-2_1.png used on input line 17.
-(pdftex.def)             Requested size: 450.0pt x 211.01501pt.
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <9> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 18.
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 8.09995pt on input line 18.
+Package pdftex.def Info: ../../Images/1_1-2_1.png used on input line 18.
+(pdftex.def)             Requested size: 460.0pt x 214.10515pt.
 
-<../../Images/1_1-1_2-2_2.png, id=318, 1886.04625pt x 876.27374pt>
+Overfull \hbox (4.75589pt too wide) in paragraph at lines 18--19
+[][] 
+ []
+
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <9> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 19.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 8.09995pt on input line 19.
+<../../Images/1_1-1_2-2_2.png, id=1460, 1888.05376pt x 885.3075pt>
 File: ../../Images/1_1-1_2-2_2.png Graphic file (type png)
 
 <use ../../Images/1_1-1_2-2_2.png>
-Package pdftex.def Info: ../../Images/1_1-1_2-2_2.png used on input line 19.
-(pdftex.def)             Requested size: 450.0pt x 209.0665pt.
+Package pdftex.def Info: ../../Images/1_1-1_2-2_2.png used on input line 20.
+(pdftex.def)             Requested size: 460.0pt x 215.6932pt.
 
-<../../Images/1_2-2_3.png, id=319, 1881.0275pt x 882.29625pt>
+Overfull \hbox (4.75589pt too wide) in paragraph at lines 20--21
+[][] 
+ []
+
+<../../Images/1_2-2_3.png, id=1461, 1889.0575pt x 883.3pt>
 File: ../../Images/1_2-2_3.png Graphic file (type png)
 
 <use ../../Images/1_2-2_3.png>
-Package pdftex.def Info: ../../Images/1_2-2_3.png used on input line 21.
-(pdftex.def)             Requested size: 450.0pt x 211.06882pt.
+Package pdftex.def Info: ../../Images/1_2-2_3.png used on input line 22.
+(pdftex.def)             Requested size: 460.0pt x 215.08281pt.
 
-<../../Images/2_2-3_2-3_3.png, id=320, 1411.2725pt x 874.26625pt>
+Overfull \hbox (4.75589pt too wide) in paragraph at lines 22--23
+[][] 
+ []
+
+<../../Images/2_2-3_2-3_3.png, id=1462, 1883.035pt x 885.3075pt>
 File: ../../Images/2_2-3_2-3_3.png Graphic file (type png)
 
 <use ../../Images/2_2-3_2-3_3.png>
-Package pdftex.def Info: ../../Images/2_2-3_2-3_3.png used on input line 26.
-(pdftex.def)             Requested size: 450.0pt x 278.7704pt.
+Package pdftex.def Info: ../../Images/2_2-3_2-3_3.png used on input line 27.
+(pdftex.def)             Requested size: 460.0pt x 216.26057pt.
 
-<../../Images/2_3-3_3.png, id=321, 1753.55125pt x 866.23625pt>
+Overfull \hbox (4.75589pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+<../../Images/2_3-3_3.png, id=1463, 1888.05376pt x 883.3pt>
 File: ../../Images/2_3-3_3.png Graphic file (type png)
 
 <use ../../Images/2_3-3_3.png>
-Package pdftex.def Info: ../../Images/2_3-3_3.png used on input line 28.
-(pdftex.def)             Requested size: 450.0pt x 222.295pt.
- [5 <../../Images/UMLdiagramme.png>] [6 <../../Images/1_1-2_1.png> <../../Image
-s/1_1-1_2-2_2.png> <../../Images/1_2-2_3.png>]
-[7 <../../Images/2_2-3_2-3_3.png> <../../Images/2_3-3_3.png>] [8] [9]
-LaTeX Font Info:    Font shape `T1/phv/bc/n' will be
-(Font)              scaled to size 8.99994pt on input line 144.
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 146.
-LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 8.99994pt on input line 146.
+Package pdftex.def Info: ../../Images/2_3-3_3.png used on input line 29.
+(pdftex.def)             Requested size: 460.0pt x 215.2041pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--183
+Overfull \hbox (4.75589pt too wide) in paragraph at lines 29--30
+[][] 
+ []
+
+[5 <../../Images/UMLdiagramme.png>] [6 <../../Images/1_1-2_1.png> <../../Images
+/1_1-1_2-2_2.png> <../../Images/1_2-2_3.png>] [7 <../../Images/2_2-3_2-3_3.png>
+ <../../Images/2_3-3_3.png>] [8] [9]
+LaTeX Font Info:    Font shape `T1/phv/bc/n' will be
+(Font)              scaled to size 8.99994pt on input line 145.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 147.
+LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
+(Font)              scaled to size 8.99994pt on input line 147.
+
+Underfull \hbox (badness 10000) in paragraph at lines 176--184
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 186--193
+Underfull \hbox (badness 10000) in paragraph at lines 187--194
 
  []
 
@@ -1236,33 +1350,896 @@ Underfull \hbox (badness 10000) in paragraph at lines 186--193
 Chapter 4.
 (./conclusion.tex) [15] [16
 
-] (./SpacePigFighter.ind)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 162.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 162.
+]
+Chapter 5.
+(./annotated.tex) [17] [18
+
+]
+Chapter 6.
+(./classanimal_package_1_1_animal.tex
+LaTeX Font Info:    Font shape `T1/phv/bc/n' will be
+(Font)              scaled to size 6.29996pt on input line 1.
+
+<classanimal_package_1_1_animal__inherit__graph.pdf, id=1599, 525.965pt x 252.9
+45pt>
+File: classanimal_package_1_1_animal__inherit__graph.pdf Graphic file (type pdf
+)
+ <use classanimal_package_1_1_animal__inherit__graph.pdf>
+Package pdftex.def Info: classanimal_package_1_1_animal__inherit__graph.pdf use
+d on input line 9.
+(pdftex.def)             Requested size: 350.0pt x 168.32596pt.
+
+<classanimal_package_1_1_animal__coll__graph.pdf, id=1600, 366.36874pt x 180.67
+5pt>
+File: classanimal_package_1_1_animal__coll__graph.pdf Graphic file (type pdf)
+ <use classanimal_package_1_1_animal__coll__graph.pdf>
+Package pdftex.def Info: classanimal_package_1_1_animal__coll__graph.pdf used o
+n input line 18.
+(pdftex.def)             Requested size: 350.0pt x 172.61343pt.
+ [19 <./classanimal_package_1_1_animal__inherit__graph.pdf> <./classanimal_pack
+age_1_1_animal__coll__graph.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./classanimal_package_1_1_animal__coll_
+_graph.pdf): PDF inclusion: multiple pdfs with page group included in a single 
+page
+>]
+Underfull \hbox (badness 10000) detected at line 108
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 111
+[][][]
+ []
+
+LaTeX Font Info:    Font shape `T1/phv/bc/it' in size <10> not available
+(Font)              Font shape `T1/phv/bc/sl' tried instead on input line 123.
+LaTeX Font Info:    Font shape `T1/phv/bc/sl' will be
+(Font)              scaled to size 8.99994pt on input line 123.
+LaTeX Font Info:    Font shape `T1/phv/bc/it' in size <7> not available
+(Font)              Font shape `T1/phv/bc/sl' tried instead on input line 123.
+LaTeX Font Info:    Font shape `T1/phv/bc/sl' will be
+(Font)              scaled to size 6.29996pt on input line 123.
+[20]
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 157.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+
+LaTeX Font Warning: Font shape `T1/pcr/bc/n' undefined
+(Font)              using `T1/pcr/m/n' instead on input line 157.
+
+
+Underfull \hbox (badness 10000) detected at line 188
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 200
+[][][]
+ []
+
+[21]
+Underfull \hbox (badness 10000) detected at line 212
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 224
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 236
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 248
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 260
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 272
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 284
+[][][]
+ []
+
+[22] [23] [24] [25]) (./classanimal_package_1_1_bear.tex
+<classanimal_package_1_1_bear__inherit__graph.pdf, id=1741, 355.3275pt x 212.79
+5pt>
+File: classanimal_package_1_1_bear__inherit__graph.pdf Graphic file (type pdf)
+ <use classanimal_package_1_1_bear__inherit__graph.pdf>
+Package pdftex.def Info: classanimal_package_1_1_bear__inherit__graph.pdf used 
+on input line 9.
+(pdftex.def)             Requested size: 350.0pt x 209.61241pt.
+
+<classanimal_package_1_1_bear__coll__graph.pdf, id=1742, 386.44376pt x 295.1025
+pt>
+File: classanimal_package_1_1_bear__coll__graph.pdf Graphic file (type pdf)
+ <use classanimal_package_1_1_bear__coll__graph.pdf>
+Package pdftex.def Info: classanimal_package_1_1_bear__coll__graph.pdf used on 
+input line 18.
+(pdftex.def)             Requested size: 350.0pt x 267.27386pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [26 <./classanimal_package_1_1_bear__inherit__graph.pdf>]
+Underfull \hbox (badness 10000) detected at line 42
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 45
+[][][]
+ []
+
+[27 <./classanimal_package_1_1_bear__coll__graph.pdf>]
+Underfull \hbox (badness 10000) detected at line 108
+[][][]
+ []
+
+[28]
+Underfull \hbox (badness 10000) detected at line 136
+[][][]
+ []
+
+) (./interfaceanimal_package_1_1_be_fierce.tex
+<interfaceanimal_package_1_1_be_fierce__inherit__graph.pdf, id=1799, 455.7025pt
+ x 156.585pt>
+File: interfaceanimal_package_1_1_be_fierce__inherit__graph.pdf Graphic file (t
+ype pdf)
+ <use interfaceanimal_package_1_1_be_fierce__inherit__graph.pdf>
+Package pdftex.def Info: interfaceanimal_package_1_1_be_fierce__inherit__graph.
+pdf used on input line 9.
+(pdftex.def)             Requested size: 350.0pt x 120.26736pt.
+
+Underfull \hbox (badness 10000) detected at line 22
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 25
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 40
+[][][]
+ []
+
+) (./classanimal_package_1_1_chicken.tex [29 <./interfaceanimal_package_1_1_be_
+fierce__inherit__graph.pdf>]
+<classanimal_package_1_1_chicken__inherit__graph.pdf, id=1818, 359.3425pt x 212
+.795pt>
+File: classanimal_package_1_1_chicken__inherit__graph.pdf Graphic file (type pd
+f)
+ <use classanimal_package_1_1_chicken__inherit__graph.pdf>
+Package pdftex.def Info: classanimal_package_1_1_chicken__inherit__graph.pdf us
+ed on input line 9.
+(pdftex.def)             Requested size: 350.0pt x 207.27783pt.
+
+<classanimal_package_1_1_chicken__coll__graph.pdf, id=1819, 388.45125pt x 295.1
+025pt>
+File: classanimal_package_1_1_chicken__coll__graph.pdf Graphic file (type pdf)
+ <use classanimal_package_1_1_chicken__coll__graph.pdf>
+Package pdftex.def Info: classanimal_package_1_1_chicken__coll__graph.pdf used 
+on input line 18.
+(pdftex.def)             Requested size: 350.0pt x 265.89597pt.
+ [30 <./classanimal_package_1_1_chicken__inherit__graph.pdf>]
+Underfull \hbox (badness 10000) detected at line 42
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 45
+[][][]
+ []
+
+[31 <./classanimal_package_1_1_chicken__coll__graph.pdf>]
+Underfull \hbox (badness 10000) detected at line 99
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 111
+[][][]
+ []
+
+[32]) (./classcube_environment_1_1_cube_environment.tex
+Underfull \hbox (badness 10000) detected at line 37
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 40
+[][][]
+ []
+
+[33]
+Underfull \hbox (badness 10000) detected at line 79
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 91
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 103
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 115
+[][][]
+ []
+
+[34]) (./classstuff_1_1_defensif.tex
+<classstuff_1_1_defensif__coll__graph.pdf, id=1928, 215.80624pt x 113.42375pt>
+File: classstuff_1_1_defensif__coll__graph.pdf Graphic file (type pdf)
+
+<use classstuff_1_1_defensif__coll__graph.pdf>
+Package pdftex.def Info: classstuff_1_1_defensif__coll__graph.pdf used on input
+ line 9.
+(pdftex.def)             Requested size: 215.0pt x 113.0029pt.
+ [35 <./classstuff_1_1_defensif__coll__graph.pdf>]
+Underfull \hbox (badness 10000) detected at line 35
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 38
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 70
+[][][]
+ []
+
+[36]) (./classanimal_package_1_1_duck.tex
+<classanimal_package_1_1_duck__inherit__graph.pdf, id=1971, 214.8025pt x 212.79
+5pt>
+File: classanimal_package_1_1_duck__inherit__graph.pdf Graphic file (type pdf)
+ <use classanimal_package_1_1_duck__inherit__graph.pdf>
+Package pdftex.def Info: classanimal_package_1_1_duck__inherit__graph.pdf used 
+on input line 9.
+(pdftex.def)             Requested size: 214.0pt x 212.0022pt.
+
+<classanimal_package_1_1_duck__coll__graph.pdf, id=1972, 366.36874pt x 295.1025
+pt>
+File: classanimal_package_1_1_duck__coll__graph.pdf Graphic file (type pdf)
+ <use classanimal_package_1_1_duck__coll__graph.pdf>
+Package pdftex.def Info: classanimal_package_1_1_duck__coll__graph.pdf used on 
+input line 18.
+(pdftex.def)             Requested size: 350.0pt x 281.93529pt.
+ [37 <./classanimal_package_1_1_duck__inherit__graph.pdf>]
+Underfull \hbox (badness 10000) detected at line 40
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 43
+[][][]
+ []
+
+[38 <./classanimal_package_1_1_duck__coll__graph.pdf>]
+Underfull \hbox (badness 10000) detected at line 118
+[][][]
+ []
+
+) (./interfacespace_pig_fighter_package_1_1_execution_interface.tex
+<interfacespace_pig_fighter_package_1_1_execution_interface__inherit__graph.pdf
+, id=2018, 425.59pt x 167.62625pt>
+File: interfacespace_pig_fighter_package_1_1_execution_interface__inherit__grap
+h.pdf Graphic file (type pdf)
+
+<use interfacespace_pig_fighter_package_1_1_execution_interface__inherit__graph
+.pdf>
+Package pdftex.def Info: interfacespace_pig_fighter_package_1_1_execution_inter
+face__inherit__graph.pdf used on input line 9.
+(pdftex.def)             Requested size: 350.0pt x 137.86108pt.
+ [39]
+Underfull \hbox (badness 10000) detected at line 23
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 26
+[][][]
+ []
+
+) (./classspace_pig_fighter_package_1_1_fight_area.tex
+<classspace_pig_fighter_package_1_1_fight_area__inherit__graph.pdf, id=2028, 25
+2.945pt x 167.62625pt>
+File: classspace_pig_fighter_package_1_1_fight_area__inherit__graph.pdf Graphic
+ file (type pdf)
+
+<use classspace_pig_fighter_package_1_1_fight_area__inherit__graph.pdf>
+Package pdftex.def Info: classspace_pig_fighter_package_1_1_fight_area__inherit
+__graph.pdf used on input line 9.
+(pdftex.def)             Requested size: 252.0pt x 167.00427pt.
+
+<classspace_pig_fighter_package_1_1_fight_area__coll__graph.pdf, id=2029, 252.9
+45pt x 167.62625pt>
+File: classspace_pig_fighter_package_1_1_fight_area__coll__graph.pdf Graphic fi
+le (type pdf)
+
+<use classspace_pig_fighter_package_1_1_fight_area__coll__graph.pdf>
+Package pdftex.def Info: classspace_pig_fighter_package_1_1_fight_area__coll__g
+raph.pdf used on input line 18.
+(pdftex.def)             Requested size: 252.0pt x 167.00427pt.
+ [40 <./interfacespace_pig_fighter_package_1_1_execution_interface__inherit__gr
+aph.pdf> <./classspace_pig_fighter_package_1_1_fight_area__inherit__graph.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./classspace_pig_fighter_package_1_1_fi
+ght_area__inherit__graph.pdf): PDF inclusion: multiple pdfs with page group inc
+luded in a single page
+>]
+Underfull \hbox (badness 10000) detected at line 41
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 44
+[][][]
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 57.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 57.
+
+[41 <./classspace_pig_fighter_package_1_1_fight_area__coll__graph.pdf>]
+Underfull \hbox (badness 10000) detected at line 79
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 91
+[][][]
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 111.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 111.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 111.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 125.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 125.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 125.
+
+) (./classfile_management_package_1_1_file_management.tex [42]
+Underfull \hbox (badness 10000) detected at line 17
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 20
+[][][]
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 65.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 65.
+
+[43]) (./classspace_pig_fighter_package_1_1_main.tex
+Underfull \hbox (badness 10000) detected at line 19
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 22
+[][][]
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 51.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 51.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 51.
+
+[44]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 68.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 68.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 68.
+
+) (./classspace_objects_1_1_meteorite.tex
+<classspace_objects_1_1_meteorite__inherit__graph.pdf, id=2128, 200.75pt x 156.
+585pt>
+File: classspace_objects_1_1_meteorite__inherit__graph.pdf Graphic file (type p
+df)
+ <use classspace_objects_1_1_meteorite__inherit__graph.pdf>
+Package pdftex.def Info: classspace_objects_1_1_meteorite__inherit__graph.pdf u
+sed on input line 9.
+(pdftex.def)             Requested size: 200.0pt x 156.01117pt.
+
+<classspace_objects_1_1_meteorite__coll__graph.pdf, id=2129, 200.75pt x 156.585
+pt>
+File: classspace_objects_1_1_meteorite__coll__graph.pdf Graphic file (type pdf)
+
+ <use classspace_objects_1_1_meteorite__coll__graph.pdf>
+Package pdftex.def Info: classspace_objects_1_1_meteorite__coll__graph.pdf used
+ on input line 18.
+(pdftex.def)             Requested size: 200.0pt x 156.01117pt.
+ [45 <./classspace_objects_1_1_meteorite__inherit__graph.pdf>]
+Underfull \hbox (badness 10000) detected at line 37
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 40
+[][][]
+ []
+
+[46 <./classspace_objects_1_1_meteorite__coll__graph.pdf>]
+Underfull \hbox (badness 10000) detected at line 89
+[][][]
+ []
+
+) (./enumspace_objects_1_1_meteorite_size.tex
+Underfull \hbox (badness 10000) detected at line 19
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 22
+[][][]
+ []
+
+) (./classstuff_1_1_offensif.tex
+<classstuff_1_1_offensif__coll__graph.pdf, id=2185, 212.795pt x 113.42375pt>
+File: classstuff_1_1_offensif__coll__graph.pdf Graphic file (type pdf)
+
+<use classstuff_1_1_offensif__coll__graph.pdf>
+Package pdftex.def Info: classstuff_1_1_offensif__coll__graph.pdf used on input
+ line 9.
+(pdftex.def)             Requested size: 212.0pt x 113.00635pt.
+ [47]
+Underfull \hbox (badness 10000) detected at line 35
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 38
+[][][]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [48 <./classstuff_1_1_offensif__coll__graph.pdf>]
+Underfull \hbox (badness 10000) detected at line 70
+[][][]
+ []
+
+) (./classanimal_package_1_1_pig.tex
+<classanimal_package_1_1_pig__inherit__graph.pdf, id=2228, 211.79124pt x 212.79
+5pt>
+File: classanimal_package_1_1_pig__inherit__graph.pdf Graphic file (type pdf)
+ <use classanimal_package_1_1_pig__inherit__graph.pdf>
+Package pdftex.def Info: classanimal_package_1_1_pig__inherit__graph.pdf used o
+n input line 9.
+(pdftex.def)             Requested size: 211.0pt x 212.00868pt.
+ [49]
+<classanimal_package_1_1_pig__coll__graph.pdf, id=2236, 366.36874pt x 295.1025p
+t>
+File: classanimal_package_1_1_pig__coll__graph.pdf Graphic file (type pdf)
+ <use classanimal_package_1_1_pig__coll__graph.pdf>
+Package pdftex.def Info: classanimal_package_1_1_pig__coll__graph.pdf used on i
+nput line 18.
+(pdftex.def)             Requested size: 350.0pt x 281.93529pt.
+ [50 <./classanimal_package_1_1_pig__inherit__graph.pdf> <./classanimal_package
+_1_1_pig__coll__graph.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./classanimal_package_1_1_pig__coll__gr
+aph.pdf): PDF inclusion: multiple pdfs with page group included in a single pag
+e
+>]
+Underfull \hbox (badness 10000) detected at line 40
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 43
+[][][]
+ []
+
+[51]
+Underfull \hbox (badness 10000) detected at line 118
+[][][]
+ []
+
+) (./classplayer_package_1_1_player.tex
+Underfull \hbox (badness 10000) detected at line 21
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 24
+[][][]
+ []
+
+[52]
+Underfull \hbox (badness 10000) detected at line 65
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 77
+[][][]
+ []
+
+) (./classspace_objects_1_1_position_exception.tex [53]
+<classspace_objects_1_1_position_exception__inherit__graph.pdf, id=2310, 238.89
+25pt x 156.585pt>
+File: classspace_objects_1_1_position_exception__inherit__graph.pdf Graphic fil
+e (type pdf)
+
+<use classspace_objects_1_1_position_exception__inherit__graph.pdf>
+Package pdftex.def Info: classspace_objects_1_1_position_exception__inherit__gr
+aph.pdf used on input line 9.
+(pdftex.def)             Requested size: 238.0pt x 155.99922pt.
+
+<classspace_objects_1_1_position_exception__coll__graph.pdf, id=2311, 238.8925p
+t x 156.585pt>
+File: classspace_objects_1_1_position_exception__coll__graph.pdf Graphic file (
+type pdf)
+
+<use classspace_objects_1_1_position_exception__coll__graph.pdf>
+Package pdftex.def Info: classspace_objects_1_1_position_exception__coll__graph
+.pdf used on input line 18.
+(pdftex.def)             Requested size: 238.0pt x 155.99922pt.
+
+Underfull \hbox (badness 10000) detected at line 26
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 29
+[][][]
+ []
+
+) (./enumspace_objects_1_1_positions_cube.tex [54 <./classspace_objects_1_1_pos
+ition_exception__inherit__graph.pdf> <./classspace_objects_1_1_position_excepti
+on__coll__graph.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./classspace_objects_1_1_position_excep
+tion__coll__graph.pdf): PDF inclusion: multiple pdfs with page group included i
+n a single page
+>]
+Underfull \hbox (badness 10000) detected at line 37
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 40
+[][][]
+ []
+
+) (./classspace_pig_fighter_package_1_1_space.tex
+<classspace_pig_fighter_package_1_1_space__inherit__graph.pdf, id=2333, 252.945
+pt x 167.62625pt>
+File: classspace_pig_fighter_package_1_1_space__inherit__graph.pdf Graphic file
+ (type pdf)
+
+<use classspace_pig_fighter_package_1_1_space__inherit__graph.pdf>
+Package pdftex.def Info: classspace_pig_fighter_package_1_1_space__inherit__gra
+ph.pdf used on input line 9.
+(pdftex.def)             Requested size: 252.0pt x 167.00427pt.
+
+<classspace_pig_fighter_package_1_1_space__coll__graph.pdf, id=2334, 445.665pt 
+x 189.70876pt>
+File: classspace_pig_fighter_package_1_1_space__coll__graph.pdf Graphic file (t
+ype pdf)
+ <use classspace_pig_fighter_package_1_1_space__coll__graph.pdf>
+Package pdftex.def Info: classspace_pig_fighter_package_1_1_space__coll__graph.
+pdf used on input line 18.
+(pdftex.def)             Requested size: 350.0pt x 148.98827pt.
+
+[55 <./classspace_pig_fighter_package_1_1_space__inherit__graph.pdf>]
+Underfull \hbox (badness 10000) detected at line 50
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 53
+[][][]
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 66.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 66.
+
+[56 <./classspace_pig_fighter_package_1_1_space__coll__graph.pdf>]
+Underfull \hbox (badness 10000) detected at line 88
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 100
+[][][]
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 120.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 120.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 134.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 134.
+
+[57]) (./classspace_objects_1_1_spacecraft.tex
+<classspace_objects_1_1_spacecraft__inherit__graph.pdf, id=2404, 207.77625pt x 
+156.585pt>
+File: classspace_objects_1_1_spacecraft__inherit__graph.pdf Graphic file (type 
+pdf)
+ <use classspace_objects_1_1_spacecraft__inherit__graph.pdf>
+Package pdftex.def Info: classspace_objects_1_1_spacecraft__inherit__graph.pdf 
+used on input line 9.
+(pdftex.def)             Requested size: 207.0pt x 156.0064pt.
+
+<classspace_objects_1_1_spacecraft__coll__graph.pdf, id=2405, 424.58624pt x 247
+.92625pt>
+File: classspace_objects_1_1_spacecraft__coll__graph.pdf Graphic file (type pdf
+)
+ <use classspace_objects_1_1_spacecraft__coll__graph.pdf>
+Package pdftex.def Info: classspace_objects_1_1_spacecraft__coll__graph.pdf use
+d on input line 18.
+(pdftex.def)             Requested size: 350.0pt x 204.38278pt.
+ [58 <./classspace_objects_1_1_spacecraft__inherit__graph.pdf> <./classspace_ob
+jects_1_1_spacecraft__coll__graph.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./classspace_objects_1_1_spacecraft__co
+ll__graph.pdf): PDF inclusion: multiple pdfs with page group included in a sing
+le page
+>]
+Underfull \hbox (badness 10000) detected at line 61
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 64
+[][][]
+ []
+
+[59] [60]
+Underfull \hbox (badness 10000) detected at line 216
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 228
+[][][]
+ []
+
+[61]) (./classanimal_package_1_1_tiger.tex
+<classanimal_package_1_1_tiger__inherit__graph.pdf, id=2509, 355.3275pt x 212.7
+95pt>
+File: classanimal_package_1_1_tiger__inherit__graph.pdf Graphic file (type pdf)
+
+ <use classanimal_package_1_1_tiger__inherit__graph.pdf>
+Package pdftex.def Info: classanimal_package_1_1_tiger__inherit__graph.pdf used
+ on input line 9.
+(pdftex.def)             Requested size: 350.0pt x 209.61241pt.
+
+<classanimal_package_1_1_tiger__coll__graph.pdf, id=2510, 386.44376pt x 295.102
+5pt>
+File: classanimal_package_1_1_tiger__coll__graph.pdf Graphic file (type pdf)
+ <use classanimal_package_1_1_tiger__coll__graph.pdf>
+Package pdftex.def Info: classanimal_package_1_1_tiger__coll__graph.pdf used on
+ input line 18.
+(pdftex.def)             Requested size: 350.0pt x 267.27386pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [62 <./classanimal_package_1_1_tiger__inherit__graph.pdf>]
+Underfull \hbox (badness 10000) detected at line 42
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 45
+[][][]
+ []
+
+[63 <./classanimal_package_1_1_tiger__coll__graph.pdf>]
+Underfull \hbox (badness 10000) detected at line 108
+[][][]
+ []
+
+[64]
+Underfull \hbox (badness 10000) detected at line 136
+[][][]
+ []
+
+) (./classspace_objects_1_1_ufo.tex
+<classspace_objects_1_1_ufo__inherit__graph.pdf, id=2565, 347.2975pt x 156.585p
+t>
+File: classspace_objects_1_1_ufo__inherit__graph.pdf Graphic file (type pdf)
+ <use classspace_objects_1_1_ufo__inherit__graph.pdf>
+Package pdftex.def Info: classspace_objects_1_1_ufo__inherit__graph.pdf used on
+ input line 9.
+(pdftex.def)             Requested size: 346.0pt x 156.0064pt.
+
+Underfull \hbox (badness 10000) detected at line 32
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 35
+[][][]
+ []
+
+[65 <./classspace_objects_1_1_ufo__inherit__graph.pdf>]
+Underfull \hbox (badness 10000) detected at line 74
+[][][]
+ []
+
+) (./classanimal_package_1_1_with_paws.tex
+<classanimal_package_1_1_with_paws__inherit__graph.pdf, id=2599, 434.62375pt x 
+212.795pt>
+File: classanimal_package_1_1_with_paws__inherit__graph.pdf Graphic file (type 
+pdf)
+ <use classanimal_package_1_1_with_paws__inherit__graph.pdf>
+Package pdftex.def Info: classanimal_package_1_1_with_paws__inherit__graph.pdf 
+used on input line 9.
+(pdftex.def)             Requested size: 350.0pt x 171.37267pt.
+ [66]
+<classanimal_package_1_1_with_paws__coll__graph.pdf, id=2607, 366.36874pt x 237
+.88875pt>
+File: classanimal_package_1_1_with_paws__coll__graph.pdf Graphic file (type pdf
+)
+ <use classanimal_package_1_1_with_paws__coll__graph.pdf>
+Package pdftex.def Info: classanimal_package_1_1_with_paws__coll__graph.pdf use
+d on input line 18.
+(pdftex.def)             Requested size: 350.0pt x 227.27437pt.
+ [67 <./classanimal_package_1_1_with_paws__inherit__graph.pdf> <./classanimal_p
+ackage_1_1_with_paws__coll__graph.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./classanimal_package_1_1_with_paws__co
+ll__graph.pdf): PDF inclusion: multiple pdfs with page group included in a sing
+le page
+>]
+Underfull \hbox (badness 10000) detected at line 38
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 41
+[][][]
+ []
+
+[68]) (./classanimal_package_1_1_with_wings.tex
+<classanimal_package_1_1_with_wings__inherit__graph.pdf, id=2653, 331.2375pt x 
+212.795pt>
+File: classanimal_package_1_1_with_wings__inherit__graph.pdf Graphic file (type
+ pdf)
+ <use classanimal_package_1_1_with_wings__inherit__graph.pdf>
+Package pdftex.def Info: classanimal_package_1_1_with_wings__inherit__graph.pdf
+ used on input line 9.
+(pdftex.def)             Requested size: 330.0pt x 212.00868pt.
+
+<classanimal_package_1_1_with_wings__coll__graph.pdf, id=2654, 366.36874pt x 23
+7.88875pt>
+File: classanimal_package_1_1_with_wings__coll__graph.pdf Graphic file (type pd
+f)
+ <use classanimal_package_1_1_with_wings__coll__graph.pdf>
+Package pdftex.def Info: classanimal_package_1_1_with_wings__coll__graph.pdf us
+ed on input line 18.
+(pdftex.def)             Requested size: 350.0pt x 227.27437pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [69 <./classanimal_package_1_1_with_wings__inherit__graph.pdf>]
+Underfull \hbox (badness 10000) detected at line 38
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 41
+[][][]
+ []
+
+[70 <./classanimal_package_1_1_with_wings__coll__graph.pdf>]) [71] [72
+
+]
+(./SpacePigFighter.ind [73
+
+
+] [74] [75] [76
+
+])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 192.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 192.
  (./SpacePigFighter.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 162.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 162.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 192.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 192.
 Package rerunfilecheck Info: File `SpacePigFighter.out' has not changed.
-(rerunfilecheck)             Checksum: 3095CFF9282421938AD1593D51D0068E;9625.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 162.
+(rerunfilecheck)             Checksum: EEBEE9CFC97397A753847958CD98C15D;67519.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 192.
  ) 
 Here is how much of TeX's memory you used:
- 13823 strings out of 493029
- 196340 string characters out of 6136233
- 282906 words of memory out of 5000000
- 17060 multiletter control sequences out of 15000+600000
- 51745 words of font info for 58 fonts, out of 8000000 for 9000
+ 16220 strings out of 493029
+ 256388 string characters out of 6136233
+ 337305 words of memory out of 5000000
+ 18731 multiletter control sequences out of 15000+600000
+ 62089 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 53i,12n,92p,597b,390s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,16n,92p,1223b,635s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/urw/helvetic/uhvb8ac.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvet
-ic/uhvro8a.pfb>
-Output written on SpacePigFighter.pdf (20 pages, 954437 bytes).
+e/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+urw/helvetic/uhvb8ac.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helveti
+c/uhvbo8ac.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on SpacePigFighter.pdf (88 pages, 1217623 bytes).
 PDF statistics:
- 411 PDF objects out of 1000 (max. 8388607)
- 374 compressed objects within 4 object streams
- 75 named destinations out of 1000 (max. 500000)
- 476 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3160 PDF objects out of 3580 (max. 8388607)
+ 2913 compressed objects within 30 object streams
+ 684 named destinations out of 1000 (max. 500000)
+ 2407 words of extra memory for PDF output out of 10000 (max. 10000000)
 

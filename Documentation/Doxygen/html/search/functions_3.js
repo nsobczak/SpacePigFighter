@@ -1,8 +1,6 @@
 var searchData=
 [
-  ['setcolor',['setColor',['../class_pig_1_1_pig.html#ab8f5e855e0cc84f57952c28c0253cbe5',1,'Pig::Pig']]],
-  ['setforce',['setForce',['../class_pig_1_1_pig.html#a3bf6b140fac53553b26f0f9c2b980a90',1,'Pig::Pig']]],
-  ['setpositionmeteorite',['setPositionMeteorite',['../class_space_objects_1_1_meteorite.html#af234a53d736e0845a3ac8756d4f272e4',1,'SpaceObjects::Meteorite']]],
-  ['setresistance',['setResistance',['../class_pig_1_1_pig.html#a82720fb9ceb9d48848546fc886970cd5',1,'Pig::Pig']]],
-  ['setsize',['setSize',['../class_space_objects_1_1_meteorite.html#a56712e20789826305aeb30bb14ee5b39',1,'SpaceObjects::Meteorite']]]
+  ['decreaselife',['decreaseLife',['../classanimal_package_1_1_animal.html#a65d6de36e2e65527b8899d56ebd77f0e',1,'animalPackage::Animal']]],
+  ['defensif',['Defensif',['../classstuff_1_1_defensif.html#a80561aaf769f44326898b42fb6858bef',1,'stuff::Defensif']]],
+  ['duck',['Duck',['../classanimal_package_1_1_duck.html#a4c98190f59b8917b2484c8854be7a2bd',1,'animalPackage.Duck.Duck(String newPseudo)'],['../classanimal_package_1_1_duck.html#a2d03044470b67aa9b15196300665e426',1,'animalPackage.Duck.Duck(String newPseudo, String newColor)']]]
 ];

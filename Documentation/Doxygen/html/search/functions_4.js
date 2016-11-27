@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ufo',['UFO',['../class_space_objects_1_1_ufo.html#abd402e4e470e4623c9f2e5213fb8080c',1,'SpaceObjects::Ufo']]]
+  ['fightarea',['FightArea',['../classspace_pig_fighter_package_1_1_fight_area.html#a82eab1ab77303790870fa0a866ca8c0f',1,'spacePigFighterPackage::FightArea']]]
 ];

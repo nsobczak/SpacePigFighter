@@ -1,4 +1,7 @@
 var searchData=
 [
-  ['cubeenvironment',['CubeEnvironment',['../class_cube_environment_1_1_cube_environment.html',1,'CubeEnvironment']]]
+  ['animal',['Animal',['../classanimal_package_1_1_animal.html',1,'animalPackage']]],
+  ['animal',['Animal',['../classanimal_package_1_1_animal.html#af9ac4bd4d9d42913ffdf51a03d590b44',1,'animalPackage.Animal.Animal(String newPseudo)'],['../classanimal_package_1_1_animal.html#a7297a8c17c12bb30e0696da4f6087226',1,'animalPackage.Animal.Animal(String newPseudo, String newColor)']]],
+  ['attack',['attack',['../classanimal_package_1_1_animal.html#af3cba289a75f03d682536ffd4b04a8b2',1,'animalPackage.Animal.attack()'],['../classanimal_package_1_1_bear.html#a7c978545964edaa05d2e115cc744ad1a',1,'animalPackage.Bear.attack()'],['../classanimal_package_1_1_chicken.html#af7083b18b61b5706ac907af79e46990a',1,'animalPackage.Chicken.attack()'],['../classanimal_package_1_1_duck.html#aeecb763501418df5ea688eca38bf7fff',1,'animalPackage.Duck.attack()'],['../classanimal_package_1_1_pig.html#a5768dcd8ec4074410cd1b6043b5fc82b',1,'animalPackage.Pig.attack()'],['../classanimal_package_1_1_tiger.html#a977dc38b64fd5cfcd4e2ae3de1961b9e',1,'animalPackage.Tiger.attack()'],['../classanimal_package_1_1_with_paws.html#a43a1d928b025e6dd40196ea31e8f4283',1,'animalPackage.WithPaws.attack()'],['../classanimal_package_1_1_with_wings.html#ab8b3f96f10f0e694aeb4d03c5efebbdc',1,'animalPackage.WithWings.attack()']]],
+  ['axe',['AXE',['../classstuff_1_1_offensif.html#aafe94486ee9575a68c626d86fe106bc1',1,'stuff::Offensif']]]
 ];

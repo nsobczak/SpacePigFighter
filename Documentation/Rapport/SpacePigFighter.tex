@@ -3,7 +3,7 @@
 % Packages required by doxygen
 \usepackage{fixltx2e}
 \usepackage{calc}
-% \usepackage{doxygen}
+\usepackage{doxygen}
 \usepackage[export]{adjustbox} % also loads graphicx
 \usepackage{graphicx}
 \usepackage[utf8]{inputenc}
@@ -26,10 +26,10 @@
   \fontseries{bc}\selectfont%
   \color{darkgray}%
 }
-% \renewcommand{\DoxyLabelFont}{%
-%   \fontseries{bc}\selectfont%
-%   \color{darkgray}%
-% }
+\renewcommand{\DoxyLabelFont}{%
+  \fontseries{bc}\selectfont%
+  \color{darkgray}%
+}
 \newcommand{\+}{\discretionary{\mbox{\scriptsize$\hookleftarrow$}}{}{}}
 
 % Page & text layout
@@ -149,6 +149,36 @@
 \input{development}
 \chapter{Conclusion}
 \input{conclusion}
+
+% \chapter{Hierarchical Index}
+% \input{hierarchy}
+\chapter{Class Index}
+\input{annotated}
+\chapter{Class Documentation}
+\input{classanimal_package_1_1_animal}
+\input{classanimal_package_1_1_bear}
+\input{interfaceanimal_package_1_1_be_fierce}
+\input{classanimal_package_1_1_chicken}
+\input{classcube_environment_1_1_cube_environment}
+\input{classstuff_1_1_defensif}
+\input{classanimal_package_1_1_duck}
+\input{interfacespace_pig_fighter_package_1_1_execution_interface}
+\input{classspace_pig_fighter_package_1_1_fight_area}
+\input{classfile_management_package_1_1_file_management}
+\input{classspace_pig_fighter_package_1_1_main}
+\input{classspace_objects_1_1_meteorite}
+\input{enumspace_objects_1_1_meteorite_size}
+\input{classstuff_1_1_offensif}
+\input{classanimal_package_1_1_pig}
+\input{classplayer_package_1_1_player}
+\input{classspace_objects_1_1_position_exception}
+\input{enumspace_objects_1_1_positions_cube}
+\input{classspace_pig_fighter_package_1_1_space}
+\input{classspace_objects_1_1_spacecraft}
+\input{classanimal_package_1_1_tiger}
+\input{classspace_objects_1_1_ufo}
+\input{classanimal_package_1_1_with_paws}
+\input{classanimal_package_1_1_with_wings}
 %--- End generated contents ---
 
 % Index

@@ -1,0 +1,4 @@
+<map id="spaceObjects.Ufo" name="spaceObjects.Ufo">
+<area shape="rect" id="node2" href="$classspace_objects_1_1_meteorite.html" title="spaceObjects.Meteorite" alt="" coords="5,80,165,107"/>
+<area shape="rect" id="node3" href="$classspace_objects_1_1_spacecraft.html" title="spaceObjects.Spacecraft" alt="" coords="190,80,359,107"/>
+</map>

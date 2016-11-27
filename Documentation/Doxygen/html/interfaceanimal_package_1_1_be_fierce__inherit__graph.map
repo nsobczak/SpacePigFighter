@@ -1,0 +1,5 @@
+<map id="animalPackage.BeFierce" name="animalPackage.BeFierce">
+<area shape="rect" id="node2" href="$classanimal_package_1_1_bear.html" title="animalPackage.Bear" alt="" coords="5,80,148,107"/>
+<area shape="rect" id="node3" href="$classanimal_package_1_1_chicken.html" title="animalPackage.Chicken" alt="" coords="173,80,335,107"/>
+<area shape="rect" id="node4" href="$classanimal_package_1_1_tiger.html" title="animalPackage.Tiger" alt="" coords="359,80,503,107"/>
+</map>

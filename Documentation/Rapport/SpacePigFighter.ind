@@ -1,0 +1,412 @@
+\begin{theindex}
+
+  \item {A\+XE}
+    \subitem {stuff\+::\+Offensif}, \hyperpage{49}
+  \item {Animal}
+    \subitem {animal\+Package\+::\+Animal}, \hyperpage{20, 21}
+  \item {animal\+Package.\+Animal}, \hyperpage{19}
+  \item {animal\+Package.\+Be\+Fierce}, \hyperpage{29}
+  \item {animal\+Package.\+Bear}, \hyperpage{26}
+  \item {animal\+Package.\+Chicken}, \hyperpage{30}
+  \item {animal\+Package.\+Duck}, \hyperpage{37}
+  \item {animal\+Package.\+Pig}, \hyperpage{50}
+  \item {animal\+Package.\+Tiger}, \hyperpage{62}
+  \item {animal\+Package.\+With\+Paws}, \hyperpage{67}
+  \item {animal\+Package.\+With\+Wings}, \hyperpage{69}
+  \item {animal\+Package\+::\+Animal}
+    \subitem {Animal}, \hyperpage{20, 21}
+    \subitem {attack}, \hyperpage{21}
+    \subitem {decrease\+Life}, \hyperpage{21}
+    \subitem {get\+Able\+To\+Act}, \hyperpage{21}
+    \subitem {get\+Color}, \hyperpage{21}
+    \subitem {get\+Force}, \hyperpage{21}
+    \subitem {get\+Life}, \hyperpage{22}
+    \subitem {get\+P\+S\+E\+U\+DO}, \hyperpage{22}
+    \subitem {get\+Resistance}, \hyperpage{22}
+    \subitem {get\+Special\+Action\+Available}, \hyperpage{22}
+    \subitem {get\+Stuff\+Defensif}, \hyperpage{22}
+    \subitem {get\+Stuff\+Offensif}, \hyperpage{22}
+    \subitem {increase\+Life}, \hyperpage{23}
+    \subitem {scream}, \hyperpage{24}
+    \subitem {set\+Able\+To\+Act}, \hyperpage{24}
+    \subitem {set\+Color}, \hyperpage{24}
+    \subitem {set\+Force}, \hyperpage{24}
+    \subitem {set\+Life}, \hyperpage{24}
+    \subitem {set\+Resistance}, \hyperpage{24}
+    \subitem {set\+Special\+Action\+Available}, \hyperpage{25}
+    \subitem {set\+Stuff\+Defensif}, \hyperpage{25}
+    \subitem {set\+Stuff\+Offensif}, \hyperpage{25}
+    \subitem {special\+Action}, \hyperpage{25}
+    \subitem {stuff\+Selection}, \hyperpage{25}
+    \subitem {update\+Stuff\+Bonus}, \hyperpage{25}
+  \item {animal\+Package\+::\+Be\+Fierce}
+    \subitem {be\+Fierce}, \hyperpage{30}
+  \item {animal\+Package\+::\+Bear}
+    \subitem {attack}, \hyperpage{28}
+    \subitem {be\+Fierce}, \hyperpage{28}
+    \subitem {Bear}, \hyperpage{27, 28}
+    \subitem {scream}, \hyperpage{28}
+    \subitem {special\+Action}, \hyperpage{28}
+  \item {animal\+Package\+::\+Chicken}
+    \subitem {attack}, \hyperpage{32}
+    \subitem {be\+Fierce}, \hyperpage{32}
+    \subitem {Chicken}, \hyperpage{31, 32}
+    \subitem {scream}, \hyperpage{32}
+    \subitem {special\+Action}, \hyperpage{32}
+  \item {animal\+Package\+::\+Duck}
+    \subitem {attack}, \hyperpage{39}
+    \subitem {Duck}, \hyperpage{38, 39}
+    \subitem {scream}, \hyperpage{39}
+    \subitem {special\+Action}, \hyperpage{39}
+  \item {animal\+Package\+::\+Pig}
+    \subitem {attack}, \hyperpage{51}
+    \subitem {Pig}, \hyperpage{51}
+    \subitem {scream}, \hyperpage{51}
+    \subitem {special\+Action}, \hyperpage{52}
+  \item {animal\+Package\+::\+Tiger}
+    \subitem {attack}, \hyperpage{64}
+    \subitem {be\+Fierce}, \hyperpage{64}
+    \subitem {scream}, \hyperpage{64}
+    \subitem {special\+Action}, \hyperpage{64}
+    \subitem {Tiger}, \hyperpage{63, 64}
+  \item {animal\+Package\+::\+With\+Paws}
+    \subitem {attack}, \hyperpage{68}
+    \subitem {special\+Action}, \hyperpage{68}
+    \subitem {With\+Paws}, \hyperpage{68}
+  \item {animal\+Package\+::\+With\+Wings}
+    \subitem {attack}, \hyperpage{71}
+    \subitem {special\+Action}, \hyperpage{71}
+    \subitem {With\+Wings}, \hyperpage{70, 71}
+  \item {attack}
+    \subitem {animal\+Package\+::\+Animal}, \hyperpage{21}
+    \subitem {animal\+Package\+::\+Bear}, \hyperpage{28}
+    \subitem {animal\+Package\+::\+Chicken}, \hyperpage{32}
+    \subitem {animal\+Package\+::\+Duck}, \hyperpage{39}
+    \subitem {animal\+Package\+::\+Pig}, \hyperpage{51}
+    \subitem {animal\+Package\+::\+Tiger}, \hyperpage{64}
+    \subitem {animal\+Package\+::\+With\+Paws}, \hyperpage{68}
+    \subitem {animal\+Package\+::\+With\+Wings}, \hyperpage{71}
+
+  \indexspace
+
+  \item {be\+Damaged\+By}
+    \subitem {space\+Objects\+::\+Spacecraft}, \hyperpage{61}
+  \item {be\+Fierce}
+    \subitem {animal\+Package\+::\+Be\+Fierce}, \hyperpage{30}
+    \subitem {animal\+Package\+::\+Bear}, \hyperpage{28}
+    \subitem {animal\+Package\+::\+Chicken}, \hyperpage{32}
+    \subitem {animal\+Package\+::\+Tiger}, \hyperpage{64}
+  \item {Bear}
+    \subitem {animal\+Package\+::\+Bear}, \hyperpage{27, 28}
+
+  \indexspace
+
+  \item {Chicken}
+    \subitem {animal\+Package\+::\+Chicken}, \hyperpage{31, 32}
+  \item {create\+File}
+    \subitem {file\+Management\+Package\+::\+File\+Management}, 
+		\hyperpage{43}
+  \item {Cube\+Environment}
+    \subitem {cube\+Environment\+::\+Cube\+Environment}, \hyperpage{33}
+  \item {cube\+Environment.\+Cube\+Environment}, \hyperpage{33}
+  \item {cube\+Environment\+::\+Cube\+Environment}
+    \subitem {Cube\+Environment}, \hyperpage{33}
+    \subitem {get\+Meteorite\+Big}, \hyperpage{34}
+    \subitem {get\+Meteorite\+Medium}, \hyperpage{34}
+    \subitem {get\+Meteorite\+Small}, \hyperpage{34}
+    \subitem {get\+Spacecraft}, \hyperpage{34}
+    \subitem {set\+Meteorite\+Big}, \hyperpage{34}
+    \subitem {set\+Meteorite\+Medium}, \hyperpage{35}
+    \subitem {set\+Meteorite\+Small}, \hyperpage{35}
+    \subitem {set\+Spacecraft}, \hyperpage{35}
+
+  \indexspace
+
+  \item {decrease\+Life}
+    \subitem {animal\+Package\+::\+Animal}, \hyperpage{21}
+  \item {Defensif}
+    \subitem {stuff\+::\+Defensif}, \hyperpage{36}
+  \item {Duck}
+    \subitem {animal\+Package\+::\+Duck}, \hyperpage{38, 39}
+
+  \indexspace
+
+  \item {Fight\+Area}
+    \subitem {space\+Pig\+Fighter\+Package\+::\+Fight\+Area}, 
+		\hyperpage{41}
+  \item {file\+Management\+Package.\+File\+Management}, \hyperpage{43}
+  \item {file\+Management\+Package\+::\+File\+Management}
+    \subitem {create\+File}, \hyperpage{43}
+    \subitem {write\+File}, \hyperpage{43}
+    \subitem {write\+Story}, \hyperpage{43}
+
+  \indexspace
+
+  \item {get\+Able\+To\+Act}
+    \subitem {animal\+Package\+::\+Animal}, \hyperpage{21}
+  \item {get\+Animal}
+    \subitem {player\+Package\+::\+Player}, \hyperpage{53}
+    \subitem {space\+Objects\+::\+Spacecraft}, \hyperpage{61}
+  \item {get\+Animal\+Player01}
+    \subitem {space\+Pig\+Fighter\+Package\+::\+Fight\+Area}, 
+		\hyperpage{42}
+  \item {get\+Animal\+Player02}
+    \subitem {space\+Pig\+Fighter\+Package\+::\+Fight\+Area}, 
+		\hyperpage{42}
+  \item {get\+Bonus\+Force}
+    \subitem {stuff\+::\+Offensif}, \hyperpage{49}
+  \item {get\+Bonus\+Resistance}
+    \subitem {stuff\+::\+Defensif}, \hyperpage{36}
+  \item {get\+Color}
+    \subitem {animal\+Package\+::\+Animal}, \hyperpage{21}
+    \subitem {space\+Objects\+::\+Spacecraft}, \hyperpage{61}
+  \item {get\+Cube\+Environment01}
+    \subitem {space\+Pig\+Fighter\+Package\+::\+Space}, \hyperpage{57}
+  \item {get\+Cube\+Environment02}
+    \subitem {space\+Pig\+Fighter\+Package\+::\+Space}, \hyperpage{57}
+  \item {get\+Force}
+    \subitem {animal\+Package\+::\+Animal}, \hyperpage{21}
+  \item {get\+Life}
+    \subitem {animal\+Package\+::\+Animal}, \hyperpage{22}
+  \item {get\+Location}
+    \subitem {space\+Objects\+::\+Ufo}, \hyperpage{66}
+  \item {get\+Meteorite\+Big}
+    \subitem {cube\+Environment\+::\+Cube\+Environment}, \hyperpage{34}
+  \item {get\+Meteorite\+Medium}
+    \subitem {cube\+Environment\+::\+Cube\+Environment}, \hyperpage{34}
+  \item {get\+Meteorite\+Small}
+    \subitem {cube\+Environment\+::\+Cube\+Environment}, \hyperpage{34}
+  \item {get\+P\+S\+E\+U\+DO}
+    \subitem {animal\+Package\+::\+Animal}, \hyperpage{22}
+  \item {get\+Resistance}
+    \subitem {animal\+Package\+::\+Animal}, \hyperpage{22}
+  \item {get\+Size}
+    \subitem {space\+Objects\+::\+Meteorite}, \hyperpage{47}
+  \item {get\+Spacecraft}
+    \subitem {cube\+Environment\+::\+Cube\+Environment}, \hyperpage{34}
+    \subitem {player\+Package\+::\+Player}, \hyperpage{53}
+  \item {get\+Special\+Action\+Available}
+    \subitem {animal\+Package\+::\+Animal}, \hyperpage{22}
+  \item {get\+Stuff\+Defensif}
+    \subitem {animal\+Package\+::\+Animal}, \hyperpage{22}
+  \item {get\+Stuff\+Offensif}
+    \subitem {animal\+Package\+::\+Animal}, \hyperpage{22}
+
+  \indexspace
+
+  \item {H\+E\+L\+M\+ET}
+    \subitem {stuff\+::\+Defensif}, \hyperpage{37}
+
+  \indexspace
+
+  \item {increase\+Life}
+    \subitem {animal\+Package\+::\+Animal}, \hyperpage{23}
+
+  \indexspace
+
+  \item {main}
+    \subitem {space\+Pig\+Fighter\+Package\+::\+Main}, \hyperpage{44}
+  \item {Meteorite}
+    \subitem {space\+Objects\+::\+Meteorite}, \hyperpage{46}
+
+  \indexspace
+
+  \item {N\+O\+NE}
+    \subitem {stuff\+::\+Defensif}, \hyperpage{37}
+    \subitem {stuff\+::\+Offensif}, \hyperpage{49}
+
+  \indexspace
+
+  \item {Offensif}
+    \subitem {stuff\+::\+Offensif}, \hyperpage{48}
+
+  \indexspace
+
+  \item {part\+\_\+1}
+    \subitem {space\+Pig\+Fighter\+Package\+::\+Main}, \hyperpage{44}
+  \item {part\+\_\+2}
+    \subitem {space\+Pig\+Fighter\+Package\+::\+Main}, \hyperpage{45}
+  \item {Pig}
+    \subitem {animal\+Package\+::\+Pig}, \hyperpage{51}
+  \item {Player}
+    \subitem {player\+Package\+::\+Player}, \hyperpage{52}
+  \item {player\+Creation}
+    \subitem {space\+Pig\+Fighter\+Package\+::\+Main}, \hyperpage{45}
+  \item {player\+Package.\+Player}, \hyperpage{52}
+  \item {player\+Package\+::\+Player}
+    \subitem {get\+Animal}, \hyperpage{53}
+    \subitem {get\+Spacecraft}, \hyperpage{53}
+    \subitem {Player}, \hyperpage{52}
+    \subitem {set\+Animal}, \hyperpage{53}
+    \subitem {set\+Spacecraft}, \hyperpage{53}
+
+  \indexspace
+
+  \item {run}
+    \subitem {space\+Pig\+Fighter\+Package\+::\+Fight\+Area}, 
+		\hyperpage{42}
+    \subitem {space\+Pig\+Fighter\+Package\+::\+Space}, \hyperpage{57}
+
+  \indexspace
+
+  \item {S\+H\+I\+E\+LD}
+    \subitem {stuff\+::\+Defensif}, \hyperpage{37}
+  \item {S\+W\+O\+RD}
+    \subitem {stuff\+::\+Offensif}, \hyperpage{49}
+  \item {scream}
+    \subitem {animal\+Package\+::\+Animal}, \hyperpage{24}
+    \subitem {animal\+Package\+::\+Bear}, \hyperpage{28}
+    \subitem {animal\+Package\+::\+Chicken}, \hyperpage{32}
+    \subitem {animal\+Package\+::\+Duck}, \hyperpage{39}
+    \subitem {animal\+Package\+::\+Pig}, \hyperpage{51}
+    \subitem {animal\+Package\+::\+Tiger}, \hyperpage{64}
+  \item {set\+Able\+To\+Act}
+    \subitem {animal\+Package\+::\+Animal}, \hyperpage{24}
+  \item {set\+Animal}
+    \subitem {player\+Package\+::\+Player}, \hyperpage{53}
+    \subitem {space\+Objects\+::\+Spacecraft}, \hyperpage{61}
+  \item {set\+Animal\+Player01}
+    \subitem {space\+Pig\+Fighter\+Package\+::\+Fight\+Area}, 
+		\hyperpage{42}
+  \item {set\+Animal\+Player02}
+    \subitem {space\+Pig\+Fighter\+Package\+::\+Fight\+Area}, 
+		\hyperpage{42}
+  \item {set\+Bonus\+Force}
+    \subitem {stuff\+::\+Offensif}, \hyperpage{49}
+  \item {set\+Bonus\+Resistance}
+    \subitem {stuff\+::\+Defensif}, \hyperpage{36}
+  \item {set\+Color}
+    \subitem {animal\+Package\+::\+Animal}, \hyperpage{24}
+    \subitem {space\+Objects\+::\+Spacecraft}, \hyperpage{61}
+  \item {set\+Cube\+Environment01}
+    \subitem {space\+Pig\+Fighter\+Package\+::\+Space}, \hyperpage{57}
+  \item {set\+Force}
+    \subitem {animal\+Package\+::\+Animal}, \hyperpage{24}
+  \item {set\+Life}
+    \subitem {animal\+Package\+::\+Animal}, \hyperpage{24}
+  \item {set\+Location}
+    \subitem {space\+Objects\+::\+Ufo}, \hyperpage{66}
+  \item {set\+Meteorite\+Big}
+    \subitem {cube\+Environment\+::\+Cube\+Environment}, \hyperpage{34}
+  \item {set\+Meteorite\+Medium}
+    \subitem {cube\+Environment\+::\+Cube\+Environment}, \hyperpage{35}
+  \item {set\+Meteorite\+Small}
+    \subitem {cube\+Environment\+::\+Cube\+Environment}, \hyperpage{35}
+  \item {set\+Resistance}
+    \subitem {animal\+Package\+::\+Animal}, \hyperpage{24}
+  \item {set\+Size}
+    \subitem {space\+Objects\+::\+Meteorite}, \hyperpage{47}
+  \item {set\+Spacecraft}
+    \subitem {cube\+Environment\+::\+Cube\+Environment}, \hyperpage{35}
+    \subitem {player\+Package\+::\+Player}, \hyperpage{53}
+  \item {set\+Special\+Action\+Available}
+    \subitem {animal\+Package\+::\+Animal}, \hyperpage{25}
+  \item {set\+Stuff\+Defensif}
+    \subitem {animal\+Package\+::\+Animal}, \hyperpage{25}
+  \item {set\+Stuff\+Offensif}
+    \subitem {animal\+Package\+::\+Animal}, \hyperpage{25}
+  \item {Space}
+    \subitem {space\+Pig\+Fighter\+Package\+::\+Space}, \hyperpage{56}
+  \item {space\+Objects.\+Meteorite}, \hyperpage{45}
+  \item {space\+Objects.\+Meteorite\+Size}, \hyperpage{47}
+  \item {space\+Objects.\+Position\+Exception}, \hyperpage{54}
+  \item {space\+Objects.\+Positions\+Cube}, \hyperpage{55}
+  \item {space\+Objects.\+Spacecraft}, \hyperpage{58}
+  \item {space\+Objects.\+Ufo}, \hyperpage{65}
+  \item {space\+Objects\+::\+Meteorite}
+    \subitem {get\+Size}, \hyperpage{47}
+    \subitem {Meteorite}, \hyperpage{46}
+    \subitem {set\+Size}, \hyperpage{47}
+  \item {space\+Objects\+::\+Spacecraft}
+    \subitem {be\+Damaged\+By}, \hyperpage{61}
+    \subitem {get\+Animal}, \hyperpage{61}
+    \subitem {get\+Color}, \hyperpage{61}
+    \subitem {set\+Animal}, \hyperpage{61}
+    \subitem {set\+Color}, \hyperpage{61}
+    \subitem {Spacecraft}, \hyperpage{59, 60}
+  \item {space\+Objects\+::\+Ufo}
+    \subitem {get\+Location}, \hyperpage{66}
+    \subitem {set\+Location}, \hyperpage{66}
+    \subitem {Ufo}, \hyperpage{66}
+  \item {space\+Pig\+Fighter\+Package.\+Execution\+Interface}, 
+		\hyperpage{40}
+  \item {space\+Pig\+Fighter\+Package.\+Fight\+Area}, \hyperpage{40}
+  \item {space\+Pig\+Fighter\+Package.\+Main}, \hyperpage{44}
+  \item {space\+Pig\+Fighter\+Package.\+Space}, \hyperpage{55}
+  \item {space\+Pig\+Fighter\+Package\+::\+Fight\+Area}
+    \subitem {Fight\+Area}, \hyperpage{41}
+    \subitem {get\+Animal\+Player01}, \hyperpage{42}
+    \subitem {get\+Animal\+Player02}, \hyperpage{42}
+    \subitem {run}, \hyperpage{42}
+    \subitem {set\+Animal\+Player01}, \hyperpage{42}
+    \subitem {set\+Animal\+Player02}, \hyperpage{42}
+  \item {space\+Pig\+Fighter\+Package\+::\+Main}
+    \subitem {main}, \hyperpage{44}
+    \subitem {part\+\_\+1}, \hyperpage{44}
+    \subitem {part\+\_\+2}, \hyperpage{45}
+    \subitem {player\+Creation}, \hyperpage{45}
+  \item {space\+Pig\+Fighter\+Package\+::\+Space}
+    \subitem {get\+Cube\+Environment01}, \hyperpage{57}
+    \subitem {get\+Cube\+Environment02}, \hyperpage{57}
+    \subitem {run}, \hyperpage{57}
+    \subitem {set\+Cube\+Environment01}, \hyperpage{57}
+    \subitem {Space}, \hyperpage{56}
+    \subitem {sset\+Cube\+Environment02}, \hyperpage{57}
+  \item {Spacecraft}
+    \subitem {space\+Objects\+::\+Spacecraft}, \hyperpage{59, 60}
+  \item {special\+Action}
+    \subitem {animal\+Package\+::\+Animal}, \hyperpage{25}
+    \subitem {animal\+Package\+::\+Bear}, \hyperpage{28}
+    \subitem {animal\+Package\+::\+Chicken}, \hyperpage{32}
+    \subitem {animal\+Package\+::\+Duck}, \hyperpage{39}
+    \subitem {animal\+Package\+::\+Pig}, \hyperpage{52}
+    \subitem {animal\+Package\+::\+Tiger}, \hyperpage{64}
+    \subitem {animal\+Package\+::\+With\+Paws}, \hyperpage{68}
+    \subitem {animal\+Package\+::\+With\+Wings}, \hyperpage{71}
+  \item {sset\+Cube\+Environment02}
+    \subitem {space\+Pig\+Fighter\+Package\+::\+Space}, \hyperpage{57}
+  \item {stuff.\+Defensif}, \hyperpage{35}
+  \item {stuff.\+Offensif}, \hyperpage{48}
+  \item {stuff\+::\+Defensif}
+    \subitem {Defensif}, \hyperpage{36}
+    \subitem {get\+Bonus\+Resistance}, \hyperpage{36}
+    \subitem {H\+E\+L\+M\+ET}, \hyperpage{37}
+    \subitem {N\+O\+NE}, \hyperpage{37}
+    \subitem {S\+H\+I\+E\+LD}, \hyperpage{37}
+    \subitem {set\+Bonus\+Resistance}, \hyperpage{36}
+  \item {stuff\+::\+Offensif}
+    \subitem {A\+XE}, \hyperpage{49}
+    \subitem {get\+Bonus\+Force}, \hyperpage{49}
+    \subitem {N\+O\+NE}, \hyperpage{49}
+    \subitem {Offensif}, \hyperpage{48}
+    \subitem {S\+W\+O\+RD}, \hyperpage{49}
+    \subitem {set\+Bonus\+Force}, \hyperpage{49}
+  \item {stuff\+Selection}
+    \subitem {animal\+Package\+::\+Animal}, \hyperpage{25}
+
+  \indexspace
+
+  \item {Tiger}
+    \subitem {animal\+Package\+::\+Tiger}, \hyperpage{63, 64}
+
+  \indexspace
+
+  \item {Ufo}
+    \subitem {space\+Objects\+::\+Ufo}, \hyperpage{66}
+  \item {update\+Stuff\+Bonus}
+    \subitem {animal\+Package\+::\+Animal}, \hyperpage{25}
+
+  \indexspace
+
+  \item {With\+Paws}
+    \subitem {animal\+Package\+::\+With\+Paws}, \hyperpage{68}
+  \item {With\+Wings}
+    \subitem {animal\+Package\+::\+With\+Wings}, \hyperpage{70, 71}
+  \item {write\+File}
+    \subitem {file\+Management\+Package\+::\+File\+Management}, 
+		\hyperpage{43}
+  \item {write\+Story}
+    \subitem {file\+Management\+Package\+::\+File\+Management}, 
+		\hyperpage{43}
+
+\end{theindex}

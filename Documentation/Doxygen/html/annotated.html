@@ -8,6 +8,14 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -24,7 +32,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SpacePigFighter
-   &#160;<span id="projectnumber">1.1</span>
+   &#160;<span id="projectnumber">1.5</span>
    </div>
   </td>
  </tr>
@@ -67,6 +75,20 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     </ul>
   </div>
 </div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('annotated.html','');});
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -88,24 +110,48 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="contents">
 <div class="textblock">Here are the classes, structs, unions and interfaces with brief descriptions:</div><div class="directory">
 <div class="levels">[detail level <span onclick="javascript:toggleLevel(1);">1</span><span onclick="javascript:toggleLevel(2);">2</span>]</div><table class="directory">
-<tr id="row_0_" class="even"><td class="entry"><span style="width:0px;display:inline-block;">&#160;</span><span id="arr_0_" class="arrow" onclick="toggleFolder('0_')">&#9660;</span><span class="icona"><span class="icon">N</span></span><b>CubeEnvironment</b></td><td class="desc"></td></tr>
-<tr id="row_0_0_"><td class="entry"><span style="width:32px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="class_cube_environment_1_1_cube_environment.html" target="_self">CubeEnvironment</a></td><td class="desc"></td></tr>
-<tr id="row_1_" class="even"><td class="entry"><span style="width:0px;display:inline-block;">&#160;</span><span id="arr_1_" class="arrow" onclick="toggleFolder('1_')">&#9660;</span><span class="icona"><span class="icon">N</span></span><b>Pig</b></td><td class="desc"></td></tr>
-<tr id="row_1_0_"><td class="entry"><span style="width:32px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="class_pig_1_1_pig.html" target="_self">Pig</a></td><td class="desc"></td></tr>
-<tr id="row_2_" class="even"><td class="entry"><span style="width:0px;display:inline-block;">&#160;</span><span id="arr_2_" class="arrow" onclick="toggleFolder('2_')">&#9660;</span><span class="icona"><span class="icon">N</span></span><b>SpaceObjects</b></td><td class="desc"></td></tr>
-<tr id="row_2_0_"><td class="entry"><span style="width:32px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="class_space_objects_1_1_meteorite.html" target="_self">Meteorite</a></td><td class="desc"></td></tr>
-<tr id="row_2_1_" class="even"><td class="entry"><span style="width:32px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="class_space_objects_1_1_ufo.html" target="_self">Ufo</a></td><td class="desc"></td></tr>
-<tr id="row_3_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="class_fight_area.html" target="_self">FightArea</a></td><td class="desc"></td></tr>
-<tr id="row_4_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="interface_logger.html" target="_self">Logger</a></td><td class="desc"></td></tr>
-<tr id="row_5_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="class_space.html" target="_self">Space</a></td><td class="desc"></td></tr>
+<tr id="row_0_" class="even"><td class="entry"><span style="width:0px;display:inline-block;">&#160;</span><span id="arr_0_" class="arrow" onclick="toggleFolder('0_')">&#9660;</span><span class="icona"><span class="icon">N</span></span><b>animalPackage</b></td><td class="desc"></td></tr>
+<tr id="row_0_0_"><td class="entry"><span style="width:32px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="classanimal_package_1_1_animal.html" target="_self">Animal</a></td><td class="desc"></td></tr>
+<tr id="row_0_1_" class="even"><td class="entry"><span style="width:32px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="classanimal_package_1_1_bear.html" target="_self">Bear</a></td><td class="desc"></td></tr>
+<tr id="row_0_2_"><td class="entry"><span style="width:32px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="interfaceanimal_package_1_1_be_fierce.html" target="_self">BeFierce</a></td><td class="desc"></td></tr>
+<tr id="row_0_3_" class="even"><td class="entry"><span style="width:32px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="classanimal_package_1_1_chicken.html" target="_self">Chicken</a></td><td class="desc"></td></tr>
+<tr id="row_0_4_"><td class="entry"><span style="width:32px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="classanimal_package_1_1_duck.html" target="_self">Duck</a></td><td class="desc"></td></tr>
+<tr id="row_0_5_" class="even"><td class="entry"><span style="width:32px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="classanimal_package_1_1_pig.html" target="_self">Pig</a></td><td class="desc"></td></tr>
+<tr id="row_0_6_"><td class="entry"><span style="width:32px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="classanimal_package_1_1_tiger.html" target="_self">Tiger</a></td><td class="desc"></td></tr>
+<tr id="row_0_7_" class="even"><td class="entry"><span style="width:32px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="classanimal_package_1_1_with_paws.html" target="_self">WithPaws</a></td><td class="desc"></td></tr>
+<tr id="row_0_8_"><td class="entry"><span style="width:32px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="classanimal_package_1_1_with_wings.html" target="_self">WithWings</a></td><td class="desc"></td></tr>
+<tr id="row_1_" class="even"><td class="entry"><span style="width:0px;display:inline-block;">&#160;</span><span id="arr_1_" class="arrow" onclick="toggleFolder('1_')">&#9660;</span><span class="icona"><span class="icon">N</span></span><b>cubeEnvironment</b></td><td class="desc"></td></tr>
+<tr id="row_1_0_"><td class="entry"><span style="width:32px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="classcube_environment_1_1_cube_environment.html" target="_self">CubeEnvironment</a></td><td class="desc"></td></tr>
+<tr id="row_2_" class="even"><td class="entry"><span style="width:0px;display:inline-block;">&#160;</span><span id="arr_2_" class="arrow" onclick="toggleFolder('2_')">&#9660;</span><span class="icona"><span class="icon">N</span></span><b>fileManagementPackage</b></td><td class="desc"></td></tr>
+<tr id="row_2_0_"><td class="entry"><span style="width:32px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="classfile_management_package_1_1_file_management.html" target="_self">FileManagement</a></td><td class="desc"></td></tr>
+<tr id="row_3_" class="even"><td class="entry"><span style="width:0px;display:inline-block;">&#160;</span><span id="arr_3_" class="arrow" onclick="toggleFolder('3_')">&#9660;</span><span class="icona"><span class="icon">N</span></span><b>playerPackage</b></td><td class="desc"></td></tr>
+<tr id="row_3_0_"><td class="entry"><span style="width:32px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="classplayer_package_1_1_player.html" target="_self">Player</a></td><td class="desc"></td></tr>
+<tr id="row_4_" class="even"><td class="entry"><span style="width:0px;display:inline-block;">&#160;</span><span id="arr_4_" class="arrow" onclick="toggleFolder('4_')">&#9660;</span><span class="icona"><span class="icon">N</span></span><b>spaceObjects</b></td><td class="desc"></td></tr>
+<tr id="row_4_0_"><td class="entry"><span style="width:32px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="classspace_objects_1_1_meteorite.html" target="_self">Meteorite</a></td><td class="desc"></td></tr>
+<tr id="row_4_1_" class="even"><td class="entry"><span style="width:32px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="enumspace_objects_1_1_meteorite_size.html" target="_self">MeteoriteSize</a></td><td class="desc"></td></tr>
+<tr id="row_4_2_"><td class="entry"><span style="width:32px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="classspace_objects_1_1_position_exception.html" target="_self">PositionException</a></td><td class="desc"></td></tr>
+<tr id="row_4_3_" class="even"><td class="entry"><span style="width:32px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="enumspace_objects_1_1_positions_cube.html" target="_self">PositionsCube</a></td><td class="desc"></td></tr>
+<tr id="row_4_4_"><td class="entry"><span style="width:32px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="classspace_objects_1_1_spacecraft.html" target="_self">Spacecraft</a></td><td class="desc"></td></tr>
+<tr id="row_4_5_" class="even"><td class="entry"><span style="width:32px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="classspace_objects_1_1_ufo.html" target="_self">Ufo</a></td><td class="desc"></td></tr>
+<tr id="row_5_"><td class="entry"><span style="width:0px;display:inline-block;">&#160;</span><span id="arr_5_" class="arrow" onclick="toggleFolder('5_')">&#9660;</span><span class="icona"><span class="icon">N</span></span><b>spacePigFighterPackage</b></td><td class="desc"></td></tr>
+<tr id="row_5_0_" class="even"><td class="entry"><span style="width:32px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="interfacespace_pig_fighter_package_1_1_execution_interface.html" target="_self">ExecutionInterface</a></td><td class="desc"></td></tr>
+<tr id="row_5_1_"><td class="entry"><span style="width:32px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="classspace_pig_fighter_package_1_1_fight_area.html" target="_self">FightArea</a></td><td class="desc"></td></tr>
+<tr id="row_5_2_" class="even"><td class="entry"><span style="width:32px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="classspace_pig_fighter_package_1_1_main.html" target="_self">Main</a></td><td class="desc"></td></tr>
+<tr id="row_5_3_"><td class="entry"><span style="width:32px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="classspace_pig_fighter_package_1_1_space.html" target="_self">Space</a></td><td class="desc"></td></tr>
+<tr id="row_6_" class="even"><td class="entry"><span style="width:0px;display:inline-block;">&#160;</span><span id="arr_6_" class="arrow" onclick="toggleFolder('6_')">&#9660;</span><span class="icona"><span class="icon">N</span></span><b>stuff</b></td><td class="desc"></td></tr>
+<tr id="row_6_0_"><td class="entry"><span style="width:32px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="classstuff_1_1_defensif.html" target="_self">Defensif</a></td><td class="desc"></td></tr>
+<tr id="row_6_1_" class="even"><td class="entry"><span style="width:32px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="classstuff_1_1_offensif.html" target="_self">Offensif</a></td><td class="desc"></td></tr>
 </table>
 </div><!-- directory -->
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.11
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
+  </ul>
+</div>
 </body>
 </html>

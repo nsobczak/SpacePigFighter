@@ -1,0 +1,6 @@
+<map id="spaceObjects.Spacecraft" name="spaceObjects.Spacecraft">
+<area shape="rect" id="node2" href="$classspace_objects_1_1_ufo.html" title="spaceObjects.Ufo" alt="" coords="5,112,132,139"/>
+<area shape="rect" id="node3" href="$classanimal_package_1_1_animal.html" title="animalPackage.Animal" alt="" coords="157,112,311,139"/>
+<area shape="rect" id="node4" href="$classstuff_1_1_defensif.html" title="stuff.Defensif" alt="" coords="82,14,183,41"/>
+<area shape="rect" id="node5" href="$classstuff_1_1_offensif.html" title="stuff.Offensif" alt="" coords="286,14,385,41"/>
+</map>

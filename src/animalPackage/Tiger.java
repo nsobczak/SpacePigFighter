@@ -57,7 +57,7 @@ public class Tiger extends WithPaws implements BeFierce {
 	 * 
 	 * @param Animal
 	 *            attackedAnimal
-	 * @return String 
+	 * @return String
 	 */
 	@Override
 	public String specialAction(Animal attackedAnimal) {

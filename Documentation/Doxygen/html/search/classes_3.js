@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['meteorite',['Meteorite',['../class_space_objects_1_1_meteorite.html',1,'SpaceObjects']]]
+  ['defensif',['Defensif',['../classstuff_1_1_defensif.html',1,'stuff']]],
+  ['duck',['Duck',['../classanimal_package_1_1_duck.html',1,'animalPackage']]]
 ];

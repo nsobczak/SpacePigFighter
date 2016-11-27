@@ -1,0 +1,7 @@
+<map id="animalPackage.Tiger" name="animalPackage.Tiger">
+<area shape="rect" id="node2" href="$classanimal_package_1_1_with_paws.html" title="animalPackage.WithPaws" alt="" coords="46,188,221,215"/>
+<area shape="rect" id="node3" href="$classanimal_package_1_1_animal.html" title="animalPackage.Animal" alt="" coords="56,112,211,139"/>
+<area shape="rect" id="node4" href="$classstuff_1_1_defensif.html" title="stuff.Defensif" alt="" coords="5,14,107,41"/>
+<area shape="rect" id="node5" href="$classstuff_1_1_offensif.html" title="stuff.Offensif" alt="" coords="209,14,308,41"/>
+<area shape="rect" id="node6" href="$interfaceanimal_package_1_1_be_fierce.html" title="animalPackage.BeFierce" alt="" coords="245,188,411,215"/>
+</map>

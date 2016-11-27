@@ -1,0 +1,9 @@
+<map id="animalPackage.Animal" name="animalPackage.Animal">
+<area shape="rect" id="node2" href="$classanimal_package_1_1_with_paws.html" title="animalPackage.WithPaws" alt="" coords="210,81,385,108"/>
+<area shape="rect" id="node6" href="$classanimal_package_1_1_with_wings.html" title="animalPackage.WithWings" alt="" coords="208,157,387,184"/>
+<area shape="rect" id="node3" href="$classanimal_package_1_1_bear.html" title="animalPackage.Bear" alt="" coords="445,5,587,32"/>
+<area shape="rect" id="node4" href="$classanimal_package_1_1_pig.html" title="animalPackage.Pig" alt="" coords="449,56,583,83"/>
+<area shape="rect" id="node5" href="$classanimal_package_1_1_tiger.html" title="animalPackage.Tiger" alt="" coords="444,107,588,133"/>
+<area shape="rect" id="node7" href="$classanimal_package_1_1_chicken.html" title="animalPackage.Chicken" alt="" coords="435,157,597,184"/>
+<area shape="rect" id="node8" href="$classanimal_package_1_1_duck.html" title="animalPackage.Duck" alt="" coords="443,208,589,235"/>
+</map>
