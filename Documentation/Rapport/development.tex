@@ -29,6 +29,85 @@ Yellow classes are the two main classes from the 2 different parts of the game.\
   \caption{\small right screenshot 2}
 \end{figure}
 
+
+% ==========================================================================================
+\section{Organisational part: package description}
+
+We created package to organize our project. 
+The main package which contains the main classes is called spacePigFighterPackage.
+
+\subsection{spacePigFighterPackage}
+
+This is the main package. It contains the following classes:
+\begin{itemize}
+ \item Main
+ \item Space
+ \item FightArea
+ \item ExecutionInterface
+\end{itemize}
+
+\subsection{fileManagementPackage}
+
+This package contains all classes needed to interact with files. It contains the following class:
+\begin{itemize}
+ \item FileManagement
+\end{itemize}
+
+\subsection{playerPackage}
+
+This package contains all classes needed to create player. It contains the following class:
+\begin{itemize}
+ \item Player
+\end{itemize}
+
+\subsection{cubeEnvironment}
+
+This package contains all classes needed to create space environment. It contains the following class:
+\begin{itemize}
+ \item CubeEnvironment
+\end{itemize}
+
+\subsection{spaceObjects}
+
+This package contains all classes needed to manage space objects. It contains the following classes:
+\begin{itemize}
+ \item UFO
+ \item PositionsCube
+ \item Meteorite
+ \item MeteoriteSize
+ \item Spacecraft
+ \item PositionException
+\end{itemize}
+
+\subsection{animalPackage}
+
+This package contains all classes needed to manage animal. It does not contain stuff classes. It contains the following classes:
+\begin{itemize}
+ \item Animal
+ \item WithPaws
+ \item WithWings
+ \item Bear
+ \item Chicken
+ \item Duck
+ \item Pig
+ \item Tiger
+ \item BeFierce
+\end{itemize}
+
+\subsection{stuff}
+
+This package contains all stuff classes. It contains the following classes:
+\begin{itemize}
+ \item Offensif
+ \item Defensif
+\end{itemize}
+
+
+
+
+
+
+% ==========================================================================================
 \section{Technical part: class description}
 
 This part contains a brief description of all project classes.
@@ -211,7 +290,7 @@ It has force bonus value and constants that defines existing defensive stuff.
 \subsection{Special action}
 
 Special actions are very different. So we had to think our code so that it would be able to welcome each special action.
-We had to modify our code.
+We had to modify our code a little bit and to add the \textit{solveRound()} function from FightArea. 
 
 \subsection{Exception}
 

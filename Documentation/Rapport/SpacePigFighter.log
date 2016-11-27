@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.11)  27 NOV 2016 14:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.11)  27 NOV 2016 15:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1067,7 +1067,7 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 18.66588pt on input line 130.
 
-<../../Images/space.jpg, id=192, 1371.1225pt x 770.88pt>
+<../../Images/space.jpg, id=225, 1371.1225pt x 770.88pt>
 File: ../../Images/space.jpg Graphic file (type jpg)
 
 <use ../../Images/space.jpg>
@@ -1148,12 +1148,12 @@ LaTeX Font Info:    Font shape `T1/phv/bc/n' will be
 ]) [2]
 Chapter 2.
 (./story.tex
-LaTeX Font Info:    Try loading font information for TS1+phv on input line 7.
+LaTeX Font Info:    Try loading font information for TS1+phv on input line 8.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
 )
 LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 7.
+(Font)              scaled to size 8.99994pt on input line 8.
 )
 [3
 
@@ -1162,7 +1162,7 @@ LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
 ]
 Chapter 3.
 (./development.tex
-<../../Images/UMLdiagramme.png, id=275, 1310.8975pt x 879.285pt>
+<../../Images/UMLdiagramme.png, id=316, 1310.8975pt x 879.285pt>
 File: ../../Images/UMLdiagramme.png Graphic file (type png)
 
 <use ../../Images/UMLdiagramme.png>
@@ -1173,7 +1173,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--15
 
  []
 
-<../../Images/1_1-2_1.png, id=276, 1890.06125pt x 886.31125pt>
+<../../Images/1_1-2_1.png, id=317, 1890.06125pt x 886.31125pt>
 File: ../../Images/1_1-2_1.png Graphic file (type png)
 
 <use ../../Images/1_1-2_1.png>
@@ -1184,28 +1184,28 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <9> not available
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 8.09995pt on input line 18.
 
-<../../Images/1_1-1_2-2_2.png, id=277, 1886.04625pt x 876.27374pt>
+<../../Images/1_1-1_2-2_2.png, id=318, 1886.04625pt x 876.27374pt>
 File: ../../Images/1_1-1_2-2_2.png Graphic file (type png)
 
 <use ../../Images/1_1-1_2-2_2.png>
 Package pdftex.def Info: ../../Images/1_1-1_2-2_2.png used on input line 19.
 (pdftex.def)             Requested size: 450.0pt x 209.0665pt.
 
-<../../Images/1_2-2_3.png, id=278, 1881.0275pt x 882.29625pt>
+<../../Images/1_2-2_3.png, id=319, 1881.0275pt x 882.29625pt>
 File: ../../Images/1_2-2_3.png Graphic file (type png)
 
 <use ../../Images/1_2-2_3.png>
 Package pdftex.def Info: ../../Images/1_2-2_3.png used on input line 21.
 (pdftex.def)             Requested size: 450.0pt x 211.06882pt.
 
-<../../Images/2_2-3_2-3_3.png, id=279, 1411.2725pt x 874.26625pt>
+<../../Images/2_2-3_2-3_3.png, id=320, 1411.2725pt x 874.26625pt>
 File: ../../Images/2_2-3_2-3_3.png Graphic file (type png)
 
 <use ../../Images/2_2-3_2-3_3.png>
 Package pdftex.def Info: ../../Images/2_2-3_2-3_3.png used on input line 26.
 (pdftex.def)             Requested size: 450.0pt x 278.7704pt.
 
-<../../Images/2_3-3_3.png, id=280, 1753.55125pt x 866.23625pt>
+<../../Images/2_3-3_3.png, id=321, 1753.55125pt x 866.23625pt>
 File: ../../Images/2_3-3_3.png Graphic file (type png)
 
 <use ../../Images/2_3-3_3.png>
@@ -1213,28 +1213,28 @@ Package pdftex.def Info: ../../Images/2_3-3_3.png used on input line 28.
 (pdftex.def)             Requested size: 450.0pt x 222.295pt.
  [5 <../../Images/UMLdiagramme.png>] [6 <../../Images/1_1-2_1.png> <../../Image
 s/1_1-1_2-2_2.png> <../../Images/1_2-2_3.png>]
-[7 <../../Images/2_2-3_2-3_3.png> <../../Images/2_3-3_3.png>]
+[7 <../../Images/2_2-3_2-3_3.png> <../../Images/2_3-3_3.png>] [8] [9]
 LaTeX Font Info:    Font shape `T1/phv/bc/n' will be
-(Font)              scaled to size 8.99994pt on input line 65.
+(Font)              scaled to size 8.99994pt on input line 144.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 67.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 146.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 8.99994pt on input line 67.
- [8]
-Underfull \hbox (badness 10000) in paragraph at lines 96--104
+(Font)              scaled to size 8.99994pt on input line 146.
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--183
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--114
+Underfull \hbox (badness 10000) in paragraph at lines 186--193
 
  []
 
-[9] [10]) [11] [12
+[10] [11] [12]) [13] [14
 
 ]
 Chapter 4.
-(./conclusion.tex) [13] [14
+(./conclusion.tex) [15] [16
 
 ] (./SpacePigFighter.ind)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 162.
@@ -1243,26 +1243,26 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 162.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 162.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 162.
 Package rerunfilecheck Info: File `SpacePigFighter.out' has not changed.
-(rerunfilecheck)             Checksum: DEB66F3E6DE6B973B2D4920006667672;8168.
+(rerunfilecheck)             Checksum: 3095CFF9282421938AD1593D51D0068E;9625.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 162.
  ) 
 Here is how much of TeX's memory you used:
- 13805 strings out of 493029
- 196064 string characters out of 6136233
+ 13823 strings out of 493029
+ 196340 string characters out of 6136233
  282906 words of memory out of 5000000
- 17052 multiletter control sequences out of 15000+600000
+ 17060 multiletter control sequences out of 15000+600000
  51745 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 53i,12n,92p,597b,398s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,12n,92p,597b,390s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/helvetic/uhvb8ac.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvet
 ic/uhvro8a.pfb>
-Output written on SpacePigFighter.pdf (18 pages, 951532 bytes).
+Output written on SpacePigFighter.pdf (20 pages, 954437 bytes).
 PDF statistics:
- 359 PDF objects out of 1000 (max. 8388607)
- 324 compressed objects within 4 object streams
- 65 named destinations out of 1000 (max. 500000)
- 412 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 411 PDF objects out of 1000 (max. 8388607)
+ 374 compressed objects within 4 object streams
+ 75 named destinations out of 1000 (max. 500000)
+ 476 words of extra memory for PDF output out of 10000 (max. 10000000)
 
