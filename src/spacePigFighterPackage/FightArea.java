@@ -151,8 +151,6 @@ public class FightArea implements ExecutionInterface {
 				this.getAnimalPlayer02().setAbleToAct(true);
 			}
 
-			// TODO: Partie attaques speciales
-
 			// solve the round
 			solveRound(actionPlayer01, actionPlayer02);
 
