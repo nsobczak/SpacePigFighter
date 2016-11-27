@@ -20,17 +20,17 @@
 \contentsline {subsection}{\numberline {3.2.4}The 2 main classes of the game}{8}{subsection.3.2.4}
 \contentsline {subsubsection}{\numberline {3.2.4.1}executionInterface interface:}{8}{subsubsection.3.2.4.1}
 \contentsline {subsubsection}{\numberline {3.2.4.2}Space class:}{8}{subsubsection.3.2.4.2}
-\contentsline {subsubsection}{\numberline {3.2.4.3}FightArea class:}{8}{subsubsection.3.2.4.3}
+\contentsline {subsubsection}{\numberline {3.2.4.3}FightArea class:}{9}{subsubsection.3.2.4.3}
 \contentsline {subsection}{\numberline {3.2.5}Part1}{9}{subsection.3.2.5}
 \contentsline {subsubsection}{\numberline {3.2.5.1}CubeEnvironment class}{9}{subsubsection.3.2.5.1}
 \contentsline {subsubsection}{\numberline {3.2.5.2}UFO class}{9}{subsubsection.3.2.5.2}
 \contentsline {subsubsection}{\numberline {3.2.5.3}PositionsCube enumeration}{9}{subsubsection.3.2.5.3}
 \contentsline {subsubsection}{\numberline {3.2.5.4}meteorites}{9}{subsubsection.3.2.5.4}
 \contentsline {subsubsection}{\numberline {3.2.5.5}MeteoriteSize}{9}{subsubsection.3.2.5.5}
-\contentsline {subsubsection}{\numberline {3.2.5.6}spacecraft}{9}{subsubsection.3.2.5.6}
-\contentsline {subsection}{\numberline {3.2.6}Part2}{9}{subsection.3.2.6}
-\contentsline {subsubsection}{\numberline {3.2.6.1}Animal class}{9}{subsubsection.3.2.6.1}
-\contentsline {subsubsection}{\numberline {3.2.6.2}WithWings class}{9}{subsubsection.3.2.6.2}
+\contentsline {subsubsection}{\numberline {3.2.5.6}spacecraft}{10}{subsubsection.3.2.5.6}
+\contentsline {subsection}{\numberline {3.2.6}Part2}{10}{subsection.3.2.6}
+\contentsline {subsubsection}{\numberline {3.2.6.1}Animal class}{10}{subsubsection.3.2.6.1}
+\contentsline {subsubsection}{\numberline {3.2.6.2}WithWings class}{10}{subsubsection.3.2.6.2}
 \contentsline {subsubsection}{\numberline {3.2.6.3}WithPaws class}{10}{subsubsection.3.2.6.3}
 \contentsline {subsubsection}{\numberline {3.2.6.4}Bear class}{10}{subsubsection.3.2.6.4}
 \contentsline {subsubsection}{\numberline {3.2.6.5}Chicken class}{10}{subsubsection.3.2.6.5}
@@ -41,7 +41,7 @@
 \contentsline {subsubsection}{\numberline {3.2.6.10}Offensif class}{10}{subsubsection.3.2.6.10}
 \contentsline {subsubsection}{\numberline {3.2.6.11}Defensif class}{10}{subsubsection.3.2.6.11}
 \contentsline {subsection}{\numberline {3.2.7}Set the game}{10}{subsection.3.2.7}
-\contentsline {section}{\numberline {3.3}Encountered difficulties}{10}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Special action}{10}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Exception}{10}{subsection.3.3.2}
-\contentsline {chapter}{\numberline {4}Conclusion}{11}{chapter.4}
+\contentsline {section}{\numberline {3.3}Encountered difficulties}{11}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Special action}{11}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Exception}{11}{subsection.3.3.2}
+\contentsline {chapter}{\numberline {4}Conclusion}{13}{chapter.4}

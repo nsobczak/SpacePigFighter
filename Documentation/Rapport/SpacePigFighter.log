@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.11)  27 NOV 2016 13:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.11)  27 NOV 2016 14:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1219,21 +1219,21 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 67.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
 (Font)              scaled to size 8.99994pt on input line 67.
-
-Underfull \hbox (badness 10000) in paragraph at lines 84--92
-
- []
-
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 95--102
+ [8]
+Underfull \hbox (badness 10000) in paragraph at lines 96--104
 
  []
 
-[9]) [10]
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--114
+
+ []
+
+[9]) [10] [11] [12
+
+]
 Chapter 4.
-(./conclusion.tex) [11
-
-] [12
+(./conclusion.tex) [13] [14
 
 ] (./SpacePigFighter.ind)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 162.
@@ -1246,8 +1246,8 @@ Package rerunfilecheck Info: File `SpacePigFighter.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 162.
  ) 
 Here is how much of TeX's memory you used:
- 13803 strings out of 493029
- 196050 string characters out of 6136233
+ 13805 strings out of 493029
+ 196064 string characters out of 6136233
  282906 words of memory out of 5000000
  17052 multiletter control sequences out of 15000+600000
  51745 words of font info for 58 fonts, out of 8000000 for 9000
@@ -1258,10 +1258,10 @@ e/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/helvetic/uhvb8ac.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvet
 ic/uhvro8a.pfb>
-Output written on SpacePigFighter.pdf (16 pages, 948287 bytes).
+Output written on SpacePigFighter.pdf (18 pages, 949720 bytes).
 PDF statistics:
- 351 PDF objects out of 1000 (max. 8388607)
- 318 compressed objects within 4 object streams
- 63 named destinations out of 1000 (max. 500000)
+ 359 PDF objects out of 1000 (max. 8388607)
+ 324 compressed objects within 4 object streams
+ 65 named destinations out of 1000 (max. 500000)
  412 words of extra memory for PDF output out of 10000 (max. 10000000)
 
