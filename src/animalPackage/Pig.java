@@ -57,6 +57,7 @@ public class Pig extends WithPaws {
 	 * 
 	 * @param Animal
 	 *            attackedAnimal
+	 * @return String
 	 */
 	@Override
 	public String specialAction(Animal attackedAnimal) {

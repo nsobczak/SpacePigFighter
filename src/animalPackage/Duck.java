@@ -57,6 +57,7 @@ public class Duck extends WithWings {
 	 * 
 	 * @param Animal
 	 *            attackedAnimal
+	 * @return String
 	 */
 	@Override
 	public String specialAction(Animal attackedAnimal) {

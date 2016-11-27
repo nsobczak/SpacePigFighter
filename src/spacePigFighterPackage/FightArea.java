@@ -237,7 +237,7 @@ public class FightArea implements ExecutionInterface {
 	}
 
 	/**
-	 * solveRound function : function that...
+	 * solveRound function : function that solves the round of the fight after having choosen action 
 	 * 
 	 * @param actionPlayer01
 	 * @param actionPlayer02

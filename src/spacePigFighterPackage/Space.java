@@ -159,14 +159,20 @@ public class Space implements ExecutionInterface {
 
 			// check if player1 collides with a meteorite
 			if (this.cubeEnvironment_02.getMeteoriteSmall().getLocation() == choosenPosition) {
+				System.out.println("Player1 selects the small"
+						+ " meteorite position");
 				this.cubeEnvironment_01.getSpacecraft().beDamagedBy(
 						MeteoriteSize.SMALL);
 			} else {
 				if (this.cubeEnvironment_02.getMeteoriteMedium().getLocation() == choosenPosition) {
+					System.out.println("Player1 selects the medium"
+							+ " meteorite position");
 					this.cubeEnvironment_01.getSpacecraft().beDamagedBy(
 							MeteoriteSize.MEDIUM);
 				} else {
 					if (this.cubeEnvironment_02.getMeteoriteBig().getLocation() == choosenPosition) {
+						System.out.println("Player1 selects the big"
+								+ " meteorite position");
 						this.cubeEnvironment_01.getSpacecraft().beDamagedBy(
 								MeteoriteSize.BIG);
 					}
@@ -193,14 +199,20 @@ public class Space implements ExecutionInterface {
 
 			// check if player2 collides with a meteorite
 			if (this.cubeEnvironment_01.getMeteoriteSmall().getLocation() == choosenPosition) {
+				System.out.println("Player2 selects the small"
+						+ " meteorite position");
 				this.cubeEnvironment_02.getSpacecraft().beDamagedBy(
 						MeteoriteSize.SMALL);
 			} else {
 				if (this.cubeEnvironment_01.getMeteoriteMedium().getLocation() == choosenPosition) {
+					System.out.println("Player2 selects the medium"
+							+ " meteorite position");
 					this.cubeEnvironment_02.getSpacecraft().beDamagedBy(
 							MeteoriteSize.MEDIUM);
 				} else {
 					if (this.cubeEnvironment_01.getMeteoriteBig().getLocation() == choosenPosition) {
+						System.out.println("Player2 selects the big"
+								+ " meteorite position");
 						this.cubeEnvironment_02.getSpacecraft().beDamagedBy(
 								MeteoriteSize.BIG);
 					}

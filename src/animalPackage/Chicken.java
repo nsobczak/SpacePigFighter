@@ -47,6 +47,7 @@ public class Chicken extends WithWings implements BeFierce {
 	 * 
 	 * @param Animal
 	 *            attackedAnimal
+	 * @return String
 	 */
 	@Override
 	public void attack(Animal attackedAnimal) {
