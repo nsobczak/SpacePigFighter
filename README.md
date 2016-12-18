@@ -1,7 +1,5 @@
 # SpacePigFighter
-Java project
 
-## What is it ?
 "Space Pig Fighter" is a game that is played in the terminal by 2 players. Each player is a space pig and have to beat the other one. 
 
 A game happens in 2 phases. The first one is a spacecraft battle. The second one is a melee battle.
@@ -9,9 +7,15 @@ Each spacecraft has several caracteristics.
 Each pig has several caracteristics and some weapon. 
 
 
+## How to play ?
+
+When you enter the terminal, your welcome to choose your pig pseudo and color, your spacecraft color. 
+
 ## Rules
 
 ### Animal class
+
+Here are the animal classes :
 
 |Animal class | life | force | resistance | special attack |
 |---|---|---|---|---|
@@ -35,18 +39,23 @@ Each pig has several caracteristics and some weapon.
 - Bear : damageAnnulation
 - Pig : moreDamage
 - Tiger : paralyze foe which can't attack next turn
-- Chicken : tripleAttack, 1 turn to recharge after
-- Duck : fly, dodge attack
+- Chicken : tripleAttack, 1 turn to charge
+- Duck : fly, dodge current attack and attack next turn
 
 
 ### Meteorites malus
-- small : -20 hp
-- medium : -50 hp
-- big : -100 hp
+
+|Size | Malus |
+|---|---|
+| small | -20 hp |
+| medium | -50 hp |
+| big | -100 hp |
 
 
 ### Stuff choice
-You have 2 skill points to share between offensif and defensif stuff. You may choose to boost your attack at the expense of the your defense or to boost your defense at the expense of the your attack. Unless you prefer to choose a well balanced build.
+You have 2 skill points to share between offensif and defensif stuff. You may choose to boost your attack at the
+expense of the your defense or to boost your defense at the expense of the your attack. Unless you prefer to
+choose a well balanced build.
 
 |Build | Attack points | Defense points |
 |---|---|---|
@@ -63,6 +72,7 @@ You have 2 skill points to share between offensif and defensif stuff. You may ch
 ## How it is thought/programmed
 
 Each player plays when it is its turn.
+
 
 
 
